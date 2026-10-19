@@ -1,0 +1,1416 @@
+[
+  {
+    "source": "lab-v2/private-pricing.mjs",
+    "distributed": "lab-v2/private-pricing.mjs",
+    "originalSha256": "a4237ad12105c7b5a89d682a0374e212833b36d14d0f96b0ed6051962b075a0c",
+    "distributedSha256": "a4237ad12105c7b5a89d682a0374e212833b36d14d0f96b0ed6051962b075a0c",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/public/app.js",
+    "distributed": "lab-v2/public/app.js",
+    "originalSha256": "b4e0b0655e5aa0c451c8ee64f5c136c2b06184cf381cc0b35d37a411e73ac9d3",
+    "distributedSha256": "b4e0b0655e5aa0c451c8ee64f5c136c2b06184cf381cc0b35d37a411e73ac9d3",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/public/test-probes.js",
+    "distributed": "lab-v2/public/test-probes.js",
+    "originalSha256": "1e4007af29884f4567311570e2862b1bf54f4c6d75fae4abca1e569d27369948",
+    "distributedSha256": "1e4007af29884f4567311570e2862b1bf54f4c6d75fae4abca1e569d27369948",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/README.md",
+    "distributed": "lab-v2/README.md",
+    "originalSha256": "9b74ded1832b2e6f4213759a765bea2ac6e76bae4e2a373868cc0c379b8b5008",
+    "distributedSha256": "9b74ded1832b2e6f4213759a765bea2ac6e76bae4e2a373868cc0c379b8b5008",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/server.mjs",
+    "distributed": "lab-v2/server.mjs",
+    "originalSha256": "49aadb9929b3c93a493dee086724f49ab739e01c6a4bfd4b13a988a3acd2e4f6",
+    "distributedSha256": "49aadb9929b3c93a493dee086724f49ab739e01c6a4bfd4b13a988a3acd2e4f6",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/start.mjs",
+    "distributed": "lab-v2/start.mjs",
+    "originalSha256": "e2d7df026a0de4f08c01b069da4f02df1b7b7c8ff94f9facfc1d2efb8e0b4551",
+    "distributedSha256": "e2d7df026a0de4f08c01b069da4f02df1b7b7c8ff94f9facfc1d2efb8e0b4551",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/test/session-boundaries.test.mjs",
+    "distributed": "lab-v2/test/session-boundaries.test.mjs",
+    "originalSha256": "e1ee5d16cb0ebb32bc6ae1fb38486fcd8c7019c7ba2e9cb46f20be929e443371",
+    "distributedSha256": "e1ee5d16cb0ebb32bc6ae1fb38486fcd8c7019c7ba2e9cb46f20be929e443371",
+    "changed": false
+  },
+  {
+    "source": "reproduce.mjs",
+    "distributed": "reproduce.mjs",
+    "originalSha256": "c3f319ccc3c4957b76debd890527b6cda4c60c3475f0258489ff3adb71705fa0",
+    "distributedSha256": "c3f319ccc3c4957b76debd890527b6cda4c60c3475f0258489ff3adb71705fa0",
+    "changed": false
+  },
+  {
+    "source": "strengthen-evidence.mjs",
+    "distributed": "strengthen-evidence.mjs",
+    "originalSha256": "4cdc10d1f753baa14ad9a2c170f1d4403dbd114fde5665fffd3b9a893b424f08",
+    "distributedSha256": "4cdc10d1f753baa14ad9a2c170f1d4403dbd114fde5665fffd3b9a893b424f08",
+    "changed": false
+  },
+  {
+    "source": "run-session-boundaries.mjs",
+    "distributed": "run-session-boundaries.mjs",
+    "originalSha256": "1a7bcb5faf9088c5aea13d6921cc4e4de42fa9b15cb69fe4e7e90677ae9bcb8f",
+    "distributedSha256": "1a7bcb5faf9088c5aea13d6921cc4e4de42fa9b15cb69fe4e7e90677ae9bcb8f",
+    "changed": false
+  },
+  {
+    "source": "build-white-paper.py",
+    "distributed": "build-white-paper.py",
+    "originalSha256": "a9dfef37b7d61c0fac701239d09a95b5686d75f81378a4c37d1a57cede14710d",
+    "distributedSha256": "a9dfef37b7d61c0fac701239d09a95b5686d75f81378a4c37d1a57cede14710d",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/baseline-sha256.json",
+    "distributed": "runs/laptop-20261018-01/baseline-sha256.json",
+    "originalSha256": "56b21e15c61398c7ccdff280e6f294039c2e02f4347348ac82c6dfd993febb8a",
+    "distributedSha256": "56b21e15c61398c7ccdff280e6f294039c2e02f4347348ac82c6dfd993febb8a",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/commands.jsonl",
+    "distributed": "runs/laptop-20261018-01/commands.jsonl",
+    "originalSha256": "5406bcb7be1cb8f4dd3a3cdca6f57c0b54ad0ad023bace7ec3481bb4a4ff570b",
+    "distributedSha256": "2d8298c1601af095f73868ee83421d5baf528da310d5a87f345dccbc427bfcf3",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/contributions.md",
+    "distributed": "runs/laptop-20261018-01/contributions.md",
+    "originalSha256": "4f676120480f04448e2f6135fbab4232522bf090a7bd57c2af86291190bf676f",
+    "distributedSha256": "4f676120480f04448e2f6135fbab4232522bf090a7bd57c2af86291190bf676f",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/environment.json",
+    "distributed": "runs/laptop-20261018-01/environment.json",
+    "originalSha256": "ef01be07e51160bb411824f40c6e1c636b7abca4b83e1835b0bdf62c960a4f32",
+    "distributedSha256": "ef01be07e51160bb411824f40c6e1c636b7abca4b83e1835b0bdf62c960a4f32",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/findings.md",
+    "distributed": "runs/laptop-20261018-01/findings.md",
+    "originalSha256": "4bc262c669b781f4685291aadcde19f36390de32b021ab7371e6e45e090720b2",
+    "distributedSha256": "4bc262c669b781f4685291aadcde19f36390de32b021ab7371e6e45e090720b2",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-bundle-maps.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-bundle-maps.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-bundle.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-bundle.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-export-manifest.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-export-manifest.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-inspect.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-inspect.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-js-analysis.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-js-analysis.stderr.txt",
+    "originalSha256": "daba1d83a2b401f62eeeaaf39c8ec4f03c20601d43013bf63b63dd0f4fd63ee8",
+    "distributedSha256": "daba1d83a2b401f62eeeaaf39c8ec4f03c20601d43013bf63b63dd0f4fd63ee8",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-listeners.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-listeners.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-scenario.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-scenario.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-targets.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-targets.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-v8-action.json",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-v8-action.json",
+    "originalSha256": "bb79b6a73cb159bb119a2c6100e17f242a0f10416fc7b20920e751f2196efdf9",
+    "distributedSha256": "bb79b6a73cb159bb119a2c6100e17f242a0f10416fc7b20920e751f2196efdf9",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/hardened-v8.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/hardened-v8.stderr.txt",
+    "originalSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "distributedSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/help-bundle.txt",
+    "distributed": "runs/laptop-20261018-01/logs/help-bundle.txt",
+    "originalSha256": "32b832f38539514d028dca0620a9216aeafa67faac55ee4e39e56619228db562",
+    "distributedSha256": "32b832f38539514d028dca0620a9216aeafa67faac55ee4e39e56619228db562",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/help-scenario.txt",
+    "distributed": "runs/laptop-20261018-01/logs/help-scenario.txt",
+    "originalSha256": "7bb668d2ffd6e39aaa511ffdccb046e8ffff6159d0bd486e066854199ca492c8",
+    "distributedSha256": "7bb668d2ffd6e39aaa511ffdccb046e8ffff6159d0bd486e066854199ca492c8",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/help-v8.txt",
+    "distributed": "runs/laptop-20261018-01/logs/help-v8.txt",
+    "originalSha256": "35373b4606071eaadbf053d644651795430a421699f395f3a045d058d15396b7",
+    "distributedSha256": "35373b4606071eaadbf053d644651795430a421699f395f3a045d058d15396b7",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/node-test-sandbox-denied.txt",
+    "distributed": "runs/laptop-20261018-01/logs/node-test-sandbox-denied.txt",
+    "originalSha256": "486bcce2ecd825ab3b557524e734a7d89c50496fa21db12b30a38efad0d10b9e",
+    "distributedSha256": "486bcce2ecd825ab3b557524e734a7d89c50496fa21db12b30a38efad0d10b9e",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/node-test.txt",
+    "distributed": "runs/laptop-20261018-01/logs/node-test.txt",
+    "originalSha256": "b6580dce01a3125862449bb065278f04ca96052d602aab1c94224d13d38365a2",
+    "distributedSha256": "b6580dce01a3125862449bb065278f04ca96052d602aab1c94224d13d38365a2",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/rea-doctor.json",
+    "distributed": "runs/laptop-20261018-01/logs/rea-doctor.json",
+    "originalSha256": "839791f2344220be3360b6f7f78c9b27909a9704fe038302757dadddb37a2449",
+    "distributedSha256": "aec4471f8bb596388cc4923e2ae5cb9007c3c80128fb585f0c7ea40369a24b81",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/rea-setup-dry-run.txt",
+    "distributed": "runs/laptop-20261018-01/logs/rea-setup-dry-run.txt",
+    "originalSha256": "39fb739188273f517f7bb46c6a32cd2143764b1f9d8259b9e42ffba65aa81a69",
+    "distributedSha256": "0988eb732894d4a6d72efd08c27b6e9b11124fd46388739c4635d2b1392135c7",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/scan-hardened.txt",
+    "distributed": "runs/laptop-20261018-01/logs/scan-hardened.txt",
+    "originalSha256": "650b3f7411314902a8744ea2ae73f05cd13db1146886b406325d00ff08536dff",
+    "distributedSha256": "650b3f7411314902a8744ea2ae73f05cd13db1146886b406325d00ff08536dff",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/scan-unsafe.txt",
+    "distributed": "runs/laptop-20261018-01/logs/scan-unsafe.txt",
+    "originalSha256": "99386bc54dc172d06289cb26378315b30a627b5a528d838c0f08afe7ebbbe2dc",
+    "distributedSha256": "a286b46858e8d32616e8d3b4a525553f9caf9271255c552257010085723f3101",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/scenario-schema.json",
+    "distributed": "runs/laptop-20261018-01/logs/scenario-schema.yaml",
+    "originalSha256": "6cc50d96c923c39c3101b1a68b932f4e215785334eeec8ceb39235defa8aaab3",
+    "distributedSha256": "6cc50d96c923c39c3101b1a68b932f4e215785334eeec8ceb39235defa8aaab3",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/server-hardened.err",
+    "distributed": "runs/laptop-20261018-01/logs/server-hardened.err",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/server-hardened.out",
+    "distributed": "runs/laptop-20261018-01/logs/server-hardened.out",
+    "originalSha256": "9a9411b61f3837c4df7ad38ec7a59f730cc9835d784aeed5a545a837d5720864",
+    "distributedSha256": "9a9411b61f3837c4df7ad38ec7a59f730cc9835d784aeed5a545a837d5720864",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/server-unsafe.err",
+    "distributed": "runs/laptop-20261018-01/logs/server-unsafe.err",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/server-unsafe.out",
+    "distributed": "runs/laptop-20261018-01/logs/server-unsafe.out",
+    "originalSha256": "37e405858330bf193f272b063b2e9d29aacdee6a089ad17c5e6236a10fdc6638",
+    "distributedSha256": "37e405858330bf193f272b063b2e9d29aacdee6a089ad17c5e6236a10fdc6638",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-bundle-maps.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-bundle-maps.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-bundle.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-bundle.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-export-manifest.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-export-manifest.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-inspect.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-inspect.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-js-analysis.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-js-analysis.stderr.txt",
+    "originalSha256": "f5c62684b1172332d29638ae25dea41f9617e7c8119e74b8b53b1aa2947c58f0",
+    "distributedSha256": "f5c62684b1172332d29638ae25dea41f9617e7c8119e74b8b53b1aa2947c58f0",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-listeners.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-listeners.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-scenario.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-scenario.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-targets.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-targets.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-v8-action.json",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-v8-action.json",
+    "originalSha256": "a19f3e15240eed416546dfca19187c4bb3c24dc4a346ca585b938bae01ad6aff",
+    "distributedSha256": "a19f3e15240eed416546dfca19187c4bb3c24dc4a346ca585b938bae01ad6aff",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/logs/unsafe-v8.stderr.txt",
+    "distributed": "runs/laptop-20261018-01/logs/unsafe-v8.stderr.txt",
+    "originalSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "distributedSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/manifest.md",
+    "distributed": "runs/laptop-20261018-01/manifest.md",
+    "originalSha256": "bc79216410306e21b7c11091cbc3eea41cdb318f59d3f30ee5e8a66536ec66b3",
+    "distributedSha256": "bc79216410306e21b7c11091cbc3eea41cdb318f59d3f30ee5e8a66536ec66b3",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/observations.csv",
+    "distributed": "runs/laptop-20261018-01/observations.csv",
+    "originalSha256": "edaf24507793854771396b23af27436d18ccfd5c67b1596d94645a44c3dc1b20",
+    "distributedSha256": "edaf24507793854771396b23af27436d18ccfd5c67b1596d94645a44c3dc1b20",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-bundle-maps.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-bundle-maps.json",
+    "originalSha256": "64e8b7137ca92c950751025f858d0b934fdbb2026c58f332ea9f6f83fac7c107",
+    "distributedSha256": "64e8b7137ca92c950751025f858d0b934fdbb2026c58f332ea9f6f83fac7c107",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-bundle.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-bundle.json",
+    "originalSha256": "8778a45d537d382d4efcfbfd20b356ed732826b3fb7b1481e0e4abccdb4c3755",
+    "distributedSha256": "8778a45d537d382d4efcfbfd20b356ed732826b3fb7b1481e0e4abccdb4c3755",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-export/files/origins/db604082b8b63636b4ce557eaadc9c91e5c4d9166a79d5c0d7a7969762521bfa/assets/app.js",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-export/files/origins/db604082b8b63636b4ce557eaadc9c91e5c4d9166a79d5c0d7a7969762521bfa/assets/app.js",
+    "originalSha256": "08140ea0cdcb02b2f0b04179379598f923e7f19294972c0d9c138f7702abc28e",
+    "distributedSha256": "08140ea0cdcb02b2f0b04179379598f923e7f19294972c0d9c138f7702abc28e",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-export/manifest.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-export/manifest.json",
+    "originalSha256": "775f309d4a0e909cbcf0c6066573dc1e1533ac9a36719cc5f417f6f493b0138e",
+    "distributedSha256": "4a020e2cf3fa1081adf23a7963237b4055d3b01c04525fa92cdce7790525e66b",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-export-manifest.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-export-manifest.json",
+    "originalSha256": "aeafd8b8b1fc68392dbf77016672071e9f740edeaf5ff95cf2d5c36d96fb732f",
+    "distributedSha256": "aea5d08f0e0766124e12d6ec5db50be2bfeb8097df51ecb7b0264439f399b1f0",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-inspect.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-inspect.json",
+    "originalSha256": "07cecf51a1cf52c688f0049758df627155470e02ba808fe66d65d18ff39fbd4c",
+    "distributedSha256": "07cecf51a1cf52c688f0049758df627155470e02ba808fe66d65d18ff39fbd4c",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-js-analysis.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-js-analysis.json",
+    "originalSha256": "754cdd117795ac763598312375b66847a13305f4f675da3af313547f4ed5da8a",
+    "distributedSha256": "104de0f966b69239dbafba285f03c34ad0fcf26ed4a8c2c927f67b217e386432",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-listeners.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-listeners.json",
+    "originalSha256": "06825a308d45c430b5786df8dfd5db7da8cd9a32b12a99e58643151e4ce30e82",
+    "distributedSha256": "06825a308d45c430b5786df8dfd5db7da8cd9a32b12a99e58643151e4ce30e82",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-scenario.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-scenario.json",
+    "originalSha256": "99506277ff3cdba3672027800044a7d9b8a54d9050d5bbc1c4fc81579091c1f0",
+    "distributedSha256": "99506277ff3cdba3672027800044a7d9b8a54d9050d5bbc1c4fc81579091c1f0",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-targets.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-targets.json",
+    "originalSha256": "22e5e7c6ea7cc535b925068474b7eb695ebd5d7c8c8a91d07d2a52bec9d446db",
+    "distributedSha256": "22e5e7c6ea7cc535b925068474b7eb695ebd5d7c8c8a91d07d2a52bec9d446db",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/hardened-v8.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/hardened-v8.json",
+    "originalSha256": "6ab5a75351e07a8c07f76ddf113dd3caf143ae05390d862413500f52056b540f",
+    "distributedSha256": "6ab5a75351e07a8c07f76ddf113dd3caf143ae05390d862413500f52056b540f",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-bundle-maps.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-bundle-maps.json",
+    "originalSha256": "3d1bb14cec0a7bb55bc639539da1ee573674d0fc1d476f166ef1232a5ed5456a",
+    "distributedSha256": "3d1bb14cec0a7bb55bc639539da1ee573674d0fc1d476f166ef1232a5ed5456a",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-bundle.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-bundle.json",
+    "originalSha256": "86bbaee27f54572106c8504fcf144478d9553bc9a5f479d7fce1a571b52bc4c5",
+    "distributedSha256": "86bbaee27f54572106c8504fcf144478d9553bc9a5f479d7fce1a571b52bc4c5",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-export/files/origins/0398673719884a6295ed087fe9520379ddb77f6a812044908fca120b687cc4b2/assets/app.js",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-export/files/origins/0398673719884a6295ed087fe9520379ddb77f6a812044908fca120b687cc4b2/assets/app.js",
+    "originalSha256": "794681f732027d6d9ff9b6529a1f48476bfb4fc2989bcc917dcbdb1cd4cbc014",
+    "distributedSha256": "794681f732027d6d9ff9b6529a1f48476bfb4fc2989bcc917dcbdb1cd4cbc014",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-export/manifest.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-export/manifest.json",
+    "originalSha256": "9e178c19d9243ebb95eb3cae78db5322bdf3c5d69c2aae2c3b2e1a2fc000485c",
+    "distributedSha256": "5e6926d17b492953c709bb1b5d3eb630b798f58c4fb6d1ab1d350a7f09709c18",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-export-manifest.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-export-manifest.json",
+    "originalSha256": "9d18c2702795543d07f676d54a311f7f77b905e1cbeb768f764a9c4d36201b4a",
+    "distributedSha256": "619807e013fae68f1b222d9df36933eca8b4714e34229d17afe931d2c892aeeb",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-inspect.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-inspect.json",
+    "originalSha256": "bd0c8c713b23ca8f08a0dc6f2c0657ee26cd2bc2a2d6ad17f8872db06ad3b996",
+    "distributedSha256": "bd0c8c713b23ca8f08a0dc6f2c0657ee26cd2bc2a2d6ad17f8872db06ad3b996",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-js-analysis.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-js-analysis.json",
+    "originalSha256": "87e6704129234fbbfbc6db47c373c9416bd3b1dffee56661ba0a4413185aa116",
+    "distributedSha256": "00861f72d7196b85f7c3122b115da0c80b049e534e4da1912b322ccdca3cb2b3",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-listeners.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-listeners.json",
+    "originalSha256": "5b495cd4e36effe9382368a256986c5806e1668d4a8eec0305a131fcb80b9bd5",
+    "distributedSha256": "5b495cd4e36effe9382368a256986c5806e1668d4a8eec0305a131fcb80b9bd5",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-scenario.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-scenario.json",
+    "originalSha256": "144717136d12ae742f2b3c59b7986b5d22a7ce542427c7a1808b243fb71f78b6",
+    "distributedSha256": "144717136d12ae742f2b3c59b7986b5d22a7ce542427c7a1808b243fb71f78b6",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-targets.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-targets.json",
+    "originalSha256": "b98ab53f645d56287e9656d6b85a4f7c958f847f065e87a25fd4216dd4789b10",
+    "distributedSha256": "b98ab53f645d56287e9656d6b85a4f7c958f847f065e87a25fd4216dd4789b10",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/rea-evidence/unsafe-v8.json",
+    "distributed": "runs/laptop-20261018-01/rea-evidence/unsafe-v8.json",
+    "originalSha256": "064dde7818d319c1ddb8d08ae7f83a02cf7fb04164a7149ba1e9874bbd71f9fd",
+    "distributedSha256": "064dde7818d319c1ddb8d08ae7f83a02cf7fb04164a7149ba1e9874bbd71f9fd",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/red-only/README.md",
+    "distributed": "runs/laptop-20261018-01/red-only/README.md",
+    "originalSha256": "cf83f7eb823bb2782024db2323b53acb73354549f987eb5fd5bb17656a2f9182",
+    "distributedSha256": "cf83f7eb823bb2782024db2323b53acb73354549f987eb5fd5bb17656a2f9182",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/results-summary.json",
+    "distributed": "runs/laptop-20261018-01/results-summary.json",
+    "originalSha256": "300e15a579e410692a5ac07645f6c855357f6400426a9f3bf1b024d0faf09c96",
+    "distributedSha256": "300e15a579e410692a5ac07645f6c855357f6400426a9f3bf1b024d0faf09c96",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/scenarios/hardened-network.json",
+    "distributed": "runs/laptop-20261018-01/scenarios/hardened-network.json",
+    "originalSha256": "cf669d5fda9f36561c02883395e733a1810be4399633ce5b4e3af38baf8ed7de",
+    "distributedSha256": "cf669d5fda9f36561c02883395e733a1810be4399633ce5b4e3af38baf8ed7de",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/scenarios/unsafe-network.json",
+    "distributed": "runs/laptop-20261018-01/scenarios/unsafe-network.json",
+    "originalSha256": "d16131a197a25fae5d9940d32bdb3d808c7a22176106361ec865d39945d48669",
+    "distributedSha256": "d16131a197a25fae5d9940d32bdb3d808c7a22176106361ec865d39945d48669",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-01/white_only/api-controls.json",
+    "distributed": "runs/laptop-20261018-01/white_only/api-controls.json",
+    "originalSha256": "001b1fbde11778696c6a6218fd3d04d341d6c59aa182db0afc1ac6abf330af31",
+    "distributedSha256": "001b1fbde11778696c6a6218fd3d04d341d6c59aa182db0afc1ac6abf330af31",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/baseline-public-token-replay.json",
+    "distributed": "runs/laptop-20261018-supplemental/baseline-public-token-replay.json",
+    "originalSha256": "02f004f022efcb645911631281d566f16ade8978f10c10e04134de419a3ef838",
+    "distributedSha256": "02f004f022efcb645911631281d566f16ade8978f10c10e04134de419a3ef838",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/commands.jsonl",
+    "distributed": "runs/laptop-20261018-supplemental/commands.jsonl",
+    "originalSha256": "bc7856f4e8c1724cf47681c8eaab54a32acab8284395a98ac8ff4ff9e59bc4ca",
+    "distributedSha256": "dd9c093538c71f1d27e057beface83e69a747baa5d51c1c6ce01df7394772e72",
+    "changed": true
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/hardened-browser-controls-r2.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/hardened-browser-controls-r2.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/hardened-browser-controls-r3.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/hardened-browser-controls-r3.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/hardened-browser-controls.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/hardened-browser-controls.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/hardened-browser-quota.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/hardened-browser-quota.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/map-removal-only.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/map-removal-only.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/minimal-dto-only.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/minimal-dto-only.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/server-only-frontend.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/server-only-frontend.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/strengthen-evidence-first-five.mjs",
+    "distributed": "runs/laptop-20261018-supplemental/logs/strengthen-evidence-first-five.mjs",
+    "originalSha256": "725ff4f16c0d169a95510cc88cf6479917792a1d1fb81f649affe1101e6635ec",
+    "distributedSha256": "725ff4f16c0d169a95510cc88cf6479917792a1d1fb81f649affe1101e6635ec",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/unsafe-browser-controls-r2.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/unsafe-browser-controls-r2.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/unsafe-browser-controls-r3.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/unsafe-browser-controls-r3.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/unsafe-browser-controls.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/unsafe-browser-controls.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/logs/unsafe-browser-quota.stderr.txt",
+    "distributed": "runs/laptop-20261018-supplemental/logs/unsafe-browser-quota.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-controls-r2.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-controls-r2.json",
+    "originalSha256": "0b9f42e9b729568c7eb9548c951b9639135ac8bf05b54fac4a3a25b8d5d8284d",
+    "distributedSha256": "0b9f42e9b729568c7eb9548c951b9639135ac8bf05b54fac4a3a25b8d5d8284d",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-controls-r3.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-controls-r3.json",
+    "originalSha256": "88d50688f862304a4536f1ddd495b1db3c5607d6cdcd6f2dd2d5556d0a76e527",
+    "distributedSha256": "88d50688f862304a4536f1ddd495b1db3c5607d6cdcd6f2dd2d5556d0a76e527",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-controls.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-controls.json",
+    "originalSha256": "a13d2a8fd7fc13be79f67e05749ab0abfcaa8dabac372cc68053dd1562151137",
+    "distributedSha256": "a13d2a8fd7fc13be79f67e05749ab0abfcaa8dabac372cc68053dd1562151137",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-quota.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/hardened-browser-quota.json",
+    "originalSha256": "23f2b728e348bd3e845eb6fb72d034de6f5f4d20dbaff31f557d736857d1fa1f",
+    "distributedSha256": "23f2b728e348bd3e845eb6fb72d034de6f5f4d20dbaff31f557d736857d1fa1f",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/map-removal-only.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/map-removal-only.json",
+    "originalSha256": "5ab3a5afb3487cf565d783e1ad91f9609b067aea9ac57833f6c0e1245548d0e8",
+    "distributedSha256": "5ab3a5afb3487cf565d783e1ad91f9609b067aea9ac57833f6c0e1245548d0e8",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/minimal-dto-only.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/minimal-dto-only.json",
+    "originalSha256": "561add40707df19412a38e9913fb75414ccdd9386eb43e08ebcaec5c1a0405ac",
+    "distributedSha256": "561add40707df19412a38e9913fb75414ccdd9386eb43e08ebcaec5c1a0405ac",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/server-only-frontend.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/server-only-frontend.json",
+    "originalSha256": "5604df8670ea7236dfea65ff0eaee085da4e598580e6c7cf9ec480e0d6731a93",
+    "distributedSha256": "5604df8670ea7236dfea65ff0eaee085da4e598580e6c7cf9ec480e0d6731a93",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-controls-r2.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-controls-r2.json",
+    "originalSha256": "5cc9df2852d17892678bdc25108d1ae9e9a713a29d70bfd1cd6509898716fcfd",
+    "distributedSha256": "5cc9df2852d17892678bdc25108d1ae9e9a713a29d70bfd1cd6509898716fcfd",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-controls-r3.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-controls-r3.json",
+    "originalSha256": "1d2002b0e168b6fcbfb52d496a4320a90322b427790e1005fcdd46581e96bca6",
+    "distributedSha256": "1d2002b0e168b6fcbfb52d496a4320a90322b427790e1005fcdd46581e96bca6",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-controls.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-controls.json",
+    "originalSha256": "46e0bf03ccd74ef1c428c5fe37573b7778daa78276b8d07a8c1682b6b9655ad1",
+    "distributedSha256": "46e0bf03ccd74ef1c428c5fe37573b7778daa78276b8d07a8c1682b6b9655ad1",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-quota.json",
+    "distributed": "runs/laptop-20261018-supplemental/rea-evidence/unsafe-browser-quota.json",
+    "originalSha256": "076d007fc16c82ae1eb85859525cf40caf67175bebb0aead6687d23ca150ffdb",
+    "distributedSha256": "076d007fc16c82ae1eb85859525cf40caf67175bebb0aead6687d23ca150ffdb",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/hardened-browser-controls-r2.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/hardened-browser-controls-r2.json",
+    "originalSha256": "27980d05a6d595ba7c694669e8acd584ca7bfff64ee0cf8707a96e941bbab809",
+    "distributedSha256": "27980d05a6d595ba7c694669e8acd584ca7bfff64ee0cf8707a96e941bbab809",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/hardened-browser-controls-r3.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/hardened-browser-controls-r3.json",
+    "originalSha256": "274db280aa162687143ea01cd5faf3b929d0d51dcf7a020911a3de26a23d4d4b",
+    "distributedSha256": "274db280aa162687143ea01cd5faf3b929d0d51dcf7a020911a3de26a23d4d4b",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/hardened-browser-controls.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/hardened-browser-controls.json",
+    "originalSha256": "b15c1be5234acdc3367e8d027a45ac3c7363227aef7a50d89a96c2e4e4ecd6b2",
+    "distributedSha256": "b15c1be5234acdc3367e8d027a45ac3c7363227aef7a50d89a96c2e4e4ecd6b2",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/hardened-browser-quota.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/hardened-browser-quota.json",
+    "originalSha256": "fc8cc127ab53155af47f6d44b54b43c3258d920d89d3f291edfee1ad55b626f5",
+    "distributedSha256": "fc8cc127ab53155af47f6d44b54b43c3258d920d89d3f291edfee1ad55b626f5",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/map-removal-only.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/map-removal-only.json",
+    "originalSha256": "71c66e71342c4e572059441a77087e29336451dc1ae13d798c64369784709ee4",
+    "distributedSha256": "71c66e71342c4e572059441a77087e29336451dc1ae13d798c64369784709ee4",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/minimal-dto-only.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/minimal-dto-only.json",
+    "originalSha256": "5ddc29e74bab697a4ff94407864c8fa4176277b4ab5e8e689e8bec3c1142d5c1",
+    "distributedSha256": "5ddc29e74bab697a4ff94407864c8fa4176277b4ab5e8e689e8bec3c1142d5c1",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/server-only-frontend.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/server-only-frontend.json",
+    "originalSha256": "382f8b13de8c7e9a251414e158ff286dc6c488494c84678cb732d41fb0915600",
+    "distributedSha256": "382f8b13de8c7e9a251414e158ff286dc6c488494c84678cb732d41fb0915600",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/unsafe-browser-controls-r2.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/unsafe-browser-controls-r2.json",
+    "originalSha256": "9f704e01148f15fc4aae01022851fa9be28befa0343daade8cedcc9182f1a2ec",
+    "distributedSha256": "9f704e01148f15fc4aae01022851fa9be28befa0343daade8cedcc9182f1a2ec",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/unsafe-browser-controls-r3.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/unsafe-browser-controls-r3.json",
+    "originalSha256": "14cc86a8264cbde5de9933282a493560b6f0d4c848306c2cb365f0c1dbf86a0b",
+    "distributedSha256": "14cc86a8264cbde5de9933282a493560b6f0d4c848306c2cb365f0c1dbf86a0b",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/unsafe-browser-controls.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/unsafe-browser-controls.json",
+    "originalSha256": "84c9fd8c52819095b754ed02d5793038c423676ef010ba6c9d12dbb837ec2e5c",
+    "distributedSha256": "84c9fd8c52819095b754ed02d5793038c423676ef010ba6c9d12dbb837ec2e5c",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/scenarios/unsafe-browser-quota.json",
+    "distributed": "runs/laptop-20261018-supplemental/scenarios/unsafe-browser-quota.json",
+    "originalSha256": "87ea6e48cae0bdccbeaad238d3780e7cde53aad85bd49d4c6040822bc9e1e5d2",
+    "distributedSha256": "87ea6e48cae0bdccbeaad238d3780e7cde53aad85bd49d4c6040822bc9e1e5d2",
+    "changed": false
+  },
+  {
+    "source": "research/REA_Codex_Wargame_Kit/lab/runs/laptop-20261018-supplemental/summary.json",
+    "distributed": "runs/laptop-20261018-supplemental/summary.json",
+    "originalSha256": "a87e1609c8c79cdcd51739585810601bbcb30ff30a7719dd4b55ca1a5cd6aa02",
+    "distributedSha256": "a87e1609c8c79cdcd51739585810601bbcb30ff30a7719dd4b55ca1a5cd6aa02",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/commands.jsonl",
+    "distributed": "runs/validation-20261018/commands.jsonl",
+    "originalSha256": "391d0da24320ae6f8a89ca8ac6e493c5dab128a1bf06861b143f2cfc9dd3d623",
+    "distributedSha256": "a1a834cbba068154e2d65382a4a886e73de107cdd5bd4e04fdcac890f7edddd9",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-armed-click.json",
+    "distributed": "runs/validation-20261018/logs/hardened-armed-click.json",
+    "originalSha256": "8567d9bea98b5846f6e6c2f1997fae92878b6f37d4b819322f7ed52f14057a5c",
+    "distributedSha256": "8567d9bea98b5846f6e6c2f1997fae92878b6f37d4b819322f7ed52f14057a5c",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-bundle-maps.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-bundle-maps.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-bundle.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-bundle.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-export-manifest.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-export-manifest.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-inspect.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-inspect.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-js-analysis.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-js-analysis.stderr.txt",
+    "originalSha256": "f9a1a2ec43998d77594c72293a72b304d01cf2cf7e7be47e657206364b83e2e2",
+    "distributedSha256": "f9a1a2ec43998d77594c72293a72b304d01cf2cf7e7be47e657206364b83e2e2",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-listeners.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-listeners.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-scenario.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-scenario.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-targets.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-targets.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/hardened-v8.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/hardened-v8.stderr.txt",
+    "originalSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "distributedSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-armed-click.json",
+    "distributed": "runs/validation-20261018/logs/unsafe-armed-click.json",
+    "originalSha256": "32d8f0e47ad0a27a4e3ded0932c2aec570da84b82950614e313e31eafc04a9fe",
+    "distributedSha256": "32d8f0e47ad0a27a4e3ded0932c2aec570da84b82950614e313e31eafc04a9fe",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-bundle-maps.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-bundle-maps.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-bundle.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-bundle.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-export-manifest.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-export-manifest.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-inspect.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-inspect.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-js-analysis.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-js-analysis.stderr.txt",
+    "originalSha256": "174610978ca2b3b34cc9a8b8f037de1c763841b0b4a87ef018fe86eebc40a3ff",
+    "distributedSha256": "174610978ca2b3b34cc9a8b8f037de1c763841b0b4a87ef018fe86eebc40a3ff",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-listeners.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-listeners.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-scenario.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-scenario.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-targets.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-targets.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/logs/unsafe-v8.stderr.txt",
+    "distributed": "runs/validation-20261018/logs/unsafe-v8.stderr.txt",
+    "originalSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "distributedSha256": "7d99ec59ee9d1b5dd5fe2de965052f4bb672207f4379d054fe3311ca9718c5fc",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-bundle-maps.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-bundle-maps.json",
+    "originalSha256": "aeb0baf7d40dc59c30e8d86e62b7b5c157d4636530f4e77f18b0d6ae8d9f5a1b",
+    "distributedSha256": "aeb0baf7d40dc59c30e8d86e62b7b5c157d4636530f4e77f18b0d6ae8d9f5a1b",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-bundle.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-bundle.json",
+    "originalSha256": "c73a2d602a806818b4172c0246f3ce70d47af4338dbe8a7b8883872a6e8b851d",
+    "distributedSha256": "c73a2d602a806818b4172c0246f3ce70d47af4338dbe8a7b8883872a6e8b851d",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-export/files/origins/8d3b07c75a495964bbb97333facb9feb709d22a6384489d42d78d2e814141e76/assets/app.js",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-export/files/origins/8d3b07c75a495964bbb97333facb9feb709d22a6384489d42d78d2e814141e76/assets/app.js",
+    "originalSha256": "08140ea0cdcb02b2f0b04179379598f923e7f19294972c0d9c138f7702abc28e",
+    "distributedSha256": "08140ea0cdcb02b2f0b04179379598f923e7f19294972c0d9c138f7702abc28e",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-export/manifest.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-export/manifest.json",
+    "originalSha256": "bf03c8008cc0f2584101c93d0b0f5584f57e01e24900419525f1938ca7f1db0d",
+    "distributedSha256": "c4f333348b8dd0a3317e4f54d982c0c2456f358aad2e537d77f3763dac4a2804",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-export-manifest.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-export-manifest.json",
+    "originalSha256": "8633793a12c08534ae4b25e1e3b4e55c695f92d234e4186d7f74782c0d786599",
+    "distributedSha256": "b5dcaece8eb0cdae4d0259e09919bb98de7d88e6a2c969f3c66b49f19d41e9ba",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-inspect.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-inspect.json",
+    "originalSha256": "874535cb029c0b6cacfaeedd864e385fc77c4a347bf9deac3891ce1163e7f7db",
+    "distributedSha256": "874535cb029c0b6cacfaeedd864e385fc77c4a347bf9deac3891ce1163e7f7db",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-js-analysis.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-js-analysis.json",
+    "originalSha256": "ced5f3f76ffe3c3ab27378c3e110b66df1ce2ec2230ea59ab3ae38ad6966e353",
+    "distributedSha256": "98583e8f80a2f40e76df4cade98ccf8e980ca9b51575c6ca9d4c57baf0467dd7",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-listeners.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-listeners.json",
+    "originalSha256": "18f9c2b5a55d6f21d40007fde10b9aa936d752567d0915e014f736d746e2d879",
+    "distributedSha256": "18f9c2b5a55d6f21d40007fde10b9aa936d752567d0915e014f736d746e2d879",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-scenario.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-scenario.json",
+    "originalSha256": "26c7222774cc41dede1c92d170cd9f92bb3c058348c9c3f1a8f1acaf553499b9",
+    "distributedSha256": "26c7222774cc41dede1c92d170cd9f92bb3c058348c9c3f1a8f1acaf553499b9",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-targets.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-targets.json",
+    "originalSha256": "ba9f77cd445560671339b75f6afdf42fd3937d87d81b764fd1de4e72fefbccf8",
+    "distributedSha256": "ba9f77cd445560671339b75f6afdf42fd3937d87d81b764fd1de4e72fefbccf8",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/hardened-v8.json",
+    "distributed": "runs/validation-20261018/rea-evidence/hardened-v8.json",
+    "originalSha256": "2cbeaebba27ed1ecabaceb4c7d58aa531031b5f51ddfa5a3c12bd1aea2f1db26",
+    "distributedSha256": "2cbeaebba27ed1ecabaceb4c7d58aa531031b5f51ddfa5a3c12bd1aea2f1db26",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-bundle-maps.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-bundle-maps.json",
+    "originalSha256": "10b6a71461e4dc3d91a48444f25e5addd82b3fb129f40bc734c02b22d5b6f228",
+    "distributedSha256": "10b6a71461e4dc3d91a48444f25e5addd82b3fb129f40bc734c02b22d5b6f228",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-bundle.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-bundle.json",
+    "originalSha256": "a1a77c21e1819da8f2cb9fe913ce45ba00f28f5c5da4b850e515eef0f86011b1",
+    "distributedSha256": "a1a77c21e1819da8f2cb9fe913ce45ba00f28f5c5da4b850e515eef0f86011b1",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-export/files/origins/065ee2ef71b3863d55121b7fe4a4f99ca19a7ea752187fa5da60ae0e9fb39397/assets/app.js",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-export/files/origins/065ee2ef71b3863d55121b7fe4a4f99ca19a7ea752187fa5da60ae0e9fb39397/assets/app.js",
+    "originalSha256": "794681f732027d6d9ff9b6529a1f48476bfb4fc2989bcc917dcbdb1cd4cbc014",
+    "distributedSha256": "794681f732027d6d9ff9b6529a1f48476bfb4fc2989bcc917dcbdb1cd4cbc014",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-export/manifest.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-export/manifest.json",
+    "originalSha256": "7dfbcb8632fcaa1c334e2a6be7b960ef2479001d560f91d64a169ecf1f44c078",
+    "distributedSha256": "5f1614d8203916de80549be67cddbd00b7e11912437da74803727ba803ab50b3",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-export-manifest.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-export-manifest.json",
+    "originalSha256": "2908d12a4c82497bc5970395acced71bcb60d8610ea7c2f9bf48e74ffa32d1d5",
+    "distributedSha256": "d1c24ec29785b3f6f87c4653fb6cfcd793da5e7136652a2da2fa11ee29c2365f",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-inspect.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-inspect.json",
+    "originalSha256": "f807550526dec1f1ceaae2678cf1e744def00c44030d204a9ab03974e6419700",
+    "distributedSha256": "f807550526dec1f1ceaae2678cf1e744def00c44030d204a9ab03974e6419700",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-js-analysis.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-js-analysis.json",
+    "originalSha256": "a795ce850b67736c65c985547b3b262587be416b3482ffa531254e8dce0db85d",
+    "distributedSha256": "5eafd20340b9f1912198c0e17310b563ce2d32c0adb3b97317a183cf86773c69",
+    "changed": true
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-listeners.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-listeners.json",
+    "originalSha256": "20e06f0a5c5b600e02c11f4a057798a8a2a89c21e38966d1fc1ba379234ce0a6",
+    "distributedSha256": "20e06f0a5c5b600e02c11f4a057798a8a2a89c21e38966d1fc1ba379234ce0a6",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-scenario.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-scenario.json",
+    "originalSha256": "98e228c8746a15a08b149ee7ca5b9531837390dcd80215888012ad3507915d4d",
+    "distributedSha256": "98e228c8746a15a08b149ee7ca5b9531837390dcd80215888012ad3507915d4d",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-targets.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-targets.json",
+    "originalSha256": "5497236b67bfdb0a0ca564a3db2bfcdc1489e7dac7e2e240ec204f3016a76ca1",
+    "distributedSha256": "5497236b67bfdb0a0ca564a3db2bfcdc1489e7dac7e2e240ec204f3016a76ca1",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/rea-evidence/unsafe-v8.json",
+    "distributed": "runs/validation-20261018/rea-evidence/unsafe-v8.json",
+    "originalSha256": "2dcb330aaa4a1093778dfb9e052aee4724e94b8f650f3ddd0ac7e0fa79d63096",
+    "distributedSha256": "2dcb330aaa4a1093778dfb9e052aee4724e94b8f650f3ddd0ac7e0fa79d63096",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/scenarios/hardened.json",
+    "distributed": "runs/validation-20261018/scenarios/hardened.json",
+    "originalSha256": "8a4b7446e01a2bc26a1430f24a4bc51a70e7a97601e65efcd44053a9afe02a54",
+    "distributedSha256": "8a4b7446e01a2bc26a1430f24a4bc51a70e7a97601e65efcd44053a9afe02a54",
+    "changed": false
+  },
+  {
+    "source": "publication/replications/validation-20261018/scenarios/unsafe.json",
+    "distributed": "runs/validation-20261018/scenarios/unsafe.json",
+    "originalSha256": "6e8c1a84eb55279c8e77a4d0e77a11f739dae0428c7da9e7bf01f52bbaf71a37",
+    "distributedSha256": "6e8c1a84eb55279c8e77a4d0e77a11f739dae0428c7da9e7bf01f52bbaf71a37",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/commands.jsonl",
+    "distributed": "runs/session-boundaries-20261018/commands.jsonl",
+    "originalSha256": "c6cec59c574f808f9339b87824c42a99bedd3152be4063d7f9d264bdc620bcbd",
+    "distributedSha256": "22e432c000b77a7505228c36677c3003959875185cbab24b2f4a536abf3d1214",
+    "changed": true
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/anonymous.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/anonymous.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/forged-cookie.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/forged-cookie.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/logged-out.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/logged-out.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/owner.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/owner.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/quota.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/quota.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/revoked-cookie.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/revoked-cookie.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/tenant-B.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/tenant-B.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/viewer.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/viewer.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/logs/wrong-password.stderr.txt",
+    "distributed": "runs/session-boundaries-20261018/logs/wrong-password.stderr.txt",
+    "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "distributedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/node-test.txt",
+    "distributed": "runs/session-boundaries-20261018/node-test.txt",
+    "originalSha256": "1a7edfebdf49ce96c9e63b6aa49b3d25c1120211412b09c6d8f3422e50e1fc94",
+    "distributedSha256": "1a7edfebdf49ce96c9e63b6aa49b3d25c1120211412b09c6d8f3422e50e1fc94",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/anonymous.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/anonymous.json",
+    "originalSha256": "ab24e4fde0618317661ce1f2a78f3cdad74f3a4218322bfcb6315aed9dcb8090",
+    "distributedSha256": "ab24e4fde0618317661ce1f2a78f3cdad74f3a4218322bfcb6315aed9dcb8090",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/forged-cookie.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/forged-cookie.json",
+    "originalSha256": "8fc603c733b1d6b9e74c287d0de56ad71818b59e76d6a6d976a2be6363afe175",
+    "distributedSha256": "8fc603c733b1d6b9e74c287d0de56ad71818b59e76d6a6d976a2be6363afe175",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/logged-out.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/logged-out.json",
+    "originalSha256": "62a91c3c860483b9e52e8417701aeb2b15e5d15f8d02370f72f83f9f73270810",
+    "distributedSha256": "62a91c3c860483b9e52e8417701aeb2b15e5d15f8d02370f72f83f9f73270810",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/owner.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/owner.json",
+    "originalSha256": "cb42c97a6d5f05ea437e8c0c5b5a5f49747c13e86d663e884eb824c9c7819152",
+    "distributedSha256": "cb42c97a6d5f05ea437e8c0c5b5a5f49747c13e86d663e884eb824c9c7819152",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/quota.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/quota.json",
+    "originalSha256": "97d57f18505616c4caea309ae88aa6110609f42f09b6e8e97863fe7b06be84d1",
+    "distributedSha256": "97d57f18505616c4caea309ae88aa6110609f42f09b6e8e97863fe7b06be84d1",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/revoked-cookie.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/revoked-cookie.json",
+    "originalSha256": "88dbb0b0de102047c6bf3ff8c1244a9fa14bc98db7ea4ec01545efedb72a7622",
+    "distributedSha256": "88dbb0b0de102047c6bf3ff8c1244a9fa14bc98db7ea4ec01545efedb72a7622",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/tenant-B.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/tenant-B.json",
+    "originalSha256": "9d5fcd0d3659b57c87bcc562b4f864ac1f8ecb01619f4b362325bf9c3749d1ec",
+    "distributedSha256": "9d5fcd0d3659b57c87bcc562b4f864ac1f8ecb01619f4b362325bf9c3749d1ec",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/viewer.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/viewer.json",
+    "originalSha256": "179b118fe80e51b071541ccc1e00b4df42de70756089ae9495de55df8c751019",
+    "distributedSha256": "179b118fe80e51b071541ccc1e00b4df42de70756089ae9495de55df8c751019",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/rea-evidence/wrong-password.json",
+    "distributed": "runs/session-boundaries-20261018/rea-evidence/wrong-password.json",
+    "originalSha256": "de247fba15a744fec480196e845f852ef197a6ce5f810e83f49ca844b051de33",
+    "distributedSha256": "de247fba15a744fec480196e845f852ef197a6ce5f810e83f49ca844b051de33",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/anonymous.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/anonymous.json",
+    "originalSha256": "96da10103756bf0b2e3b5cdf3f899d58079297cdbb0df6cab19ea5da40933ae7",
+    "distributedSha256": "96da10103756bf0b2e3b5cdf3f899d58079297cdbb0df6cab19ea5da40933ae7",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/forged-cookie.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/forged-cookie.json",
+    "originalSha256": "d75691aae021dfdb5be3cd53ce90756d6339b119c47b605c06b9334fe682b8f1",
+    "distributedSha256": "d75691aae021dfdb5be3cd53ce90756d6339b119c47b605c06b9334fe682b8f1",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/logged-out.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/logged-out.json",
+    "originalSha256": "d00303deae2f218f1bac1082d2dbe540153452021185761d8b0411e3acf92da4",
+    "distributedSha256": "d00303deae2f218f1bac1082d2dbe540153452021185761d8b0411e3acf92da4",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/owner.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/owner.json",
+    "originalSha256": "8780004cf900922d03531398b79fe317d3e7e6ff3edf63f7507060956c1277d3",
+    "distributedSha256": "8780004cf900922d03531398b79fe317d3e7e6ff3edf63f7507060956c1277d3",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/quota.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/quota.json",
+    "originalSha256": "fd523bbbca098e25a4a84a1c58292814cbecdb32a220be81b9c5703888e2367c",
+    "distributedSha256": "fd523bbbca098e25a4a84a1c58292814cbecdb32a220be81b9c5703888e2367c",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/revoked-cookie.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/revoked-cookie.json",
+    "originalSha256": "7df8cd388525277c07fefb2b84d6f4223e1a1ab7de2304f8c6a71490222d8b2b",
+    "distributedSha256": "7df8cd388525277c07fefb2b84d6f4223e1a1ab7de2304f8c6a71490222d8b2b",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/tenant-B.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/tenant-B.json",
+    "originalSha256": "d56cac9992256c6a3aa731e6212725e663bde393f3025f1f9c2ad81b2d62c565",
+    "distributedSha256": "d56cac9992256c6a3aa731e6212725e663bde393f3025f1f9c2ad81b2d62c565",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/viewer.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/viewer.json",
+    "originalSha256": "541fd49196fc2a40e7d142cf2ece9c6a16e680dce3a2621749ad63071dff076f",
+    "distributedSha256": "541fd49196fc2a40e7d142cf2ece9c6a16e680dce3a2621749ad63071dff076f",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/scenarios/wrong-password.json",
+    "distributed": "runs/session-boundaries-20261018/scenarios/wrong-password.json",
+    "originalSha256": "1ff51e73584427f8c233f2fc36ad6485b2992c88898f075b6a8edcc7992cf532",
+    "distributedSha256": "1ff51e73584427f8c233f2fc36ad6485b2992c88898f075b6a8edcc7992cf532",
+    "changed": false
+  },
+  {
+    "source": "lab-v2/runs/session-boundaries-20261018/summary.json",
+    "distributed": "runs/session-boundaries-20261018/summary.json",
+    "originalSha256": "6395f870107d91037b002de33549f0a1176b6a4aef4b6061db4cbd0ab88769b5",
+    "distributedSha256": "6395f870107d91037b002de33549f0a1176b6a4aef4b6061db4cbd0ab88769b5",
+    "changed": false
+  },
+  {
+    "source": "output/REA_SaaS_Protection_White_Paper.pdf",
+    "distributed": "docs/REA_SaaS_Protection_White_Paper.pdf",
+    "originalSha256": "bef1892776a2e4adc300f2ecc205ad8cf0b7fd72aa716f680124c079b89a99a9",
+    "distributedSha256": "bef1892776a2e4adc300f2ecc205ad8cf0b7fd72aa716f680124c079b89a99a9",
+    "changed": false
+  },
+  {
+    "source": "output/white-paper-source.json",
+    "distributed": "docs/white-paper-source.json",
+    "originalSha256": "fab712fb5e85474a3eb25cb6dbb2be218db2e8ef111ca7485f4502426195dba1",
+    "distributedSha256": "fab712fb5e85474a3eb25cb6dbb2be218db2e8ef111ca7485f4502426195dba1",
+    "changed": false
+  },
+  {
+    "source": "rea-registry-metadata.json",
+    "distributed": "provenance/rea-registry-metadata.json",
+    "originalSha256": "e7d8d08224b2ab127adc45610bcc6e934e41d89810160388b87fce507ecc4d8e",
+    "distributedSha256": "e7d8d08224b2ab127adc45610bcc6e934e41d89810160388b87fce507ecc4d8e",
+    "changed": false
+  },
+  {
+    "source": "tooling/pnpm-lock.yaml",
+    "distributed": "provenance/pnpm-lock.yaml",
+    "originalSha256": "77884c7dee92a3bcf16fb3103c98c5e9864ed518b44ae72dd06a61901ab6cfc7",
+    "distributedSha256": "77884c7dee92a3bcf16fb3103c98c5e9864ed518b44ae72dd06a61901ab6cfc7",
+    "changed": false
+  },
+  {
+    "source": "REA_Codex_Real_Run_Hypothesis_Protocol.md",
+    "distributed": "provenance/original-protocol.md",
+    "originalSha256": "054d5e21508d0b514391e22085516ebae647617aa62ea06f70ff1ec9343fb4ba",
+    "distributedSha256": "054d5e21508d0b514391e22085516ebae647617aa62ea06f70ff1ec9343fb4ba",
+    "changed": false
+  },
+  {
+    "source": "run-rea.mjs",
+    "distributed": "provenance/original-operator/run-rea.mjs",
+    "originalSha256": "724060f2d811b607d005eee5ef9303aa4e8e60ca52ac8e60135d5dc690b5b623",
+    "distributedSha256": "724060f2d811b607d005eee5ef9303aa4e8e60ca52ac8e60135d5dc690b5b623",
+    "changed": false
+  },
+  {
+    "source": "capture-passive.mjs",
+    "distributed": "provenance/original-operator/capture-passive.mjs",
+    "originalSha256": "15039c264b2770a633534f0941664d158ea4325bdfe6be4c17ad80c44c0a88cd",
+    "distributedSha256": "15039c264b2770a633534f0941664d158ea4325bdfe6be4c17ad80c44c0a88cd",
+    "changed": false
+  },
+  {
+    "source": "capture-v8.mjs",
+    "distributed": "provenance/original-operator/capture-v8.mjs",
+    "originalSha256": "b671adb2656be602c3ec5fc819de51e228ebc0cf302799d84cdb14e3965b9059",
+    "distributedSha256": "3404ac00a2a5b489ea945eb2bb93a86090e0596a0477a60186bc2a91b835ab99",
+    "changed": true
+  },
+  {
+    "source": "measure-controls.mjs",
+    "distributed": "provenance/original-operator/measure-controls.mjs",
+    "originalSha256": "775a703c0b74add6fc74712601be274e4d06df744adf7e00a7d601d325d8d7f2",
+    "distributedSha256": "775a703c0b74add6fc74712601be274e4d06df744adf7e00a7d601d325d8d7f2",
+    "changed": false
+  },
+  {
+    "source": "baseline-token-risk.mjs",
+    "distributed": "provenance/original-operator/baseline-token-risk.mjs",
+    "originalSha256": "6deaa2777594e9e6cc5ed577622b41a879bdc531bea1188ac31d545fbc9e79bb",
+    "distributedSha256": "6deaa2777594e9e6cc5ed577622b41a879bdc531bea1188ac31d545fbc9e79bb",
+    "changed": false
+  },
+  {
+    "source": "compile-results.mjs",
+    "distributed": "provenance/original-operator/compile-results.mjs",
+    "originalSha256": "7064d31e3ca4f9d5cf5a65a8dddc590ea4cbda9459cfd382bfca97637289e9fb",
+    "distributedSha256": "7064d31e3ca4f9d5cf5a65a8dddc590ea4cbda9459cfd382bfca97637289e9fb",
+    "changed": false
+  }
+]

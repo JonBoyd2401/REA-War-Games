@@ -1,0 +1,17 @@
+✔ T01: unsafe client ships proprietary rules; hardened does not (182.8764ms)
+✔ T02: unsafe accepts client price; hardened rejects browser-calculated total (42.0853ms)
+✔ T03: quote response over-disclosure is eliminated (23.8864ms)
+✔ T04: one tenant cannot retrieve another tenant’s quote after hardening (34.4696ms)
+✔ T05: SSE streams disclose decision metadata in unsafe mode only (31.7576ms)
+✔ T06: SSE cross-tenant and replay isolation (18.3449ms)
+✔ T07: hardened mode limits automated quote-oracle sampling (63.2653ms)
+✔ T08: debugging rule endpoint not exposed after hardening (15.4916ms)
+✔ T09: hardened mode ignores client tenant assertion by rejecting it (10.4569ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1444.2443

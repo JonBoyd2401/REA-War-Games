@@ -1,0 +1,291 @@
+{
+  "runId": "laptop-20261018-01",
+  "reaVersion": "6.7.0",
+  "modes": {
+    "unsafe": {
+      "browser": "155.0.8059.82",
+      "scenarioCompleteness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "eventsRetained": 15,
+      "eventsDropped": 0,
+      "scriptBytes": 1147,
+      "pricingPresent": true,
+      "quoteFields": [
+        "quoteId",
+        "tenant",
+        "productId",
+        "quantity",
+        "total",
+        "currency",
+        "ruleId",
+        "threshold",
+        "discountBands"
+      ],
+      "quoteTotal": 1104,
+      "quoteBytes": 370,
+      "sourceMaps": {
+        "status": "included",
+        "requested": 1,
+        "processed": 1,
+        "items": [
+          {
+            "script_key": "scr_11618845d59dff0167056a1f08653ca5eb04247e763ab67a121644c2071e8ce1",
+            "declared_url": "http://127.0.0.1:3000/assets/app.js.map",
+            "effective_url": "http://127.0.0.1:3000/assets/app.js.map",
+            "artifact": {
+              "sha256": "904949af4141eaba52e9f0664acba4d96eb77cb9040e7c806c680bb2ab070023",
+              "bytes": 368,
+              "media_type": "application/source-map+json",
+              "charset": "utf-8",
+              "text": "{\"version\":3,\"file\":\"app.js\",\"sources\":[\"src/quote-engine.ts\"],\"sourcesContent\":[\"export const INTERNAL_PRICING_RULES = { baseUnitPrice: 24, volumeBands: [{ minQuantity: 100, discount: 0.12, rule: 'CORP_VOLUME_100' }, { minQuantity: 50, discount: 0.08, rule: 'CORP_VOLUME_50' }, { minQuantity: 1, discount: 0.02, rule: 'BASE_ACCOUNT' }] };\"],\"names\":[],\"mappings\":\"\"}\n"
+            },
+            "original_sources": [
+              {
+                "source_index": 0,
+                "declaration_index": 0,
+                "source": "http://127.0.0.1:3000/assets/src/quote-engine.ts",
+                "artifact": {
+                  "sha256": "51adc3c355a67eb1890dbc1ae8256f380d4c480dfd8dddf4357300d45617a238",
+                  "bytes": 257,
+                  "media_type": "text/typescript",
+                  "charset": "utf-8",
+                  "text": "export const INTERNAL_PRICING_RULES = { baseUnitPrice: 24, volumeBands: [{ minQuantity: 100, discount: 0.12, rule: 'CORP_VOLUME_100' }, { minQuantity: 50, discount: 0.08, rule: 'CORP_VOLUME_50' }, { minQuantity: 1, discount: 0.02, rule: 'BASE_ACCOUNT' }] };"
+                }
+              }
+            ],
+            "original_module_edges": [],
+            "mappings": [],
+            "status": "included",
+            "limitation": null
+          }
+        ]
+      },
+      "listeners": [
+        {
+          "type": "click",
+          "use_capture": false,
+          "passive": false,
+          "once": false,
+          "location": {
+            "script_id": "3",
+            "url": "http://127.0.0.1:3000/assets/app.js",
+            "line_number": 13,
+            "column_number": 59,
+            "function_name": null,
+            "source_association": "script_id"
+          },
+          "execution": "unknown"
+        }
+      ],
+      "applicationCoverage": [
+        {
+          "script_id": "3",
+          "reported_url": "http://127.0.0.1:3000/assets/app.js",
+          "functions": [
+            {
+              "name": "calculateInBrowser",
+              "is_block_coverage": true,
+              "ranges": [
+                {
+                  "start_offset": 381,
+                  "end_offset": 575,
+                  "count": 1,
+                  "source_bounds": "verified"
+                }
+              ]
+            },
+            {
+              "name": "",
+              "is_block_coverage": true,
+              "ranges": [
+                {
+                  "start_offset": 447,
+                  "end_offset": 472,
+                  "count": 2,
+                  "source_bounds": "verified"
+                }
+              ]
+            },
+            {
+              "name": "",
+              "is_block_coverage": true,
+              "ranges": [
+                {
+                  "start_offset": 636,
+                  "end_offset": 1104,
+                  "count": 1,
+                  "source_bounds": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "request_id": "9012.5",
+          "url": "http://127.0.0.1:3000/api/quotes",
+          "method": "POST",
+          "timestamp_seconds": 336752.50378,
+          "initiator_type": "script",
+          "reported_initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "3",
+                  "url": "http://127.0.0.1:3000/assets/app.js",
+                  "lineNumber": 16,
+                  "columnNumber": 22
+                }
+              ]
+            }
+          },
+          "callsites": [
+            {
+              "script_id": "3",
+              "url": "http://127.0.0.1:3000/assets/app.js",
+              "line_number": 16,
+              "column_number": 22,
+              "function_name": "",
+              "source_association": "script_id"
+            }
+          ],
+          "async_parent_ids": [],
+          "causal_attribution": "unknown"
+        }
+      ],
+      "staticStatistics": {
+        "relevant_files": 1,
+        "nested_asar_containers": 0,
+        "text_bytes_read": 1147,
+        "invalid_utf8_files": 0,
+        "parsed_javascript_files": 1,
+        "skipped_javascript_files": 0,
+        "visited_ast_nodes": 173,
+        "findings": 2,
+        "modules": 0,
+        "parse_failures": 0
+      }
+    },
+    "hardened": {
+      "browser": "155.0.8059.82",
+      "scenarioCompleteness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "eventsRetained": 15,
+      "eventsDropped": 0,
+      "scriptBytes": 537,
+      "pricingPresent": false,
+      "quoteFields": [
+        "quoteId",
+        "total",
+        "currency"
+      ],
+      "quoteTotal": 1104,
+      "quoteBytes": 80,
+      "sourceMaps": {
+        "status": "not_requested",
+        "requested": 0,
+        "processed": 0,
+        "items": []
+      },
+      "listeners": [
+        {
+          "type": "click",
+          "use_capture": false,
+          "passive": false,
+          "once": false,
+          "location": {
+            "script_id": "3",
+            "url": "http://127.0.0.1:3001/assets/app.js",
+            "line_number": 1,
+            "column_number": 59,
+            "function_name": null,
+            "source_association": "script_id"
+          },
+          "execution": "unknown"
+        }
+      ],
+      "applicationCoverage": [
+        {
+          "script_id": "3",
+          "reported_url": "http://127.0.0.1:3001/assets/app.js",
+          "functions": [
+            {
+              "name": "",
+              "is_block_coverage": true,
+              "ranges": [
+                {
+                  "start_offset": 145,
+                  "end_offset": 534,
+                  "count": 1,
+                  "source_bounds": "verified"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "requests": [
+        {
+          "request_id": "21296.5",
+          "url": "http://127.0.0.1:3001/api/quotes",
+          "method": "POST",
+          "timestamp_seconds": 336766.735165,
+          "initiator_type": "script",
+          "reported_initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "3",
+                  "url": "http://127.0.0.1:3001/assets/app.js",
+                  "lineNumber": 3,
+                  "columnNumber": 22
+                }
+              ]
+            }
+          },
+          "callsites": [
+            {
+              "script_id": "3",
+              "url": "http://127.0.0.1:3001/assets/app.js",
+              "line_number": 3,
+              "column_number": 22,
+              "function_name": "",
+              "source_association": "script_id"
+            }
+          ],
+          "async_parent_ids": [],
+          "causal_attribution": "unknown"
+        }
+      ],
+      "staticStatistics": {
+        "relevant_files": 1,
+        "nested_asar_containers": 0,
+        "text_bytes_read": 537,
+        "invalid_utf8_files": 0,
+        "parsed_javascript_files": 1,
+        "skipped_javascript_files": 0,
+        "visited_ast_nodes": 79,
+        "findings": 1,
+        "modules": 0,
+        "parse_failures": 0
+      }
+    }
+  }
+}

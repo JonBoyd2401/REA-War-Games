@@ -1,0 +1,46 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:63468/"
+  },
+  "actions": [
+    {
+      "step_id": "run",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#quote"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "results",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#result:not(:empty)"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

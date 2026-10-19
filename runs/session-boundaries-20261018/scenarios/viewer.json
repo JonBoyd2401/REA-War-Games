@@ -1,0 +1,100 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:54084"
+  },
+  "actions": [
+    {
+      "step_id": "user",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#user"
+      },
+      "value": {
+        "source": "literal",
+        "value": "viewer"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "password",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#pass"
+      },
+      "value": {
+        "source": "secret",
+        "secret_id": "testPassword"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "login",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#login"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "login-finished",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#auth-state:not(:empty)"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "normal-quote",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#quote"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quote-returned",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#result:not(:empty)"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "testPassword",
+      "environment_variable": "REA_SESSION_TEST_PASSWORD"
+    }
+  ],
+  "storage": {
+    "cookies": []
+  },
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

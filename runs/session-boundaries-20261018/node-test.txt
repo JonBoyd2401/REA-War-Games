@@ -1,0 +1,22 @@
+✔ S01 missing session blocks protected API (238.5851ms)
+✔ S02 forged cookie and legacy public bearer cannot authenticate (146.3489ms)
+✔ S03 invalid login rejected and valid login uses protected cookie attributes (241.2115ms)
+✔ S04 normal quote and same-tenant retrieval work with minimal output (211.9469ms)
+✔ S05 another tenant cannot read quote or event (299.8479ms)
+✔ S06 extra price and tenant authority fields rejected (184.8427ms)
+✔ S07 missing CSRF and foreign Origin rejected without poisoning normal flow (203.82ms)
+✔ S08 read-only principal cannot create quotes (180.5655ms)
+✔ S09 four-success budget persists across login and supplies retry time (266.82ms)
+✔ S10 session revocation survives replay of the old cookie (203.9201ms)
+✔ S11 expired sessions rejected (168.8022ms)
+✔ S12 source maps and private pricing cannot be fetched; client has no demo credential (140.7146ms)
+✔ S13 entitled status works while replay is explicitly unsupported (173.0481ms)
+✔ S14 a new login rotates an existing presented session (206.3087ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3528.7353

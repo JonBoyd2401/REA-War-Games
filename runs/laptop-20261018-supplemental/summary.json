@@ -1,0 +1,1105 @@
+{
+  "label": "Supplemental controlled variants; not blind inference",
+  "conditions": [
+    {
+      "name": "unsafe-browser-controls",
+      "mode": "unsafe",
+      "variant": "probe",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 50,
+      "dropped": 0,
+      "result": [
+        {
+          "label": "legitimate-quote",
+          "status": 201,
+          "body": {
+            "quoteId": "d47a8005-f738-4d24-8560-51a5eb6cdd79",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "authorised-status",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"d47a8005-f738-4d24-8560-51a5eb6cdd79\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "tenant-B-quote",
+          "status": 200,
+          "body": {
+            "quoteId": "d47a8005-f738-4d24-8560-51a5eb6cdd79",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50
+          }
+        },
+        {
+          "label": "tenant-B-event",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"d47a8005-f738-4d24-8560-51a5eb6cdd79\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "replay",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"d47a8005-f738-4d24-8560-51a5eb6cdd79\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "debug-rules",
+          "status": 200,
+          "body": {
+            "baseUnitPrice": 24,
+            "volumeBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 201,
+          "body": {
+            "quoteId": "b2420176-36d7-4e27-983f-08c22f8d4fdf",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 0.01,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 201,
+          "body": {
+            "quoteId": "2ce63e11-d0cc-4a73-af7e-d25c6599ca04",
+            "tenant": "tenant-B",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "hardened-browser-controls",
+      "mode": "hardened",
+      "variant": "probe",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 50,
+      "dropped": 0,
+      "result": [
+        {
+          "label": "legitimate-quote",
+          "status": 201,
+          "body": {
+            "quoteId": "85b3e489-4319-42be-92e5-6b187781c4fd",
+            "total": 1104,
+            "currency": "GBP"
+          }
+        },
+        {
+          "label": "authorised-status",
+          "status": 200,
+          "body": "event: quote.ready\ndata: {\"quoteId\":\"85b3e489-4319-42be-92e5-6b187781c4fd\",\"status\":\"ready\"}\n\n"
+        },
+        {
+          "label": "tenant-B-quote",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "tenant-B-event",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "replay",
+          "status": 409,
+          "body": {
+            "error": "replay not supported"
+          }
+        },
+        {
+          "label": "debug-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "map-removal-only",
+      "mode": "unsafe",
+      "variant": "mapless",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 15,
+      "dropped": 0,
+      "result": {
+        "quoteId": "21336b1c-077a-47c5-b82a-fa3acec1165b",
+        "tenant": "tenant-A",
+        "productId": "widget",
+        "quantity": 50,
+        "total": 1104,
+        "currency": "GBP",
+        "ruleId": "CORP_VOLUME_50",
+        "threshold": 50,
+        "discountBands": [
+          {
+            "minQuantity": 100,
+            "discount": 0.12,
+            "rule": "CORP_VOLUME_100"
+          },
+          {
+            "minQuantity": 50,
+            "discount": 0.08,
+            "rule": "CORP_VOLUME_50"
+          },
+          {
+            "minQuantity": 1,
+            "discount": 0.02,
+            "rule": "BASE_ACCOUNT"
+          }
+        ]
+      },
+      "pricingFormulaInCapturedScript": true,
+      "quoteFields": [
+        "quoteId",
+        "tenant",
+        "productId",
+        "quantity",
+        "total",
+        "currency",
+        "ruleId",
+        "threshold",
+        "discountBands"
+      ]
+    },
+    {
+      "name": "server-only-frontend",
+      "mode": "unsafe",
+      "variant": "frontend",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 15,
+      "dropped": 0,
+      "result": {
+        "quoteId": "eca6e07b-93d0-43d1-9f43-45e6d0220a9d",
+        "tenant": "tenant-A",
+        "productId": "widget",
+        "quantity": 50,
+        "total": 1104,
+        "currency": "GBP",
+        "ruleId": "CORP_VOLUME_50",
+        "threshold": 50,
+        "discountBands": [
+          {
+            "minQuantity": 100,
+            "discount": 0.12,
+            "rule": "CORP_VOLUME_100"
+          },
+          {
+            "minQuantity": 50,
+            "discount": 0.08,
+            "rule": "CORP_VOLUME_50"
+          },
+          {
+            "minQuantity": 1,
+            "discount": 0.02,
+            "rule": "BASE_ACCOUNT"
+          }
+        ]
+      },
+      "pricingFormulaInCapturedScript": false,
+      "quoteFields": [
+        "quoteId",
+        "tenant",
+        "productId",
+        "quantity",
+        "total",
+        "currency",
+        "ruleId",
+        "threshold",
+        "discountBands"
+      ]
+    },
+    {
+      "name": "minimal-dto-only",
+      "mode": "unsafe",
+      "variant": "dto",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 15,
+      "dropped": 0,
+      "result": {
+        "quoteId": "95ff7f3c-04d3-4165-b1ae-03b5e6b38c6a",
+        "total": 1104,
+        "currency": "GBP"
+      },
+      "pricingFormulaInCapturedScript": true,
+      "quoteFields": [
+        "quoteId",
+        "total",
+        "currency"
+      ]
+    },
+    {
+      "name": "unsafe-browser-quota",
+      "mode": "unsafe",
+      "variant": "quota",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 35,
+      "dropped": 0,
+      "result": [
+        {
+          "quantity": 1,
+          "at": "2026-10-18T22:19:35.040Z",
+          "status": 201,
+          "body": {
+            "quoteId": "9f730734-f75e-4985-9e45-1d0c0057d158",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 1,
+            "total": 23.52,
+            "currency": "GBP",
+            "ruleId": "BASE_ACCOUNT",
+            "threshold": 1,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "quantity": 25,
+          "at": "2026-10-18T22:19:35.096Z",
+          "status": 201,
+          "body": {
+            "quoteId": "26221681-18c3-4aa8-ac60-c2ab8a9fe25e",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 25,
+            "total": 588,
+            "currency": "GBP",
+            "ruleId": "BASE_ACCOUNT",
+            "threshold": 1,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "quantity": 75,
+          "at": "2026-10-18T22:19:35.113Z",
+          "status": 201,
+          "body": {
+            "quoteId": "ce7406f5-72f7-46e1-a279-32a0277857c7",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 75,
+            "total": 1656,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "quantity": 150,
+          "at": "2026-10-18T22:19:35.128Z",
+          "status": 201,
+          "body": {
+            "quoteId": "f7085a4b-ca18-46f9-9c29-5b0f55f6764b",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 150,
+            "total": 3168,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_100",
+            "threshold": 100,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "quantity": 150,
+          "at": "2026-10-18T22:19:35.144Z",
+          "status": 201,
+          "body": {
+            "quoteId": "042d67d2-2a49-48f5-9526-39595b70fe83",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 150,
+            "total": 3168,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_100",
+            "threshold": 100,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "hardened-browser-quota",
+      "mode": "hardened",
+      "variant": "quota",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 35,
+      "dropped": 0,
+      "result": [
+        {
+          "quantity": 1,
+          "at": "2026-10-18T22:19:40.115Z",
+          "status": 201,
+          "body": {
+            "quoteId": "a55ca68c-6c53-4ef1-b767-eec9e4db3506",
+            "total": 23.52,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 25,
+          "at": "2026-10-18T22:19:40.142Z",
+          "status": 201,
+          "body": {
+            "quoteId": "ac0140d5-a7cf-4cba-a683-c0b69adde330",
+            "total": 588,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 75,
+          "at": "2026-10-18T22:19:40.156Z",
+          "status": 201,
+          "body": {
+            "quoteId": "1d32befa-02f8-492c-a70a-32ca0c7d848a",
+            "total": 1656,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 150,
+          "at": "2026-10-18T22:19:40.170Z",
+          "status": 201,
+          "body": {
+            "quoteId": "a7b1479c-9991-4238-bcaf-13834ddaa4d7",
+            "total": 3168,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 150,
+          "at": "2026-10-18T22:19:40.178Z",
+          "status": 429,
+          "body": {
+            "error": "rate limit"
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "unsafe-browser-controls-r2",
+      "mode": "unsafe",
+      "variant": "probe",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 50,
+      "dropped": 0,
+      "result": [
+        {
+          "label": "legitimate-quote",
+          "status": 201,
+          "body": {
+            "quoteId": "55f7e5f1-2641-460b-8353-ecec39ee9931",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "authorised-status",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"55f7e5f1-2641-460b-8353-ecec39ee9931\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "tenant-B-quote",
+          "status": 200,
+          "body": {
+            "quoteId": "55f7e5f1-2641-460b-8353-ecec39ee9931",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50
+          }
+        },
+        {
+          "label": "tenant-B-event",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"55f7e5f1-2641-460b-8353-ecec39ee9931\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "replay",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"55f7e5f1-2641-460b-8353-ecec39ee9931\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "debug-rules",
+          "status": 200,
+          "body": {
+            "baseUnitPrice": 24,
+            "volumeBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 201,
+          "body": {
+            "quoteId": "b70b6bab-6435-48b1-9fb3-ddea500cdedc",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 0.01,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 201,
+          "body": {
+            "quoteId": "5e4db43b-41cc-4518-8da1-eacfe90150f5",
+            "tenant": "tenant-B",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "hardened-browser-controls-r2",
+      "mode": "hardened",
+      "variant": "probe",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 50,
+      "dropped": 0,
+      "result": [
+        {
+          "label": "legitimate-quote",
+          "status": 201,
+          "body": {
+            "quoteId": "80359655-dee0-4daa-aa48-31f9bb41abbd",
+            "total": 1104,
+            "currency": "GBP"
+          }
+        },
+        {
+          "label": "authorised-status",
+          "status": 200,
+          "body": "event: quote.ready\ndata: {\"quoteId\":\"80359655-dee0-4daa-aa48-31f9bb41abbd\",\"status\":\"ready\"}\n\n"
+        },
+        {
+          "label": "tenant-B-quote",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "tenant-B-event",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "replay",
+          "status": 409,
+          "body": {
+            "error": "replay not supported"
+          }
+        },
+        {
+          "label": "debug-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "unsafe-browser-controls-r3",
+      "mode": "unsafe",
+      "variant": "probe",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 50,
+      "dropped": 0,
+      "result": [
+        {
+          "label": "legitimate-quote",
+          "status": 201,
+          "body": {
+            "quoteId": "f441c1d1-37ec-4c76-8602-1a2c392df644",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "authorised-status",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"f441c1d1-37ec-4c76-8602-1a2c392df644\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "tenant-B-quote",
+          "status": 200,
+          "body": {
+            "quoteId": "f441c1d1-37ec-4c76-8602-1a2c392df644",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50
+          }
+        },
+        {
+          "label": "tenant-B-event",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"f441c1d1-37ec-4c76-8602-1a2c392df644\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "replay",
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"f441c1d1-37ec-4c76-8602-1a2c392df644\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n"
+        },
+        {
+          "label": "debug-rules",
+          "status": 200,
+          "body": {
+            "baseUnitPrice": 24,
+            "volumeBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 201,
+          "body": {
+            "quoteId": "1b3786fd-57e9-4a87-b947-3f55982bc16d",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 0.01,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 201,
+          "body": {
+            "quoteId": "8e4fff09-0012-40da-9e8a-412bf8f79e0b",
+            "tenant": "tenant-B",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    },
+    {
+      "name": "hardened-browser-controls-r3",
+      "mode": "hardened",
+      "variant": "probe",
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "events": 50,
+      "dropped": 0,
+      "result": [
+        {
+          "label": "legitimate-quote",
+          "status": 201,
+          "body": {
+            "quoteId": "598201cf-fc0f-4c24-8d9f-708e17208b9e",
+            "total": 1104,
+            "currency": "GBP"
+          }
+        },
+        {
+          "label": "authorised-status",
+          "status": 200,
+          "body": "event: quote.ready\ndata: {\"quoteId\":\"598201cf-fc0f-4c24-8d9f-708e17208b9e\",\"status\":\"ready\"}\n\n"
+        },
+        {
+          "label": "tenant-B-quote",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "tenant-B-event",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "replay",
+          "status": 409,
+          "body": {
+            "error": "replay not supported"
+          }
+        },
+        {
+          "label": "debug-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          }
+        }
+      ],
+      "pricingFormulaInCapturedScript": null,
+      "quoteFields": null
+    }
+  ]
+}

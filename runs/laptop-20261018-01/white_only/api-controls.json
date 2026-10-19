@@ -1,0 +1,677 @@
+{
+  "label": "supplemental-white-team-http",
+  "started": "2026-10-18T22:08:14.169Z",
+  "policy": {
+    "quantities": [
+      1,
+      25,
+      75,
+      150
+    ],
+    "successfulSampleBudget": 4,
+    "blind": false
+  },
+  "modes": {
+    "unsafe": {
+      "samples": [
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.201Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 1
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "89169148-3406-4b49-8d20-1ff6bd3f5a4e",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 1,
+            "total": 23.52,
+            "currency": "GBP",
+            "ruleId": "BASE_ACCOUNT",
+            "threshold": 1,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 35.389300000000006
+        },
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.237Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 25
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "33e39f20-b5a8-40d9-bfa2-7440ad7560dc",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 25,
+            "total": 588,
+            "currency": "GBP",
+            "ruleId": "BASE_ACCOUNT",
+            "threshold": 1,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 4.929200000000009
+        },
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.242Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 75
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "2dba5752-2603-4548-b086-b1dce2555fc8",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 75,
+            "total": 1656,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 5.510400000000004
+        },
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.247Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 150
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "78db2562-546b-4fd1-94d5-253b46f44f6e",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 150,
+            "total": 3168,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_100",
+            "threshold": 100,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 14.295999999999992
+        }
+      ],
+      "controls": [
+        {
+          "label": "legitimate-quote",
+          "start": "2026-10-18T22:08:14.267Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 50
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "72b08854-e344-4473-93c5-963eefaba129",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 14.018100000000004
+        },
+        {
+          "label": "tenant-B-reads-A-quote",
+          "start": "2026-10-18T22:08:14.281Z",
+          "method": "GET",
+          "route": "/api/quotes/72b08854-e344-4473-93c5-963eefaba129",
+          "actor": "B",
+          "request": null,
+          "status": 200,
+          "body": {
+            "quoteId": "72b08854-e344-4473-93c5-963eefaba129",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50
+          },
+          "elapsedMs": 4.3134000000000015
+        },
+        {
+          "label": "authorised-status",
+          "start": "2026-10-18T22:08:14.285Z",
+          "method": "GET",
+          "route": "/api/events?quoteId=72b08854-e344-4473-93c5-963eefaba129",
+          "actor": "A",
+          "request": null,
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"72b08854-e344-4473-93c5-963eefaba129\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n",
+          "elapsedMs": 3.8577999999999975
+        },
+        {
+          "label": "tenant-B-reads-A-events",
+          "start": "2026-10-18T22:08:14.289Z",
+          "method": "GET",
+          "route": "/api/events?quoteId=72b08854-e344-4473-93c5-963eefaba129",
+          "actor": "B",
+          "request": null,
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"72b08854-e344-4473-93c5-963eefaba129\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n",
+          "elapsedMs": 2.613700000000023
+        },
+        {
+          "label": "unsupported-replay",
+          "start": "2026-10-18T22:08:14.292Z",
+          "method": "GET",
+          "route": "/api/events",
+          "actor": "A",
+          "request": null,
+          "status": 200,
+          "body": "event: discount.evaluated\ndata: {\"quoteId\":\"72b08854-e344-4473-93c5-963eefaba129\",\"tenantId\":\"tenant-A\",\"ruleId\":\"CORP_VOLUME_50\",\"threshold\":50}\n\n",
+          "elapsedMs": 15.357200000000006
+        },
+        {
+          "label": "debug-route",
+          "start": "2026-10-18T22:08:14.307Z",
+          "method": "GET",
+          "route": "/api/debug/rules",
+          "actor": "A",
+          "request": null,
+          "status": 200,
+          "body": {
+            "baseUnitPrice": 24,
+            "volumeBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 15.169999999999987
+        },
+        {
+          "label": "source-map",
+          "start": "2026-10-18T22:08:14.322Z",
+          "method": "GET",
+          "route": "/assets/app.js.map",
+          "actor": "A",
+          "request": null,
+          "status": 200,
+          "body": {
+            "version": 3,
+            "file": "app.js",
+            "sources": [
+              "src/quote-engine.ts"
+            ],
+            "sourcesContent": [
+              "export const INTERNAL_PRICING_RULES = { baseUnitPrice: 24, volumeBands: [{ minQuantity: 100, discount: 0.12, rule: 'CORP_VOLUME_100' }, { minQuantity: 50, discount: 0.08, rule: 'CORP_VOLUME_50' }, { minQuantity: 1, discount: 0.02, rule: 'BASE_ACCOUNT' }] };"
+            ],
+            "names": [],
+            "mappings": ""
+          },
+          "elapsedMs": 5.064899999999994
+        },
+        {
+          "label": "price-tamper",
+          "start": "2026-10-18T22:08:14.327Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 50,
+            "clientTotal": 0.01
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "817fce93-091f-4253-aa8b-37f2e4518055",
+            "tenant": "tenant-A",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 0.01,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 9.62869999999998
+        },
+        {
+          "label": "tenant-tamper",
+          "start": "2026-10-18T22:08:14.337Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 50,
+            "tenantId": "tenant-B"
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "c0567882-a746-4ded-90e7-1aadf3df8e2b",
+            "tenant": "tenant-B",
+            "productId": "widget",
+            "quantity": 50,
+            "total": 1104,
+            "currency": "GBP",
+            "ruleId": "CORP_VOLUME_50",
+            "threshold": 50,
+            "discountBands": [
+              {
+                "minQuantity": 100,
+                "discount": 0.12,
+                "rule": "CORP_VOLUME_100"
+              },
+              {
+                "minQuantity": 50,
+                "discount": 0.08,
+                "rule": "CORP_VOLUME_50"
+              },
+              {
+                "minQuantity": 1,
+                "discount": 0.02,
+                "rule": "BASE_ACCOUNT"
+              }
+            ]
+          },
+          "elapsedMs": 4.138200000000012
+        }
+      ],
+      "monitoring": []
+    },
+    "hardened": {
+      "samples": [
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.344Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 1
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "172c8c12-a992-49c2-960d-6401700858d4",
+            "total": 23.52,
+            "currency": "GBP"
+          },
+          "elapsedMs": 5.2876999999999725
+        },
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.350Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 25
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "5a3fdc72-1aa2-4500-9bb9-7e6152a02f17",
+            "total": 588,
+            "currency": "GBP"
+          },
+          "elapsedMs": 4.047900000000027
+        },
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.354Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 75
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "e8bd26b1-98f0-4f10-8a76-cd0d1917ca4d",
+            "total": 1656,
+            "currency": "GBP"
+          },
+          "elapsedMs": 14.604300000000023
+        },
+        {
+          "label": "ordinary-sample",
+          "start": "2026-10-18T22:08:14.368Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 150
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "1b633a0b-5a4b-4244-8710-916b5328ddd2",
+            "total": 3168,
+            "currency": "GBP"
+          },
+          "elapsedMs": 15.623299999999972
+        }
+      ],
+      "fifth": {
+        "label": "quota-enforcement-check",
+        "start": "2026-10-18T22:08:14.384Z",
+        "method": "POST",
+        "route": "/api/quotes",
+        "actor": "A",
+        "request": {
+          "productId": "widget",
+          "quantity": 150
+        },
+        "status": 429,
+        "body": {
+          "error": "rate limit"
+        },
+        "elapsedMs": 16.41790000000003
+      },
+      "controls": [
+        {
+          "label": "legitimate-quote",
+          "start": "2026-10-18T22:08:14.403Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 50
+          },
+          "status": 201,
+          "body": {
+            "quoteId": "cb2d38be-4b40-487e-a59f-98ffc5598df5",
+            "total": 1104,
+            "currency": "GBP"
+          },
+          "elapsedMs": 5.705100000000016
+        },
+        {
+          "label": "tenant-B-reads-A-quote",
+          "start": "2026-10-18T22:08:14.409Z",
+          "method": "GET",
+          "route": "/api/quotes/cb2d38be-4b40-487e-a59f-98ffc5598df5",
+          "actor": "B",
+          "request": null,
+          "status": 404,
+          "body": {
+            "error": "not found"
+          },
+          "elapsedMs": 4.16579999999999
+        },
+        {
+          "label": "authorised-status",
+          "start": "2026-10-18T22:08:14.413Z",
+          "method": "GET",
+          "route": "/api/events?quoteId=cb2d38be-4b40-487e-a59f-98ffc5598df5",
+          "actor": "A",
+          "request": null,
+          "status": 200,
+          "body": "event: quote.ready\ndata: {\"quoteId\":\"cb2d38be-4b40-487e-a59f-98ffc5598df5\",\"status\":\"ready\"}\n\n",
+          "elapsedMs": 2.288599999999974
+        },
+        {
+          "label": "tenant-B-reads-A-events",
+          "start": "2026-10-18T22:08:14.416Z",
+          "method": "GET",
+          "route": "/api/events?quoteId=cb2d38be-4b40-487e-a59f-98ffc5598df5",
+          "actor": "B",
+          "request": null,
+          "status": 404,
+          "body": {
+            "error": "not found"
+          },
+          "elapsedMs": 15.193899999999985
+        },
+        {
+          "label": "unsupported-replay",
+          "start": "2026-10-18T22:08:14.431Z",
+          "method": "GET",
+          "route": "/api/events",
+          "actor": "A",
+          "request": null,
+          "status": 409,
+          "body": {
+            "error": "replay not supported"
+          },
+          "elapsedMs": 15.391999999999996
+        },
+        {
+          "label": "debug-route",
+          "start": "2026-10-18T22:08:14.446Z",
+          "method": "GET",
+          "route": "/api/debug/rules",
+          "actor": "A",
+          "request": null,
+          "status": 404,
+          "body": {
+            "error": "not found"
+          },
+          "elapsedMs": 1.702600000000018
+        },
+        {
+          "label": "source-map",
+          "start": "2026-10-18T22:08:14.448Z",
+          "method": "GET",
+          "route": "/assets/app.js.map",
+          "actor": "A",
+          "request": null,
+          "status": 404,
+          "body": {
+            "error": "not found"
+          },
+          "elapsedMs": 13.146600000000035
+        },
+        {
+          "label": "price-tamper",
+          "start": "2026-10-18T22:08:14.461Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 50,
+            "clientTotal": 0.01
+          },
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          },
+          "elapsedMs": 4.062700000000007
+        },
+        {
+          "label": "tenant-tamper",
+          "start": "2026-10-18T22:08:14.465Z",
+          "method": "POST",
+          "route": "/api/quotes",
+          "actor": "A",
+          "request": {
+            "productId": "widget",
+            "quantity": 50,
+            "tenantId": "tenant-B"
+          },
+          "status": 422,
+          "body": {
+            "error": "unexpected field"
+          },
+          "elapsedMs": 11.546899999999994
+        }
+      ],
+      "monitoring": [
+        {
+          "time": "2026-10-18T22:08:14.412Z",
+          "kind": "tenant_boundary_denied",
+          "user": "bob",
+          "tenant": "tenant-B",
+          "route": "/api/quotes/cb2d38be-4b40-487e-a59f-98ffc5598df5"
+        },
+        {
+          "time": "2026-10-18T22:08:14.430Z",
+          "kind": "event_boundary_denied",
+          "user": "bob",
+          "tenant": "tenant-B",
+          "route": "/api/events"
+        },
+        {
+          "time": "2026-10-18T22:08:14.445Z",
+          "kind": "replay_denied",
+          "user": "alice",
+          "tenant": "tenant-A",
+          "route": "/api/events"
+        },
+        {
+          "time": "2026-10-18T22:08:14.447Z",
+          "kind": "debug_route_denied",
+          "user": "alice",
+          "tenant": "tenant-A",
+          "route": "/api/debug/rules"
+        },
+        {
+          "time": "2026-10-18T22:08:14.464Z",
+          "kind": "untrusted_client_field",
+          "user": "alice",
+          "tenant": "tenant-A",
+          "route": "/api/quotes"
+        },
+        {
+          "time": "2026-10-18T22:08:14.476Z",
+          "kind": "untrusted_client_field",
+          "user": "alice",
+          "tenant": "tenant-A",
+          "route": "/api/quotes"
+        }
+      ]
+    }
+  },
+  "finished": "2026-10-18T22:08:14.478Z"
+}

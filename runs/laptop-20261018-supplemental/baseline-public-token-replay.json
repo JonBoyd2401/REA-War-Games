@@ -1,0 +1,25 @@
+{
+  "type": "supplemental direct HTTP negative control, not REA",
+  "at": "2026-10-18T22:25:45.462Z",
+  "publicCredentialPresent": true,
+  "source": "/assets/app.js",
+  "rows": [
+    {
+      "actor": "B",
+      "status": 404,
+      "body": {
+        "error": "not found"
+      }
+    },
+    {
+      "actor": "publicly copied A token",
+      "status": 200,
+      "body": {
+        "quoteId": "8c25ac40-46b3-4ea5-8a03-f64881244ff0",
+        "total": 1104,
+        "currency": "GBP"
+      }
+    }
+  ],
+  "conclusion": "v1 hardened is not an authentication security reference; a copied published A credential authenticates as A"
+}

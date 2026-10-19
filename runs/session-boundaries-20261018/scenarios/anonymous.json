@@ -1,0 +1,63 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:53949"
+  },
+  "actions": [
+    {
+      "step_id": "other-id",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#otherquote"
+      },
+      "value": {
+        "source": "literal",
+        "value": "6d3a91db-2fd9-4d4b-8643-b75278d1a0ae"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "boundary-probes",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#probe"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "boundary-result",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#probes:not(:empty)"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [],
+  "storage": {
+    "cookies": []
+  },
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

@@ -1,0 +1,911 @@
+{
+  "label": "Server-enforced session boundaries exercised through REA; scripted tests, not adaptive autonomous attack",
+  "cases": [
+    {
+      "name": "anonymous",
+      "auth": null,
+      "quote": null,
+      "probes": [
+        {
+          "label": "other-tenant-quote",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "other-tenant-event",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "missing-csrf",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "public-demo-bearer",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "private-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "source-map",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        }
+      ],
+      "events": 55,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:24:53.256Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:24:53.993Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/6d3a91db-2fd9-4d4b-8643-b75278d1a0ae"
+        },
+        {
+          "at": "2026-10-18T22:24:53.998Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/events"
+        },
+        {
+          "at": "2026-10-18T22:24:54.002Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:24:54.005Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:24:54.009Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:24:54.013Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/6d3a91db-2fd9-4d4b-8643-b75278d1a0ae"
+        }
+      ]
+    },
+    {
+      "name": "forged-cookie",
+      "auth": null,
+      "quote": null,
+      "probes": [
+        {
+          "label": "other-tenant-quote",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "other-tenant-event",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "missing-csrf",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "public-demo-bearer",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "private-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "source-map",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        }
+      ],
+      "events": 55,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:01.097Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:01.555Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/c5f4b98f-a3d3-4ff9-823d-a76d07763cd8"
+        },
+        {
+          "at": "2026-10-18T22:25:01.561Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/events"
+        },
+        {
+          "at": "2026-10-18T22:25:01.564Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:01.568Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:01.571Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:01.575Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/c5f4b98f-a3d3-4ff9-823d-a76d07763cd8"
+        }
+      ]
+    },
+    {
+      "name": "revoked-cookie",
+      "auth": null,
+      "quote": null,
+      "probes": [
+        {
+          "label": "other-tenant-quote",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "other-tenant-event",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "missing-csrf",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "public-demo-bearer",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "private-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "source-map",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        }
+      ],
+      "events": 55,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:07.036Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:07.578Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/26698a1a-0038-4385-8b14-748b05668185"
+        },
+        {
+          "at": "2026-10-18T22:25:07.582Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/events"
+        },
+        {
+          "at": "2026-10-18T22:25:07.586Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:07.589Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:07.593Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:07.597Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/26698a1a-0038-4385-8b14-748b05668185"
+        }
+      ]
+    },
+    {
+      "name": "tenant-B",
+      "auth": 200,
+      "quote": {
+        "status": 201,
+        "body": {
+          "quoteId": "1f325897-03c6-464e-a7e1-767639b349e4",
+          "total": 1104,
+          "currency": "GBP"
+        }
+      },
+      "probes": [
+        {
+          "label": "other-tenant-quote",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "other-tenant-event",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 422,
+          "body": {
+            "error": "invalid quote input"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 422,
+          "body": {
+            "error": "invalid quote input"
+          }
+        },
+        {
+          "label": "missing-csrf",
+          "status": 403,
+          "body": {
+            "error": "csrf denied"
+          }
+        },
+        {
+          "label": "public-demo-bearer",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "private-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "source-map",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        }
+      ],
+      "events": 65,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:12.745Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:13.531Z",
+          "kind": "object_denied",
+          "user": "B",
+          "tenant": "B",
+          "route": "/api/quotes/c801b1b5-8afd-424b-8c30-b0ca2bf29eeb"
+        },
+        {
+          "at": "2026-10-18T22:25:13.543Z",
+          "kind": "object_denied",
+          "user": "B",
+          "tenant": "B",
+          "route": "/api/events"
+        },
+        {
+          "at": "2026-10-18T22:25:13.546Z",
+          "kind": "input_denied",
+          "user": "B",
+          "tenant": "B",
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:13.549Z",
+          "kind": "input_denied",
+          "user": "B",
+          "tenant": "B",
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:13.552Z",
+          "kind": "csrf_denied",
+          "user": "B",
+          "tenant": "B",
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:13.555Z",
+          "kind": "object_denied",
+          "user": "B",
+          "tenant": "B",
+          "route": "/api/quotes/c801b1b5-8afd-424b-8c30-b0ca2bf29eeb"
+        }
+      ]
+    },
+    {
+      "name": "viewer",
+      "auth": 200,
+      "quote": {
+        "status": 403,
+        "body": {
+          "error": "permission denied"
+        }
+      },
+      "probes": null,
+      "events": 25,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:18.685Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:19.481Z",
+          "kind": "permission_denied",
+          "user": "viewer",
+          "tenant": "A",
+          "route": "/api/quotes"
+        }
+      ]
+    },
+    {
+      "name": "owner",
+      "auth": 200,
+      "quote": {
+        "status": 201,
+        "body": {
+          "quoteId": "3c79c329-fa94-46b3-b8ed-ec6df167d3b1",
+          "total": 1104,
+          "currency": "GBP"
+        }
+      },
+      "probes": null,
+      "events": 25,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:26.308Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        }
+      ]
+    },
+    {
+      "name": "quota",
+      "auth": 200,
+      "quote": null,
+      "probes": [
+        {
+          "quantity": 1,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "quoteId": "d7079e0e-54d5-4bcd-89fd-820379f7bc89",
+            "total": 23.52,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 25,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "quoteId": "9830640b-ceaa-4227-b475-f1183f8194e4",
+            "total": 588,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 75,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "quoteId": "1d447569-0e8d-47ff-a021-693a1fae77f1",
+            "total": 1656,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 150,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "quoteId": "5ebbde52-a0ec-4c9b-84a8-3186ca17ae88",
+            "total": 3168,
+            "currency": "GBP"
+          }
+        },
+        {
+          "quantity": 150,
+          "status": 429,
+          "retryAfter": "60",
+          "body": {
+            "error": "rate limit"
+          }
+        }
+      ],
+      "events": 45,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:31.897Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:32.534Z",
+          "kind": "quota_denied",
+          "user": "A",
+          "tenant": "A",
+          "route": "/api/quotes"
+        }
+      ]
+    },
+    {
+      "name": "wrong-password",
+      "auth": 401,
+      "quote": null,
+      "probes": [
+        {
+          "label": "other-tenant-quote",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "other-tenant-event",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "missing-csrf",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "public-demo-bearer",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "private-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "source-map",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        }
+      ],
+      "events": 60,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:37.286Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:38.003Z",
+          "kind": "login_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/login"
+        },
+        {
+          "at": "2026-10-18T22:25:38.121Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/unknown"
+        },
+        {
+          "at": "2026-10-18T22:25:38.128Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/events"
+        },
+        {
+          "at": "2026-10-18T22:25:38.131Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:38.135Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:38.138Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:38.142Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/unknown"
+        }
+      ]
+    },
+    {
+      "name": "logged-out",
+      "auth": "signed out 200",
+      "quote": {
+        "status": 201,
+        "body": {
+          "quoteId": "95d9d54f-00ac-4b58-8e37-01d37a77bc11",
+          "total": 1104,
+          "currency": "GBP"
+        }
+      },
+      "probes": [
+        {
+          "label": "other-tenant-quote",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "other-tenant-event",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "price-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "tenant-tamper",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "missing-csrf",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "public-demo-bearer",
+          "status": 401,
+          "body": {
+            "error": "authentication required"
+          }
+        },
+        {
+          "label": "private-rules",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        },
+        {
+          "label": "source-map",
+          "status": 404,
+          "body": {
+            "error": "not found"
+          }
+        }
+      ],
+      "events": 70,
+      "completeness": {
+        "status": "incomplete",
+        "equality_eligible": false,
+        "missing_sections": [
+          "events"
+        ],
+        "truncated_sections": []
+      },
+      "serverEvents": [
+        {
+          "at": "2026-10-18T22:25:43.205Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/favicon.ico"
+        },
+        {
+          "at": "2026-10-18T22:25:44.233Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/unknown"
+        },
+        {
+          "at": "2026-10-18T22:25:44.244Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/events"
+        },
+        {
+          "at": "2026-10-18T22:25:44.248Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:44.252Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:44.255Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes"
+        },
+        {
+          "at": "2026-10-18T22:25:44.259Z",
+          "kind": "session_denied",
+          "user": null,
+          "tenant": null,
+          "route": "/api/quotes/unknown"
+        }
+      ]
+    }
+  ]
+}

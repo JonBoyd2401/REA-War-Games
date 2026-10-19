@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sources":["src/quote-engine.ts"],"sourcesContent":["export const INTERNAL_PRICING_RULES = { baseUnitPrice: 24, volumeBands: [{ minQuantity: 100, discount: 0.12, rule: 'CORP_VOLUME_100' }, { minQuantity: 50, discount: 0.08, rule: 'CORP_VOLUME_50' }, { minQuantity: 1, discount: 0.02, rule: 'BASE_ACCOUNT' }] };"],"names":[],"mappings":""}

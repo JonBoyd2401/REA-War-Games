@@ -1,0 +1,14 @@
+{
+  "name": "rea-saas-wargame-lab",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Local-only simulated SaaS application for defensive REA-style adversary emulation",
+  "scripts": {
+    "test": "node --test",
+    "unsafe": "MODE=unsafe PORT=3000 node server.mjs",
+    "hardened": "MODE=hardened PORT=3001 node server.mjs",
+    "scan": "node tools/scan-build.mjs public/hardened.js"
+  },
+  "engines": { "node": ">=20" }
+}

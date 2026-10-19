@@ -1,0 +1,5 @@
+{
+  "armedNotificationObserved": true,
+  "clickAt": "2026-10-18T22:06:51.499Z",
+  "result": "{\n  \"quoteId\": \"1fe364b1-b070-496a-8d4a-74c82ef1cd42\",\n  \"tenant\": \"tenant-A\",\n  \"productId\": \"widget\",\n  \"quantity\": 50,\n  \"total\": 1104,\n  \"currency\": \"GBP\",\n  \"ruleId\": \"CORP_VOLUME_50\",\n  \"threshold\": 50,\n  \"discountBands\": [\n    {\n      \"minQuantity\": 100,\n      \"discount\": 0.12,\n      \"rule\": \"CORP_VOLUME_100\"\n    },\n    {\n      \"minQuantity\": 50,\n      \"discount\": 0.08,\n      \"rule\": \"CORP_VOLUME_50\"\n    },\n    {\n      \"minQuantity\": 1,\n      \"discount\": 0.02,\n      \"rule\": \"BASE_ACCOUNT\"\n    }\n  ]\n}"
+}

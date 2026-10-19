@@ -1,0 +1,82 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:64751"
+  },
+  "actions": [
+    {
+      "step_id": "other-id",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#otherquote"
+      },
+      "value": {
+        "source": "literal",
+        "value": "c5f4b98f-a3d3-4ff9-823d-a76d07763cd8"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "boundary-probes",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#probe"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "boundary-result",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#probes:not(:empty)"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "testCookie",
+      "environment_variable": "REA_SESSION_TEST_COOKIE"
+    }
+  ],
+  "storage": {
+    "cookies": [
+      {
+        "name": "rea_session",
+        "value": {
+          "source": "secret",
+          "secret_id": "testCookie"
+        },
+        "destination": {
+          "url": "http://127.0.0.1:64751"
+        },
+        "http_only": true,
+        "secure": false,
+        "same_site": "Strict"
+      }
+    ]
+  },
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

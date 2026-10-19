@@ -1,0 +1,101 @@
+{
+  "capture_path": "<WORKSPACE>\\publication\\replications\\validation-20261018\\rea-evidence\\unsafe-inspect.json",
+  "capture_sha256": "f807550526dec1f1ceaae2678cf1e744def00c44030d204a9ab03974e6419700",
+  "capture_kind": "page-inspection",
+  "source_evidence_id": "ev_f9e80138460e4e8ca855922c0c5b258470617a8f7a28e270fe1b693be9f80f24",
+  "capture_completeness": {
+    "status": "policy_filtered",
+    "conditions": [
+      "attach_limited",
+      "policy_filtered"
+    ],
+    "policy_filtered_sections": [
+      "console_text",
+      "storage_keys",
+      "websocket_shapes",
+      "workers"
+    ],
+    "attach_limited_sections": [
+      "console_events",
+      "metadata",
+      "network_requests",
+      "websocket_connections",
+      "websocket_frames"
+    ],
+    "truncated_sections": [],
+    "unavailable_sections": [],
+    "excluded": [
+      {
+        "section": "console_text",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "storage_keys",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "websocket_shapes",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "workers",
+        "reason": "out_of_target_scope",
+        "count": 2
+      }
+    ],
+    "dropped_events": {
+      "scripts": 0,
+      "network_requests": 0,
+      "console_events": 0,
+      "websocket_connections": 0,
+      "websocket_frames": 0,
+      "webmcp_tools": 0,
+      "timeline_events": 0,
+      "total": 0
+    }
+  },
+  "output_directory": "<WORKSPACE>\\publication\\replications\\validation-20261018\\rea-evidence\\unsafe-export",
+  "analysis_input": {
+    "input_path": "<WORKSPACE>\\publication\\replications\\validation-20261018\\rea-evidence\\unsafe-export\\files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_b2b8732c913a000d0614d82dcd614b40123885d695bbde1810840f91ec7f5d5c",
+        "frame_id": "B0B063CBFFC26613258D8563ACBB8220",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "http://127.0.0.1:58042/assets/app.js.map"
+      },
+      "url": "http://127.0.0.1:58042/assets/app.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/065ee2ef71b3863d55121b7fe4a4f99ca19a7ea752187fa5da60ae0e9fb39397/assets/app.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "794681f732027d6d9ff9b6529a1f48476bfb4fc2989bcc917dcbdb1cd4cbc014",
+        "bytes": 1147,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    }
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}

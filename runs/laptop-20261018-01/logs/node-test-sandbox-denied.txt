@@ -1,0 +1,136 @@
+✖ T01: unsafe client ships proprietary rules; hardened does not (74.2388ms)
+✖ T02: unsafe accepts client price; hardened rejects browser-calculated total (25.8996ms)
+✖ T03: quote response over-disclosure is eliminated (11.09ms)
+✖ T04: one tenant cannot retrieve another tenant’s quote after hardening (10.1215ms)
+✖ T05: SSE streams disclose decision metadata in unsafe mode only (10.6567ms)
+✖ T06: SSE cross-tenant and replay isolation (9.5926ms)
+✖ T07: hardened mode limits automated quote-oracle sampling (8.8316ms)
+✖ T08: debugging rule endpoint not exposed after hardening (8.8336ms)
+✖ T09: hardened mode ignores client tenant assertion by rejecting it (10.024ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 0
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1273.4185
+
+✖ failing tests:
+
+test at test\wargame.test.mjs:20:1
+✖ T01: unsafe client ships proprietary rules; hardened does not (74.2388ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54018
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54018
+    }
+  }
+
+test at test\wargame.test.mjs:28:1
+✖ T02: unsafe accepts client price; hardened rejects browser-calculated total (25.8996ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54020
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54020
+    }
+  }
+
+test at test\wargame.test.mjs:36:1
+✖ T03: quote response over-disclosure is eliminated (11.09ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54022
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54022
+    }
+  }
+
+test at test\wargame.test.mjs:43:1
+✖ T04: one tenant cannot retrieve another tenant’s quote after hardening (10.1215ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54024
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54024
+    }
+  }
+
+test at test\wargame.test.mjs:50:1
+✖ T05: SSE streams disclose decision metadata in unsafe mode only (10.6567ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54026
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54026
+    }
+  }
+
+test at test\wargame.test.mjs:60:1
+✖ T06: SSE cross-tenant and replay isolation (9.5926ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54028
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54028
+    }
+  }
+
+test at test\wargame.test.mjs:69:1
+✖ T07: hardened mode limits automated quote-oracle sampling (8.8316ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54030
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54030
+    }
+  }
+
+test at test\wargame.test.mjs:77:1
+✖ T08: debugging rule endpoint not exposed after hardening (8.8336ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54032
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54032
+    }
+  }
+
+test at test\wargame.test.mjs:83:1
+✖ T09: hardened mode ignores client tenant assertion by rejecting it (10.024ms)
+  [TypeError: fetch failed] {
+    [cause]: Error: connect EACCES 127.0.0.1:54034
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1864:16) {
+      errno: -4092,
+      code: 'EACCES',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 54034
+    }
+  }

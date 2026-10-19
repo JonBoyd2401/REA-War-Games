@@ -1,0 +1,22 @@
+rea observe-web-execution — Observe precise page execution; resets counters and temporarily disables optimization
+
+Usage: rea observe-web-execution <endpoint> <targetId> [options]
+
+Arguments:
+  endpoint  Existing loopback browser CDP endpoint
+  targetId  Selected page target ID from list-browser-targets
+
+Options:
+  --allowed-origins <array>  Optional exact-origin filter
+  --observation-ms <number>  Observation duration in milliseconds (default: 10000)
+
+Global Options:
+  --filter-output <keys>              Filter output by key paths (e.g. foo,bar.baz,a[0,3])
+  --format <toon|json|yaml|md|jsonl>  Output format
+  --full-output                       Show full output envelope
+  --help                              Show help
+  --llms, --llms-full                 Print LLM-readable manifest
+  --schema                            Show JSON Schema for command
+  --token-count                       Print token count of output (instead of output)
+  --token-limit <n>                   Limit output to n tokens
+  --token-offset <n>                  Skip first n tokens of output
