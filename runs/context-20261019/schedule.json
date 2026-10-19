@@ -1,0 +1,122 @@
+[
+  {
+    "target": "target-05",
+    "policy": "shared-rule",
+    "cell": "cell-001"
+  },
+  {
+    "target": "target-03",
+    "policy": "export-leak",
+    "cell": "cell-002"
+  },
+  {
+    "target": "target-04",
+    "policy": "shared-rule",
+    "cell": "cell-003"
+  },
+  {
+    "target": "target-01",
+    "policy": "bound-context",
+    "cell": "cell-004"
+  },
+  {
+    "target": "target-03",
+    "policy": "selector-leak",
+    "cell": "cell-005"
+  },
+  {
+    "target": "target-04",
+    "policy": "export-leak",
+    "cell": "cell-006"
+  },
+  {
+    "target": "target-05",
+    "policy": "selector-leak",
+    "cell": "cell-007"
+  },
+  {
+    "target": "target-02",
+    "policy": "export-leak",
+    "cell": "cell-008"
+  },
+  {
+    "target": "target-04",
+    "policy": "bound-context",
+    "cell": "cell-009"
+  },
+  {
+    "target": "target-01",
+    "policy": "shared-rule",
+    "cell": "cell-010"
+  },
+  {
+    "target": "target-05",
+    "policy": "export-leak",
+    "cell": "cell-011"
+  },
+  {
+    "target": "target-06",
+    "policy": "shared-rule",
+    "cell": "cell-012"
+  },
+  {
+    "target": "target-03",
+    "policy": "bound-context",
+    "cell": "cell-013"
+  },
+  {
+    "target": "target-04",
+    "policy": "selector-leak",
+    "cell": "cell-014"
+  },
+  {
+    "target": "target-06",
+    "policy": "export-leak",
+    "cell": "cell-015"
+  },
+  {
+    "target": "target-01",
+    "policy": "selector-leak",
+    "cell": "cell-016"
+  },
+  {
+    "target": "target-02",
+    "policy": "bound-context",
+    "cell": "cell-017"
+  },
+  {
+    "target": "target-06",
+    "policy": "bound-context",
+    "cell": "cell-018"
+  },
+  {
+    "target": "target-03",
+    "policy": "shared-rule",
+    "cell": "cell-019"
+  },
+  {
+    "target": "target-01",
+    "policy": "export-leak",
+    "cell": "cell-020"
+  },
+  {
+    "target": "target-02",
+    "policy": "selector-leak",
+    "cell": "cell-021"
+  },
+  {
+    "target": "target-06",
+    "policy": "selector-leak",
+    "cell": "cell-022"
+  },
+  {
+    "target": "target-02",
+    "policy": "shared-rule",
+    "cell": "cell-023"
+  },
+  {
+    "target": "target-05",
+    "policy": "bound-context",
+    "cell": "cell-024"
+  }
+]

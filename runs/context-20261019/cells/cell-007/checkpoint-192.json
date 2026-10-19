@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:11:01.305Z",
+  "endedAt": "2026-10-19T15:18:35.237Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 453895
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 101639,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 245,
+          "constant": 17727,
+          "linear": 343,
+          "quadratic": 0
+        },
+        {
+          "from": 450,
+          "constant": 14890.68,
+          "linear": 288.12,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Amounts are GBP pence. For integer quantity q in 1..1000, select the last segment with from <= q, evaluate constant + linear*q + quadratic*q*q, and round to a nonnegative integer. The inferred ranges are 1..244, 245..449, and 450..1000. Both transitions were checked with adjacent exact quotes: quantities 244/245 returned 101639/101762 pence, and 449/450 returned 171734/144545 pence. The discounted line is consistent with 84% of the preceding linear formula. Validation: this predictor exactly matches all 96 distinct own-context observations, including 67 additional quantities queried after fixing the predictor. Those 67 validation checks had zero exact-match failures, zero errors exceeding 1%, and zero errors exceeding 5%. Discounted-region checks covered all 25 fractional-pence residue classes implied by the slope. Confidence is high in this three-region reconstruction, but the remaining 904 quantities were not observed; unseen accuracy and the absence of narrow exceptions are not proven."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 62377,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 51,
+          "constant": 24768,
+          "linear": 742,
+          "quadratic": 0
+        },
+        {
+          "from": 307,
+          "constant": 20062.080001,
+          "linear": 601.02,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Independently reconstructed from successful other-context REA quotes, not copied from own. Amounts are GBP pence; select the last segment with from <= q, evaluate its polynomial, and round to a nonnegative integer. The inferred ranges are 1..50, 51..306, and 307..1000. Adjacent exact quotes confirmed both transitions: quantities 50/51 returned 62377/62610 pence, and 306/307 returned 251820/204575 pence. The discounted line is consistent with 81% of the preceding linear formula. Its supplied constant includes a 0.000001-pence numerical guard above 20062.08 to prevent floating-point evaluation from rounding half-pence cases downward; this is a predictor implementation safeguard, not an observed additional charge. Validation: all 96 distinct other-context observations match exactly, including 67 additional quantities queried after fixing the predictor. Those validation checks had zero exact-match failures and zero errors exceeding 1% or 5%. Checks covered all 50 discounted fractional-pence residue classes and every implied half-pence case in the discounted range. Confidence is high, but the remaining 904 quantities are predictions, not observations; narrow unseen exceptions cannot be excluded."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 345921,
+    "inputTokens": 335953,
+    "cachedInputTokens": 306048,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 9968,
+    "reasoningOutputTokens": 5644
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 18
+}

@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:34:27.778Z",
+  "endedAt": "2026-10-19T15:41:03.332Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 395541
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3076,
+          "quadratic": 0
+        },
+        {
+          "from": 141,
+          "constant": 0,
+          "linear": 1398,
+          "quadratic": 0
+        },
+        {
+          "from": 726,
+          "constant": 0,
+          "linear": 1018,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Predicts total GBP pence for integer quantities q from 1 through 1000. Select the segment with the greatest from value not exceeding q, evaluate constant + linear × q + quadratic × q², then round to nonnegative integer pence. These coefficients already produce positive integers. This is an all-units tier model, not cumulative marginal pricing: 3076 pence per unit for quantities 1–140, 1398 for 141–725, and 1018 for 726–1000. Adjacent REA observations establish the identified transitions: quantity 140 returned 430640 pence and 141 returned 197118; quantity 725 returned 1013550 and 726 returned 739068. The predictor was fixed after observing 34 distinct quantities, then matched all 61 additional validation quantities exactly in the second same-customer session, without adjustment. Across all 95 distinct observed quantities, maximum absolute and relative errors were zero. Validation exact-match, within-1%, and within-5% accuracy were each 100%; these are measured validation results, not claims about unobserved quantities. High empirical confidence in this three-tier reconstruction. Uncertainty remains because 905 quantities were not queried: hidden narrow exceptions cannot be ruled out, although no run of unqueried quantities exceeds 18 integers."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3208,
+          "quadratic": 0
+        },
+        {
+          "from": 226,
+          "constant": 0,
+          "linear": 1511,
+          "quadratic": 0
+        },
+        {
+          "from": 709,
+          "constant": 0,
+          "linear": 949,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Independently reconstructed from successful other-context REA observations; this is not copied from own. The advertised negative control was confirmed: other-context create returned HTTP 403, while convenience export returned exact other-context prices. Predicts total GBP pence for integer quantities q from 1 through 1000 using the last applicable segment and constant + linear × q + quadratic × q², rounded to nonnegative integer pence. Rounding changes nothing for these coefficients. The inferred all-units rates are 3208 pence for quantities 1–225, 1511 for 226–708, and 949 for 709–1000. Adjacent observed totals establish the identified transitions: quantity 225 returned 721800 pence and 226 returned 341486; quantity 708 returned 1069788 and 709 returned 672841. The predictor was fixed after observing 34 distinct quantities, then matched all 61 additional validation quantities exactly in the second same-customer session, without adjustment. All 95 distinct observed quantities have zero prediction error; validation exact-match, within-1%, and within-5% accuracy were each 100%. These results do not establish accuracy at every unseen quantity. High empirical confidence in this independently measured three-tier model, with residual uncertainty about hidden exceptions among the 905 unqueried quantities. No run of unqueried quantities exceeds 18 integers."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 450894,
+    "inputTokens": 441287,
+    "cachedInputTokens": 403456,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 9607,
+    "reasoningOutputTokens": 2804
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 18
+}

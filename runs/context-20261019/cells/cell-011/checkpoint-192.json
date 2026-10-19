@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:17:17.852Z",
+  "endedAt": "2026-10-19T15:25:01.880Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 464016
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 101639,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 245,
+          "constant": 17727,
+          "linear": 343,
+          "quadratic": 0
+        },
+        {
+          "from": 450,
+          "constant": 14890.68,
+          "linear": 288.12,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Domain: integer quantities q=1..1000. Select the last segment with from<=q, evaluate constant + linear*q + quadratic*q^2 using the original quantity q, then round to a nonnegative integer number of GBP pence. The segment ranges are 1..244, 245..449 and 450..1000. Both transitions were directly bracketed by successful observations at 244/245 and 449/450. This predictor matches all 96 distinct observed own-context totals exactly. Of these, 56 were new validation quantities queried after the predictor was frozen: 56/56 exact matches, 56/56 within 1%, and 56/56 within 5%; maximum validation error was 0 pence. A numerical coefficient-feasibility check found no ambiguous integer predictions anywhere in 1..1000 conditional on this three-affine-segment structure. Confidence is high, but unqueried quantities remain predictions: the observations do not prove the absence of additional unsampled pricing rules."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 62377,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 51,
+          "constant": 24768,
+          "linear": 742,
+          "quadratic": 0
+        },
+        {
+          "from": 307,
+          "constant": 20062.09,
+          "linear": 601.02,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Domain: integer quantities q=1..1000. Select the last segment with from<=q, evaluate constant + linear*q + quadratic*q^2 using the original quantity q, then round to a nonnegative integer number of GBP pence. The segment ranges are 1..50, 51..306 and 307..1000. The advertised negative control was confirmed: other-context create returned 403, while convenience export successfully exposed exact totals. This model was reconstructed independently, not copied from own. Both transitions were directly bracketed at 50/51 and 306/307. All 95 distinct observed totals match exactly, including 56 new quantities queried after freezing the predictor: 56/56 exact, within 1%, and within 5%; maximum validation error was 0 pence. The final intercept 20062.09 is a rounding-stable representative, giving the same integer predictions as exact-decimal 20062.08 + 601.02*q with half-penny ties rounded upward; the 0.01-pence adjustment avoids floating-point tie errors. A numerical coefficient-feasibility check found no ambiguous integer predictions across the domain conditional on this three-affine-segment structure. Confidence is high, but unqueried quantities were not observed, and additional unsampled rules cannot be ruled out."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 302421,
+    "inputTokens": 290597,
+    "cachedInputTokens": 256256,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 11824,
+    "reasoningOutputTokens": 7513
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

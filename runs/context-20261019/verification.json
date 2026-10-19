@@ -1,0 +1,671 @@
+{
+  "status": "PASS",
+  "supplementaryFreezeVerified": true,
+  "cells": 24,
+  "validPredictors": 24,
+  "failedPredictors": 0,
+  "reaOperations": 338,
+  "reaResponseRowsVerified": 4608,
+  "capturedBodiesVerified": 9892,
+  "fittingCalls": 88,
+  "agentsUsingFitter": 24,
+  "businessOperations": {
+    "create": 3591,
+    "export": 1005,
+    "get": 5,
+    "job-read": 7
+  },
+  "fittingContexts": {
+    "own": 60,
+    "other": 28
+  },
+  "requestsBySession": {
+    "1": 2425,
+    "2": 2183
+  },
+  "coverage": {
+    "incomplete": 338
+  },
+  "statusCounts": {
+    "200": 4573,
+    "403": 35
+  },
+  "heldoutPredictions": 6144,
+  "fullDomainPredictions": 48000,
+  "utilityJourneys": 48,
+  "utilityActions": 4032,
+  "priceBearingUtilityResponses": 3456,
+  "passedPriceBearingUtilityResponses": 3456,
+  "passingUtilityActions": 4032,
+  "boundaryComparisons": 24108,
+  "boundaryEngineResponses": 48216,
+  "protectedOtherNumericDisclosures": 0,
+  "usefulPrivateContextScreen": true,
+  "recordedTokensAtFinalCheckpoint": 5461828,
+  "perCell": [
+    {
+      "target": "target-05",
+      "policy": "shared-rule",
+      "cell": "cell-001",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 191,
+        "other": 0
+      },
+      "distinct": {
+        "own": 191,
+        "other": 0
+      },
+      "elapsedMs": 381213,
+      "tokenUsage": {
+        "totalTokens": 227423,
+        "inputTokens": 219217,
+        "cachedInputTokens": 192256,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 8206,
+        "reasoningOutputTokens": 4185
+      }
+    },
+    {
+      "target": "target-03",
+      "policy": "export-leak",
+      "cell": "cell-002",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 4,
+      "disclosures": {
+        "own": 95,
+        "other": 96
+      },
+      "distinct": {
+        "own": 95,
+        "other": 96
+      },
+      "elapsedMs": 310310,
+      "tokenUsage": {
+        "totalTokens": 117485,
+        "inputTokens": 111503,
+        "cachedInputTokens": 90112,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 5982,
+        "reasoningOutputTokens": 2824
+      }
+    },
+    {
+      "target": "target-04",
+      "policy": "shared-rule",
+      "cell": "cell-003",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 3,
+      "disclosures": {
+        "own": 192,
+        "other": 0
+      },
+      "distinct": {
+        "own": 192,
+        "other": 0
+      },
+      "elapsedMs": 304705,
+      "tokenUsage": {
+        "totalTokens": 167621,
+        "inputTokens": 161932,
+        "cachedInputTokens": 140416,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 5689,
+        "reasoningOutputTokens": 2466
+      }
+    },
+    {
+      "target": "target-01",
+      "policy": "bound-context",
+      "cell": "cell-004",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 3,
+      "disclosures": {
+        "own": 188,
+        "other": 0
+      },
+      "distinct": {
+        "own": 188,
+        "other": 0
+      },
+      "elapsedMs": 305736,
+      "tokenUsage": {
+        "totalTokens": 189939,
+        "inputTokens": 184309,
+        "cachedInputTokens": 162304,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 5630,
+        "reasoningOutputTokens": 2629
+      }
+    },
+    {
+      "target": "target-03",
+      "policy": "selector-leak",
+      "cell": "cell-005",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 96,
+        "other": 96
+      },
+      "distinct": {
+        "own": 96,
+        "other": 96
+      },
+      "elapsedMs": 300555,
+      "tokenUsage": {
+        "totalTokens": 253262,
+        "inputTokens": 246914,
+        "cachedInputTokens": 215680,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 6348,
+        "reasoningOutputTokens": 2797
+      }
+    },
+    {
+      "target": "target-04",
+      "policy": "export-leak",
+      "cell": "cell-006",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 4,
+      "disclosures": {
+        "own": 95,
+        "other": 94
+      },
+      "distinct": {
+        "own": 94,
+        "other": 94
+      },
+      "elapsedMs": 289567,
+      "tokenUsage": {
+        "totalTokens": 214332,
+        "inputTokens": 208287,
+        "cachedInputTokens": 180224,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 6045,
+        "reasoningOutputTokens": 2277
+      }
+    },
+    {
+      "target": "target-05",
+      "policy": "selector-leak",
+      "cell": "cell-007",
+      "valid": true,
+      "requests": 192,
+      "operations": 18,
+      "fittingCalls": 4,
+      "disclosures": {
+        "own": 96,
+        "other": 96
+      },
+      "distinct": {
+        "own": 96,
+        "other": 96
+      },
+      "elapsedMs": 453932,
+      "tokenUsage": {
+        "totalTokens": 345921,
+        "inputTokens": 335953,
+        "cachedInputTokens": 306048,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 9968,
+        "reasoningOutputTokens": 5644
+      }
+    },
+    {
+      "target": "target-02",
+      "policy": "export-leak",
+      "cell": "cell-008",
+      "valid": true,
+      "requests": 192,
+      "operations": 17,
+      "fittingCalls": 6,
+      "disclosures": {
+        "own": 97,
+        "other": 94
+      },
+      "distinct": {
+        "own": 97,
+        "other": 94
+      },
+      "elapsedMs": 370782,
+      "tokenUsage": {
+        "totalTokens": 258595,
+        "inputTokens": 250769,
+        "cachedInputTokens": 196736,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 7826,
+        "reasoningOutputTokens": 3555
+      }
+    },
+    {
+      "target": "target-04",
+      "policy": "bound-context",
+      "cell": "cell-009",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 3,
+      "disclosures": {
+        "own": 188,
+        "other": 0
+      },
+      "distinct": {
+        "own": 188,
+        "other": 0
+      },
+      "elapsedMs": 278593,
+      "tokenUsage": {
+        "totalTokens": 146162,
+        "inputTokens": 140786,
+        "cachedInputTokens": 121472,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 5376,
+        "reasoningOutputTokens": 2779
+      }
+    },
+    {
+      "target": "target-01",
+      "policy": "shared-rule",
+      "cell": "cell-010",
+      "valid": true,
+      "requests": 192,
+      "operations": 18,
+      "fittingCalls": 3,
+      "disclosures": {
+        "own": 192,
+        "other": 0
+      },
+      "distinct": {
+        "own": 192,
+        "other": 0
+      },
+      "elapsedMs": 315848,
+      "tokenUsage": {
+        "totalTokens": 187029,
+        "inputTokens": 180394,
+        "cachedInputTokens": 158720,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 6635,
+        "reasoningOutputTokens": 2805
+      }
+    },
+    {
+      "target": "target-05",
+      "policy": "export-leak",
+      "cell": "cell-011",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 6,
+      "disclosures": {
+        "own": 96,
+        "other": 95
+      },
+      "distinct": {
+        "own": 96,
+        "other": 95
+      },
+      "elapsedMs": 464028,
+      "tokenUsage": {
+        "totalTokens": 302421,
+        "inputTokens": 290597,
+        "cachedInputTokens": 256256,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 11824,
+        "reasoningOutputTokens": 7513
+      }
+    },
+    {
+      "target": "target-06",
+      "policy": "shared-rule",
+      "cell": "cell-012",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 3,
+      "disclosures": {
+        "own": 192,
+        "other": 0
+      },
+      "distinct": {
+        "own": 192,
+        "other": 0
+      },
+      "elapsedMs": 371156,
+      "tokenUsage": {
+        "totalTokens": 238129,
+        "inputTokens": 229614,
+        "cachedInputTokens": 206720,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 8515,
+        "reasoningOutputTokens": 4774
+      }
+    },
+    {
+      "target": "target-03",
+      "policy": "bound-context",
+      "cell": "cell-013",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 188,
+        "other": 0
+      },
+      "distinct": {
+        "own": 188,
+        "other": 0
+      },
+      "elapsedMs": 268925,
+      "tokenUsage": {
+        "totalTokens": 157358,
+        "inputTokens": 151780,
+        "cachedInputTokens": 125696,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 5578,
+        "reasoningOutputTokens": 2216
+      }
+    },
+    {
+      "target": "target-04",
+      "policy": "selector-leak",
+      "cell": "cell-014",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 96,
+        "other": 96
+      },
+      "distinct": {
+        "own": 96,
+        "other": 96
+      },
+      "elapsedMs": 226685,
+      "tokenUsage": {
+        "totalTokens": 102807,
+        "inputTokens": 98397,
+        "cachedInputTokens": 74752,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 4410,
+        "reasoningOutputTokens": 1853
+      }
+    },
+    {
+      "target": "target-06",
+      "policy": "export-leak",
+      "cell": "cell-015",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 8,
+      "disclosures": {
+        "own": 96,
+        "other": 95
+      },
+      "distinct": {
+        "own": 96,
+        "other": 95
+      },
+      "elapsedMs": 417059,
+      "tokenUsage": {
+        "totalTokens": 277032,
+        "inputTokens": 266666,
+        "cachedInputTokens": 230016,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 10366,
+        "reasoningOutputTokens": 6685
+      }
+    },
+    {
+      "target": "target-01",
+      "policy": "selector-leak",
+      "cell": "cell-016",
+      "valid": true,
+      "requests": 192,
+      "operations": 19,
+      "fittingCalls": 6,
+      "disclosures": {
+        "own": 96,
+        "other": 96
+      },
+      "distinct": {
+        "own": 96,
+        "other": 96
+      },
+      "elapsedMs": 341221,
+      "tokenUsage": {
+        "totalTokens": 229810,
+        "inputTokens": 222241,
+        "cachedInputTokens": 199680,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 7569,
+        "reasoningOutputTokens": 3074
+      }
+    },
+    {
+      "target": "target-02",
+      "policy": "bound-context",
+      "cell": "cell-017",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 188,
+        "other": 0
+      },
+      "distinct": {
+        "own": 188,
+        "other": 0
+      },
+      "elapsedMs": 330165,
+      "tokenUsage": {
+        "totalTokens": 198311,
+        "inputTokens": 190370,
+        "cachedInputTokens": 165376,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 7941,
+        "reasoningOutputTokens": 3777
+      }
+    },
+    {
+      "target": "target-06",
+      "policy": "bound-context",
+      "cell": "cell-018",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 4,
+      "disclosures": {
+        "own": 188,
+        "other": 0
+      },
+      "distinct": {
+        "own": 188,
+        "other": 0
+      },
+      "elapsedMs": 317745,
+      "tokenUsage": {
+        "totalTokens": 178463,
+        "inputTokens": 171583,
+        "cachedInputTokens": 152064,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 6880,
+        "reasoningOutputTokens": 3154
+      }
+    },
+    {
+      "target": "target-03",
+      "policy": "shared-rule",
+      "cell": "cell-019",
+      "valid": true,
+      "requests": 192,
+      "operations": 14,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 190,
+        "other": 0
+      },
+      "distinct": {
+        "own": 190,
+        "other": 0
+      },
+      "elapsedMs": 243753,
+      "tokenUsage": {
+        "totalTokens": 146244,
+        "inputTokens": 141477,
+        "cachedInputTokens": 127360,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 4767,
+        "reasoningOutputTokens": 1843
+      }
+    },
+    {
+      "target": "target-01",
+      "policy": "export-leak",
+      "cell": "cell-020",
+      "valid": true,
+      "requests": 192,
+      "operations": 18,
+      "fittingCalls": 6,
+      "disclosures": {
+        "own": 96,
+        "other": 95
+      },
+      "distinct": {
+        "own": 95,
+        "other": 95
+      },
+      "elapsedMs": 395554,
+      "tokenUsage": {
+        "totalTokens": 450894,
+        "inputTokens": 441287,
+        "cachedInputTokens": 403456,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 9607,
+        "reasoningOutputTokens": 2804
+      }
+    },
+    {
+      "target": "target-02",
+      "policy": "selector-leak",
+      "cell": "cell-021",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 4,
+      "disclosures": {
+        "own": 96,
+        "other": 96
+      },
+      "distinct": {
+        "own": 96,
+        "other": 96
+      },
+      "elapsedMs": 301614,
+      "tokenUsage": {
+        "totalTokens": 310507,
+        "inputTokens": 302355,
+        "cachedInputTokens": 267520,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 8152,
+        "reasoningOutputTokens": 3093
+      }
+    },
+    {
+      "target": "target-06",
+      "policy": "selector-leak",
+      "cell": "cell-022",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 4,
+      "disclosures": {
+        "own": 96,
+        "other": 96
+      },
+      "distinct": {
+        "own": 96,
+        "other": 96
+      },
+      "elapsedMs": 364945,
+      "tokenUsage": {
+        "totalTokens": 336542,
+        "inputTokens": 328052,
+        "cachedInputTokens": 295552,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 8490,
+        "reasoningOutputTokens": 4126
+      }
+    },
+    {
+      "target": "target-02",
+      "policy": "shared-rule",
+      "cell": "cell-023",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 2,
+      "disclosures": {
+        "own": 192,
+        "other": 0
+      },
+      "distinct": {
+        "own": 192,
+        "other": 0
+      },
+      "elapsedMs": 213826,
+      "tokenUsage": {
+        "totalTokens": 101469,
+        "inputTokens": 97504,
+        "cachedInputTokens": 80896,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 3965,
+        "reasoningOutputTokens": 1493
+      }
+    },
+    {
+      "target": "target-05",
+      "policy": "bound-context",
+      "cell": "cell-024",
+      "valid": true,
+      "requests": 192,
+      "operations": 13,
+      "fittingCalls": 3,
+      "disclosures": {
+        "own": 188,
+        "other": 0
+      },
+      "distinct": {
+        "own": 188,
+        "other": 0
+      },
+      "elapsedMs": 340223,
+      "tokenUsage": {
+        "totalTokens": 324072,
+        "inputTokens": 315453,
+        "cachedInputTokens": 292736,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 8619,
+        "reasoningOutputTokens": 3138
+      }
+    }
+  ]
+}

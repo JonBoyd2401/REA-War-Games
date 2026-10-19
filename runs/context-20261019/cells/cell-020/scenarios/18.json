@@ -1,0 +1,348 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:51644"
+  },
+  "actions": [
+    {
+      "step_id": "request-0",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"own\",\"quantity\":829}"
+      }
+    },
+    {
+      "step_id": "submit-0",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-0",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"0\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-1",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"other\",\"quantity\":489}"
+      }
+    },
+    {
+      "step_id": "submit-1",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-1",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"1\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-2",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"own\",\"quantity\":968}"
+      }
+    },
+    {
+      "step_id": "submit-2",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-2",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"2\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-3",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"other\",\"quantity\":569}"
+      }
+    },
+    {
+      "step_id": "submit-3",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-3",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"3\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-4",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"own\",\"quantity\":988}"
+      }
+    },
+    {
+      "step_id": "submit-4",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-4",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"4\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-5",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"other\",\"quantity\":589}"
+      }
+    },
+    {
+      "step_id": "submit-5",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-5",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"5\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-6",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"own\",\"quantity\":129}"
+      }
+    },
+    {
+      "step_id": "submit-6",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-6",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"6\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-7",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"other\",\"quantity\":873}"
+      }
+    },
+    {
+      "step_id": "submit-7",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-7",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"7\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-8",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"own\",\"quantity\":210}"
+      }
+    },
+    {
+      "step_id": "submit-8",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-8",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"8\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-9",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"export\",\"context\":\"other\",\"quantity\":990}"
+      }
+    },
+    {
+      "step_id": "submit-9",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-9",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"9\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "agentSession",
+      "environment_variable": "REA_AGENT_SESSION"
+    }
+  ],
+  "storage": {
+    "cookies": [
+      {
+        "name": "agent_session",
+        "value": {
+          "source": "secret",
+          "secret_id": "agentSession"
+        },
+        "destination": {
+          "url": "http://127.0.0.1:51644"
+        },
+        "http_only": true,
+        "secure": false,
+        "same_site": "Strict"
+      }
+    ]
+  },
+  "capture": {
+    "at_end": [
+      "dom"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

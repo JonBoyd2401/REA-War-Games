@@ -1,0 +1,51 @@
+{
+  "evidenceId": "06",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 452
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-51",
+        "context": "own",
+        "quantity": 452,
+        "totalCents": 145121,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 312
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-52",
+        "context": "other",
+        "quantity": 312,
+        "totalCents": 207580,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    }
+  ],
+  "businessRequestsUsed": 52,
+  "businessRequestsRemaining": 140,
+  "reaOperationsRemaining": 58
+}

@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:16:37.748Z",
+  "endedAt": "2026-10-19T15:21:53.596Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 315817
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3208,
+          "quadratic": 0
+        },
+        {
+          "from": 226,
+          "constant": 0,
+          "linear": 1511,
+          "quadratic": 0
+        },
+        {
+          "from": 709,
+          "constant": 0,
+          "linear": 949,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, predict total GBP pence as constant + linear*q + quadratic*q^2 using the segment with the greatest from value not exceeding q. Thus the predictor is 3208*q for 1..225, 1511*q for 226..708, and 949*q for 709..1000. Each rate applies to the entire quantity, not marginal units. Predictions are already nonnegative integer pence, so rounding changes nothing. After inspecting the application with REA, I used 32 broad exploratory quotes and 9 adaptive boundary probes to establish this model, then kept it fixed for 151 additional validation queries. All 151 validation quotes matched exactly: 100% exact, 100% within 1%, and 100% within 5%, with zero absolute error. All 192 distinct observed quantities matched overall. Adjacent-integer boundary observations were q=225: 721800 pence; q=226: 341486 pence; q=708: 1069788 pence; q=709: 672841 pence. Coverage spans both endpoints, with no run of more than seven consecutive unobserved quantities. Confidence is high, but these are sampled validation results, not measured accuracy on the remaining 808 quantities. Narrow exceptions or additional structure confined to unobserved quantities cannot be ruled out."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3208,
+          "quadratic": 0
+        },
+        {
+          "from": 226,
+          "constant": 0,
+          "linear": 1511,
+          "quadratic": 0
+        },
+        {
+          "from": 709,
+          "constant": 0,
+          "linear": 949,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Transferred unchanged from the own-context reconstruction because the supplied shared-rule policy explicitly states that both contexts use the identical pricing function. For integer q in 1..1000, predict total GBP pence as 3208*q for 1..225, 1511*q for 226..708, and 949*q for 709..1000; each rate applies to the entire quantity. Predictions are already nonnegative integers. No other-context exact quotes were observed, and this predictor was not independently validated against other-context outputs. Its support comes from the disclosed function identity and the own-context model's exact agreement with all 192 observed quantities, including 151 validation queries made after fixing the model. Conditional on the stated shared-rule policy, the remaining uncertainty is the same as for own: finite sampling cannot exclude exceptions at unqueried quantities. No transferred prediction is being presented as an observed other-context quote."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 187029,
+    "inputTokens": 180394,
+    "cachedInputTokens": 158720,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6635,
+    "reasoningOutputTokens": 2805
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 18
+}

@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:41:08.081Z",
+  "endedAt": "2026-10-19T15:44:41.907Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 213817
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 2233,
+          "quadratic": 0
+        },
+        {
+          "from": 173,
+          "constant": 0,
+          "linear": 1850,
+          "quadratic": 0
+        },
+        {
+          "from": 510,
+          "constant": 0,
+          "linear": 798,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Predicts total GBP pence for integer quantities 1..1000. Select the segment with the largest from value not exceeding quantity q, then evaluate constant + linear*q + quadratic*q^2 and round to a nonnegative integer; these coefficients already produce nonnegative integers. These are all-units rates, not marginal tier rates: 2233*q for 1..172, 1850*q for 173..509, and 798*q for 510..1000. Application inspection preceded all price requests. Reconstruction used 48 distinct own-context observations, followed by 144 additional validation quantities tested against the fixed model. All 192 observed totals matched exactly; the 144 validation checks therefore achieved 100% exact, within-1%, and within-5% accuracy, with zero absolute error. Both transitions were directly bracketed at adjacent integers: observed totals were 384076 at 172, 320050 at 173, 941650 at 509, and 406980 at 510. Observations cover both endpoints, with no gap between consecutive sampled quantities exceeding 8. Confidence is high, but the remaining 808 quantities were not observed; narrow exceptions cannot be ruled out, and unseen accuracy is not directly measured."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 2233,
+          "quadratic": 0
+        },
+        {
+          "from": 173,
+          "constant": 0,
+          "linear": 1850,
+          "quadratic": 0
+        },
+        {
+          "from": 510,
+          "constant": 0,
+          "linear": 798,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Transferred unchanged from the own-context reconstruction under the disclosed shared-rule policy stating that BOTH contexts intentionally use the identical pricing function. Segment evaluation, domain, units, and nonnegative-integer rounding are the same as for own. No other-context prices were observed or requested, and no direct other-context validation is claimed. This is a policy-supported numeric prediction, not an independently observed reconstruction. Conditional on the stated shared-rule policy, it inherits the evidence from 192 exact own-context matches, including 144 additional validation checks and adjacent-integer checks of both transitions. Uncertainty remains for unobserved quantities and for the policy's identity assertion, which was not independently tested."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 101469,
+    "inputTokens": 97504,
+    "cachedInputTokens": 80896,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3965,
+    "reasoningOutputTokens": 1493
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

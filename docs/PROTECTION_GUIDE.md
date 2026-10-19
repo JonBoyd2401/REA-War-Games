@@ -1,8 +1,14 @@
 # A practical guide to protection
 
+## Exact quotes and private contexts
+
+The [latest exact-workflow scorecard](CONTEXT_BENCHMARK.md) shows a way to reduce recovery of private customer rules without rounding or caps: bind quotes and every related output path to server-owned context permissions. Other-context within-1% reconstruction fell from 100.0% to 0.0%; exact workflows passed 1008/1008 actions. Own-context reconstruction remained 100.0%. A leaky export or a shared global rule can undo the benefit. This is private-context protection, not general anti-cloning.
+
+For developers: validate object ownership on every operation, minimise output fields, and export authorised exact snapshots. For architects: preserve genuinely private context data and control entitlement provisioning across APIs, jobs and support tools. For product managers: test arbitrary create/revise/accept/export journeys and define which contexts each customer genuinely needs. Do not count a feature removal as free utility. Read the [current white paper](REA_SaaS_Protection_White_Paper_Contexts.pdf) for the full evidence and limitations.
+
 ## The short answer
 
-**Latest evidence:** the [actual-agent scorecard](AGENT_BENCHMARK.md) measures exact and approximate reconstruction by fresh REA-assisted LLM agents across six policies. Read it alongside the [workflow boundary study](BOUNDARY_FINDINGS.md), which tests consistent approvals across quotes, exports and jobs, including two controls that deliberately fail. [What REA actually does](HOW_REA_WORKS.md) separates observation tools, earlier custom learners and the new adaptive agents.
+**Earlier actual-agent evidence:** the [actual-agent scorecard](AGENT_BENCHMARK.md) measures exact and approximate reconstruction by fresh REA-assisted LLM agents across six policies. Read it alongside the [workflow boundary study](BOUNDARY_FINDINGS.md), which tests consistent approvals across quotes, exports and jobs, including two controls that deliberately fail. [What REA actually does](HOW_REA_WORKS.md) separates observation tools, earlier custom learners and the new adaptive agents.
 
 **New measured evidence:** the [19 October reconstruction supplement](RECONSTRUCTION_FINDINGS.md) shows why rate limits and rounding can still permit useful imitations. An approved-quote-only workflow reduced measured reconstruction more strongly, with a substantial product restriction. Use those results alongside the access-boundary guidance below.
 

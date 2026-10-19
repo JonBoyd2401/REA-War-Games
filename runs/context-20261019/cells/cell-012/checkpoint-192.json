@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:18:40.338Z",
+  "endedAt": "2026-10-19T15:24:51.494Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 371122
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 58680,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 63,
+          "constant": 13191,
+          "linear": 729,
+          "quadratic": 0
+        },
+        {
+          "from": 605,
+          "constant": 10288.99,
+          "linear": 568.62,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from <= q, evaluate constant + linear*q + quadratic*q*q, and round to nonnegative integer pence. Segment ranges are 1–62, 63–604 and 605–1000. After inspecting the application, I captured 192 distinct own-context quotes using REA. The model selected after 64 observations exactly predicted all 128 subsequent validation quotes: 100% exact-penny agreement and 100% within both 1% and 5%. All 192 observations match the final predictor. Adjacent observations at 62/63 and 604/605 locate both transitions. The final intercept 10288.99 avoids half-penny ties; it produces the same rounded predictions throughout the integer domain as 10288.98 with half-up rounding. This is a predictor coefficient, not a claim about hidden source parameters. Confidence is high, but 808 quantities remain unobserved, so isolated exceptions or additional narrow regimes cannot be ruled out."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 58680,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 63,
+          "constant": 13191,
+          "linear": 729,
+          "quadratic": 0
+        },
+        {
+          "from": 605,
+          "constant": 10288.99,
+          "linear": 568.62,
+          "quadratic": 0
+        }
+      ],
+      "notes": "This predictor is deliberately identical to own, following the explicitly disclosed shared-rule policy that both contexts use the same pricing function. Use the same quantity-based polynomial evaluation and nearest-penny rounding described for own. No other-context quotes were observed, and the own-context validation results are not presented as direct other-context measurements. Confidence in this transfer rests on the supplied shared-rule guarantee; conditional on that guarantee, the predictor inherits the strong own-context validation and its remaining uncertainty about unsampled quantities. The 10288.99 intercept is the same rounding-stable representation used for own."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 238129,
+    "inputTokens": 229614,
+    "cachedInputTokens": 206720,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8515,
+    "reasoningOutputTokens": 4774
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

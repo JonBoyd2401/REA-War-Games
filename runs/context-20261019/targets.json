@@ -1,0 +1,164 @@
+[
+  {
+    "id": "target-01",
+    "own": {
+      "id": "target-01",
+      "family": "volume",
+      "cuts": [
+        141,
+        726
+      ],
+      "rates": [
+        3076,
+        1398,
+        1018
+      ]
+    },
+    "other": {
+      "id": "target-01",
+      "family": "volume",
+      "cuts": [
+        226,
+        709
+      ],
+      "rates": [
+        3208,
+        1511,
+        949
+      ]
+    }
+  },
+  {
+    "id": "target-02",
+    "own": {
+      "id": "target-02",
+      "family": "volume",
+      "cuts": [
+        82,
+        508
+      ],
+      "rates": [
+        3146,
+        1242,
+        974
+      ]
+    },
+    "other": {
+      "id": "target-02",
+      "family": "volume",
+      "cuts": [
+        173,
+        510
+      ],
+      "rates": [
+        2233,
+        1850,
+        798
+      ]
+    }
+  },
+  {
+    "id": "target-03",
+    "own": {
+      "id": "target-03",
+      "family": "graduated",
+      "cuts": [
+        293,
+        750
+      ],
+      "rates": [
+        265,
+        153,
+        48
+      ],
+      "fee": 24048
+    },
+    "other": {
+      "id": "target-03",
+      "family": "graduated",
+      "cuts": [
+        251,
+        648
+      ],
+      "rates": [
+        457,
+        168,
+        54
+      ],
+      "fee": 54204
+    }
+  },
+  {
+    "id": "target-04",
+    "own": {
+      "id": "target-04",
+      "family": "graduated",
+      "cuts": [
+        146,
+        731
+      ],
+      "rates": [
+        477,
+        124,
+        72
+      ],
+      "fee": 39584
+    },
+    "other": {
+      "id": "target-04",
+      "family": "graduated",
+      "cuts": [
+        130,
+        629
+      ],
+      "rates": [
+        219,
+        149,
+        46
+      ],
+      "fee": 27220
+    }
+  },
+  {
+    "id": "target-05",
+    "own": {
+      "id": "target-05",
+      "family": "minimum-rebate",
+      "minimum": 101639,
+      "fee": 17727,
+      "rate": 343,
+      "cut": 450,
+      "rebate": 16
+    },
+    "other": {
+      "id": "target-05",
+      "family": "minimum-rebate",
+      "minimum": 62377,
+      "fee": 24768,
+      "rate": 742,
+      "cut": 307,
+      "rebate": 19
+    }
+  },
+  {
+    "id": "target-06",
+    "own": {
+      "id": "target-06",
+      "family": "minimum-rebate",
+      "minimum": 145022,
+      "fee": 20514,
+      "rate": 867,
+      "cut": 508,
+      "rebate": 19
+    },
+    "other": {
+      "id": "target-06",
+      "family": "minimum-rebate",
+      "minimum": 58680,
+      "fee": 13191,
+      "rate": 729,
+      "cut": 605,
+      "rebate": 22
+    }
+  }
+]

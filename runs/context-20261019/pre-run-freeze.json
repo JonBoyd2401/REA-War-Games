@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-19T15:00:05.413Z",
+  "sourceSha256": {
+    "PLAN.md": "b19189fdb0817267891b164676193029eb505f6c318be5bfa897df9b117340c7",
+    "PROMPT.md": "e216eecd439021aadf2d661e43e22a923728399d53b83d85fd2216abe97dbaec",
+    "server.mjs": "bcf2dfea33353e008758b791e04bdab54c02b6d652dc78b33e7a2a92a7c750d4",
+    "predictor.mjs": "53178a4eb5e77187e2699de72c82dfcaf6015c29c069e8eed84361336823adcd",
+    "fit.mjs": "1a8f125952b2f993eb04671ab59bdc39216d0ec00893da7ba67025f3d0c694b2",
+    "rea-tools.mjs": "e43c053e03ce48648e1dd2622becf5f30585013a16fa84493b477a86cf5fcf62",
+    "agent.mjs": "a89a58ffa9873ae97a4ee7d434ca2cccae77c2afbb7e54a373c171f61e89885f",
+    "utility.mjs": "8ea1556e4e04fbc4c21d4f69673a6769108bb7426d34fccce72fb5e9c03b5af9",
+    "assessment.mjs": "9ca7b7e7c422bbca3d72afad28d271abf119c586e67cd00c06d7f591b6fa0042",
+    "test.mjs": "5906ebbc6076f51a784772735f54bc8cfeaca8b3dc8a16a4a549b00ac9f89860",
+    "boundary.mjs": "cbcb06dcf16460897283c3f4da49f27fcd5965ffe32087c8b914bff6a4fa4fe5",
+    "run.mjs": "620eeb284f35ec92f349989c1fd60040187413c2540e07ad1a004e283a1b1687",
+    "../agent-benchmark/server.mjs": "97c182c69cb9abfdea6d15cba77454467d46fe3fc11a1d77f405ecbc01240c3b",
+    "../fitting-study/fit.mjs": "3a39daff4946049b6f371165f993f6ed5a7e3f22b06b49dd907eac58d2479685",
+    "../fitting-study/predictor.mjs": "e074934db42fd13b16559ed2cafed1fa7db2ad249ef469ac94fe5d728fcc8231"
+  },
+  "agentSettings": {
+    "model": "gpt-6-astra",
+    "effort": "max",
+    "environments": [],
+    "sandbox": "read-only",
+    "approvalPolicy": "never",
+    "budgets": [
+      192
+    ],
+    "operationCeilings": [
+      64
+    ],
+    "fittingCeiling": 40,
+    "stageMinutes": 30,
+    "disabledFeatures": [
+      "shell_tool",
+      "apps",
+      "plugins",
+      "browser_use",
+      "computer_use",
+      "image_generation",
+      "view_image",
+      "multi_agent",
+      "goals",
+      "memories",
+      "hooks",
+      "workspace_dependencies",
+      "in_app_browser"
+    ],
+    "disabledInheritedMcp": [
+      "node_repl"
+    ]
+  },
+  "node": "v24.19.0",
+  "codex": "codex-cli 0.163.0-alpha.10.2",
+  "rea": "6.7.0"
+}

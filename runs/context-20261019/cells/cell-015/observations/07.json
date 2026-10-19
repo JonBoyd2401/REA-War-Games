@@ -1,0 +1,257 @@
+{
+  "evidenceId": "07",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 545
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 545,
+        "totalCents": 399353,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 571
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 571,
+        "totalCents": 417613,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 645
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 645,
+        "totalCents": 469580,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 671
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 671,
+        "totalCents": 487840,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 845
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 845,
+        "totalCents": 610034,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 908
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 908,
+        "totalCents": 654278,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 945
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 945,
+        "totalCents": 680261,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "own",
+        "quantity": 971
+      },
+      "status": 200,
+      "body": {
+        "context": "own",
+        "quantity": 971,
+        "totalCents": 698521,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 617
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 617,
+        "totalCents": 361128,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 675
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 675,
+        "totalCents": 394107,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 746
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 746,
+        "totalCents": 434480,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 796
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 796,
+        "totalCents": 462911,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 896
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 896,
+        "totalCents": 519773,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 967
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 967,
+        "totalCents": 560145,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 975
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 975,
+        "totalCents": 564693,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    },
+    {
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 996
+      },
+      "status": 200,
+      "body": {
+        "context": "other",
+        "quantity": 996,
+        "totalCents": 576635,
+        "currency": "GBP",
+        "format": "convenience-export"
+      }
+    }
+  ],
+  "businessRequestsUsed": 96,
+  "businessRequestsRemaining": 96,
+  "reaOperationsRemaining": 57
+}

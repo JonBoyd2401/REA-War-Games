@@ -1,0 +1,289 @@
+{
+  "evidenceId": "03",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 143
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-13",
+        "context": "own",
+        "quantity": 143,
+        "totalCents": 145022,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 144
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-14",
+        "context": "own",
+        "quantity": 144,
+        "totalCents": 145362,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 525
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-15",
+        "context": "own",
+        "quantity": 525,
+        "totalCents": 385308,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 550
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-16",
+        "context": "own",
+        "quantity": 550,
+        "totalCents": 402865,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 575
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-17",
+        "context": "own",
+        "quantity": 575,
+        "totalCents": 420422,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 600
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-18",
+        "context": "own",
+        "quantity": 600,
+        "totalCents": 437978,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 625
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-19",
+        "context": "own",
+        "quantity": 625,
+        "totalCents": 455535,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 650
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-20",
+        "context": "own",
+        "quantity": 650,
+        "totalCents": 473092,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 675
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-21",
+        "context": "own",
+        "quantity": 675,
+        "totalCents": 490649,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 700
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-22",
+        "context": "own",
+        "quantity": 700,
+        "totalCents": 508205,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 725
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-23",
+        "context": "own",
+        "quantity": 725,
+        "totalCents": 525762,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 775
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-24",
+        "context": "own",
+        "quantity": 775,
+        "totalCents": 560876,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 800
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-25",
+        "context": "own",
+        "quantity": 800,
+        "totalCents": 578432,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 850
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-26",
+        "context": "own",
+        "quantity": 850,
+        "totalCents": 613546,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 900
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-27",
+        "context": "own",
+        "quantity": 900,
+        "totalCents": 648659,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 950
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-28",
+        "context": "own",
+        "quantity": 950,
+        "totalCents": 683773,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    }
+  ],
+  "businessRequestsUsed": 32,
+  "businessRequestsRemaining": 160,
+  "reaOperationsRemaining": 61
+}

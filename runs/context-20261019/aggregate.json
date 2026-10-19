@@ -1,0 +1,513 @@
+{
+  "at": "2026-10-19T15:48:19.294Z",
+  "aggregate": [
+    {
+      "policy": "selector-leak",
+      "validPredictors": 6,
+      "perTarget": [
+        {
+          "target": "target-03",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-05",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-04",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-01",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-02",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-06",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        }
+      ],
+      "metrics": {
+        "ownExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "dropOtherWithin1": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dropOtherWithin5": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "utility": {
+        "journeys": 12,
+        "passingJourneys": 12,
+        "actions": 1008,
+        "passingActions": 1008
+      },
+      "accuracyAndUtilityScreen": false
+    },
+    {
+      "policy": "bound-context",
+      "validPredictors": 6,
+      "perTarget": [
+        {
+          "target": "target-01",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 0,
+          "otherWithin1": 0,
+          "otherWithin5": 0.1171875,
+          "dropOtherWithin1": 1,
+          "dropOtherWithin5": 0.8828125
+        },
+        {
+          "target": "target-04",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 0,
+          "otherWithin1": 0,
+          "otherWithin5": 0,
+          "dropOtherWithin1": 1,
+          "dropOtherWithin5": 1
+        },
+        {
+          "target": "target-03",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 0,
+          "otherWithin1": 0,
+          "otherWithin5": 0,
+          "dropOtherWithin1": 1,
+          "dropOtherWithin5": 1
+        },
+        {
+          "target": "target-02",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 0,
+          "otherWithin1": 0,
+          "otherWithin5": 0,
+          "dropOtherWithin1": 1,
+          "dropOtherWithin5": 1
+        },
+        {
+          "target": "target-06",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 0,
+          "otherWithin1": 0,
+          "otherWithin5": 0.109375,
+          "dropOtherWithin1": 1,
+          "dropOtherWithin5": 0.890625
+        },
+        {
+          "target": "target-05",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 0,
+          "otherWithin1": 0,
+          "otherWithin5": 0.015625,
+          "dropOtherWithin1": 1,
+          "dropOtherWithin5": 0.984375
+        }
+      ],
+      "metrics": {
+        "ownExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherExact": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "otherWithin1": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "otherWithin5": {
+          "mean": 0.040364583333333336,
+          "min": 0,
+          "max": 0.1171875
+        },
+        "dropOtherWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "dropOtherWithin5": {
+          "mean": 0.9596354166666666,
+          "min": 0.8828125,
+          "max": 1
+        }
+      },
+      "utility": {
+        "journeys": 12,
+        "passingJourneys": 12,
+        "actions": 1008,
+        "passingActions": 1008
+      },
+      "accuracyAndUtilityScreen": true
+    },
+    {
+      "policy": "export-leak",
+      "validPredictors": 6,
+      "perTarget": [
+        {
+          "target": "target-03",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-04",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-02",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-05",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-06",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-01",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        }
+      ],
+      "metrics": {
+        "ownExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "dropOtherWithin1": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dropOtherWithin5": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "utility": {
+        "journeys": 12,
+        "passingJourneys": 12,
+        "actions": 1008,
+        "passingActions": 1008
+      },
+      "accuracyAndUtilityScreen": false
+    },
+    {
+      "policy": "shared-rule",
+      "validPredictors": 6,
+      "perTarget": [
+        {
+          "target": "target-05",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-04",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-01",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-06",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-03",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        },
+        {
+          "target": "target-02",
+          "validPredictor": true,
+          "ownExact": 1,
+          "ownWithin1": 1,
+          "ownWithin5": 1,
+          "otherExact": 1,
+          "otherWithin1": 1,
+          "otherWithin5": 1,
+          "dropOtherWithin1": 0,
+          "dropOtherWithin5": 0
+        }
+      ],
+      "metrics": {
+        "ownExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "ownWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherWithin1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "otherWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "dropOtherWithin1": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dropOtherWithin5": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      "utility": {
+        "journeys": 12,
+        "passingJourneys": 12,
+        "actions": 1008,
+        "passingActions": 1008
+      },
+      "accuracyAndUtilityScreen": false
+    }
+  ]
+}

@@ -18,3 +18,7 @@ The [combined-defence study](COMBINATION_BENCHMARK.md) now adds max-effort agent
 ## Cap-aware numerical fitting extension
 
 The [fitting study](FITTING_BENCHMARK.md) implements the previously missing cap disclosure, adaptive-probe advice, fresh 192-request attempts and a numerical fitter. It also tests a precision fallback intended to keep estimation available. Next work should repeat fresh agents per cell, improve global interval fitting without source leakage, use richer independent targets, measure real user tasks and test arbitrary approval creation, colluding accounts and longer windows. Preserve approximate reconstruction scores and negative results. Do not infer reliable prevention from exact-match reductions alone.
+
+## Exact quotes and private contexts
+
+The [new study](CONTEXT_BENCHMARK.md) replaces the old two-approved-quote utility restriction with arbitrary create/revise/accept/export/job workflows. Next priorities are repeated independent agents, more private contexts, realistic correlations between contracts, public prior data, colluding entitled customers and complete UI/workflow reconstruction. Preserve the shared-rule negative control: an inaccessible context can still be inferred when it has the same rule as an accessible one. Test long-running jobs, entitlement changes across replicas, concurrent activity metadata and real identity provisioning. The current sequential fixture IDs are not an activity-confidentiality design. No universal protection claim follows from private-context accuracy alone.

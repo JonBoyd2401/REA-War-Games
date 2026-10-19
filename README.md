@@ -4,7 +4,17 @@
 
 This repository contains real localhost experiments with **REA 6.7.0**, a deliberately unsafe SaaS pricing lab, a separate session-protected lab, a readable white paper, and the evidence needed to check the conclusions.
 
-## Latest: cap-aware agents, numerical fitting and useful estimates
+## Latest: exact quotes and private customer rules
+
+The [new scorecard](docs/CONTEXT_BENCHMARK.md) tests **24 fresh Astra/max agents**, six paired targets and four policies, with numerical fitting and 192 attempted requests each. There is **no application rounding or query cap**. Customers can create, revise, accept and export arbitrary exact quotes.
+
+Binding every operation to the authenticated context, while keeping genuinely different customer parameters private, reduced other-context within-1% reconstruction from **100.0% to 0.0%**: **100.0 percentage points**. Bound-context exact workflows passed **1008/1008 actions**. The same agents still reconstructed their own permitted pricing within 1% on **100.0%** of heldouts. **This protects private context, not all observable SaaS behaviour.** All six protected agents copied their own model as an explicitly uncertain guess for the other context. A separate numerical baseline given the correct family and parameter ranges achieved 1.7% within 1%; these scores are not universal secrecy bounds.
+
+A leaky convenience export and a shared-rule control show when protection fails. The evidence includes **24/24 valid predictors**, **338 new REA operations**, **4608 matched responses**, **6144 unseen predictions**, **48 HTTP customer journeys** and **24108 paired deterministic boundary comparisons**. The latter are engine tests, not extra REA captures. The repository now contains **1303 measured REA operations and 75 application/scoring tests**.
+
+Read the **[current white paper](docs/REA_SaaS_Protection_White_Paper_Contexts.pdf)**, **[effectiveness report](docs/REA_Context_Effectiveness_Report.pdf)**, [reproduction guide](context-study/README.md) and [publication privacy checks](docs/CONTEXT_RELEASE_CHECKS.md). Earlier reports remain historical evidence.
+
+## Earlier: cap-aware agents, numerical fitting and useful estimates
 
 The [new effectiveness scorecard](docs/FITTING_BENCHMARK.md) tests **30 fresh Astra/max agents** on **six new targets and five policies**. Agents know the cap before probing and can perform bounded numerical fitting on real REA observations. Each has 192 attempted requests from the start, up to 64 REA operations and 40 fitting calls. There are **30/30 valid predictors**, **0 failures**, **327 new REA operations**, **2861 matched responses**, **250 numerical fits**, **7,680 held-out predictions** and **120 customer journeys**.
 
@@ -12,7 +22,7 @@ The new precision fallback serves its first eight distinct estimates at about 1%
 
 **No tested policy met the predeclared useful-protection screen on all six targets.** Preserving useful estimates did not establish reliable reconstruction prevention.
 
-Read the **[current white paper](docs/REA_SaaS_Protection_White_Paper_Fitting.pdf)** and **[fitting effectiveness report](docs/REA_Fitting_Effectiveness_Report.pdf)**. [Verify or repeat this study](fitting-study/README.md). The repository now contains **965 measured REA operations and 67 application/scoring tests**. Historical findings remain visible. These are synthetic, bounded experiments, not a universal REA blocker or a whole-SaaS cloning certificate.
+Read the **[fitting-study white paper](docs/REA_SaaS_Protection_White_Paper_Fitting.pdf)** and **[fitting effectiveness report](docs/REA_Fitting_Effectiveness_Report.pdf)**. [Verify or repeat this study](fitting-study/README.md). At that stage the repository contained **965 measured REA operations and 67 application/scoring tests**. Historical findings remain visible. These are synthetic, bounded experiments, not a universal REA blocker or a whole-SaaS cloning certificate.
 
 ## Earlier: combined defences, larger budgets and customer utility
 
@@ -50,7 +60,7 @@ Read the **[results and trade-offs](docs/RECONSTRUCTION_FINDINGS.md)**, **[resea
 ## Start here
 
 - **Understand the result:** [Plain-English protection guide](docs/PROTECTION_GUIDE.md).
-- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_Fitting.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
+- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_Contexts.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
 - **Check what passed:** [Measurable success criteria](docs/SUCCESS_CRITERIA.md).
 - **Run the code:** [Reproduction instructions](docs/REPRODUCE.md).
 - **Continue the work:** [Research gaps and contributions](docs/CONTINUATION.md).

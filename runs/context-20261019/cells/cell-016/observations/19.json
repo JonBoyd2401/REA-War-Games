@@ -1,0 +1,119 @@
+{
+  "evidenceId": "19",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 110
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-187",
+        "context": "own",
+        "quantity": 110,
+        "totalCents": 338360,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 736
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-188",
+        "context": "own",
+        "quantity": 736,
+        "totalCents": 749248,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 127
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-189",
+        "context": "own",
+        "quantity": 127,
+        "totalCents": 390652,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 246
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-190",
+        "context": "other",
+        "quantity": 246,
+        "totalCents": 371706,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 683
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-191",
+        "context": "other",
+        "quantity": 683,
+        "totalCents": 1032013,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    },
+    {
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 2
+      },
+      "status": 200,
+      "body": {
+        "quoteId": "quote-192",
+        "context": "other",
+        "quantity": 2,
+        "totalCents": 6416,
+        "currency": "GBP",
+        "version": 1,
+        "state": "draft"
+      }
+    }
+  ],
+  "businessRequestsUsed": 192,
+  "businessRequestsRemaining": 0,
+  "reaOperationsRemaining": 45
+}

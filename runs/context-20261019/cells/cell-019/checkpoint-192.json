@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:32:24.389Z",
+  "endedAt": "2026-10-19T15:36:28.142Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 243719
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 54204,
+          "linear": 457,
+          "quadratic": 0
+        },
+        {
+          "from": 252,
+          "constant": 126743,
+          "linear": 168,
+          "quadratic": 0
+        },
+        {
+          "from": 649,
+          "constant": 200615,
+          "linear": 54,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Predicts total GBP pence for integer quantities 1..1000. Select the segment with the greatest from value not exceeding the quantity, evaluate constant + linear*quantity + quadratic*quantity^2, and round to nonnegative integer pence. The inclusive ranges are 1..251, 252..648 and 649..1000. Broad exploration and adjacent-quantity probes identified and confirmed both slope changes. This predictor exactly matches all 190 distinct successfully observed own-context quantities, including 133 additional validation quantities queried after the model was frozen. On those 133 validation observations, exact-match, within-1% and within-5% rates were all 100%; maximum absolute error was 0 pence. Observations include both domain endpoints, with at most six unqueried integers between consecutive sampled quantities. Confidence is high, but the remaining 810 quantities were not observed: the validation results are not a proof of exhaustive equality or a guarantee against an unseen exceptional rule."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 54204,
+          "linear": 457,
+          "quadratic": 0
+        },
+        {
+          "from": 252,
+          "constant": 126743,
+          "linear": 168,
+          "quadratic": 0
+        },
+        {
+          "from": 649,
+          "constant": 200615,
+          "linear": 54,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Transferred unchanged from the own-context reconstruction because the disclosed shared-rule policy explicitly states that both contexts use the identical pricing function. Use the same GBP-pence evaluation and inclusive quantity ranges as own. No other-context prices were successfully observed: get for other-seed and create for other at quantity 333 both returned HTTP 403, context unavailable. Consequently, there is no directly measured other-context validation accuracy. Confidence rests on the stated identical-function policy and the own model's exact agreement with 190 observations, including 133 post-freeze validation quantities. This predictor inherits the own model's uncertainty at unqueried quantities; transferred predictions are not presented as observed other-context outputs."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 146244,
+    "inputTokens": 141477,
+    "cachedInputTokens": 127360,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4767,
+    "reasoningOutputTokens": 1843
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 14
+}

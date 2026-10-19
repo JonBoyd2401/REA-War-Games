@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:28:51.200Z",
+  "endedAt": "2026-10-19T15:34:21.365Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 330150
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3146,
+          "quadratic": 0
+        },
+        {
+          "from": 82,
+          "constant": 0,
+          "linear": 1242,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 0,
+          "linear": 974,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Predict total GBP pence for integer quantity q in 1..1000 by selecting the segment with the greatest from value not exceeding q, evaluating constant + linear*q + quadratic*q^2, and rounding to a nonnegative integer. This is an all-units pricing model: 3146 pence per unit for quantities 1–81, 1242 for 82–507, and 974 for 508–1000. Both transitions were resolved using observed adjacent quantities: totals at 81 and 82 were 254826 and 101844 pence; totals at 507 and 508 were 629694 and 494792 pence. All 188 distinct observed own quantities match exactly. The model was fixed after 92 observations, and all 96 subsequent validation quantities matched exactly: 100% exact, within 1%, and within 5% on those validation probes. Confidence is high in this three-band reconstruction, but these results do not prove accuracy at the 812 unqueried quantities. Sampling leaves no run of more than six consecutive unqueried quantities; narrow exceptions remain possible."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3146,
+          "quadratic": 0
+        },
+        {
+          "from": 82,
+          "constant": 0,
+          "linear": 1242,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 0,
+          "linear": 974,
+          "quadratic": 0
+        }
+      ],
+      "notes": "UNVALIDATED FALLBACK: this numeric predictor copies the own model, using the same quantity domain, GBP-pence units, segment evaluation, and nonnegative-integer rounding. No other-context price was successfully observed. Creation at quantity 333, retrieval of other-seed, retrieval of other-job, and convenience export for other at quantity 333 each returned HTTP 403 with context unavailable. These denials are consistent with the disclosed bound-context policy. Because the contexts have independently provisioned pricing parameters, neither the copied rates nor the copied boundaries are established for other. All outputs from this predictor are explicitly uncertain guesses, not observed other-context quotes. No exact-match, 1%, or 5% accuracy estimate or useful error bound can be justified from the available evidence."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 198311,
+    "inputTokens": 190370,
+    "cachedInputTokens": 165376,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7941,
+    "reasoningOutputTokens": 3777
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

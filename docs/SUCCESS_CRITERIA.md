@@ -76,3 +76,7 @@ The [combination scorecard](COMBINATION_BENCHMARK.md) adds paired 96/192-request
 ## Cap-aware fitting and useful protection
 
 The [new study](FITTING_BENCHMARK.md) requires every target to pass all four utility workloads: all exact actions correct, at least 95% estimates served, and at least 95% of all estimates within 5%. Useful protection additionally requires at least a 20 percentage-point reduction in within-1% reconstruction versus exact on every target, with valid agents. The threshold was frozen before targets were generated. Exact-penny differences do not substitute for approximation resistance. The run retains 30/30 valid predictors, 0 failures and 120 utility journeys; the full suite has 67 passing tests.
+
+## Exact quotes and private contexts
+
+The [new protocol](../context-study/PLAN.md) requires valid bound agents on all six targets, zero other-context numeric disclosures, at least a 20 percentage-point reduction in other-context within-1% reconstruction on every target, and 100% successful exact customer workflow actions. Observed combined screen: **PASS**. Other numeric disclosures: 0. Exact bound actions: 1008/1008. The [scorecard](CONTEXT_BENCHMARK.md) separately reports own-context reconstruction, leaky-export and shared-rule failures, all target scores and the informed-prior sensitivity analysis. This does not satisfy a whole-product anti-cloning criterion. The full suite has 75 passing tests.

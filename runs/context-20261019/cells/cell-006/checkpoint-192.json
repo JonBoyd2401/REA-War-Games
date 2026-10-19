@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:06:58.997Z",
+  "endedAt": "2026-10-19T15:11:48.564Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 289541
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 39584,
+          "linear": 477,
+          "quadratic": 0
+        },
+        {
+          "from": 147,
+          "constant": 91122,
+          "linear": 124,
+          "quadratic": 0
+        },
+        {
+          "from": 732,
+          "constant": 129134,
+          "linear": 72,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q from 1 through 1000, select the segment with the largest from value not exceeding q. Evaluate constant + linear × q + quadratic × q² in GBP pence, then round to a nonnegative integer. Coefficients use the absolute quantity, not an offset from the segment start. The inclusive ranges are 1–146, 147–731 and 732–1000. This model matches all 94 distinct observed quantities exactly. It was inferred from 14 exploratory quantities and subsequently passed 80 unchanged-model validation checks: eight transition-neighbourhood checks and 72 additional checks spread across the domain. Validation exact-match, within-1% and within-5% rates were all 100%, with maximum observed error of 0 pence. Adjacent-integer probes confirmed the transitions at 146/147 and 731/732. Both domain endpoints were observed, and consecutive sampled quantities are at most 15 apart. Confidence is high, but this is a numerical reconstruction, not source verification: 906 quantities were unqueried, so exact equality or error bounds at every unseen quantity are not established. Overall study usage across both contexts was 192 attempted requests, 13 REA operations including inspection, and four fitting calls."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 27220,
+          "linear": 219,
+          "quadratic": 0
+        },
+        {
+          "from": 131,
+          "constant": 36320,
+          "linear": 149,
+          "quadratic": 0
+        },
+        {
+          "from": 630,
+          "constant": 101107,
+          "linear": 46,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q from 1 through 1000, select the segment with the largest from value not exceeding q. Evaluate constant + linear × q + quadratic × q² in GBP pence, then round to a nonnegative integer. Coefficients use the absolute quantity. The inclusive ranges are 1–130, 131–629 and 630–1000. This model was reconstructed independently from successful other-context convenience exports; it is not copied from own. The advertised negative control was confirmed: other-context create, get of other-seed and read of other-job returned 403, while convenience export exposed exact other-context prices. The model matches all 94 distinct observed quantities exactly. Following 14 exploratory quantities, it passed all 80 unchanged-model validation checks: eight transition-neighbourhood checks and 72 additional checks across the domain. Validation exact-match, within-1% and within-5% rates were all 100%, with maximum observed error of 0 pence. Adjacent-integer probes confirmed transitions at 130/131 and 629/630. Both endpoints were observed, with at most 15 between consecutive sampled quantities. Confidence is high, but 906 quantities remain unqueried; unseen outputs are predictions, and universal exactness is not proven."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 214332,
+    "inputTokens": 208287,
+    "cachedInputTokens": 180224,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6045,
+    "reasoningOutputTokens": 2277
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

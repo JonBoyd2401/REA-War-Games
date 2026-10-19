@@ -1,0 +1,528 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:56616"
+  },
+  "actions": [
+    {
+      "step_id": "request-0",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":615}"
+      }
+    },
+    {
+      "step_id": "submit-0",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-0",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"0\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-1",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":652}"
+      }
+    },
+    {
+      "step_id": "submit-1",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-1",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"1\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-2",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":671}"
+      }
+    },
+    {
+      "step_id": "submit-2",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-2",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"2\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-3",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":690}"
+      }
+    },
+    {
+      "step_id": "submit-3",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-3",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"3\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-4",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":802}"
+      }
+    },
+    {
+      "step_id": "submit-4",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-4",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"4\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-5",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":821}"
+      }
+    },
+    {
+      "step_id": "submit-5",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-5",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"5\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-6",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":840}"
+      }
+    },
+    {
+      "step_id": "submit-6",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-6",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"6\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-7",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":877}"
+      }
+    },
+    {
+      "step_id": "submit-7",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-7",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"7\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-8",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":727}"
+      }
+    },
+    {
+      "step_id": "submit-8",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-8",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"8\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-9",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":746}"
+      }
+    },
+    {
+      "step_id": "submit-9",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-9",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"9\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-10",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":765}"
+      }
+    },
+    {
+      "step_id": "submit-10",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-10",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"10\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-11",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":802}"
+      }
+    },
+    {
+      "step_id": "submit-11",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-11",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"11\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-12",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":821}"
+      }
+    },
+    {
+      "step_id": "submit-12",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-12",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"12\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-13",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":840}"
+      }
+    },
+    {
+      "step_id": "submit-13",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-13",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"13\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-14",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":877}"
+      }
+    },
+    {
+      "step_id": "submit-14",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-14",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"14\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-15",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"other\",\"quantity\":896}"
+      }
+    },
+    {
+      "step_id": "submit-15",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-15",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"15\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "agentSession",
+      "environment_variable": "REA_AGENT_SESSION"
+    }
+  ],
+  "storage": {
+    "cookies": [
+      {
+        "name": "agent_session",
+        "value": {
+          "source": "secret",
+          "secret_id": "agentSession"
+        },
+        "destination": {
+          "url": "http://127.0.0.1:56616"
+        },
+        "http_only": true,
+        "secure": false,
+        "same_site": "Strict"
+      }
+    ]
+  },
+  "capture": {
+    "at_end": [
+      "dom"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

@@ -65,3 +65,9 @@ The [new combination benchmark](COMBINATION_BENCHMARK.md) exposes the same captu
 ## Cap-aware numerical fitting extension
 
 The [new study](FITTING_BENCHMARK.md) adds a bounded experimental fitting tool to the REA-assisted agent. REA still collects the browser/DOM/network evidence. The agent chooses probes, learns its quota before spending it, fits possible rules to observed numeric intervals and writes a frozen predictor. The optimiser is supplied by this benchmark; it is not an upstream REA capability claim. Source, calls, observation cutoffs, returned candidates and final predictions are public for investigation.
+
+## Exact quotes and private contexts
+
+In [the latest experiment](CONTEXT_BENCHMARK.md), the LLM sends chosen workflow JSON through a real browser textarea and button. REA captures DOM rows and HTTP POST request/response bodies for exact quote creation and related routes. Each captured result is matched to its transaction and checked by digest. A separate bounded numerical helper fits only previously observed prices for the selected customer context. It cannot query the target, read hidden parameters or inspect laptop files. Agents output two numerical predictors, one for the permitted context and one for the withheld context. The latter can be a guess, and its notes preserve that uncertainty.
+
+This exposes a practical failure mode: the main quote route can refuse another context while an export still returns its exact prices. It also tests inference without bypass: when both contexts share the same function, a correct own-context model transfers. REA itself does not need to defeat authentication for either form of reconstruction. The study does not exercise every REA capability or evaluate a complete visual/functional SaaS clone.

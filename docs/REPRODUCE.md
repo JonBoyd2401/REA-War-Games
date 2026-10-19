@@ -82,3 +82,7 @@ Use [the combination guide](../combination-study/README.md) for fresh max-effort
 ## Repeat cap-aware agents with numerical fitting
 
 Use [the fitting-study guide](../fitting-study/README.md). Offline verification is `node fitting-study/verify.mjs`; a fresh run uses `node fitting-study/run.mjs replications/my-new-fitting-run` with a compatible authenticated native Codex app-server and pinned REA. It uses only owned synthetic loopback applications. Rebuild the latest reports with `node fitting-study/write-reports.mjs` and `python fitting-study/build-reports.py`, then visually inspect every PDF page.
+
+## Exact quotes and private contexts
+
+Use [the context study guide](../context-study/README.md) for 24 fresh agents, exact workflow checks, two-world comparisons and informed-prior sensitivity. Offline verification: node context-study/verify.mjs. Unit/integration tests: node --test context-study/test.mjs. After verification, rebuild this edition with node context-study/write-reports.mjs and python context-study/build-reports.py, then render and visually inspect every PDF page. A fresh run must use a new output directory and newly generated targets. The developer archive omits raw runs; use the full research archive for evidence verification.

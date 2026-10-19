@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:00:32.160Z",
+  "endedAt": "2026-10-19T15:05:42.470Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 308321
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 24048,
+          "linear": 265,
+          "quadratic": 0
+        },
+        {
+          "from": 294,
+          "constant": 56864,
+          "linear": 153,
+          "quadratic": 0
+        },
+        {
+          "from": 751,
+          "constant": 135614,
+          "linear": 48,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Amounts are GBP pence. For integer quantity q in 1..1000, select the last segment with from <= q and predict max(0, round(constant + linear*q + quadratic*q*q)). The ranges are 1..293, 294..750 and 751..1000. Independently reconstructed from exact REA observations: all 95 distinct sampled quantities matched exactly, with maximum absolute error 0 pence. The model was fixed after 15 exploratory observations; all 80 subsequently queried quantities matched exactly, giving observed exact-match, within-1% and within-5% validation rates of 100%. Direct probes at 292, 293, 294, 295 and 749, 750, 751, 752 confirmed both rate changes. Samples include both domain endpoints, and the largest spacing between sampled quantities is 17. Confidence is high under the supported three-segment affine model, but only 95 of 1000 quantities were observed; narrow exceptions at unqueried quantities cannot be ruled out, and unseen accuracy is not proven."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 54204,
+          "linear": 457,
+          "quadratic": 0
+        },
+        {
+          "from": 252,
+          "constant": 126743,
+          "linear": 168,
+          "quadratic": 0
+        },
+        {
+          "from": 649,
+          "constant": 200615,
+          "linear": 54,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Amounts are GBP pence. For integer quantity q in 1..1000, select the last segment with from <= q and predict max(0, round(constant + linear*q + quadratic*q*q)). The ranges are 1..251, 252..648 and 649..1000. This model was independently reconstructed, not copied from own. The advertised negative control was confirmed: other-context create returned 403, while convenience export returned exact other-context prices. All 96 distinct sampled quantities matched exactly, with maximum absolute error 0 pence. The model was fixed after 16 exploratory observations; all 80 subsequently queried quantities matched exactly, giving observed exact-match, within-1% and within-5% validation rates of 100%. Direct probes at 250, 251, 252, 253 and 647, 648, 649, 650 confirmed both rate changes. Samples include both endpoints, with maximum spacing 17. Confidence is high under the supported three-segment affine model, but only 96 of 1000 quantities were observed; narrow unqueried exceptions remain possible, and unseen accuracy is not proven."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 117485,
+    "inputTokens": 111503,
+    "cachedInputTokens": 90112,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5982,
+    "reasoningOutputTokens": 2824
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:00:32.413Z",
+  "endedAt": "2026-10-19T15:05:37.118Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 304674
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 27220,
+          "linear": 219,
+          "quadratic": 0
+        },
+        {
+          "from": 131,
+          "constant": 36320,
+          "linear": 149,
+          "quadratic": 0
+        },
+        {
+          "from": 630,
+          "constant": 101107,
+          "linear": 46,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Domain: integer quantities q=1..1000. Select the segment with the largest from value not exceeding q, and evaluate constant + linear*q + quadratic*q^2 using the global quantity q, not an offset. Results are GBP pence; nonnegative integer rounding leaves this predictor unchanged. The three ranges are 1..130, 131..629 and 630..1000. Reconstruction used 32 exploratory quotes and 16 transition probes, followed by 144 additional validation quantities without changing the candidate. All 192 distinct captured own-context totals matched exactly: maximum absolute error 0 pence and maximum relative error 0%. Validation exact-match, within-1% and within-5% rates were each 144/144. Adjacent probes confirmed the slope changes after 130 and 629. Samples included both domain endpoints, both own-customer sessions, and left at most seven consecutive quantities unqueried. Confidence is high, but full-domain equality is not proven: 808 quantities remain unobserved, so exceptions confined to unsampled quantities cannot be excluded. REA reported incomplete event coverage; the agreement claims concern captured quote responses only."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 27220,
+          "linear": 219,
+          "quadratic": 0
+        },
+        {
+          "from": 131,
+          "constant": 36320,
+          "linear": 149,
+          "quadratic": 0
+        },
+        {
+          "from": 630,
+          "constant": 101107,
+          "linear": 46,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Domain: integer quantities q=1..1000. Select the segment with the largest from value not exceeding q and evaluate constant + linear*q + quadratic*q^2 using global q; round to nonnegative integer GBP pence. This predictor is intentionally identical to own because the disclosed shared-rule policy explicitly states that both contexts use the identical pricing function. No other-context prices were observed, and no other-context accuracy measurement is claimed. These are transferred predictions supported by the policy, not direct other-context observations. Conditional on the stated shared-rule identity, this predictor inherits the own model's strong empirical support: 192/192 exact captured matches, including 144/144 additional validation matches. It also inherits the remaining uncertainty about possible exceptions at quantities not sampled in own. The cross-context identity itself was supplied by the policy rather than independently verified through other-context quotes."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 167621,
+    "inputTokens": 161932,
+    "cachedInputTokens": 140416,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5689,
+    "reasoningOutputTokens": 2466
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

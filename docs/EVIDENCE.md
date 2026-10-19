@@ -25,3 +25,7 @@ The combination study also retains two explicitly supplementary analyses added a
 ## Cap-aware fitting provenance
 
 The new [run](../runs/fitting-20261019/verification.json) adds 327 real REA operations, 2861 matched response rows, 6376 verified body digests and 250 numerical fitting calls. Every fitting call is replayed using only observations available at its recorded cutoff. Frozen final models precede shared unseen holdouts. Raw app-server/account events stay in ignored local output directories. This edition preserves historical experiments and adds new evidence; it does not silently replace weaker earlier results.
+
+## Exact quotes and private contexts
+
+The [context scorecard](CONTEXT_BENCHMARK.md) links to [runs/context-20261019](../runs/context-20261019/): source and target commitments, 24 fresh agent transcripts, 24 two-context frozen predictors, 338 REA captures, 4608 matched responses, 9892 body hashes, 88 fitting calls, 6144 unseen predictions, 48 HTTP utility journeys and 24108 deterministic two-world comparisons. The supplementary informed-prior code was frozen while agents ran, before target disclosure. node context-study/verify.mjs replays these records offline. The primary experimental sources remain frozen; generated reports and verification code are outside that initial commitment.

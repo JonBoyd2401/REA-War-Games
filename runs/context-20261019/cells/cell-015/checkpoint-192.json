@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:25:09.318Z",
+  "endedAt": "2026-10-19T15:32:06.377Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 417021
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 145022,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 144,
+          "constant": 20514,
+          "linear": 867,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 16616.340001,
+          "linear": 702.27,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the largest from <= q, evaluate constant + linear*q + quadratic*q*q, and round to nonnegative integer GBP pence. The ranges are 1–143, 144–507, and 508–1000. Adjacent observations pin down both transitions: q=143 returned 145022 and q=144 returned 145362; q=507 returned 460083 and q=508 returned 373370. The upper range is consistent with a 19% discount on 20514 + 867*q. Its inferred intercept is 16616.34; the additional 0.000001 pence only stabilizes upward half-penny rounding and does not change this model's rounded predictions anywhere in the domain. Validation: all 96 distinct observed own quantities matched exactly, including 56 fresh quantities queried after model selection. Exact, within-1%, and within-5% success rates on those validation queries were all 100%. Confidence is high, but 904 quantities remain unobserved: these results do not prove that no narrow exceptions or additional transitions exist."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 58680,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 63,
+          "constant": 13191,
+          "linear": 729,
+          "quadratic": 0
+        },
+        {
+          "from": 605,
+          "constant": 10288.980001,
+          "linear": 568.62,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Use the same global-quantity polynomial evaluation and integer-pence rounding convention. This model was independently reconstructed from successful other-context exports, not copied from own. The advertised negative control was confirmed: other-context create returned 403, while convenience export exposed exact prices. The ranges are 1–62, 63–604, and 605–1000. Adjacent observations establish the transitions: q=62 returned 58680 and q=63 returned 59118; q=604 returned 453507 and q=605 returned 354304. The upper range is consistent with a 22% discount on 13191 + 729*q. Its inferred intercept is 10288.98; the additional 0.000001 pence stabilizes upward half-penny rounding without changing this model's rounded predictions anywhere in 1..1000. All 95 distinct observed other quantities matched exactly, including 56 fresh validation quantities. Exact, within-1%, and within-5% validation success rates were all 100%. Confidence is high, but 905 quantities remain unobserved, so unseen accuracy is inferred rather than exhaustively verified."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 277032,
+    "inputTokens": 266666,
+    "cachedInputTokens": 230016,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 10366,
+    "reasoningOutputTokens": 6685
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

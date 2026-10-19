@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:21:59.289Z",
+  "endedAt": "2026-10-19T15:26:28.214Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 268915
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 24048,
+          "linear": 265,
+          "quadratic": 0
+        },
+        {
+          "from": 294,
+          "constant": 56864,
+          "linear": 153,
+          "quadratic": 0
+        },
+        {
+          "from": 751,
+          "constant": 135614,
+          "linear": 48,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q, evaluate constant + linear*q + quadratic*q^2, and round to nonnegative integer GBP pence. These coefficients already produce positive integer totals. The ranges are 1..293, 294..750, and 751..1000. Evidence: 188 distinct successful own-context REA captures, all matched exactly. The model was fixed after 28 exploratory and transition-check captures; all 160 subsequent fresh validation quantities matched exactly, giving 100% exact, within-1%, and within-5% accuracy on those validation probes. Consecutive probes at 291..295 and 748..752 directly checked both transitions. Sampling included quantities 1 and 1000, with no gap between consecutive observed quantities exceeding 6. This provides strong empirical support, but does not prove exactness at the 812 unobserved quantities or exclude narrow unobserved exceptions."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 24048,
+          "linear": 265,
+          "quadratic": 0
+        },
+        {
+          "from": 294,
+          "constant": 56864,
+          "linear": 153,
+          "quadratic": 0
+        },
+        {
+          "from": 751,
+          "constant": 135614,
+          "linear": 48,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Explicitly uncertain, unvalidated fallback copied from the reconstructed own model; use the same quantity, segment-selection, and GBP-pence rounding conventions. No other-context price was observed. Four supplied access paths were checked: create for other, export of other-seed, job-read of other-job, and convenience export for other. Every check returned HTTP 403 with 'context unavailable'; the checks covered both authenticated own-customer sessions. Because pricing parameters are independently provisioned, the own observations do not identify the other function or establish that the two functions are similar. These numeric predictions satisfy the requirement to provide a predictor but are guesses, not observed other-context outputs. Other-context exact, within-1%, and within-5% accuracy are unknown, and no numeric error bound is justified. Overall, 192 attempted workflow requests were used: 188 successful own captures and four denied other checks."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 157358,
+    "inputTokens": 151780,
+    "cachedInputTokens": 125696,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5578,
+    "reasoningOutputTokens": 2216
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

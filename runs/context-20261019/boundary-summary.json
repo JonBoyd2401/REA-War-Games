@@ -1,0 +1,393 @@
+{
+  "comparisons": 24108,
+  "engineResponses": 48216,
+  "equal": 24108,
+  "ownCreates": 6006,
+  "otherDenials": 18036,
+  "negativeControls": [
+    {
+      "target": "target-01",
+      "policy": "selector-leak",
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 478987,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 478987
+    },
+    {
+      "target": "target-01",
+      "policy": "export-leak",
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 478987,
+          "currency": "GBP",
+          "format": "convenience-export"
+        }
+      },
+      "otherTruthCents": 478987
+    },
+    {
+      "target": "target-01",
+      "policy": "shared-rule",
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "own",
+          "quantity": 317,
+          "totalCents": 478987,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 478987
+    },
+    {
+      "target": "target-02",
+      "policy": "selector-leak",
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 586450,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 586450
+    },
+    {
+      "target": "target-02",
+      "policy": "export-leak",
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 586450,
+          "currency": "GBP",
+          "format": "convenience-export"
+        }
+      },
+      "otherTruthCents": 586450
+    },
+    {
+      "target": "target-02",
+      "policy": "shared-rule",
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "own",
+          "quantity": 317,
+          "totalCents": 586450,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 586450
+    },
+    {
+      "target": "target-03",
+      "policy": "selector-leak",
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 179999,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 179999
+    },
+    {
+      "target": "target-03",
+      "policy": "export-leak",
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 179999,
+          "currency": "GBP",
+          "format": "convenience-export"
+        }
+      },
+      "otherTruthCents": 179999
+    },
+    {
+      "target": "target-03",
+      "policy": "shared-rule",
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "own",
+          "quantity": 317,
+          "totalCents": 179999,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 179999
+    },
+    {
+      "target": "target-04",
+      "policy": "selector-leak",
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 83553,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 83553
+    },
+    {
+      "target": "target-04",
+      "policy": "export-leak",
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 83553,
+          "currency": "GBP",
+          "format": "convenience-export"
+        }
+      },
+      "otherTruthCents": 83553
+    },
+    {
+      "target": "target-04",
+      "policy": "shared-rule",
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "own",
+          "quantity": 317,
+          "totalCents": 83553,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 83553
+    },
+    {
+      "target": "target-05",
+      "policy": "selector-leak",
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 210585,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 210585
+    },
+    {
+      "target": "target-05",
+      "policy": "export-leak",
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 210585,
+          "currency": "GBP",
+          "format": "convenience-export"
+        }
+      },
+      "otherTruthCents": 210585
+    },
+    {
+      "target": "target-05",
+      "policy": "shared-rule",
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "own",
+          "quantity": 317,
+          "totalCents": 210585,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 210585
+    },
+    {
+      "target": "target-06",
+      "policy": "selector-leak",
+      "request": {
+        "op": "create",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 244284,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 244284
+    },
+    {
+      "target": "target-06",
+      "policy": "export-leak",
+      "request": {
+        "op": "export",
+        "context": "other",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "context": "other",
+          "quantity": 317,
+          "totalCents": 244284,
+          "currency": "GBP",
+          "format": "convenience-export"
+        }
+      },
+      "otherTruthCents": 244284
+    },
+    {
+      "target": "target-06",
+      "policy": "shared-rule",
+      "request": {
+        "op": "create",
+        "context": "own",
+        "quantity": 317
+      },
+      "result": {
+        "status": 200,
+        "body": {
+          "quoteId": "quote-1",
+          "context": "own",
+          "quantity": 317,
+          "totalCents": 244284,
+          "currency": "GBP",
+          "version": 1,
+          "state": "draft"
+        }
+      },
+      "otherTruthCents": 244284
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:00:32.132Z",
+  "endedAt": "2026-10-19T15:06:53.345Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 381185
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 62377,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 51,
+          "constant": 24768,
+          "linear": 742,
+          "quadratic": 0
+        },
+        {
+          "from": 307,
+          "constant": 20062.080001,
+          "linear": 601.02,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the largest from value not exceeding q, evaluate constant + linear*q + quadratic*q*q, and round to nonnegative integer GBP pence. The inferred ranges are 1..50, 51..306, and 307..1000. Both transitions were checked at adjacent quantities: 50/51 and 306/307. After application inspection and exploratory sampling, the predictor was fixed and tested on 112 fresh validation quantities; all 112 matched exactly. It also matches all 191 distinct successful own-context observations, giving 100% observed exact-match, within-1%, and within-5% accuracy. All 14 predicted half-penny cases in the final segment were checked. Its substantive inferred intercept is 20062.08; the supplied additional 0.000001 pence is a numerical guard against floating-point ties rounding downward, consistent with the observed outputs. Confidence is high, but the remaining 809 quantities were not observed, so unseen exceptions cannot be ruled out. Total study usage: 192 attempted requests, comprising 191 successful own quotes and one denied other-context request; 13 REA operations including inspection and two local fitting calls."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 62377,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 51,
+          "constant": 24768,
+          "linear": 742,
+          "quadratic": 0
+        },
+        {
+          "from": 307,
+          "constant": 20062.080001,
+          "linear": 601.02,
+          "quadratic": 0
+        }
+      ],
+      "notes": "This numeric predictor is intentionally identical to own under the explicitly disclosed shared-rule policy. Apply the same inclusive segment selection and nonnegative integer-pence rounding over quantities 1..1000. A create request for other at quantity 333 returned HTTP 403, context unavailable; no other-context numeric output was observed. Thus this is a policy-supported transfer, not an independently observed or fitted other-context reconstruction. Its confidence derives from the stated identity of the two pricing functions and the own model's 112/112 exact fresh validation matches. Those results are own-context measurements, not measured other-context accuracy. Conditional on the shared-rule policy, remaining uncertainty is the same as for own: unsampled exceptions cannot be excluded. The final intercept includes the same 0.000001-pence floating-point rounding guard."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 227423,
+    "inputTokens": 219217,
+    "cachedInputTokens": 192256,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8206,
+    "reasoningOutputTokens": 4185
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

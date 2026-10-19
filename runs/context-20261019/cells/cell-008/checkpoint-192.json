@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:11:01.621Z",
+  "endedAt": "2026-10-19T15:17:12.403Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 370746
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3146,
+          "quadratic": 0
+        },
+        {
+          "from": 82,
+          "constant": 0,
+          "linear": 1242,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 0,
+          "linear": 974,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q. Evaluate constant + linear*q + quadratic*q*q, then round to nonnegative integer GBP pence; these coefficients already produce positive integers. This is an all-units tier model, not progressive marginal pricing: 3146 pence per unit for q=1..81, 1242 for q=82..507, and 974 for q=508..1000. Both sides of each transition were directly observed: totals at q=81/82 were 254826/101844 pence, and at q=507/508 were 629694/494792 pence. The predictor exactly matches all 97 distinct own quantities captured. After fixing the model, 48 fresh quantities were validated through ordinary create requests in the second own session: 48/48 exact matches, 48/48 within 1%, and 48/48 within 5%, with maximum absolute error 0 pence. Confidence is high, but unqueried quantities remain predictions; narrow exceptions between observations cannot be ruled out. Across both contexts, the study used 192 attempted workflow requests, comprising 191 successful exact-price captures and one denial, and 17 REA operations including the initial inspection."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 2233,
+          "quadratic": 0
+        },
+        {
+          "from": 173,
+          "constant": 0,
+          "linear": 1850,
+          "quadratic": 0
+        },
+        {
+          "from": 510,
+          "constant": 0,
+          "linear": 798,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Independently reconstructed from successful other-context convenience exports; this is not a copy of the own model. The advertised negative control was confirmed: an other-context create request returned 403, while convenience exports returned exact other-context prices. For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q and evaluate constant + linear*q + quadratic*q*q, rounded to nonnegative integer GBP pence. The inferred all-units rates are 2233 pence for q=1..172, 1850 for q=173..509, and 798 for q=510..1000. Both sides of each transition were directly observed: totals at q=172/173 were 384076/320050 pence, and at q=509/510 were 941650/406980 pence. The predictor exactly matches all 94 distinct other quantities captured. After fixing the model, 48 fresh quantities were validated: 48/48 exact matches, 48/48 within 1%, and 48/48 within 5%, with maximum absolute error 0 pence. Confidence is high for the reconstructed three-tier structure, but these validation results are not a guarantee for every unqueried quantity; narrow unsampled exceptions remain possible."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 258595,
+    "inputTokens": 250769,
+    "cachedInputTokens": 196736,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7826,
+    "reasoningOutputTokens": 3555
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 17
+}

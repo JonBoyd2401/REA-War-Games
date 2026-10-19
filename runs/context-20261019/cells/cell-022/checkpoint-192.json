@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:37:34.747Z",
+  "endedAt": "2026-10-19T15:43:39.692Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 364902
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 145022,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 144,
+          "constant": 20514,
+          "linear": 867,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 16616.34,
+          "linear": 702.27,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q. Evaluate constant + linear*q + quadratic*q^2 in GBP pence, then round to the nearest nonnegative integer penny, with half-penny ties rounded upward. The inferred regimes are a 145022-pence minimum through q=143; 20514 + 867*q for q=144..507; and a 19% discount on that linear total from q=508. Both transitions were directly bracketed by observed adjacent quantities: 143/144 and 507/508. After inspecting the application, 96 distinct own quantities were observed using only the supplied REA tools. This predictor matches all 96 exactly, including 50 additional validation quantities queried after its coefficients and boundaries were fixed. Exact-match, within-1%, and within-5% validation rates were all 100%; maximum validation error was 0 pence. Observed quantities span 1..1000 with no adjacent sample gap greater than 17. Confidence is high, but these results do not prove exhaustive correctness: the remaining 904 quantities are predictions, not observations, and an unsampled narrow exception cannot be ruled out."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 58680,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 63,
+          "constant": 13191,
+          "linear": 729,
+          "quadratic": 0
+        },
+        {
+          "from": 605,
+          "constant": 10288.98,
+          "linear": 568.62,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q. Evaluate constant + linear*q + quadratic*q^2 in GBP pence, then round to the nearest nonnegative integer penny, with half-penny ties rounded upward. The inferred regimes are a 58680-pence minimum through q=62; 13191 + 729*q for q=63..604; and a 22% discount on that linear total from q=605. Both transitions were directly bracketed by observed adjacent quantities: 62/63 and 604/605. The other-context selector returned successful quotes, so this model was reconstructed independently rather than copied from own. Using only the supplied REA tools, 96 distinct other quantities were observed. This predictor matches all 96 exactly, including 46 additional validation quantities queried after its coefficients and boundaries were fixed. Exact-match, within-1%, and within-5% validation rates were all 100%; maximum validation error was 0 pence. Observed quantities span 1..1000 with no adjacent sample gap greater than 17. Confidence is high, but these results do not prove exhaustive correctness: the remaining 904 quantities are predictions, not observations, and an unsampled narrow exception cannot be ruled out."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 336542,
+    "inputTokens": 328052,
+    "cachedInputTokens": 295552,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8490,
+    "reasoningOutputTokens": 4126
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

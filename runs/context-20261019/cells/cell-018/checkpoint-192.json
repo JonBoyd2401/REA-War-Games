@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:32:10.915Z",
+  "endedAt": "2026-10-19T15:37:28.660Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 317736
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 145022,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 144,
+          "constant": 20514,
+          "linear": 867,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 16616.34,
+          "linear": 702.27,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q. Evaluate constant + linear*q + quadratic*q*q using the original quantity, then round to the nearest nonnegative integer pence, with half-penny ties upward. The inferred ranges are 1..143, 144..507, and 508..1000. Both transitions were checked at adjacent quantities: observed totals at 143 and 144 were 145022 and 145362 pence; at 507 and 508 they were 460083 and 373370 pence. The upper expression is 81% of the middle expression before final rounding. Validation: all 188 distinct observed own-context quantities match exactly. The model was frozen after 76 observations; all 112 subsequently queried validation quantities matched exactly, giving 112/112 exact, within-1%, and within-5% matches, with zero maximum absolute error. Samples include endpoints and rounding-sensitive quantities; the largest spacing between sampled quantities is 8. Confidence is high for this three-segment predictor, but the remaining 812 quantities were not observed, and these results do not prove the absence of unsampled exceptions. Total request usage was 188 successful own quotes plus 4 denied other-context probes."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 145022,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 144,
+          "constant": 20514,
+          "linear": 867,
+          "quadratic": 0
+        },
+        {
+          "from": 508,
+          "constant": 16616.34,
+          "linear": 702.27,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Explicitly uncertain numeric fallback: this copies the validated own-context predictor, using the same segment-selection and rounding rules. It is not a validated reconstruction of other-context pricing. No other-context price was observed. Creation and quantity-based export for other at quantity 333, export of other-seed, and reading other-job all returned HTTP 403 with context unavailable. The disclosed policy binds operations to the authenticated own context and states that the contexts have independently provisioned pricing parameters. Therefore neither the known object quantity nor the own-context observations establish any other-context price, coefficient, or transition. Copying own supplies the required numeric predictor without inventing unsupported alternative parameters; it does not imply that the two contexts actually share prices. Exact, 1%, and 5% accuracy for other cannot be estimated from the available evidence, and errors may be large throughout the domain."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 178463,
+    "inputTokens": 171583,
+    "cachedInputTokens": 152064,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6880,
+    "reasoningOutputTokens": 3154
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

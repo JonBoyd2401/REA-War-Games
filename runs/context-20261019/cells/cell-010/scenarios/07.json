@@ -1,0 +1,108 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:54654"
+  },
+  "actions": [
+    {
+      "step_id": "request-0",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":225}"
+      }
+    },
+    {
+      "step_id": "submit-0",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-0",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"0\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "request-1",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#request"
+      },
+      "value": {
+        "source": "literal",
+        "value": "{\"op\":\"create\",\"context\":\"own\",\"quantity\":707}"
+      }
+    },
+    {
+      "step_id": "submit-1",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-1",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"1\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "agentSession",
+      "environment_variable": "REA_AGENT_SESSION"
+    }
+  ],
+  "storage": {
+    "cookies": [
+      {
+        "name": "agent_session",
+        "value": {
+          "source": "secret",
+          "secret_id": "agentSession"
+        },
+        "destination": {
+          "url": "http://127.0.0.1:54654"
+        },
+        "http_only": true,
+        "secure": false,
+        "same_site": "Strict"
+      }
+    ]
+  },
+  "capture": {
+    "at_end": [
+      "dom"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

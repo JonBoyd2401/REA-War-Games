@@ -1,0 +1,197 @@
+{
+  "at": "2026-10-19T15:47:21.639Z",
+  "models": [
+    {
+      "target": "target-05",
+      "policy": "shared-rule",
+      "cell": "cell-001",
+      "budget": 192,
+      "sha256": "aa09d6015260633cdc722cc4efc9493a1d52b471826dd6ca217dee67c5927623",
+      "endedAt": "2026-10-19T15:06:53.345Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "export-leak",
+      "cell": "cell-002",
+      "budget": 192,
+      "sha256": "29a42730dd547c1fbfe4159961c532cd45cb6661591f73496fb518d0a3fb4cea",
+      "endedAt": "2026-10-19T15:05:42.470Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "shared-rule",
+      "cell": "cell-003",
+      "budget": 192,
+      "sha256": "ca6e01b5dedab0a0a0b663309bd81726e5dd71e6da843fbf09c3c49ddf2cda4c",
+      "endedAt": "2026-10-19T15:05:37.118Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "bound-context",
+      "cell": "cell-004",
+      "budget": 192,
+      "sha256": "296878bd5b7c7def1cbd393b9f580a72db386611cf8d7c650b85eb825986e936",
+      "endedAt": "2026-10-19T15:10:54.846Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "selector-leak",
+      "cell": "cell-005",
+      "budget": 192,
+      "sha256": "ad037ef80a3fa5c4a3d7ed859b05f2b176b51830150a13ca4a08174e231a7c0c",
+      "endedAt": "2026-10-19T15:10:49.979Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "export-leak",
+      "cell": "cell-006",
+      "budget": 192,
+      "sha256": "754edae39ba0b2f22a33ef58f8359cb1ec818b57c650ad2aeed29ab5c44295f5",
+      "endedAt": "2026-10-19T15:11:48.564Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "selector-leak",
+      "cell": "cell-007",
+      "budget": 192,
+      "sha256": "c63f3dbaf89603f074065bbf85ad5fbad8a0c62beaa3dd1f03e1d8286dc8f366",
+      "endedAt": "2026-10-19T15:18:35.237Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "export-leak",
+      "cell": "cell-008",
+      "budget": 192,
+      "sha256": "2c04b09739dc8e6518f4d7af485ddae1155c8d8813ef09c36850827eeb1a0cc9",
+      "endedAt": "2026-10-19T15:17:12.403Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "bound-context",
+      "cell": "cell-009",
+      "budget": 192,
+      "sha256": "24be17ea419a86842e347e6c18b3b6b5867c9661867af86b3fd47b89554fb9f4",
+      "endedAt": "2026-10-19T15:16:32.222Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "shared-rule",
+      "cell": "cell-010",
+      "budget": 192,
+      "sha256": "40f773cb5b362c8d946ddcdab027e3d56a78c93b2f504711e0770ad92b7e1786",
+      "endedAt": "2026-10-19T15:21:53.596Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "export-leak",
+      "cell": "cell-011",
+      "budget": 192,
+      "sha256": "76831b7c169f02c602974801ae2be617359f14d7c10803721a3df1e522a7a9bc",
+      "endedAt": "2026-10-19T15:25:01.880Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "shared-rule",
+      "cell": "cell-012",
+      "budget": 192,
+      "sha256": "47db9e48d87886fee04ffb4edc4198c4024f9ac4740799d2c7851ec81270fdac",
+      "endedAt": "2026-10-19T15:24:51.494Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "bound-context",
+      "cell": "cell-013",
+      "budget": 192,
+      "sha256": "5403ee59a065f135daefcf827c05c9735da0096a66c4b312c27653880efa7879",
+      "endedAt": "2026-10-19T15:26:28.214Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "selector-leak",
+      "cell": "cell-014",
+      "budget": 192,
+      "sha256": "e6de2ef92d205a2d3e8244a0a8fbc0c3af82e60883a6ba651c912f8977f06630",
+      "endedAt": "2026-10-19T15:28:43.532Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "export-leak",
+      "cell": "cell-015",
+      "budget": 192,
+      "sha256": "c6a50ea995a4d4690c71e0c6ba406126f7eda5adf59f54949d4feb11d5feef87",
+      "endedAt": "2026-10-19T15:32:06.377Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "selector-leak",
+      "cell": "cell-016",
+      "budget": 192,
+      "sha256": "6ceb13299e9975a6b7c6552a60bc39442ff774c3e233f6cd66b6338e5599d4fb",
+      "endedAt": "2026-10-19T15:32:16.312Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "bound-context",
+      "cell": "cell-017",
+      "budget": 192,
+      "sha256": "f6ecda28ef50cbe021f740f285ec2811396ef7059bcf6763a560dcdf90b81e18",
+      "endedAt": "2026-10-19T15:34:21.365Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "bound-context",
+      "cell": "cell-018",
+      "budget": 192,
+      "sha256": "8d4f27913ebfd33c871f68b33ec3a935d62cdaa6398f3a34ee02c62892ada5be",
+      "endedAt": "2026-10-19T15:37:28.660Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "shared-rule",
+      "cell": "cell-019",
+      "budget": 192,
+      "sha256": "73add7e41869b5555d91ab4840a5cd267f23f7f0ef96552c9feba0bac2fc245b",
+      "endedAt": "2026-10-19T15:36:28.142Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "export-leak",
+      "cell": "cell-020",
+      "budget": 192,
+      "sha256": "a49aa417f65d6e2e966f5e7b5e943b20bec62f86d71e1f71a8a69895c113127f",
+      "endedAt": "2026-10-19T15:41:03.332Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "selector-leak",
+      "cell": "cell-021",
+      "budget": 192,
+      "sha256": "53963db21217e1c927884d4ded297be5cb7f6cc7e6e09d3f81acbaae112edbcf",
+      "endedAt": "2026-10-19T15:41:35.536Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "selector-leak",
+      "cell": "cell-022",
+      "budget": 192,
+      "sha256": "89e811ae1d40e047fb8a8eb27c6bf32e01705c74c670ef748d4bec49da326045",
+      "endedAt": "2026-10-19T15:43:39.692Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "shared-rule",
+      "cell": "cell-023",
+      "budget": 192,
+      "sha256": "e22e12e115da81fb049587cf9b098f1c9caf43823eba7755638b12a0e9e02490",
+      "endedAt": "2026-10-19T15:44:41.907Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "bound-context",
+      "cell": "cell-024",
+      "budget": 192,
+      "sha256": "6a3ceab9649c961db89711ab3f2d3d1d79b9fe2b61809d8c9913c1c0271c98e0",
+      "endedAt": "2026-10-19T15:47:21.617Z"
+    }
+  ]
+}

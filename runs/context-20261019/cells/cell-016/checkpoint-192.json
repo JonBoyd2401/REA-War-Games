@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:26:35.091Z",
+  "endedAt": "2026-10-19T15:32:16.312Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 341208
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3076,
+          "quadratic": 0
+        },
+        {
+          "from": 141,
+          "constant": 0,
+          "linear": 1398,
+          "quadratic": 0
+        },
+        {
+          "from": 726,
+          "constant": 0,
+          "linear": 1018,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q from 1 through 1000, select the segment with the greatest from value not exceeding q. Predict constant + linear*q + quadratic*q^2 in GBP pence, rounded to a nonnegative integer; these coefficients already produce nonnegative integers. This is an all-units model: 3076 pence per unit for quantities 1–140, 1398 for 141–725, and 1018 for 726–1000, not cumulative marginal pricing. Adjacent-integer REA observations confirmed the transitions at 140/141 and 725/726. The predictor exactly matches all 96 distinct observed own-context quantities, including 67 additional validation quantities queried after the model was fixed. Validation achieved 67/67 exact matches and consequently 67/67 within both 1% and 5% relative error; maximum observed error was zero pence. Samples include 1 and 1000, with a maximum gap of 13 between sampled quantities. Confidence is high in this three-tier reconstruction, but the remaining 904 quantities were not observed: their outputs are predictions, and narrow unsampled exceptions cannot be ruled out."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 0,
+          "linear": 3208,
+          "quadratic": 0
+        },
+        {
+          "from": 226,
+          "constant": 0,
+          "linear": 1511,
+          "quadratic": 0
+        },
+        {
+          "from": 709,
+          "constant": 0,
+          "linear": 949,
+          "quadratic": 0
+        }
+      ],
+      "notes": "This predictor was independently reconstructed from successful other-context REA quotes, not copied from own or guessed. For integer quantity q from 1 through 1000, select the segment with the greatest from value not exceeding q. Predict constant + linear*q + quadratic*q^2 in GBP pence, rounded to a nonnegative integer; these coefficients already produce nonnegative integers. The all-units rates are 3208 pence for quantities 1–225, 1511 for 226–708, and 949 for 709–1000, not cumulative marginal pricing. Adjacent-integer observations confirmed the transitions at 225/226 and 708/709. The predictor exactly matches all 96 distinct observed other-context quantities, including 67 additional validation quantities queried after the model was fixed. Validation achieved 67/67 exact matches and consequently 67/67 within both 1% and 5% relative error; maximum observed error was zero pence. Samples include 1 and 1000, with a maximum gap of 13 between sampled quantities. Confidence is high in this independently validated three-tier reconstruction, but outputs at the remaining 904 unobserved quantities are predictions, not observations; narrow unsampled exceptions remain possible."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 229810,
+    "inputTokens": 222241,
+    "cachedInputTokens": 199680,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7569,
+    "reasoningOutputTokens": 3074
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 19
+}

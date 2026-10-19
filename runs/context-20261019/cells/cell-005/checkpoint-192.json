@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:05:49.424Z",
+  "endedAt": "2026-10-19T15:10:49.979Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 300528
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 24048,
+          "linear": 265,
+          "quadratic": 0
+        },
+        {
+          "from": 294,
+          "constant": 56864,
+          "linear": 153,
+          "quadratic": 0
+        },
+        {
+          "from": 751,
+          "constant": 135614,
+          "linear": 48,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q. Evaluate constant + linear*q + quadratic*q*q in GBP pence, then round to a nonnegative integer. These coefficients already produce positive integer totals. Reconstructed from 96 distinct successful REA observations spanning the full range; all 96 match exactly. After fixing the model and confirming transitions, 72 additional validation quantities all matched exactly: maximum absolute error 0 pence, with 100% observed success under the exact, 1%, and 5% criteria. Adjacent observations at 292, 293, 294 and 749, 750, 751 confirm the slope changes. Confidence is high in this three-segment affine reconstruction, but the remaining 904 quantities were not observed. Validation does not guarantee unseen accuracy or exclude narrow hidden exceptions; the longest consecutive unqueried interval contains 17 quantities."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 54204,
+          "linear": 457,
+          "quadratic": 0
+        },
+        {
+          "from": 252,
+          "constant": 126743,
+          "linear": 168,
+          "quadratic": 0
+        },
+        {
+          "from": 649,
+          "constant": 200615,
+          "linear": 54,
+          "quadratic": 0
+        }
+      ],
+      "notes": "For integer quantity q in 1..1000, select the segment with the greatest from value not exceeding q. Evaluate constant + linear*q + quadratic*q*q in GBP pence, then round to a nonnegative integer. These coefficients already produce positive integer totals. Independently reconstructed from 96 distinct successful other-context REA observations, not copied from own; all 96 match exactly. After fixing the model and confirming transitions, 72 additional validation quantities all matched exactly: maximum absolute error 0 pence, with 100% observed success under the exact, 1%, and 5% criteria. Adjacent observations at 250, 251, 252 and 647, 648, 649 confirm the slope changes. Confidence is high in this independently supported three-segment affine reconstruction, but the remaining 904 quantities were not observed. Validation does not guarantee unseen accuracy or exclude narrow hidden exceptions; the longest consecutive unqueried interval contains 17 quantities."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 253262,
+    "inputTokens": 246914,
+    "cachedInputTokens": 215680,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6348,
+    "reasoningOutputTokens": 2797
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

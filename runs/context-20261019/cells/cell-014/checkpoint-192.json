@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:24:56.847Z",
+  "endedAt": "2026-10-19T15:28:43.532Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 226662
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 39584,
+          "linear": 477,
+          "quadratic": 0
+        },
+        {
+          "from": 147,
+          "constant": 91122,
+          "linear": 124,
+          "quadratic": 0
+        },
+        {
+          "from": 732,
+          "constant": 129134,
+          "linear": 72,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Domain: integer quantities q=1..1000. Select the last segment whose from<=q; evaluate constant + linear*q + quadratic*q^2, round to integer pence and clamp to nonnegative. The bands are 1..146, 147..731 and 732..1000. Reconstructed from exact REA captures after application inspection. Direct probes confirmed the marginal-rate changes across 146/147 and 731/732, including adjacent quantities. All 96 distinct observed quantities matched exactly: 16 exploratory samples, 16 transition/local probes and 64 subsequent validation samples spread across the domain. The model was fixed before those 64 validation samples; their exact-match, within-1% and within-5% rates were each 100%, with maximum absolute error 0 pence. High confidence in this three-band affine predictor, but 904 quantities remain unobserved. Validation does not prove exactness everywhere or exclude narrow unsampled exceptions."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 27220,
+          "linear": 219,
+          "quadratic": 0
+        },
+        {
+          "from": 131,
+          "constant": 36320,
+          "linear": 149,
+          "quadratic": 0
+        },
+        {
+          "from": 630,
+          "constant": 101107,
+          "linear": 46,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Domain: integer quantities q=1..1000. Select the last segment whose from<=q; evaluate constant + linear*q + quadratic*q^2, round to integer pence and clamp to nonnegative. The bands are 1..130, 131..629 and 630..1000. Independently reconstructed from successful other-context REA captures through the disclosed selector-leak policy; this predictor was not copied from own. Direct probes confirmed the marginal-rate changes across 130/131 and 629/630, including adjacent quantities. All 96 distinct observed quantities matched exactly: 16 exploratory samples, 16 transition/local probes and 64 subsequent validation samples spread across the domain. The model was fixed before those 64 validation samples; their exact-match, within-1% and within-5% rates were each 100%, with maximum absolute error 0 pence. High confidence in this independently validated three-band affine predictor, but 904 quantities remain unobserved. Unseen exactness is not guaranteed, and narrow unsampled exceptions cannot be ruled out."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 102807,
+    "inputTokens": 98397,
+    "cachedInputTokens": 74752,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4410,
+    "reasoningOutputTokens": 1853
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}

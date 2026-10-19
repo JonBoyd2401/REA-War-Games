@@ -1,0 +1,71 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T15:41:41.394Z",
+  "endedAt": "2026-10-19T15:47:21.617Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 340194
+  },
+  "invalidReason": null,
+  "predictor": {
+    "own": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 101639,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 245,
+          "constant": 17727,
+          "linear": 343,
+          "quadratic": 0
+        },
+        {
+          "from": 450,
+          "constant": 14890.68,
+          "linear": 288.12,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Validated predictor for integer quantities q=1..1000. Select the segment with the greatest from value not exceeding q, evaluate constant + linear*q + quadratic*q^2, and round to nonnegative integer GBP pence. The segment ranges are 1..244, 245..449, and 450..1000. Application inspection preceded all pricing requests. There were 188 successful observations at distinct own-context quantities: 44 reconstruction samples followed by 144 additional validation samples, with the predictor fixed before those validation requests. All 188 predictions matched the captured totals exactly, including all 144 validation predictions; observed exact-match, within-1%, and within-5% rates were therefore 100%, with maximum absolute error 0 pence. Both transitions were checked at consecutive quantities: q=244 returned 101639, q=245 returned 101762, q=449 returned 171734, and q=450 returned 144545. Sampling included both endpoints, with no gap between adjacent observed quantities exceeding 8. Confidence is high under the supported piecewise-affine model, but these results are not an exhaustive test of all 1000 quantities or a guarantee against unobserved exceptions."
+    },
+    "other": {
+      "segments": [
+        {
+          "from": 1,
+          "constant": 101639,
+          "linear": 0,
+          "quadratic": 0
+        },
+        {
+          "from": 245,
+          "constant": 17727,
+          "linear": 343,
+          "quadratic": 0
+        },
+        {
+          "from": 450,
+          "constant": 14890.68,
+          "linear": 288.12,
+          "quadratic": 0
+        }
+      ],
+      "notes": "Explicitly uncertain, unvalidated fallback: this numeric predictor copies own and uses the same segment-selection and nonnegative integer-pence rounding convention. No other-context price was observed. Four attempted routes—create for other, convenience export for other, export of other-seed, and job-read of other-job—all returned HTTP 403 with 'context unavailable'. The bound-context policy and absence of other-context credentials prevented price reconstruction for this context. Because pricing parameters are independently provisioned, there is no evidence that own's minimum charge, coefficients, or transition quantities transfer to other. Copying own supplies the required numeric guess without inventing observations, but its errors may be large. Exact-match, within-1%, and within-5% accuracy for other are unknown; no empirical accuracy claim or calibrated uncertainty bound is available."
+    }
+  },
+  "tokenUsage": {
+    "totalTokens": 324072,
+    "inputTokens": 315453,
+    "cachedInputTokens": 292736,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8619,
+    "reasoningOutputTokens": 3138
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 13
+}
