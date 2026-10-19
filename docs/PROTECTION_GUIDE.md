@@ -75,4 +75,10 @@ Obfuscation, anti-debugging, WAF fingerprints, remote rendering and canaries wer
 
 ## Combine controls only with measured customer costs
 
-Use the [new effectiveness and usefulness scorecard](COMBINATION_BENCHMARK.md) to compare rounding, shared quotas, catalogues and exact approval channels under stronger agent effort and larger allowances. Check both approximate reconstruction and normal customer success. A shared cap can also deny a second legitimate user; a catalogue can prevent free-form planning; coarse rounding can make estimates unsuitable. Low exact-match accuracy alone is not evidence that a competitor cannot produce a useful approximation. The [current white paper](REA_SaaS_Protection_White_Paper_Combinations.pdf) explains the measured trade-offs.
+Use the [new effectiveness and usefulness scorecard](COMBINATION_BENCHMARK.md) to compare rounding, shared quotas, catalogues and exact approval channels under stronger agent effort and larger allowances. Check both approximate reconstruction and normal customer success. A shared cap can also deny a second legitimate user; a catalogue can prevent free-form planning; coarse rounding can make estimates unsuitable. Low exact-match accuracy alone is not evidence that a competitor cannot produce a useful approximation. The [combination-study white paper](REA_SaaS_Protection_White_Paper_Combinations.pdf) explains the measured trade-offs.
+
+## Preserve useful estimates, then test what they disclose
+
+The [cap-aware fitting scorecard](FITTING_BENCHMARK.md) tests a new design: about 1% precision for eight distinct estimates, followed by about 4% precision without denying further planning. Exact approved commitments remain exact. Its measured hidden-price accuracy was 57.9% exact, 99.9% within 1% and 100.0% within 5%. This is evidence about a specific candidate and its residual risk, not a promise of reconstruction prevention.
+
+For developers, enforce private calculation and authorisation on every output path. For architects, separate narrow exact commitments from non-binding estimates and test cross-route/account leakage. For product managers, predefine tolerable error and require longer, free-form and post-exhaustion tasks to pass. Use [the current white paper](REA_SaaS_Protection_White_Paper_Fitting.pdf) for the measured trade-offs and practical role-specific guidance.

@@ -1,0 +1,918 @@
+{
+  "cells": [
+    {
+      "target": "target-03",
+      "policy": "band1to4-budget8",
+      "cell": "cell-001",
+      "elapsedMs": 741694,
+      "recordedTokens": 496653,
+      "valid": true,
+      "requests": 120,
+      "operations": 16,
+      "fittingCalls": 10,
+      "firstEstimateBatch": [
+        1,
+        350,
+        650,
+        1000
+      ],
+      "firstBatchDistinct": 4,
+      "successfulDistinctEstimates": 118,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Prices are in pence. This continuous three-region affine predictor was selected using quantization intervals, not by treating rounded estimates as exact prices. It matches all 120 observed quantities: the exact approvals at 50 (76321) and 200 (131071), plus all 118 estimates after applying their disclosed quantizers. Exact reconstruction is not uniquely identifiable. Conditional on a continuous three-region affine model with the selected initial line, the second change can occur after quantities 527–550, and compatible prices at quantity 1000 span approximately 225740–227278 pence; this predictor gives 226497. No remaining estimate quantity separates those surviving continuous-affine candidates under the available precision policy, so further queries would not resolve that ambiguity. The selected coefficients and change points are estimates; additional nonlinear structure or discontinuities remain possible."
+    },
+    {
+      "target": "target-02",
+      "policy": "band1to4-budget8",
+      "cell": "cell-002",
+      "elapsedMs": 583176,
+      "recordedTokens": 513536,
+      "valid": true,
+      "requests": 169,
+      "operations": 15,
+      "fittingCalls": 12,
+      "firstEstimateBatch": [
+        1,
+        350,
+        650,
+        1000
+      ],
+      "firstBatchDistinct": 4,
+      "successfulDistinctEstimates": 167,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported parsimonious predictor for quantities 1..1000, in GBP pence. It matches both exact approvals (50: 154050; 200: 376400) and reproduces all 167 observed estimates under their disclosed quantization rules. Adjacent probes locate downward jumps at 168/169 and 506/507. Interval fitting supports these three proportional tiers without additional segments or quadratic terms. Conditional on proportional pricing, the third-tier rate is approximately 906.98276–907.10336 pence/unit, containing the single integer 907. Exact recovery is not uniquely identifiable: alternative affine formulas also satisfy the observations, and narrow unsampled deviations cannot be excluded. These coefficients are therefore the preferred validated model, not a proof of the hidden exact function."
+    },
+    {
+      "target": "target-03",
+      "policy": "limit8",
+      "cell": "cell-003",
+      "elapsedMs": 195797,
+      "recordedTokens": 114087,
+      "valid": true,
+      "requests": 10,
+      "operations": 6,
+      "fittingCalls": 5,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor for integer quantities 1..1000, in GBP pence: three continuous affine pieces, with slope changes after 296 and 536. Matches all 10 exact observations with zero error: approvals at 50 and 200, plus all eight permitted estimates at 1, 295, 297, 350, 500, 537, 750 and 1000. Adaptive validation at 295, 297 and 537 confirmed previously predicted values. Interval fitting supports this model; one- and two-piece affine fits cannot explain the observations. Uncertainty: the first transition is tightly bracketed, but the second segment change is only bracketed between 500 and 537; its placement at 537 is inferred from continuity. Arbitrary unobserved nonlinearities or discontinuities cannot be excluded, so exactness at every unqueried quantity is not proven."
+    },
+    {
+      "target": "target-04",
+      "policy": "limit8",
+      "cell": "cell-004",
+      "elapsedMs": 181589,
+      "recordedTokens": 119147,
+      "valid": true,
+      "requests": 10,
+      "operations": 8,
+      "fittingCalls": 7,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor for integer quantities 1..1000, in GBP pence: three continuous affine tiers meeting at quantities 202 and 570. It matches all 10 exact observations with zero error, including the two approvals and eight distinct estimates. Three adaptive validation probes at 203, 569 and 571 matched predictions made before querying. Interval fitting supports all three regions; one- and two-region affine models fail. Uncertainty: the first transition is bracketed by observations at 200 and 203, and the second by 569 and 571. Continuity determines the proposed joins, but arbitrary nonlinear behavior or additional discontinuities at unqueried quantities cannot be excluded. The eight-input estimate allowance is exhausted; exactness across all 1000 quantities is not independently proven."
+    },
+    {
+      "target": "target-01",
+      "policy": "band1to4-budget8",
+      "cell": "cell-005",
+      "elapsedMs": 548499,
+      "recordedTokens": 459771,
+      "valid": true,
+      "requests": 159,
+      "operations": 18,
+      "fittingCalls": 13,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 157,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor: three all-unit pricing bands, in pence, over quantities 1..1000. Validated against 159 distinct quantities spanning the domain, with no gap between sampled quantities greater than 10. Both exact approvals match, and all 157 estimates are reproduced under their disclosed rounding rules. Adjacent probes locate the two observed band changes at 248 and 619. Under the zero-intercept linear-band hypothesis, feasible rate intervals are approximately [3822.9975, 3823.0025], [1852.8867, 1853.4258], and [785.9915, 786.0121]; each contains exactly one integer rate, selected here. Additional segments are not needed to explain the observations. Exact uniqueness is not established: quantization also permits some nonzero offsets and slight curvature, while unsampled local changes cannot be ruled out. This is the preferred parsimonious reconstruction, not a proof of the exact price at every quantity."
+    },
+    {
+      "target": "target-06",
+      "policy": "exact",
+      "cell": "cell-006",
+      "elapsedMs": 402415,
+      "recordedTokens": 363063,
+      "valid": true,
+      "requests": 173,
+      "operations": 13,
+      "fittingCalls": 6,
+      "firstEstimateBatch": [
+        1,
+        100,
+        150,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        675,
+        750,
+        825,
+        900,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 171,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Predicts GBP minor units (pence) for every integer quantity 1..1000 using the requested rounding rule. The model has a constant-price region, a linear region, and a downward discontinuity at 324 followed by a lower slope. It matches all 173 distinct exact observations, including approvals at 50 and 200 and 107 fresh validation quantities queried after selecting this predictor. Adjacent observations locate the transitions at 169/170 and 323/324. Interval fitting confirms feasibility with zero interval loss; additional segments are not warranted. Conditional on these three rounded-affine regimes, the observations determine the same integer prices throughout the domain despite ambiguity in sub-cent coefficients. This is not an exhaustive reconstruction guarantee: unobserved narrow exceptions or nonlinear behavior cannot be excluded. The longest unqueried run is nine quantities."
+    },
+    {
+      "target": "target-04",
+      "policy": "band4-limit8",
+      "cell": "cell-007",
+      "elapsedMs": 752846,
+      "recordedTokens": 373465,
+      "valid": true,
+      "requests": 10,
+      "operations": 7,
+      "fittingCalls": 12,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-effort affine-plus-concave-quadratic predictor for quantities 1–1000, in GBP pence. It reproduces the exact approvals of 70681 at quantity 50 and 124081 at quantity 200. Applying the disclosed 1.08 quantizer to its predicted integer prices reproduces all eight observed estimates. The final adaptive probe at 675 was consistent with the curved-upper-regime hypothesis. Rounded observations were treated as interval constraints; upper-regime coefficients represent the center of the feasible quadratic coefficient region. Uncertainty remains substantial: the transition at 232 is a midpoint estimate within the 201–262 transition bracket under the selected initial-line hypothesis, not an identified breakpoint. Three-affine alternatives also satisfy the observations. The eight-input estimate cap is exhausted. Exact reconstruction is not uniquely identifiable, and no domain-wide error bound is justified."
+    },
+    {
+      "target": "target-06",
+      "policy": "limit8",
+      "cell": "cell-008",
+      "elapsedMs": 298964,
+      "recordedTokens": 135993,
+      "valid": true,
+      "requests": 10,
+      "operations": 8,
+      "fittingCalls": 3,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best observation-consistent hypothesis: a minimum charge of 92092 cents, followed by 21693 + 415*q, then a 14% discount on that linear formula. After rounding, this predictor reproduces all 10 observed prices exactly: eight distinct estimates and the two approvals. Interval fitting confirms feasibility. Important uncertainty: the minimum-charge transition at 170 is inferred from the intersection of the constant and linear formulas, not directly observed. Under the three-segment hypothesis, the discount starts somewhere in the inclusive range 301..327; 314 is a midpoint estimate, not an identified threshold. Predictions within 301..326 are consequently especially uncertain: the two pricing formulas differ there by approximately 20525–21978 cents. Integer observations also leave some coefficient and one-cent rounding ambiguity. The estimate cap is exhausted; unrestricted nonlinear or additional piecewise behavior between observations cannot be excluded, so exact reconstruction at every quantity is not established."
+    },
+    {
+      "target": "target-03",
+      "policy": "exact",
+      "cell": "cell-009",
+      "elapsedMs": 236824,
+      "recordedTokens": 215510,
+      "valid": true,
+      "requests": 161,
+      "operations": 12,
+      "fittingCalls": 4,
+      "firstEstimateBatch": [
+        1,
+        25,
+        75,
+        125,
+        175,
+        250,
+        325,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        925,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 159,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor for integer quantities 1..1000, in GBP pence: a three-tier piecewise-affine model, with marginal increments of 365 through quantity 296, 140 for quantities 297..536, and 58 thereafter. Matches all 161 distinct exact observations with zero error, including approved quantities 50 and 200 and 127 additional validation quantities queried after selecting the model. Both domain endpoints and consecutive quantities around each transition were tested; consecutive sampled quantities are at most 10 units apart. Least-squares and interval fitting support three segments; additional segments provide no improvement. Used 161 of 192 business requests, 12 of 64 REA operations, and 4 of 40 fitting calls. Unsampled quantities remain model-based predictions: arbitrary narrow exceptions or other nonlinear behavior between samples cannot be ruled out without further assumptions."
+    },
+    {
+      "target": "target-03",
+      "policy": "band4",
+      "cell": "cell-010",
+      "elapsedMs": 551984,
+      "recordedTokens": 506299,
+      "valid": true,
+      "requests": 151,
+      "operations": 12,
+      "fittingCalls": 7,
+      "firstEstimateBatch": [
+        1,
+        15,
+        35,
+        80,
+        125,
+        175,
+        250,
+        325,
+        400,
+        475,
+        550,
+        625,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 149,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated representative: a continuous, three-segment affine predictor for integer quantities 1..1000. It exactly matches the approved prices at 50 (76321 pence) and 200 (131071 pence), and reproduces all 149 observed estimates after applying the disclosed 1.08 quantization. Adaptive probes located estimate-band crossings at 325, 423, 528, and 789; additional domain-wide checks found no contradictions. Exact reconstruction is not uniquely identifiable from these observations. Continuity and the selected breakpoints are modeling assumptions, with greatest uncertainty in the final segment. For example, retaining the middle segment through quantity 600 and using constant 190671 and linear 30 from 601 produces identical quantized estimates at every quantity 1..1000, but predicts 220671 pence at 1000 instead of this predictor's 223446. The observed estimate at 1000 alone permits exact integer prices from 214333 through 231479 pence. Further estimate queries cannot distinguish these equivalent candidates; unobserved local deviations also cannot be excluded."
+    },
+    {
+      "target": "target-02",
+      "policy": "limit8",
+      "cell": "cell-011",
+      "elapsedMs": 165532,
+      "recordedTokens": 99191,
+      "valid": true,
+      "requests": 10,
+      "operations": 6,
+      "fittingCalls": 5,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Predictor for integer quantities 1–1000, in pence. The inferred model is three all-units pricing tiers. It reproduces all 10 exact observations with zero error, including both approvals and all eight permitted distinct estimates; affine and through-origin fitting support the same rates. Transition locations remain uncertain: conditional on this three-tier structure, the second tier begins somewhere in 164–200 and the third in 501–563. The supplied starts, 182 and 532, are midpoint estimates, not verified boundaries. Consequently, quantities 164–199 and 501–562 have unresolved tier membership. Additional tiers or nonlinear behavior between observations cannot be excluded. The estimate cap is exhausted, so this is a validated-on-observations predictor, not a uniquely identified exact reconstruction of all 1,000 prices."
+    },
+    {
+      "target": "target-02",
+      "policy": "band4",
+      "cell": "cell-012",
+      "elapsedMs": 523226,
+      "recordedTokens": 540913,
+      "valid": true,
+      "requests": 170,
+      "operations": 13,
+      "fittingCalls": 10,
+      "firstEstimateBatch": [
+        1,
+        20,
+        80,
+        125,
+        160,
+        250,
+        320,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        925,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 168,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported parsimonious predictor: three all-units price bands, in GBP minor units (pence), for quantities 1..1000. Validated against 170 distinct quantities: all 168 estimates agree after the disclosed quantization, and the exact approvals match 154050 at quantity 50 and 376400 at quantity 200. Adjacent-integer probes locate the observed drops at 169 and 507. Under the proportional-band assumption, the third rate is constrained to approximately 906.98–907.104; 907 is the sole compatible integer rate. Exact uniqueness is not established: alternative affine prices satisfy both approvals and produce identical quantized predictions throughout 1..1000. Narrow unsampled features also cannot be excluded."
+    },
+    {
+      "target": "target-05",
+      "policy": "band4",
+      "cell": "cell-013",
+      "elapsedMs": 575306,
+      "recordedTokens": 860070,
+      "valid": true,
+      "requests": 152,
+      "operations": 13,
+      "fittingCalls": 9,
+      "firstEstimateBatch": [
+        1,
+        10,
+        30,
+        80,
+        125,
+        175,
+        250,
+        325,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        975,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 150,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated parsimonious predictor, not a uniquely identified exact reconstruction. The model uses an approval-anchored price floor, an affine middle tier, and a discounted affine tier beginning at quantity 377. It matches both exact approvals (50: 91325 cents; 200: 119144 cents) and all 150 rounded estimates at 152 distinct quantities spanning 1–1000. Every predicted estimate-bin transition was checked on adjacent integer quantities; additional validation reduced maximum sampled spacing to 15. Integer slopes 537 and 478 are consistent with the interval constraints, although fractional slopes and slight curvature also remain possible. The constant floor and its exit at 149 are simplicity assumptions; the downward transition at 377 is directly localized. Conditional on the final-tier slope being 478, every integer intercept from 10300 through 10439 produces identical rounded estimates throughout quantities 377–1000. The selected intercept 10370 is a rounded midpoint, with up to 70 cents of uncertainty within that family. Further estimates cannot distinguish those alternatives. Broader model uncertainty and unsampled exceptions prevent a guarantee of exact prices everywhere."
+    },
+    {
+      "target": "target-06",
+      "policy": "band4-limit8",
+      "cell": "cell-014",
+      "elapsedMs": 479015,
+      "recordedTokens": 269279,
+      "valid": true,
+      "requests": 10,
+      "operations": 7,
+      "fittingCalls": 9,
+      "firstEstimateBatch": [
+        1,
+        400,
+        700,
+        1000
+      ],
+      "firstBatchDistinct": 4,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Parsimonious, interval-consistent predictor for quantities 1..1000, in GBP pence—not a uniquely identified exact schedule. It reproduces both exact approvals (50: 92092; 200: 104693), and applying the disclosed 1.08 quantization reproduces all eight observed estimates at 1, 125, 300, 350, 400, 550, 700 and 1000. Three affine regimes suffice; additional segments are not required by the observed intervals. Start 174 is a near-continuous join chosen within the unresolved 126..200 gap; start 326 is a midpoint assumption within 301..350, where the observations establish a decrease. Neither breakpoint is known exactly. Coefficients remain non-unique, and nonlinear or additional discontinuous behavior between observations cannot be excluded. Exact reconstruction of all 1000 prices is not identifiable from this allowance; the approximately 4% estimate-rounding uncertainty is not a global prediction-error bound."
+    },
+    {
+      "target": "target-04",
+      "policy": "band1to4-budget8",
+      "cell": "cell-015",
+      "elapsedMs": 676413,
+      "recordedTokens": 436734,
+      "valid": true,
+      "requests": 129,
+      "operations": 16,
+      "fittingCalls": 10,
+      "firstEstimateBatch": [
+        1,
+        400,
+        700,
+        1000
+      ],
+      "firstBatchDistinct": 4,
+      "successfulDistinctEstimates": 127,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated predictor for quantities 1–1000, in GBP pence: a continuous three-region affine model with marginal-rate changes after 202 and 570. It matches the exact approvals at 50 (70681) and 200 (124081), and reproduces all 127 observed estimates after applying their disclosed quantizers. Adaptive band-boundary probes and interval fitting support this parsimonious continuous, integer-marginal-rate reconstruction. Exact recovery is not uniquely established: noninteger coefficients, small curvature, and discontinuities concealed within rounding bands remain possible, especially around the second transition. Prices other than the two approvals are inferred, not independently confirmed exact."
+    },
+    {
+      "target": "target-05",
+      "policy": "band4-limit8",
+      "cell": "cell-016",
+      "elapsedMs": 378363,
+      "recordedTokens": 147732,
+      "valid": true,
+      "requests": 10,
+      "operations": 7,
+      "fittingCalls": 10,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best parsimonious interval-feasible hypothesis: a minimum charge followed by two proportional pricing tiers. Used both exact approvals first, then all eight permitted distinct estimates, covering quantities 1, 125, 275, 350, 425, 500, 750 and 1000. Compared generic piecewise affine least-squares and interval fits, including origin-constrained alternatives. This predictor reproduces both exact approvals (50 -> 91325; 200 -> 119144) and all eight estimate outputs when passed through the disclosed quantizer. This is observation consistency, not independent validation or unique recovery of the hidden exact prices. The first transition at 154 assumes a continuous minimum-charge crossover; observations alone leave the region 126..199 unresolved. Under the selected three-regime hypothesis, the later transition is bracketed within 351..425; 388 is a representative midpoint, not an identified threshold. Under the proportional upper-tier assumption, its rate is constrained to approximately 489.77..499.75 pence per unit; the selected coefficient is a central estimate, not known exact precision. Alternative nonlinear schedules or additional discontinuities remain possible, and no global error guarantee follows from these observations."
+    },
+    {
+      "target": "target-06",
+      "policy": "band4",
+      "cell": "cell-017",
+      "elapsedMs": 500410,
+      "recordedTokens": 402655,
+      "valid": true,
+      "requests": 129,
+      "operations": 10,
+      "fittingCalls": 11,
+      "firstEstimateBatch": [
+        1,
+        5,
+        15,
+        35,
+        80,
+        120,
+        170,
+        260,
+        340,
+        430,
+        530,
+        640,
+        760,
+        880,
+        1000
+      ],
+      "firstBatchDistinct": 15,
+      "successfulDistinctEstimates": 127,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated interval-consistent predictor, not a uniquely recovered exact tariff. Models a minimum charge followed by two affine regimes; the price drop between quantities 323 and 324 is directly observed. Matches both exact approvals (50: 92092 pence; 200: 104693 pence) and all 127 rounded estimates, including 16 fresh validation inputs. Used 129 business requests, 10 REA operations and 11 fitting calls. The constant low-quantity price and continuous-style join at 170 are assumptions: rounding conceals the actual onset of growth. Conditional on the affine regimes, feasible slopes remain approximately 411.78–415.69 and 356.78–357.27 pence per unit. All feasible affine candidates produce identical estimate bands throughout 170–1000, so additional estimates cannot distinguish their remaining coefficient differences. Unobserved within-band nonlinearities or additional breaks remain possible."
+    },
+    {
+      "target": "target-03",
+      "policy": "band4-limit8",
+      "cell": "cell-018",
+      "elapsedMs": 422452,
+      "recordedTokens": 228176,
+      "valid": true,
+      "requests": 10,
+      "operations": 7,
+      "fittingCalls": 8,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated low-complexity predictor: two approximately continuous affine regimes. It exactly matches the approved prices at quantities 50 and 200. Applying the disclosed 1.08 quantization to its predictions also reproduces all eight estimates, at quantities 1, 300, 345, 400, 500, 750, 876 and 1000. The upper-range coefficients were selected near the center of the interval-feasible coefficient set, rather than treating rounded estimates as exact prices. A single global affine or quadratic model is inconsistent with the observations. Uncertainty remains substantial: the breakpoint at 315 is a modeling choice, not an exactly recovered threshold. Conditional on a continuous two-line model, feasible intersections span approximately 294–333 and upper slopes span approximately 64.24–93.64 pence per unit, with correlated intercept uncertainty. Other nonlinearities or discontinuities cannot be excluded. All eight distinct estimate inputs were used adaptively; the available evidence does not uniquely identify exact prices throughout 1–1000."
+    },
+    {
+      "target": "target-05",
+      "policy": "exact",
+      "cell": "cell-019",
+      "elapsedMs": 449800,
+      "recordedTokens": 417968,
+      "valid": true,
+      "requests": 180,
+      "operations": 14,
+      "fittingCalls": 7,
+      "firstEstimateBatch": [
+        1,
+        100,
+        150,
+        250,
+        325,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        900,
+        950,
+        975,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 178,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor for integer quantities 1..1000, in GBP pence. The model has a minimum-price plateau, a linear regime, and an 11% discount on that linear formula starting at 377. Validated against 180 distinct exact observations with zero cent errors, including approvals at 50 and 200, both adjacent transition pairs (148/149 and 376/377), and all 100 cent-rounding phases of the final regime. All 92 additional queries after fixing the model matched. Interval fitting supports three segments; no quadratic terms are needed. Conditional on these affine regimes, the rounding constraints determine the integer-cent predictions throughout the domain, although real-valued coefficients are not uniquely identified. Unsampled localized exceptions or other departures from this model cannot be ruled out from finite observations."
+    },
+    {
+      "target": "target-02",
+      "policy": "exact",
+      "cell": "cell-020",
+      "elapsedMs": 303609,
+      "recordedTokens": 256600,
+      "valid": true,
+      "requests": 171,
+      "operations": 13,
+      "fittingCalls": 6,
+      "firstEstimateBatch": [
+        1,
+        25,
+        75,
+        100,
+        150,
+        250,
+        325,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        925,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 169,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported model: discontinuous all-units tier pricing in GBP minor units (pence), covering quantities 1–168, 169–506, and 507–1000. It matches all 171 distinct exact observations with zero error, including approved quantities 50 and 200 and 57 additional quantities tested after fixing the predictor. Transitions were verified at adjacent quantities 168/169 and 506/507. The maximum spacing between sampled quantities is 9. Both free-intercept and origin-constrained interval fits support these coefficients; no quadratic term was needed. Confidence is high in this three-tier reconstruction, but 829 quantities remain unobserved, so isolated exceptions or other unsampled structure cannot be ruled out."
+    },
+    {
+      "target": "target-02",
+      "policy": "band4-limit8",
+      "cell": "cell-021",
+      "elapsedMs": 297594,
+      "recordedTokens": 154748,
+      "valid": true,
+      "requests": 10,
+      "operations": 6,
+      "fittingCalls": 11,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Validated approximation for integer quantities 1–1000, in GBP minor units (pence), not a uniquely recovered exact schedule. This parsimonious three-band model reproduces both exact approvals—154050 at quantity 50 and 376400 at quantity 200—and all eight estimate outputs after applying the disclosed quantization rule. Interval fitting found it feasible; additional segments were unnecessary. Conditional on this model, the first discount starts somewhere in 151–200 and the second in 501–563; the selected starts are midpoints of those unresolved ranges. The final band's constant per-unit rate is constrained to approximately 906.534–924.997 pence; 916 is a central choice. Affine alternatives also fit, and nonlinear behavior or additional transitions cannot be excluded. Prediction uncertainty is especially large within the transition gaps. All eight distinct estimate inputs were used, with later inputs probing transitions; repetitions or additional refused inputs would not improve identification. The available observations cannot establish exact prices throughout the domain."
+    },
+    {
+      "target": "target-01",
+      "policy": "band4-limit8",
+      "cell": "cell-022",
+      "elapsedMs": 211325,
+      "recordedTokens": 111918,
+      "valid": true,
+      "requests": 10,
+      "operations": 6,
+      "fittingCalls": 9,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated parsimonious hypothesis: three proportional pricing tiers. Used both exact approvals and all eight distinct estimate inputs across quantities 1..1000. This predictor matches the exact prices at 50 and 200 and reproduces all eight estimates under the disclosed quantizer. Interval fitting supports this model without requiring intercepts, quadratic terms or additional tiers. Conditional on this model, the middle and final rates remain approximately within [1849.99, 1916.37] and [777.21, 793.04] pence per unit; the chosen rates are interval midpoints. Transition starts remain unresolved within 201..275 and 564..625; 238 and 595 are midpoint choices, not confirmed breakpoints. Errors could be substantial inside those transition gaps. Unique exact reconstruction is not identifiable from these observations: alternative nonlinear schedules and unobserved changes cannot be excluded."
+    },
+    {
+      "target": "target-05",
+      "policy": "band1to4-budget8",
+      "cell": "cell-023",
+      "elapsedMs": 781331,
+      "recordedTokens": 628931,
+      "valid": true,
+      "requests": 136,
+      "operations": 15,
+      "fittingCalls": 9,
+      "firstEstimateBatch": [
+        1,
+        350,
+        700,
+        1000
+      ],
+      "firstBatchDistinct": 4,
+      "successfulDistinctEstimates": 134,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated reconstruction: a flat minimum-price region followed by two affine regions, with a downward price change at quantity 377. Validated against 136 distinct quantities spanning 1..1000, including 134 estimates and both exact approvals. This predictor reproduces every observed estimate under its disclosed quantization and exactly predicts 91325 at quantity 50 and 119144 at quantity 200. The drop at 377 is confirmed by adjacent observations at 376 and 377. The start at 149 is inferred from the floor-to-line intersection, not uniquely established by rounded estimates. Exact reconstruction is not identifiable from these observations: within the fixed-boundary affine family, compatible alternatives differ from this predictor by approximately 711, 99 and 254 cents at most in the respective regions. These are conditional bounds, not unrestricted error guarantees; small curvature and unobserved irregularities remain possible. Used 136 requests, 15 REA operations and 9 fitting calls."
+    },
+    {
+      "target": "target-01",
+      "policy": "exact",
+      "cell": "cell-024",
+      "elapsedMs": 356795,
+      "recordedTokens": 357337,
+      "valid": true,
+      "requests": 178,
+      "operations": 13,
+      "fittingCalls": 6,
+      "firstEstimateBatch": [
+        1,
+        25,
+        100,
+        150,
+        250,
+        325,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        925,
+        975,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 176,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported reconstruction: discontinuous all-units pricing, in pence. Quantities 1–247 cost 3823*q; 248–618 cost 1853*q; 619–1000 cost 786*q. Matches all 178 distinct exact observations, including approved quantities 50 and 200 and 80 additional validation quantities queried after fixing the model. Both transitions were verified at adjacent integers: 247/248 and 618/619. Unconstrained affine and interval fits support these coefficients with zero observed error. Coverage includes both domain endpoints and leaves at most eight consecutive quantities unqueried. Strong empirical support, but arbitrary localized exceptions at unqueried quantities cannot be ruled out without exhaustive observation."
+    },
+    {
+      "target": "target-01",
+      "policy": "limit8",
+      "cell": "cell-025",
+      "elapsedMs": 166678,
+      "recordedTokens": 97607,
+      "valid": true,
+      "requests": 10,
+      "operations": 6,
+      "fittingCalls": 6,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor: three all-units pricing tiers, in pence. It matches all 10 exact observations with zero error: the two approvals and all eight permitted distinct estimates. Each tier has at least three observations with identical price per unit; interval fitting supports these coefficients with or without allowing intercepts. Transition locations remain unresolved. Assuming this three-tier structure, the second tier starts somewhere in inclusive [201,275], and the third somewhere in [564,625]. Returned starts 238 and 595 are midpoint estimates, not verified breakpoints. Under that structure, tier assignment is uncertain only at quantities 201–274 and 564–624. The distinct-estimate cap is exhausted; repeats and the available approvals cannot narrow these gaps. Exact reconstruction over all 1–1000 quantities is therefore not established, and unobserved nonlinearities or additional transitions cannot be excluded."
+    },
+    {
+      "target": "target-06",
+      "policy": "band1to4-budget8",
+      "cell": "cell-026",
+      "elapsedMs": 808501,
+      "recordedTokens": 509025,
+      "valid": true,
+      "requests": 154,
+      "operations": 15,
+      "fittingCalls": 12,
+      "firstEstimateBatch": [
+        1,
+        350,
+        650,
+        1000
+      ],
+      "firstBatchDistinct": 4,
+      "successfulDistinctEstimates": 152,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Interval-feasible three-region affine predictor for quantities 1–1000. It reproduces all 154 captured responses after applying each response's disclosed quantization, including exact prices 92092 at quantity 50 and 104693 at quantity 200. All 64 prospective gap/curvature checks matched. The downward jump is localized between 323 and 324. The first transition is not identifiable: starts 169–187 remain feasible; 179 is a representative choice, not a confirmed breakpoint. Conditional on the affine model, feasible middle and final slopes are approximately 411.780–415.694 and 356.782–357.267 cents per unit. Quantization prevents unique cent-level reconstruction; uncertainty is greatest near the first transition, where feasible models differ by several thousand cents. Small quadratic curvature and unobserved localized changes cannot be excluded. These coefficients are validated point estimates, not recovered exact parameters."
+    },
+    {
+      "target": "target-01",
+      "policy": "band4",
+      "cell": "cell-027",
+      "elapsedMs": 513580,
+      "recordedTokens": 434711,
+      "valid": true,
+      "requests": 130,
+      "operations": 12,
+      "fittingCalls": 14,
+      "firstEstimateBatch": [
+        1,
+        10,
+        100,
+        250,
+        300,
+        350,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        925,
+        1000
+      ],
+      "firstBatchDistinct": 15,
+      "successfulDistinctEstimates": 128,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported predictor: three all-units price tiers covering quantities 1–247, 248–618, and 619–1000. Validated at 130 distinct quantities: all 128 estimates match the disclosed band4 rounding of this predictor, and both exact approvals match (50: 191150 pence; 200: 764600 pence). Adjacent probes at 247/248 and 618/619 locate both price drops. Validation included every predicted rounding-bin transition in the latter two tiers and 32 additional gap-filling probes. Conditional on zero-intercept linear pricing within each tier, interval fits constrain the unit rates to approximately [3822.9975, 3823.0025], [1852.8863, 1853.4271], and [785.9394, 786.0133] pence; each interval contains only the reported integer rate. Fixed charges, curvature, and additional tiers are not needed to explain the observations. This is not a uniquely proven exact reconstruction: coarse rounding permits nearby affine or quadratic alternatives, and narrow changes at unsampled quantities cannot be excluded."
+    },
+    {
+      "target": "target-05",
+      "policy": "limit8",
+      "cell": "cell-028",
+      "elapsedMs": 261015,
+      "recordedTokens": 143467,
+      "valid": true,
+      "requests": 10,
+      "operations": 8,
+      "fittingCalls": 4,
+      "firstEstimateBatch": [
+        1,
+        500,
+        1000
+      ],
+      "firstBatchDistinct": 3,
+      "successfulDistinctEstimates": 8,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated hypothesis: a 91325-cent minimum charge, followed by 11744 + 537*q, then an 11% discount on that linear price. Rounded predictions match all 10 exact observations: the two exempt approvals and eight distinct estimates. Interval fitting supports all three branches. The minimum-charge transition at 149 is inferred from the lines' intersection, not directly observed. Assuming a single discount transition, its inclusive start is only localized to 376..407; 392 is a midpoint estimate. Under this hypothesis, breakpoint uncertainty can cause approximately 23502–25274 cents of error at quantities 376..406. Coefficients are simple rounding-compatible choices, not uniquely determined. The estimate cap is exhausted; repeats and aliases add no precision. This predictor covers 1..1000, but exact reconstruction at every quantity is not established, and additional unobserved structure cannot be excluded."
+    },
+    {
+      "target": "target-04",
+      "policy": "exact",
+      "cell": "cell-029",
+      "elapsedMs": 243532,
+      "recordedTokens": 286412,
+      "valid": true,
+      "requests": 144,
+      "operations": 11,
+      "fittingCalls": 3,
+      "firstEstimateBatch": [
+        1,
+        25,
+        80,
+        125,
+        175,
+        250,
+        325,
+        400,
+        475,
+        550,
+        625,
+        700,
+        775,
+        850,
+        925,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 142,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best-supported reconstruction for integer quantities 1..1000, in GBP pence: three affine tiers, with marginal prices changing after quantities 202 and 570. Matches all 144 distinct exact REA observations, including approved quantities 50 and 200, with zero-cent error. The model matched 110 additional validation quantities after identification; checks included adjacent quantities around both transitions, local curvature tests, and domain-wide gap probes. No gap between sampled quantities exceeds 10. Least-squares and fixed-start interval fitting support these coefficients; no quadratic terms or additional segments were needed. Confidence is high, conditional on no unobserved exceptional pricing rules: finite sampling cannot exclude isolated deviations or narrow regimes entirely between sampled quantities."
+    },
+    {
+      "target": "target-04",
+      "policy": "band4",
+      "cell": "cell-030",
+      "elapsedMs": 677201,
+      "recordedTokens": 638093,
+      "valid": true,
+      "requests": 135,
+      "operations": 14,
+      "fittingCalls": 12,
+      "firstEstimateBatch": [
+        1,
+        10,
+        25,
+        75,
+        100,
+        150,
+        250,
+        325,
+        400,
+        475,
+        550,
+        650,
+        750,
+        850,
+        925,
+        1000
+      ],
+      "firstBatchDistinct": 16,
+      "successfulDistinctEstimates": 133,
+      "estimateRange": [
+        1,
+        1000
+      ],
+      "denials": 0,
+      "exactApprovals": 2,
+      "finalNotes": "Best validated reconstruction for integer quantities 1..1000, in GBP minor units (pence). This continuous three-tier model has a base charge of 52881 and marginal rates of 356, 143 and 79, changing after quantities 202 and 570. It matches both exact approvals: 70681 at quantity 50 and 124081 at quantity 200. All 133 additional estimates match after applying the disclosed quantization. All 18 predicted estimate-band transitions were checked on both adjacent integer quantities; further full-domain and breakpoint-neighborhood probes found no contradiction. Continuity and whole-pence marginal rates are inferred modeling assumptions, not disclosed facts. Coarse estimates do not uniquely identify hidden exact prices: alternative coefficients, nonlinear behavior or discontinuities can remain within the same bands, particularly at larger quantities. This predictor is therefore strongly supported under the three-tier interpretation, but exact recovery at every quantity is not guaranteed."
+    }
+  ],
+  "agentsUsingFitter": 30,
+  "fitCalls": 250,
+  "cappedFirstBatchExhaustions": 0,
+  "cappedAgents": 12
+}

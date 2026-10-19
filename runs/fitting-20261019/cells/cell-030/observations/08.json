@@ -1,0 +1,94 @@
+{
+  "evidenceId": "08",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "quantity": 205,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 129967,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 275,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 140365,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 350,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 151594,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 430,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 151594,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 519,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 163722,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 653,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 190965,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 834,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 190965,
+        "currency": "GBP",
+        "quantizationRatio": 1.08,
+        "nonBindingEstimate": true
+      }
+    }
+  ],
+  "businessRequestsUsed": 70,
+  "businessRequestsRemaining": 122,
+  "reaOperationsRemaining": 56
+}

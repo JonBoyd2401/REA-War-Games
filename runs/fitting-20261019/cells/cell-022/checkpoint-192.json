@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:57:27.589Z",
+  "endedAt": "2026-10-19T14:00:58.914Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 211301
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3823,
+        "quadratic": 0
+      },
+      {
+        "from": 238,
+        "constant": 0,
+        "linear": 1883.182177,
+        "quadratic": 0
+      },
+      {
+        "from": 595,
+        "constant": 0,
+        "linear": 785.121372,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated parsimonious hypothesis: three proportional pricing tiers. Used both exact approvals and all eight distinct estimate inputs across quantities 1..1000. This predictor matches the exact prices at 50 and 200 and reproduces all eight estimates under the disclosed quantizer. Interval fitting supports this model without requiring intercepts, quadratic terms or additional tiers. Conditional on this model, the middle and final rates remain approximately within [1849.99, 1916.37] and [777.21, 793.04] pence per unit; the chosen rates are interval midpoints. Transition starts remain unresolved within 201..275 and 564..625; 238 and 595 are midpoint choices, not confirmed breakpoints. Errors could be substantial inside those transition gaps. Unique exact reconstruction is not identifiable from these observations: alternative nonlinear schedules and unobserved changes cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 111918,
+    "inputTokens": 107020,
+    "cachedInputTokens": 92928,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4898,
+    "reasoningOutputTokens": 3451
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 6
+}

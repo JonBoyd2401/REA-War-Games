@@ -4,13 +4,23 @@
 
 This repository contains real localhost experiments with **REA 6.7.0**, a deliberately unsafe SaaS pricing lab, a separate session-protected lab, a readable white paper, and the evidence needed to check the conclusions.
 
-## Latest: combined defences, larger budgets and customer utility
+## Latest: cap-aware agents, numerical fitting and useful estimates
+
+The [new effectiveness scorecard](docs/FITTING_BENCHMARK.md) tests **30 fresh Astra/max agents** on **six new targets and five policies**. Agents know the cap before probing and can perform bounded numerical fitting on real REA observations. Each has 192 attempted requests from the start, up to 64 REA operations and 40 fitting calls. There are **30/30 valid predictors**, **0 failures**, **327 new REA operations**, **2861 matched responses**, **250 numerical fits**, **7,680 held-out predictions** and **120 customer journeys**.
+
+The new precision fallback serves its first eight distinct estimates at about 1% precision and keeps serving further estimates at about 4%, while preserving exact approved quotes. Its reconstruction scores were **57.9% exact**, **99.9% within 1%** and **100.0% within 5%**. See the scorecard for the predeclared protection screen, all policy comparisons and per-target utility outcomes; usefulness and secrecy are separate requirements.
+
+**No tested policy met the predeclared useful-protection screen on all six targets.** Preserving useful estimates did not establish reliable reconstruction prevention.
+
+Read the **[current white paper](docs/REA_SaaS_Protection_White_Paper_Fitting.pdf)** and **[fitting effectiveness report](docs/REA_Fitting_Effectiveness_Report.pdf)**. [Verify or repeat this study](fitting-study/README.md). The repository now contains **965 measured REA operations and 67 application/scoring tests**. Historical findings remain visible. These are synthetic, bounded experiments, not a universal REA blocker or a whole-SaaS cloning certificate.
+
+## Earlier: combined defences, larger budgets and customer utility
 
 The [combined-defence scorecard](docs/COMBINATION_BENCHMARK.md) adds **42 fresh REA-assisted agents**, **seven policies**, **six new targets**, and **84 frozen checkpoints** at 96 and 192 attempted-request allowances. Astra uses verified **max** single-agent reasoning effort. The evidence includes **340 new REA operations**, **3200 matched response rows**, **21,504 held-out predictions**, and **168 scripted customer journeys**. Results distinguish hidden-rule reconstruction from imitation of supported outputs, and report customer costs after quota exhaustion.
 
 Coarse rounding plus the cap left **39.6% within-5% reconstruction accuracy**, compared with **88.2%** for rounding alone and **60.0%** for the cap alone. However, **none of the combined configurations passed the short-workflow usefulness threshold on all six targets**. Five of six quota-only agents spent their entire eight-input cap in the first batch; the earlier 95.6% recovery result still matters. All 42 agents retained their numeric predictors after continuation. The reports explain these strategy limits and the supplementary exact lookup replay of supported catalogue/approval outputs.
 
-Read the **[current white paper](docs/REA_SaaS_Protection_White_Paper_Combinations.pdf)** and **[combined-defence report](docs/REA_Combination_Effectiveness_Report.pdf)**. [Verify or repeat this study](combination-study/README.md). There are **84/84 valid checkpoint predictors** and **0 failures or invalid predictors**. The repository now contains **638 measured REA operations and 58 application/scoring tests**. The study does not establish a universal way to stop useful SaaS behaviour being recreated; the scorecard reports which combinations helped and which utility criteria they met.
+Read the **[combination-study white paper](docs/REA_SaaS_Protection_White_Paper_Combinations.pdf)** and **[combined-defence report](docs/REA_Combination_Effectiveness_Report.pdf)**. [Verify or repeat this study](combination-study/README.md). There are **84/84 valid checkpoint predictors** and **0 failures or invalid predictors**. At that stage the repository contained **638 measured REA operations and 58 application/scoring tests**. The study does not establish a universal way to stop useful SaaS behaviour being recreated; the scorecard reports which combinations helped and which utility criteria they met.
 
 ## Earlier: actual REA-assisted agents and measured accuracy
 
@@ -40,7 +50,7 @@ Read the **[results and trade-offs](docs/RECONSTRUCTION_FINDINGS.md)**, **[resea
 ## Start here
 
 - **Understand the result:** [Plain-English protection guide](docs/PROTECTION_GUIDE.md).
-- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_Combinations.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
+- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_Fitting.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
 - **Check what passed:** [Measurable success criteria](docs/SUCCESS_CRITERIA.md).
 - **Run the code:** [Reproduction instructions](docs/REPRODUCE.md).
 - **Continue the work:** [Research gaps and contributions](docs/CONTINUATION.md).
@@ -88,13 +98,14 @@ This is a synthetic engineering study, not a production security certification. 
 Use a supported Node version. The original run used Node 24.19.0 and Chrome 155.0.8059.82.
 
 ```sh
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs combination-study/test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs combination-study/test.mjs fitting-study/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
 node boundary-study/verify.mjs
 node agent-benchmark/verify.mjs
 node combination-study/verify.mjs
+node fitting-study/verify.mjs
 ```
 
 Run only the owned localhost fixtures. The code binds to loopback. For a real SaaS deployment, use maintained identity infrastructure, TLS, distributed enforcement and a security review; the session lab remains an educational implementation.
@@ -109,6 +120,7 @@ Run only the owned localhost fixtures. The code binds to loopback. For a real Sa
 | `boundary-study/` | Cross-workflow approval checks, negative controls, six REA scenarios and a conditional identifiability calculation |
 | `agent-benchmark/` | Frozen actual-agent protocol, bounded REA tools, safe predictor evaluator and offline verification |
 | `combination-study/` | Frozen combined-defence protocol, stronger effort, two query checkpoints and customer utility tests |
+| `fitting-study/` | Cap-aware agents, bounded numerical fitting, relative precision policies and usefulness checks |
 | `runs/` | Path-redacted evidence and measured outcomes |
 | `docs/` | Human-readable guides, white paper and continuation notes |
 | `provenance/` | Package pinning, hashes, original-run scripts and redaction record |

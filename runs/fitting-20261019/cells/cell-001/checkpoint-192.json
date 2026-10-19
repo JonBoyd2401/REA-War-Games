@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:06:00.075Z",
+  "endedAt": "2026-10-19T13:18:21.769Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 741678
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 58071,
+        "linear": 365,
+        "quadratic": 0
+      },
+      {
+        "from": 297,
+        "constant": 124753.88,
+        "linear": 139.72,
+        "quadratic": 0
+      },
+      {
+        "from": 539,
+        "constant": 168977.48,
+        "linear": 57.52,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Prices are in pence. This continuous three-region affine predictor was selected using quantization intervals, not by treating rounded estimates as exact prices. It matches all 120 observed quantities: the exact approvals at 50 (76321) and 200 (131071), plus all 118 estimates after applying their disclosed quantizers. Exact reconstruction is not uniquely identifiable. Conditional on a continuous three-region affine model with the selected initial line, the second change can occur after quantities 527–550, and compatible prices at quantity 1000 span approximately 225740–227278 pence; this predictor gives 226497. No remaining estimate quantity separates those surviving continuous-affine candidates under the available precision policy, so further queries would not resolve that ambiguity. The selected coefficients and change points are estimates; additional nonlinear structure or discontinuities remain possible."
+  },
+  "tokenUsage": {
+    "totalTokens": 496653,
+    "inputTokens": 476569,
+    "cachedInputTokens": 411776,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 20084,
+    "reasoningOutputTokens": 15413
+  },
+  "cumulativeRequests": 120,
+  "cumulativeReaOperations": 16
+}

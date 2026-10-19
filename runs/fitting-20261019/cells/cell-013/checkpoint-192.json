@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:31:05.100Z",
+  "endedAt": "2026-10-19T13:40:40.406Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 575293
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 91325,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 149,
+        "constant": 11744,
+        "linear": 537,
+        "quadratic": 0
+      },
+      {
+        "from": 377,
+        "constant": 10370,
+        "linear": 478,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated parsimonious predictor, not a uniquely identified exact reconstruction. The model uses an approval-anchored price floor, an affine middle tier, and a discounted affine tier beginning at quantity 377. It matches both exact approvals (50: 91325 cents; 200: 119144 cents) and all 150 rounded estimates at 152 distinct quantities spanning 1–1000. Every predicted estimate-bin transition was checked on adjacent integer quantities; additional validation reduced maximum sampled spacing to 15. Integer slopes 537 and 478 are consistent with the interval constraints, although fractional slopes and slight curvature also remain possible. The constant floor and its exit at 149 are simplicity assumptions; the downward transition at 377 is directly localized. Conditional on the final-tier slope being 478, every integer intercept from 10300 through 10439 produces identical rounded estimates throughout quantities 377–1000. The selected intercept 10370 is a rounded midpoint, with up to 70 cents of uncertainty within that family. Further estimates cannot distinguish those alternatives. Broader model uncertainty and unsampled exceptions prevent a guarantee of exact prices everywhere."
+  },
+  "tokenUsage": {
+    "totalTokens": 860070,
+    "inputTokens": 845281,
+    "cachedInputTokens": 784000,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 14789,
+    "reasoningOutputTokens": 9628
+  },
+  "cumulativeRequests": 152,
+  "cumulativeReaOperations": 13
+}

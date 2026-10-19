@@ -1,0 +1,28 @@
+{
+  "evidenceId": "05",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "quantity": 250,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 145994,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    }
+  ],
+  "businessRequestsUsed": 7,
+  "businessRequestsRemaining": 185,
+  "reaOperationsRemaining": 59
+}

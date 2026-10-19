@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T14:05:23.189Z",
+  "endedAt": "2026-10-19T14:13:56.769Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 513548
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3823,
+        "quadratic": 0
+      },
+      {
+        "from": 248,
+        "constant": 0,
+        "linear": 1853,
+        "quadratic": 0
+      },
+      {
+        "from": 619,
+        "constant": 0,
+        "linear": 786,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor: three all-units price tiers covering quantities 1–247, 248–618, and 619–1000. Validated at 130 distinct quantities: all 128 estimates match the disclosed band4 rounding of this predictor, and both exact approvals match (50: 191150 pence; 200: 764600 pence). Adjacent probes at 247/248 and 618/619 locate both price drops. Validation included every predicted rounding-bin transition in the latter two tiers and 32 additional gap-filling probes. Conditional on zero-intercept linear pricing within each tier, interval fits constrain the unit rates to approximately [3822.9975, 3823.0025], [1852.8863, 1853.4271], and [785.9394, 786.0133] pence; each interval contains only the reported integer rate. Fixed charges, curvature, and additional tiers are not needed to explain the observations. This is not a uniquely proven exact reconstruction: coarse rounding permits nearby affine or quadratic alternatives, and narrow changes at unsampled quantities cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 434711,
+    "inputTokens": 421470,
+    "cachedInputTokens": 382848,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13241,
+    "reasoningOutputTokens": 7729
+  },
+  "cumulativeRequests": 130,
+  "cumulativeReaOperations": 12
+}

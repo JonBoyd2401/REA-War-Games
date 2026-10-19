@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:18:27.258Z",
+  "endedAt": "2026-10-19T13:31:00.104Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 752831
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52881,
+        "linear": 356,
+        "quadratic": 0
+      },
+      {
+        "from": 232,
+        "constant": 80773.311752,
+        "linear": 224.110678474,
+        "quadratic": -0.098456259382
+      }
+    ],
+    "notes": "Best-effort affine-plus-concave-quadratic predictor for quantities 1–1000, in GBP pence. It reproduces the exact approvals of 70681 at quantity 50 and 124081 at quantity 200. Applying the disclosed 1.08 quantizer to its predicted integer prices reproduces all eight observed estimates. The final adaptive probe at 675 was consistent with the curved-upper-regime hypothesis. Rounded observations were treated as interval constraints; upper-regime coefficients represent the center of the feasible quadratic coefficient region. Uncertainty remains substantial: the transition at 232 is a midpoint estimate within the 201–262 transition bracket under the selected initial-line hypothesis, not an identified breakpoint. Three-affine alternatives also satisfy the observations. The eight-input estimate cap is exhausted. Exact reconstruction is not uniquely identifiable, and no domain-wide error bound is justified."
+  },
+  "tokenUsage": {
+    "totalTokens": 373465,
+    "inputTokens": 351737,
+    "cachedInputTokens": 294784,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 21728,
+    "reasoningOutputTokens": 15743
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 7
+}

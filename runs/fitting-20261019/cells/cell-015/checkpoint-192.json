@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:38:31.318Z",
+  "endedAt": "2026-10-19T13:49:47.731Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 676383
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52881,
+        "linear": 356,
+        "quadratic": 0
+      },
+      {
+        "from": 203,
+        "constant": 95907,
+        "linear": 143,
+        "quadratic": 0
+      },
+      {
+        "from": 571,
+        "constant": 132387,
+        "linear": 79,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated predictor for quantities 1–1000, in GBP pence: a continuous three-region affine model with marginal-rate changes after 202 and 570. It matches the exact approvals at 50 (70681) and 200 (124081), and reproduces all 127 observed estimates after applying their disclosed quantizers. Adaptive band-boundary probes and interval fitting support this parsimonious continuous, integer-marginal-rate reconstruction. Exact recovery is not uniquely established: noninteger coefficients, small curvature, and discontinuities concealed within rounding bands remain possible, especially around the second transition. Prices other than the two approvals are inferred, not independently confirmed exact."
+  },
+  "tokenUsage": {
+    "totalTokens": 436734,
+    "inputTokens": 420798,
+    "cachedInputTokens": 370688,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 15936,
+    "reasoningOutputTokens": 11880
+  },
+  "cumulativeRequests": 129,
+  "cumulativeReaOperations": 16
+}

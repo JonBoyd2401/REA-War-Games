@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:26:39.599Z",
+  "endedAt": "2026-10-19T13:35:51.583Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 551953
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 58071,
+        "linear": 365,
+        "quadratic": 0
+      },
+      {
+        "from": 297,
+        "constant": 124671,
+        "linear": 140,
+        "quadratic": 0
+      },
+      {
+        "from": 576,
+        "constant": 180446,
+        "linear": 43,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated representative: a continuous, three-segment affine predictor for integer quantities 1..1000. It exactly matches the approved prices at 50 (76321 pence) and 200 (131071 pence), and reproduces all 149 observed estimates after applying the disclosed 1.08 quantization. Adaptive probes located estimate-band crossings at 325, 423, 528, and 789; additional domain-wide checks found no contradictions. Exact reconstruction is not uniquely identifiable from these observations. Continuity and the selected breakpoints are modeling assumptions, with greatest uncertainty in the final segment. For example, retaining the middle segment through quantity 600 and using constant 190671 and linear 30 from 601 produces identical quantized estimates at every quantity 1..1000, but predicts 220671 pence at 1000 instead of this predictor's 223446. The observed estimate at 1000 alone permits exact integer prices from 214333 through 231479 pence. Further estimate queries cannot distinguish these equivalent candidates; unobserved local deviations also cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 506299,
+    "inputTokens": 492739,
+    "cachedInputTokens": 451584,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13560,
+    "reasoningOutputTokens": 9283
+  },
+  "cumulativeRequests": 151,
+  "cumulativeReaOperations": 12
+}

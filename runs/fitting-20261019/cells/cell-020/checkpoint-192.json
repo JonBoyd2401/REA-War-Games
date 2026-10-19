@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:52:27.737Z",
+  "endedAt": "2026-10-19T13:57:31.346Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 303236
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3081,
+        "quadratic": 0
+      },
+      {
+        "from": 169,
+        "constant": 0,
+        "linear": 1882,
+        "quadratic": 0
+      },
+      {
+        "from": 507,
+        "constant": 0,
+        "linear": 907,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported model: discontinuous all-units tier pricing in GBP minor units (pence), covering quantities 1–168, 169–506, and 507–1000. It matches all 171 distinct exact observations with zero error, including approved quantities 50 and 200 and 57 additional quantities tested after fixing the predictor. Transitions were verified at adjacent quantities 168/169 and 506/507. The maximum spacing between sampled quantities is 9. Both free-intercept and origin-constrained interval fits support these coefficients; no quadratic term was needed. Confidence is high in this three-tier reconstruction, but 829 quantities remain unobserved, so isolated exceptions or other unsampled structure cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 256600,
+    "inputTokens": 249550,
+    "cachedInputTokens": 215680,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7050,
+    "reasoningOutputTokens": 3275
+  },
+  "cumulativeRequests": 171,
+  "cumulativeReaOperations": 13
+}

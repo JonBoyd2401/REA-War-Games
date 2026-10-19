@@ -14,3 +14,7 @@ Historical baseline `findings.md` and `contributions.md` describe that stage onl
 ## Combined-defence extension
 
 The [combined-defence study](COMBINATION_BENCHMARK.md) now adds max-effort agents, 96/192 same-thread checkpoints and four customer workloads. Next priorities are repeated fresh agents per target/policy, richer independently prepared applications, complete factorial controls for gentle rounding and catalogue restrictions, realistic approval creation, colluding accounts and durable quota recovery. Measure supported-output imitation separately from hidden-rule inference. Preserve the negative utility results and any non-monotonic checkpoint changes; do not select the better submitted model after scoring.
+
+## Cap-aware numerical fitting extension
+
+The [fitting study](FITTING_BENCHMARK.md) implements the previously missing cap disclosure, adaptive-probe advice, fresh 192-request attempts and a numerical fitter. It also tests a precision fallback intended to keep estimation available. Next work should repeat fresh agents per cell, improve global interval fitting without source leakage, use richer independent targets, measure real user tasks and test arbitrary approval creation, colluding accounts and longer windows. Preserve approximate reconstruction scores and negative results. Do not infer reliable prevention from exact-match reductions alone.

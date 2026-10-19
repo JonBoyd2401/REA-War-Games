@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T14:03:56.399Z",
+  "endedAt": "2026-10-19T14:17:24.900Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 808471
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 92037.779167,
+        "linear": 1.08441666,
+        "quadratic": 0
+      },
+      {
+        "from": 179,
+        "constant": 21945.612248,
+        "linear": 413.73693876,
+        "quadratic": 0
+      },
+      {
+        "from": 324,
+        "constant": 18579.224632,
+        "linear": 357.006667944,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Interval-feasible three-region affine predictor for quantities 1–1000. It reproduces all 154 captured responses after applying each response's disclosed quantization, including exact prices 92092 at quantity 50 and 104693 at quantity 200. All 64 prospective gap/curvature checks matched. The downward jump is localized between 323 and 324. The first transition is not identifiable: starts 169–187 remain feasible; 179 is a representative choice, not a confirmed breakpoint. Conditional on the affine model, feasible middle and final slopes are approximately 411.780–415.694 and 356.782–357.267 cents per unit. Quantization prevents unique cent-level reconstruction; uncertainty is greatest near the first transition, where feasible models differ by several thousand cents. Small quadratic curvature and unobserved localized changes cannot be excluded. These coefficients are validated point estimates, not recovered exact parameters."
+  },
+  "tokenUsage": {
+    "totalTokens": 509025,
+    "inputTokens": 488461,
+    "cachedInputTokens": 435328,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 20564,
+    "reasoningOutputTokens": 14303
+  },
+  "cumulativeRequests": 154,
+  "cumulativeReaOperations": 15
+}

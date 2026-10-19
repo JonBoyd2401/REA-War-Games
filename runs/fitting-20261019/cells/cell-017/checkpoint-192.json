@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:44:01.675Z",
+  "endedAt": "2026-10-19T13:52:22.085Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 500396
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 92092,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 170,
+        "constant": 21946.6,
+        "linear": 413.732,
+        "quadratic": 0
+      },
+      {
+        "from": 324,
+        "constant": 18579.2,
+        "linear": 357.0067,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated interval-consistent predictor, not a uniquely recovered exact tariff. Models a minimum charge followed by two affine regimes; the price drop between quantities 323 and 324 is directly observed. Matches both exact approvals (50: 92092 pence; 200: 104693 pence) and all 127 rounded estimates, including 16 fresh validation inputs. Used 129 business requests, 10 REA operations and 11 fitting calls. The constant low-quantity price and continuous-style join at 170 are assumptions: rounding conceals the actual onset of growth. Conditional on the affine regimes, feasible slopes remain approximately 411.78–415.69 and 356.78–357.27 pence per unit. All feasible affine candidates produce identical estimate bands throughout 170–1000, so additional estimates cannot distinguish their remaining coefficient differences. Unobserved within-band nonlinearities or additional breaks remain possible."
+  },
+  "tokenUsage": {
+    "totalTokens": 402655,
+    "inputTokens": 389398,
+    "cachedInputTokens": 348800,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13257,
+    "reasoningOutputTokens": 8344
+  },
+  "cumulativeRequests": 129,
+  "cumulativeReaOperations": 10
+}

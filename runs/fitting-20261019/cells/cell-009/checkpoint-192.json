@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:22:37.115Z",
+  "endedAt": "2026-10-19T13:26:33.939Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 236800
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 58071,
+        "linear": 365,
+        "quadratic": 0
+      },
+      {
+        "from": 297,
+        "constant": 124671,
+        "linear": 140,
+        "quadratic": 0
+      },
+      {
+        "from": 537,
+        "constant": 168623,
+        "linear": 58,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor for integer quantities 1..1000, in GBP pence: a three-tier piecewise-affine model, with marginal increments of 365 through quantity 296, 140 for quantities 297..536, and 58 thereafter. Matches all 161 distinct exact observations with zero error, including approved quantities 50 and 200 and 127 additional validation quantities queried after selecting the model. Both domain endpoints and consecutive quantities around each transition were tested; consecutive sampled quantities are at most 10 units apart. Least-squares and interval fitting support three segments; additional segments provide no improvement. Used 161 of 192 business requests, 12 of 64 REA operations, and 4 of 40 fitting calls. Unsampled quantities remain model-based predictions: arbitrary narrow exceptions or other nonlinear behavior between samples cannot be ruled out without further assumptions."
+  },
+  "tokenUsage": {
+    "totalTokens": 215510,
+    "inputTokens": 210376,
+    "cachedInputTokens": 180864,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5134,
+    "reasoningOutputTokens": 2368
+  },
+  "cumulativeRequests": 161,
+  "cumulativeReaOperations": 12
+}

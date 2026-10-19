@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:35:57.533Z",
+  "endedAt": "2026-10-19T13:43:56.548Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 478989
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 92092,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 174,
+        "constant": 10693,
+        "linear": 470,
+        "quadratic": 0
+      },
+      {
+        "from": 326,
+        "constant": 19344,
+        "linear": 356,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Parsimonious, interval-consistent predictor for quantities 1..1000, in GBP pence—not a uniquely identified exact schedule. It reproduces both exact approvals (50: 92092; 200: 104693), and applying the disclosed 1.08 quantization reproduces all eight observed estimates at 1, 125, 300, 350, 400, 550, 700 and 1000. Three affine regimes suffice; additional segments are not required by the observed intervals. Start 174 is a near-continuous join chosen within the unresolved 126..200 gap; start 326 is a midpoint assumption within 301..350, where the observations establish a decrease. Neither breakpoint is known exactly. Coefficients remain non-unique, and nonlinear or additional discontinuous behavior between observations cannot be excluded. Exact reconstruction of all 1000 prices is not identifiable from this allowance; the approximately 4% estimate-rounding uncertainty is not a global prediction-error bound."
+  },
+  "tokenUsage": {
+    "totalTokens": 269279,
+    "inputTokens": 257035,
+    "cachedInputTokens": 212992,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 12244,
+    "reasoningOutputTokens": 9658
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 7
+}

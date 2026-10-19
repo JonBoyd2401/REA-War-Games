@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:59:20.708Z",
+  "endedAt": "2026-10-19T14:05:17.503Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 356770
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3823,
+        "quadratic": 0
+      },
+      {
+        "from": 248,
+        "constant": 0,
+        "linear": 1853,
+        "quadratic": 0
+      },
+      {
+        "from": 619,
+        "constant": 0,
+        "linear": 786,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported reconstruction: discontinuous all-units pricing, in pence. Quantities 1–247 cost 3823*q; 248–618 cost 1853*q; 619–1000 cost 786*q. Matches all 178 distinct exact observations, including approved quantities 50 and 200 and 80 additional validation quantities queried after fixing the model. Both transitions were verified at adjacent integers: 247/248 and 618/619. Unconstrained affine and interval fits support these coefficients with zero observed error. Coverage includes both domain endpoints and leaves at most eight consecutive quantities unqueried. Strong empirical support, but arbitrary localized exceptions at unqueried quantities cannot be ruled out without exhaustive observation."
+  },
+  "tokenUsage": {
+    "totalTokens": 357337,
+    "inputTokens": 349413,
+    "cachedInputTokens": 316544,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7924,
+    "reasoningOutputTokens": 3052
+  },
+  "cumulativeRequests": 178,
+  "cumulativeReaOperations": 13
+}

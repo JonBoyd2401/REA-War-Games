@@ -19,7 +19,7 @@ The original laptop did not have npm on PATH, so pnpm 11.25.0 installed the exac
 
 ## Repeat all 18 baseline capture operations
 
-For the latest actual-agent reconstruction benchmark, use [its dedicated guide](../agent-benchmark/README.md). For the earlier custom pricing learner, use [the reconstruction guide](../reconstruction/README.md). For export/job/approval boundaries, use [the boundary study guide](../boundary-study/README.md). The original capture workflow below remains available.
+For the earlier actual-agent reconstruction benchmark, use [its dedicated guide](../agent-benchmark/README.md). For the earlier custom pricing learner, use [the reconstruction guide](../reconstruction/README.md). For export/job/approval boundaries, use [the boundary study guide](../boundary-study/README.md). The original capture workflow below remains available.
 
 ```powershell
 node reproduce.mjs 'C:/Program Files/Google/Chrome/Application/chrome.exe' my-fresh-run
@@ -64,9 +64,9 @@ Inspect the per-request status and retained response; do not judge security from
 
 For blind reconstruction, follow the separate isolation procedure in `CONTINUATION.md`. Do not hand this whole public repository or paper to a red agent and then call its score blind.
 
-## Rebuild the current reports
+## Rebuild the earlier agent reports
 
-After offline verification, regenerate the current scorecard and two PDFs from the retained results:
+After offline verification, regenerate the earlier agent scorecard and two PDFs from the retained results:
 
 ```sh
 node agent-benchmark/write-reports.mjs
@@ -77,4 +77,8 @@ The builder uses ReportLab. Render and inspect every resulting PDF page before p
 
 ## Repeat the combined-defence study
 
-Use [the combination guide](../combination-study/README.md) for fresh max-effort agents and 96/192 checkpoints. Offline verification needs no model access. To rebuild the latest two reports after verification, run `node combination-study/write-reports.mjs` then `python combination-study/build-reports.py`. The earlier builders reproduce their historical editions.
+Use [the combination guide](../combination-study/README.md) for fresh max-effort agents and 96/192 checkpoints. Offline verification needs no model access. To rebuild the combination reports after verification, run `node combination-study/write-reports.mjs` then `python combination-study/build-reports.py`. The earlier builders reproduce their historical editions.
+
+## Repeat cap-aware agents with numerical fitting
+
+Use [the fitting-study guide](../fitting-study/README.md). Offline verification is `node fitting-study/verify.mjs`; a fresh run uses `node fitting-study/run.mjs replications/my-new-fitting-run` with a compatible authenticated native Codex app-server and pinned REA. It uses only owned synthetic loopback applications. Rebuild the latest reports with `node fitting-study/write-reports.mjs` and `python fitting-study/build-reports.py`, then visually inspect every PDF page.

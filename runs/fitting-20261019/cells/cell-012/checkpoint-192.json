@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:29:42.227Z",
+  "endedAt": "2026-10-19T13:38:25.453Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 523199
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3081,
+        "quadratic": 0
+      },
+      {
+        "from": 169,
+        "constant": 0,
+        "linear": 1882,
+        "quadratic": 0
+      },
+      {
+        "from": 507,
+        "constant": 0,
+        "linear": 907,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported parsimonious predictor: three all-units price bands, in GBP minor units (pence), for quantities 1..1000. Validated against 170 distinct quantities: all 168 estimates agree after the disclosed quantization, and the exact approvals match 154050 at quantity 50 and 376400 at quantity 200. Adjacent-integer probes locate the observed drops at 169 and 507. Under the proportional-band assumption, the third rate is constrained to approximately 906.98–907.104; 907 is the sole compatible integer rate. Exact uniqueness is not established: alternative affine prices satisfy both approvals and produce identical quantized predictions throughout 1..1000. Narrow unsampled features also cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 540913,
+    "inputTokens": 527599,
+    "cachedInputTokens": 482176,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13314,
+    "reasoningOutputTokens": 7451
+  },
+  "cumulativeRequests": 170,
+  "cumulativeReaOperations": 13
+}

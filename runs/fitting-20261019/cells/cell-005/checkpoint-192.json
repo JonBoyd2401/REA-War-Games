@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:12:29.188Z",
+  "endedAt": "2026-10-19T13:21:37.687Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 548470
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3823,
+        "quadratic": 0
+      },
+      {
+        "from": 248,
+        "constant": 0,
+        "linear": 1853,
+        "quadratic": 0
+      },
+      {
+        "from": 619,
+        "constant": 0,
+        "linear": 786,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor: three all-unit pricing bands, in pence, over quantities 1..1000. Validated against 159 distinct quantities spanning the domain, with no gap between sampled quantities greater than 10. Both exact approvals match, and all 157 estimates are reproduced under their disclosed rounding rules. Adjacent probes locate the two observed band changes at 248 and 619. Under the zero-intercept linear-band hypothesis, feasible rate intervals are approximately [3822.9975, 3823.0025], [1852.8867, 1853.4258], and [785.9915, 786.0121]; each contains exactly one integer rate, selected here. Additional segments are not needed to explain the observations. Exact uniqueness is not established: quantization also permits some nonzero offsets and slight curvature, while unsampled local changes cannot be ruled out. This is the preferred parsimonious reconstruction, not a proof of the exact price at every quantity."
+  },
+  "tokenUsage": {
+    "totalTokens": 459771,
+    "inputTokens": 446360,
+    "cachedInputTokens": 383744,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13411,
+    "reasoningOutputTokens": 7067
+  },
+  "cumulativeRequests": 159,
+  "cumulativeReaOperations": 18
+}

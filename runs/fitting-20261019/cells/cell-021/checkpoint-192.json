@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:54:18.107Z",
+  "endedAt": "2026-10-19T13:59:15.701Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 297569
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3081,
+        "quadratic": 0
+      },
+      {
+        "from": 176,
+        "constant": 0,
+        "linear": 1882,
+        "quadratic": 0
+      },
+      {
+        "from": 532,
+        "constant": 0,
+        "linear": 916,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Validated approximation for integer quantities 1–1000, in GBP minor units (pence), not a uniquely recovered exact schedule. This parsimonious three-band model reproduces both exact approvals—154050 at quantity 50 and 376400 at quantity 200—and all eight estimate outputs after applying the disclosed quantization rule. Interval fitting found it feasible; additional segments were unnecessary. Conditional on this model, the first discount starts somewhere in 151–200 and the second in 501–563; the selected starts are midpoints of those unresolved ranges. The final band's constant per-unit rate is constrained to approximately 906.534–924.997 pence; 916 is a central choice. Affine alternatives also fit, and nonlinear behavior or additional transitions cannot be excluded. Prediction uncertainty is especially large within the transition gaps. All eight distinct estimate inputs were used, with later inputs probing transitions; repetitions or additional refused inputs would not improve identification. The available observations cannot establish exact prices throughout the domain."
+  },
+  "tokenUsage": {
+    "totalTokens": 154748,
+    "inputTokens": 147353,
+    "cachedInputTokens": 130944,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7395,
+    "reasoningOutputTokens": 5387
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 6
+}

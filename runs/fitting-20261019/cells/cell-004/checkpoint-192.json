@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:09:21.487Z",
+  "endedAt": "2026-10-19T13:12:23.076Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 181563
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52881,
+        "linear": 356,
+        "quadratic": 0
+      },
+      {
+        "from": 203,
+        "constant": 95907,
+        "linear": 143,
+        "quadratic": 0
+      },
+      {
+        "from": 571,
+        "constant": 132387,
+        "linear": 79,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor for integer quantities 1..1000, in GBP pence: three continuous affine tiers meeting at quantities 202 and 570. It matches all 10 exact observations with zero error, including the two approvals and eight distinct estimates. Three adaptive validation probes at 203, 569 and 571 matched predictions made before querying. Interval fitting supports all three regions; one- and two-region affine models fail. Uncertainty: the first transition is bracketed by observations at 200 and 203, and the second by 569 and 571. Continuity determines the proposed joins, but arbitrary nonlinear behavior or additional discontinuities at unqueried quantities cannot be excluded. The eight-input estimate allowance is exhausted; exactness across all 1000 quantities is not independently proven."
+  },
+  "tokenUsage": {
+    "totalTokens": 119147,
+    "inputTokens": 115022,
+    "cachedInputTokens": 98688,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4125,
+    "reasoningOutputTokens": 2581
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 8
+}

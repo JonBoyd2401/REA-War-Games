@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "cells": 30,
+  "checkpoints": 30,
+  "targets": 6,
+  "heldoutPredictions": 7680,
+  "fullDomainDiagnosticPredictions": 30000,
+  "validPredictors": 30,
+  "failedPredictors": 0,
+  "reaOperations": 327,
+  "reaResponseRowsVerified": 2861,
+  "capturedBodiesVerified": 6376,
+  "fittingCalls": 250,
+  "statusCounts": {
+    "200": 2861
+  },
+  "coverage": {
+    "incomplete": 327
+  },
+  "utilityJourneys": 120,
+  "utilityActions": 1800,
+  "recordedTokensAtFinalCheckpoint": 10319091,
+  "perCell": [
+    {
+      "cell": "cell-001",
+      "operations": 16,
+      "requests": 120,
+      "rowsVerified": 120
+    },
+    {
+      "cell": "cell-002",
+      "operations": 15,
+      "requests": 169,
+      "rowsVerified": 169
+    },
+    {
+      "cell": "cell-003",
+      "operations": 6,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-004",
+      "operations": 8,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-005",
+      "operations": 18,
+      "requests": 159,
+      "rowsVerified": 159
+    },
+    {
+      "cell": "cell-006",
+      "operations": 13,
+      "requests": 173,
+      "rowsVerified": 173
+    },
+    {
+      "cell": "cell-007",
+      "operations": 7,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-008",
+      "operations": 8,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-009",
+      "operations": 12,
+      "requests": 161,
+      "rowsVerified": 161
+    },
+    {
+      "cell": "cell-010",
+      "operations": 12,
+      "requests": 151,
+      "rowsVerified": 151
+    },
+    {
+      "cell": "cell-011",
+      "operations": 6,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-012",
+      "operations": 13,
+      "requests": 170,
+      "rowsVerified": 170
+    },
+    {
+      "cell": "cell-013",
+      "operations": 13,
+      "requests": 152,
+      "rowsVerified": 152
+    },
+    {
+      "cell": "cell-014",
+      "operations": 7,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-015",
+      "operations": 16,
+      "requests": 129,
+      "rowsVerified": 129
+    },
+    {
+      "cell": "cell-016",
+      "operations": 7,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-017",
+      "operations": 10,
+      "requests": 129,
+      "rowsVerified": 129
+    },
+    {
+      "cell": "cell-018",
+      "operations": 7,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-019",
+      "operations": 14,
+      "requests": 180,
+      "rowsVerified": 180
+    },
+    {
+      "cell": "cell-020",
+      "operations": 13,
+      "requests": 171,
+      "rowsVerified": 171
+    },
+    {
+      "cell": "cell-021",
+      "operations": 6,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-022",
+      "operations": 6,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-023",
+      "operations": 15,
+      "requests": 136,
+      "rowsVerified": 136
+    },
+    {
+      "cell": "cell-024",
+      "operations": 13,
+      "requests": 178,
+      "rowsVerified": 178
+    },
+    {
+      "cell": "cell-025",
+      "operations": 6,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-026",
+      "operations": 15,
+      "requests": 154,
+      "rowsVerified": 154
+    },
+    {
+      "cell": "cell-027",
+      "operations": 12,
+      "requests": 130,
+      "rowsVerified": 130
+    },
+    {
+      "cell": "cell-028",
+      "operations": 8,
+      "requests": 10,
+      "rowsVerified": 10
+    },
+    {
+      "cell": "cell-029",
+      "operations": 11,
+      "requests": 144,
+      "rowsVerified": 144
+    },
+    {
+      "cell": "cell-030",
+      "operations": 14,
+      "requests": 135,
+      "rowsVerified": 135
+    }
+  ]
+}

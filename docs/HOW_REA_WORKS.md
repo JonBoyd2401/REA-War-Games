@@ -61,3 +61,7 @@ Use synthetic accounts and disposable browser sessions to reproduce this work. T
 ## Combined-defence agent workflow
 
 The [new combination benchmark](COMBINATION_BENCHMARK.md) exposes the same captured-browser observation mechanism to 42 fresh max-effort agents. Each chooses batches of up to 16 quantities, one of two same-tenant sessions, and estimate, alias, approved quote or approved export. REA captures actual UI submissions and linked network bodies; the agent receives their projection. A predictor is hashed at the 96-request allowance before the same thread continues to 192, with no score feedback. Hidden parameters are published only after every predictor is frozen. This lets others inspect exactly which evidence each agent obtained and which numeric rule it submitted. It does not test every tool in upstream REA.
+
+## Cap-aware numerical fitting extension
+
+The [new study](FITTING_BENCHMARK.md) adds a bounded experimental fitting tool to the REA-assisted agent. REA still collects the browser/DOM/network evidence. The agent chooses probes, learns its quota before spending it, fits possible rules to observed numeric intervals and writes a frozen predictor. The optimiser is supplied by this benchmark; it is not an upstream REA capability claim. Source, calls, observation cutoffs, returned candidates and final predictions are public for investigation.

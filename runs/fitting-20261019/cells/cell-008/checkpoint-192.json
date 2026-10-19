@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:21:43.384Z",
+  "endedAt": "2026-10-19T13:26:42.348Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 298937
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 92092,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 170,
+        "constant": 21693,
+        "linear": 415,
+        "quadratic": 0
+      },
+      {
+        "from": 314,
+        "constant": 18655.98,
+        "linear": 356.9,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best observation-consistent hypothesis: a minimum charge of 92092 cents, followed by 21693 + 415*q, then a 14% discount on that linear formula. After rounding, this predictor reproduces all 10 observed prices exactly: eight distinct estimates and the two approvals. Interval fitting confirms feasibility. Important uncertainty: the minimum-charge transition at 170 is inferred from the intersection of the constant and linear formulas, not directly observed. Under the three-segment hypothesis, the discount starts somewhere in the inclusive range 301..327; 314 is a midpoint estimate, not an identified threshold. Predictions within 301..326 are consequently especially uncertain: the two pricing formulas differ there by approximately 20525–21978 cents. Integer observations also leave some coefficient and one-cent rounding ambiguity. The estimate cap is exhausted; unrestricted nonlinear or additional piecewise behavior between observations cannot be excluded, so exact reconstruction at every quantity is not established."
+  },
+  "tokenUsage": {
+    "totalTokens": 135993,
+    "inputTokens": 129161,
+    "cachedInputTokens": 103168,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6832,
+    "reasoningOutputTokens": 5054
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 8
+}

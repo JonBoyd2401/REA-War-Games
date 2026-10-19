@@ -1,0 +1,720 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:55108"
+  },
+  "actions": [
+    {
+      "step_id": "quantity-0",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "922"
+      }
+    },
+    {
+      "step_id": "surface-0",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-0",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-0",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"0\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-1",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "830"
+      }
+    },
+    {
+      "step_id": "surface-1",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-1",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-1",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"1\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-2",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "733"
+      }
+    },
+    {
+      "step_id": "surface-2",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-2",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-2",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"2\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-3",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "624"
+      }
+    },
+    {
+      "step_id": "surface-3",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-3",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-3",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"3\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-4",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "762"
+      }
+    },
+    {
+      "step_id": "surface-4",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-4",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-4",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"4\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-5",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "787"
+      }
+    },
+    {
+      "step_id": "surface-5",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-5",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-5",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"5\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-6",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "962"
+      }
+    },
+    {
+      "step_id": "surface-6",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-6",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-6",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"6\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-7",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "987"
+      }
+    },
+    {
+      "step_id": "surface-7",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-7",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-7",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"7\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-8",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "677"
+      }
+    },
+    {
+      "step_id": "surface-8",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-8",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-8",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"8\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-9",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "862"
+      }
+    },
+    {
+      "step_id": "surface-9",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-9",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-9",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"9\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-10",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "91"
+      }
+    },
+    {
+      "step_id": "surface-10",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-10",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-10",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"10\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-11",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "576"
+      }
+    },
+    {
+      "step_id": "surface-11",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-11",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-11",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"11\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-12",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "61"
+      }
+    },
+    {
+      "step_id": "surface-12",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-12",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-12",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"12\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-13",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "114"
+      }
+    },
+    {
+      "step_id": "surface-13",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-13",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-13",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"13\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-14",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "889"
+      }
+    },
+    {
+      "step_id": "surface-14",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-14",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-14",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"14\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quantity-15",
+      "action": "fill",
+      "locator": {
+        "kind": "css",
+        "selector": "#quantity"
+      },
+      "value": {
+        "source": "literal",
+        "value": "911"
+      }
+    },
+    {
+      "step_id": "surface-15",
+      "action": "select_option",
+      "locator": {
+        "kind": "css",
+        "selector": "#surface"
+      },
+      "value": {
+        "source": "literal",
+        "value": "estimate"
+      }
+    },
+    {
+      "step_id": "submit-15",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#calculate"
+      }
+    },
+    {
+      "step_id": "result-15",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#history pre[data-index=\"15\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "agentSession",
+      "environment_variable": "REA_AGENT_SESSION"
+    }
+  ],
+  "storage": {
+    "cookies": [
+      {
+        "name": "agent_session",
+        "value": {
+          "source": "secret",
+          "secret_id": "agentSession"
+        },
+        "destination": {
+          "url": "http://127.0.0.1:55108"
+        },
+        "http_only": true,
+        "secure": false,
+        "same_site": "Strict"
+      }
+    ]
+  },
+  "capture": {
+    "at_end": [
+      "dom"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

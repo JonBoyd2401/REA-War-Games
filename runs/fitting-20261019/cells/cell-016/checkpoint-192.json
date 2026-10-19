@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:40:46.703Z",
+  "endedAt": "2026-10-19T13:47:05.066Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 378338
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 91325,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 154,
+        "constant": 0,
+        "linear": 595.72,
+        "quadratic": 0
+      },
+      {
+        "from": 388,
+        "constant": 0,
+        "linear": 494.759606695,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best parsimonious interval-feasible hypothesis: a minimum charge followed by two proportional pricing tiers. Used both exact approvals first, then all eight permitted distinct estimates, covering quantities 1, 125, 275, 350, 425, 500, 750 and 1000. Compared generic piecewise affine least-squares and interval fits, including origin-constrained alternatives. This predictor reproduces both exact approvals (50 -> 91325; 200 -> 119144) and all eight estimate outputs when passed through the disclosed quantizer. This is observation consistency, not independent validation or unique recovery of the hidden exact prices. The first transition at 154 assumes a continuous minimum-charge crossover; observations alone leave the region 126..199 unresolved. Under the selected three-regime hypothesis, the later transition is bracketed within 351..425; 388 is a representative midpoint, not an identified threshold. Under the proportional upper-tier assumption, its rate is constrained to approximately 489.77..499.75 pence per unit; the selected coefficient is a central estimate, not known exact precision. Alternative nonlinear schedules or additional discontinuities remain possible, and no global error guarantee follows from these observations."
+  },
+  "tokenUsage": {
+    "totalTokens": 147732,
+    "inputTokens": 138440,
+    "cachedInputTokens": 115584,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 9292,
+    "reasoningOutputTokens": 7601
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 7
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:06:00.043Z",
+  "endedAt": "2026-10-19T13:15:43.219Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 583139
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3081,
+        "quadratic": 0
+      },
+      {
+        "from": 169,
+        "constant": 0,
+        "linear": 1882,
+        "quadratic": 0
+      },
+      {
+        "from": 507,
+        "constant": 0,
+        "linear": 907,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported parsimonious predictor for quantities 1..1000, in GBP pence. It matches both exact approvals (50: 154050; 200: 376400) and reproduces all 167 observed estimates under their disclosed quantization rules. Adjacent probes locate downward jumps at 168/169 and 506/507. Interval fitting supports these three proportional tiers without additional segments or quadratic terms. Conditional on proportional pricing, the third-tier rate is approximately 906.98276–907.10336 pence/unit, containing the single integer 907. Exact recovery is not uniquely identifiable: alternative affine formulas also satisfy the observations, and narrow unsampled deviations cannot be excluded. These coefficients are therefore the preferred validated model, not a proof of the hidden exact function."
+  },
+  "tokenUsage": {
+    "totalTokens": 513536,
+    "inputTokens": 497901,
+    "cachedInputTokens": 451584,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 15635,
+    "reasoningOutputTokens": 9001
+  },
+  "cumulativeRequests": 169,
+  "cumulativeReaOperations": 15
+}

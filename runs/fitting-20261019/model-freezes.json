@@ -1,0 +1,245 @@
+{
+  "at": "2026-10-19T14:26:29.582Z",
+  "models": [
+    {
+      "target": "target-03",
+      "policy": "band1to4-budget8",
+      "cell": "cell-001",
+      "budget": 192,
+      "sha256": "ab081f2f77363e722fe55dd45480834e124e509e05b74e66ecde8f928463c430",
+      "endedAt": "2026-10-19T13:18:21.769Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "band1to4-budget8",
+      "cell": "cell-002",
+      "budget": 192,
+      "sha256": "74e0581e0f120f592e5bdf0da57dca47510e2ab8852695937f08979f9411b6a2",
+      "endedAt": "2026-10-19T13:15:43.219Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "limit8",
+      "cell": "cell-003",
+      "budget": 192,
+      "sha256": "4fb5744d430a145a72ac43d2c045670a70c6714b9063a5f8936be16e407da4db",
+      "endedAt": "2026-10-19T13:09:16.153Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "limit8",
+      "cell": "cell-004",
+      "budget": 192,
+      "sha256": "428cb72e930e76bc9948cf04df0e6c9740c1682180db22b40fb4645afce9b623",
+      "endedAt": "2026-10-19T13:12:23.076Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "band1to4-budget8",
+      "cell": "cell-005",
+      "budget": 192,
+      "sha256": "8f92f229d3d7766024d44f163b92bde29f0b5fcb910460bbb31df5ad0da82792",
+      "endedAt": "2026-10-19T13:21:37.687Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "exact",
+      "cell": "cell-006",
+      "budget": 192,
+      "sha256": "79ceaff98d60c35e845af1b76585f1482f0fd7336ee0922097865f96d7cadc8e",
+      "endedAt": "2026-10-19T13:22:31.182Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "band4-limit8",
+      "cell": "cell-007",
+      "budget": 192,
+      "sha256": "423cf1137b8d5822a636be2332d3c19e8e6f54c5526b0dc801edd58b905ae77e",
+      "endedAt": "2026-10-19T13:31:00.104Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "limit8",
+      "cell": "cell-008",
+      "budget": 192,
+      "sha256": "ad2a0fe86f829cdbad0e519612114a5bac0d3cde57189a5a2236fb131ca2ddf0",
+      "endedAt": "2026-10-19T13:26:42.348Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "exact",
+      "cell": "cell-009",
+      "budget": 192,
+      "sha256": "17df2fe2d7f72d3652dc406355ac267b66bc2d93436e66590d53350001155cda",
+      "endedAt": "2026-10-19T13:26:33.939Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "band4",
+      "cell": "cell-010",
+      "budget": 192,
+      "sha256": "5db52b116830f1dd834fe26e280b0f2d6f2568c7f5f0b243a87757957bf17e63",
+      "endedAt": "2026-10-19T13:35:51.583Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "limit8",
+      "cell": "cell-011",
+      "budget": 192,
+      "sha256": "6ae4488a407ac905a9eeb56852503e7bea1ab6a961f7192c933f4eb927eb5c93",
+      "endedAt": "2026-10-19T13:29:37.099Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "band4",
+      "cell": "cell-012",
+      "budget": 192,
+      "sha256": "c289b4ec264ec71ad3c8896dbcad8742a6064634758440fdda8da9d00014ba56",
+      "endedAt": "2026-10-19T13:38:25.453Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "band4",
+      "cell": "cell-013",
+      "budget": 192,
+      "sha256": "26f235c9a3315410543a85b12046f324794e2e08fec509046a5b8e7b86b250c1",
+      "endedAt": "2026-10-19T13:40:40.406Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "band4-limit8",
+      "cell": "cell-014",
+      "budget": 192,
+      "sha256": "6f9bb257813ec8925b9ed2fa520bdd7ff0e2aafcc07c207b3881b41fe8db21a0",
+      "endedAt": "2026-10-19T13:43:56.548Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "band1to4-budget8",
+      "cell": "cell-015",
+      "budget": 192,
+      "sha256": "0a5fdeaa28698d22b3b36befbc9db1eee3efd66c8f79c00a064a074440e8132f",
+      "endedAt": "2026-10-19T13:49:47.731Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "band4-limit8",
+      "cell": "cell-016",
+      "budget": 192,
+      "sha256": "c778bd6abe061f9138fe4e9deaef2510fd36d00182845ad67b2e36ba2561bac7",
+      "endedAt": "2026-10-19T13:47:05.066Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "band4",
+      "cell": "cell-017",
+      "budget": 192,
+      "sha256": "594eaacd70791622be02d9a54c18598821c6eb2703a4e3b2495cd52d60e12c0d",
+      "endedAt": "2026-10-19T13:52:22.085Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "band4-limit8",
+      "cell": "cell-018",
+      "budget": 192,
+      "sha256": "cb6119bc56fe89b3d48a87dd2eaeff20540450987800299a4342134370499364",
+      "endedAt": "2026-10-19T13:54:12.736Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "exact",
+      "cell": "cell-019",
+      "budget": 192,
+      "sha256": "2927ae60337baba2f91671d22ea9eccb6782d464c900b86fc4d304b91a5ae87a",
+      "endedAt": "2026-10-19T13:57:22.506Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "exact",
+      "cell": "cell-020",
+      "budget": 192,
+      "sha256": "59a332d579645c426e4f9643db284074e8109ef277ab0e2e23ec757a84653019",
+      "endedAt": "2026-10-19T13:57:31.346Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "band4-limit8",
+      "cell": "cell-021",
+      "budget": 192,
+      "sha256": "d62e16ebe23cf33b81c644ca176d7bb7cf7c9464a5384eb05c7b77eef15e83d5",
+      "endedAt": "2026-10-19T13:59:15.701Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "band4-limit8",
+      "cell": "cell-022",
+      "budget": 192,
+      "sha256": "4ee50bf778f392da687def1d4e09311af444f9a117b2bc336affed52ce133a72",
+      "endedAt": "2026-10-19T14:00:58.914Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "band1to4-budget8",
+      "cell": "cell-023",
+      "budget": 192,
+      "sha256": "4ddfe0f66e133992b7f97706ee8f9574e1e5a49c6f0b69046c6c95315e530854",
+      "endedAt": "2026-10-19T14:10:40.675Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "exact",
+      "cell": "cell-024",
+      "budget": 192,
+      "sha256": "5e1e1837ebfe5a1063be21311ca4a0619de59a48bc778601e66388ec2746c366",
+      "endedAt": "2026-10-19T14:05:17.503Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "limit8",
+      "cell": "cell-025",
+      "budget": 192,
+      "sha256": "d175c05bb4abed0d38846ca7b94b5d8976bb7c6e1cba539f045608afdfe954cc",
+      "endedAt": "2026-10-19T14:03:51.050Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "band1to4-budget8",
+      "cell": "cell-026",
+      "budget": 192,
+      "sha256": "d1784e36e8d2215fd16fa5568b0f806c762afe777c657b41ce64d147979a953d",
+      "endedAt": "2026-10-19T14:17:24.900Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "band4",
+      "cell": "cell-027",
+      "budget": 192,
+      "sha256": "bd5e6a10a0fd6a47b1e08df20fbe9d87e43bc1c5c2aafb5f8e378d88efeef7c4",
+      "endedAt": "2026-10-19T14:13:56.769Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "limit8",
+      "cell": "cell-028",
+      "budget": 192,
+      "sha256": "1f827f17d8f19d3cc32ca0e9f09b338b876b20401d906adcdbf184a818364eb2",
+      "endedAt": "2026-10-19T14:15:06.436Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "exact",
+      "cell": "cell-029",
+      "budget": 192,
+      "sha256": "fb0225ffe5e41e01a86dc67f7a4612c5601d86791a10da76109ab790e6bb7852",
+      "endedAt": "2026-10-19T14:18:04.936Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "band4",
+      "cell": "cell-030",
+      "budget": 192,
+      "sha256": "aba3a412e7e743e516a155fd0b89113b6b63eb20465fed5351b7936908f70334",
+      "endedAt": "2026-10-19T14:26:29.562Z"
+    }
+  ]
+}

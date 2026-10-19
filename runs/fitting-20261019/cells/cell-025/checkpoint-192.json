@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T14:01:04.372Z",
+  "endedAt": "2026-10-19T14:03:51.050Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 166646
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3823,
+        "quadratic": 0
+      },
+      {
+        "from": 238,
+        "constant": 0,
+        "linear": 1853,
+        "quadratic": 0
+      },
+      {
+        "from": 595,
+        "constant": 0,
+        "linear": 786,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor: three all-units pricing tiers, in pence. It matches all 10 exact observations with zero error: the two approvals and all eight permitted distinct estimates. Each tier has at least three observations with identical price per unit; interval fitting supports these coefficients with or without allowing intercepts. Transition locations remain unresolved. Assuming this three-tier structure, the second tier starts somewhere in inclusive [201,275], and the third somewhere in [564,625]. Returned starts 238 and 595 are midpoint estimates, not verified breakpoints. Under that structure, tier assignment is uncertain only at quantities 201–274 and 564–624. The distinct-estimate cap is exhausted; repeats and the available approvals cannot narrow these gaps. Exact reconstruction over all 1–1000 quantities is therefore not established, and unobserved nonlinearities or additional transitions cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 97607,
+    "inputTokens": 94078,
+    "cachedInputTokens": 86016,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3529,
+    "reasoningOutputTokens": 2137
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 6
+}

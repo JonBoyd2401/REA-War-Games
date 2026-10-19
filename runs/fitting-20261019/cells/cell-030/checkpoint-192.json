@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T14:15:12.361Z",
+  "endedAt": "2026-10-19T14:26:29.562Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 677164
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52881,
+        "linear": 356,
+        "quadratic": 0
+      },
+      {
+        "from": 203,
+        "constant": 95907,
+        "linear": 143,
+        "quadratic": 0
+      },
+      {
+        "from": 571,
+        "constant": 132387,
+        "linear": 79,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated reconstruction for integer quantities 1..1000, in GBP minor units (pence). This continuous three-tier model has a base charge of 52881 and marginal rates of 356, 143 and 79, changing after quantities 202 and 570. It matches both exact approvals: 70681 at quantity 50 and 124081 at quantity 200. All 133 additional estimates match after applying the disclosed quantization. All 18 predicted estimate-band transitions were checked on both adjacent integer quantities; further full-domain and breakpoint-neighborhood probes found no contradiction. Continuity and whole-pence marginal rates are inferred modeling assumptions, not disclosed facts. Coarse estimates do not uniquely identify hidden exact prices: alternative coefficients, nonlinear behavior or discontinuities can remain within the same bands, particularly at larger quantities. This predictor is therefore strongly supported under the three-tier interpretation, but exact recovery at every quantity is not guaranteed."
+  },
+  "tokenUsage": {
+    "totalTokens": 638093,
+    "inputTokens": 620286,
+    "cachedInputTokens": 566912,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 17807,
+    "reasoningOutputTokens": 11810
+  },
+  "cumulativeRequests": 135,
+  "cumulativeReaOperations": 14
+}

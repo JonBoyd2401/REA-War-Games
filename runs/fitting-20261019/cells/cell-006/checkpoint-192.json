@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:15:48.767Z",
+  "endedAt": "2026-10-19T13:22:31.182Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 402383
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 92092,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 170,
+        "constant": 21693,
+        "linear": 415,
+        "quadratic": 0
+      },
+      {
+        "from": 324,
+        "constant": 18655.98,
+        "linear": 356.9,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Predicts GBP minor units (pence) for every integer quantity 1..1000 using the requested rounding rule. The model has a constant-price region, a linear region, and a downward discontinuity at 324 followed by a lower slope. It matches all 173 distinct exact observations, including approvals at 50 and 200 and 107 fresh validation quantities queried after selecting this predictor. Adjacent observations locate the transitions at 169/170 and 323/324. Interval fitting confirms feasibility with zero interval loss; additional segments are not warranted. Conditional on these three rounded-affine regimes, the observations determine the same integer prices throughout the domain despite ambiguity in sub-cent coefficients. This is not an exhaustive reconstruction guarantee: unobserved narrow exceptions or nonlinear behavior cannot be excluded. The longest unqueried run is nine quantities."
+  },
+  "tokenUsage": {
+    "totalTokens": 363063,
+    "inputTokens": 353512,
+    "cachedInputTokens": 321536,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 9551,
+    "reasoningOutputTokens": 5271
+  },
+  "cumulativeRequests": 173,
+  "cumulativeReaOperations": 13
+}

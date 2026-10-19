@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T14:10:45.421Z",
+  "endedAt": "2026-10-19T14:15:06.436Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 260993
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 91325,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 149,
+        "constant": 11744,
+        "linear": 537,
+        "quadratic": 0
+      },
+      {
+        "from": 392,
+        "constant": 10452.16,
+        "linear": 477.93,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated hypothesis: a 91325-cent minimum charge, followed by 11744 + 537*q, then an 11% discount on that linear price. Rounded predictions match all 10 exact observations: the two exempt approvals and eight distinct estimates. Interval fitting supports all three branches. The minimum-charge transition at 149 is inferred from the lines' intersection, not directly observed. Assuming a single discount transition, its inclusive start is only localized to 376..407; 392 is a midpoint estimate. Under this hypothesis, breakpoint uncertainty can cause approximately 23502–25274 cents of error at quantities 376..406. Coefficients are simple rounding-compatible choices, not uniquely determined. The estimate cap is exhausted; repeats and aliases add no precision. This predictor covers 1..1000, but exact reconstruction at every quantity is not established, and additional unobserved structure cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 143467,
+    "inputTokens": 137542,
+    "cachedInputTokens": 123776,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5925,
+    "reasoningOutputTokens": 4162
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 8
+}

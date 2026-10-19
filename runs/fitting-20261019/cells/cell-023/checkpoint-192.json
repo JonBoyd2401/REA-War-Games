@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:57:39.344Z",
+  "endedAt": "2026-10-19T14:10:40.675Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 781291
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 91325,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 149,
+        "constant": 11656,
+        "linear": 537.44,
+        "quadratic": 0
+      },
+      {
+        "from": 377,
+        "constant": 10365,
+        "linear": 478,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated reconstruction: a flat minimum-price region followed by two affine regions, with a downward price change at quantity 377. Validated against 136 distinct quantities spanning 1..1000, including 134 estimates and both exact approvals. This predictor reproduces every observed estimate under its disclosed quantization and exactly predicts 91325 at quantity 50 and 119144 at quantity 200. The drop at 377 is confirmed by adjacent observations at 376 and 377. The start at 149 is inferred from the floor-to-line intersection, not uniquely established by rounded estimates. Exact reconstruction is not identifiable from these observations: within the fixed-boundary affine family, compatible alternatives differ from this predictor by approximately 711, 99 and 254 cents at most in the respective regions. These are conditional bounds, not unrestricted error guarantees; small curvature and unobserved irregularities remain possible. Used 136 requests, 15 REA operations and 9 fitting calls."
+  },
+  "tokenUsage": {
+    "totalTokens": 628931,
+    "inputTokens": 609802,
+    "cachedInputTokens": 558080,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 19129,
+    "reasoningOutputTokens": 12040
+  },
+  "cumulativeRequests": 136,
+  "cumulativeReaOperations": 15
+}

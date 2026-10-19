@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:49:52.706Z",
+  "endedAt": "2026-10-19T13:57:22.506Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 449772
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 91325,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 149,
+        "constant": 11744,
+        "linear": 537,
+        "quadratic": 0
+      },
+      {
+        "from": 377,
+        "constant": 10452.16,
+        "linear": 477.93,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor for integer quantities 1..1000, in GBP pence. The model has a minimum-price plateau, a linear regime, and an 11% discount on that linear formula starting at 377. Validated against 180 distinct exact observations with zero cent errors, including approvals at 50 and 200, both adjacent transition pairs (148/149 and 376/377), and all 100 cent-rounding phases of the final regime. All 92 additional queries after fixing the model matched. Interval fitting supports three segments; no quadratic terms are needed. Conditional on these affine regimes, the rounding constraints determine the integer-cent predictions throughout the domain, although real-valued coefficients are not uniquely identified. Unsampled localized exceptions or other departures from this model cannot be ruled out from finite observations."
+  },
+  "tokenUsage": {
+    "totalTokens": 417968,
+    "inputTokens": 407058,
+    "cachedInputTokens": 371200,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 10910,
+    "reasoningOutputTokens": 6683
+  },
+  "cumulativeRequests": 180,
+  "cumulativeReaOperations": 14
+}

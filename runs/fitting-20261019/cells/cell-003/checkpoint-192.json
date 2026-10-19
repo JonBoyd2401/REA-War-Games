@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:06:00.356Z",
+  "endedAt": "2026-10-19T13:09:16.153Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 195771
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 58071,
+        "linear": 365,
+        "quadratic": 0
+      },
+      {
+        "from": 297,
+        "constant": 124671,
+        "linear": 140,
+        "quadratic": 0
+      },
+      {
+        "from": 537,
+        "constant": 168623,
+        "linear": 58,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor for integer quantities 1..1000, in GBP pence: three continuous affine pieces, with slope changes after 296 and 536. Matches all 10 exact observations with zero error: approvals at 50 and 200, plus all eight permitted estimates at 1, 295, 297, 350, 500, 537, 750 and 1000. Adaptive validation at 295, 297 and 537 confirmed previously predicted values. Interval fitting supports this model; one- and two-piece affine fits cannot explain the observations. Uncertainty: the first transition is tightly bracketed, but the second segment change is only bracketed between 500 and 537; its placement at 537 is inferred from continuity. Arbitrary unobserved nonlinearities or discontinuities cannot be excluded, so exactness at every unqueried quantity is not proven."
+  },
+  "tokenUsage": {
+    "totalTokens": 114087,
+    "inputTokens": 109498,
+    "cachedInputTokens": 78336,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4589,
+    "reasoningOutputTokens": 2510
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 6
+}

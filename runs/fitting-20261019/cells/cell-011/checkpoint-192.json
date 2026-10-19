@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T13:26:51.567Z",
+  "endedAt": "2026-10-19T13:29:37.099Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 165494
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3081,
+        "quadratic": 0
+      },
+      {
+        "from": 182,
+        "constant": 0,
+        "linear": 1882,
+        "quadratic": 0
+      },
+      {
+        "from": 532,
+        "constant": 0,
+        "linear": 907,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Predictor for integer quantities 1–1000, in pence. The inferred model is three all-units pricing tiers. It reproduces all 10 exact observations with zero error, including both approvals and all eight permitted distinct estimates; affine and through-origin fitting support the same rates. Transition locations remain uncertain: conditional on this three-tier structure, the second tier begins somewhere in 164–200 and the third in 501–563. The supplied starts, 182 and 532, are midpoint estimates, not verified boundaries. Consequently, quantities 164–199 and 501–562 have unresolved tier membership. Additional tiers or nonlinear behavior between observations cannot be excluded. The estimate cap is exhausted, so this is a validated-on-observations predictor, not a uniquely identified exact reconstruction of all 1,000 prices."
+  },
+  "tokenUsage": {
+    "totalTokens": 99191,
+    "inputTokens": 95429,
+    "cachedInputTokens": 73344,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3762,
+    "reasoningOutputTokens": 2429
+  },
+  "cumulativeRequests": 10,
+  "cumulativeReaOperations": 6
+}

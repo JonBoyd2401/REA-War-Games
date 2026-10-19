@@ -1,0 +1,193 @@
+{
+  "evidenceId": "10",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "quantity": 333,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 617049,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 708,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 556488,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 56,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 214088,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 356,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 659668,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 722,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 567492,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 68,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 259964,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 367,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 680051,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 732,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 575352,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 81,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 309663,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 394,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 730082,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 742,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 583212,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 94,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 359362,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 405,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 750465,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 766,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 602076,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 105,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 401415,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    },
+    {
+      "quantity": 432,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 800496,
+        "currency": "GBP",
+        "quantizationRatio": 1,
+        "nonBindingEstimate": true
+      }
+    }
+  ],
+  "businessRequestsUsed": 130,
+  "businessRequestsRemaining": 62,
+  "reaOperationsRemaining": 54
+}

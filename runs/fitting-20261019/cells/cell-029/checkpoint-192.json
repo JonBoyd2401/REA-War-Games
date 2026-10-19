@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T14:14:01.404Z",
+  "endedAt": "2026-10-19T14:18:04.936Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 243509
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52881,
+        "linear": 356,
+        "quadratic": 0
+      },
+      {
+        "from": 203,
+        "constant": 95907,
+        "linear": 143,
+        "quadratic": 0
+      },
+      {
+        "from": 571,
+        "constant": 132387,
+        "linear": 79,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported reconstruction for integer quantities 1..1000, in GBP pence: three affine tiers, with marginal prices changing after quantities 202 and 570. Matches all 144 distinct exact REA observations, including approved quantities 50 and 200, with zero-cent error. The model matched 110 additional validation quantities after identification; checks included adjacent quantities around both transitions, local curvature tests, and domain-wide gap probes. No gap between sampled quantities exceeds 10. Least-squares and fixed-start interval fitting support these coefficients; no quadratic terms or additional segments were needed. Confidence is high, conditional on no unobserved exceptional pricing rules: finite sampling cannot exclude isolated deviations or narrow regimes entirely between sampled quantities."
+  },
+  "tokenUsage": {
+    "totalTokens": 286412,
+    "inputTokens": 281672,
+    "cachedInputTokens": 238720,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4740,
+    "reasoningOutputTokens": 1952
+  },
+  "cumulativeRequests": 144,
+  "cumulativeReaOperations": 11
+}
