@@ -1,0 +1,1562 @@
+[
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "e83f3f3a0a586143f148a6c7"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "1379fbe428ee0fcf8f1dbf9e"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "e5cf01a677536853981392cf"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "1599bd950e19b852aaf111ef"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "7ab50e5b924043aab2a39fcc"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "056262ee65af561f88349823"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "5cd5bcb7cdbacabbc51de893"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "023d1d07121e37e6d49e5521"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "3bbbf7bb4f21d0da7c3c9784"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "A",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "2c44a9c724c017bfa53515f4"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "ac8cd81a048125a156c3c107"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user1",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "e51ddf3a45b8ea191de6ad7e"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "84a2a674920f212dddaf75aa"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "user2",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "2d288b4cdcaaba7bef3fdcb9"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "e6ce7387ab4e64dfbf6578d3"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "service",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "5562ebbb90c63c41bd9ebd90"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "fc851ce97fb8eec991219f6b"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "B",
+    "principal": "other",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "3f786d413c3150551fb2c1a9"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 50,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-50",
+        "quantity": 50,
+        "totalCents": 125000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 50,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 50,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "234d154c73388589fcfbbbe4"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 200,
+    "route": "/api/quote",
+    "response": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "requestId": "approved-200",
+        "quantity": 200,
+        "totalCents": 300000
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 200,
+    "route": "/api/export",
+    "response": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "rows": [
+          {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "world": "B",
+    "tenant": "A",
+    "principal": "replacement",
+    "quantity": 200,
+    "route": "/api/jobs",
+    "response": {
+      "status": 202,
+      "body": {
+        "jobId": "50ab4ab6c0090ad738e886a3"
+      }
+    },
+    "result": {
+      "status": 200,
+      "body": {
+        "state": "complete",
+        "quote": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      }
+    }
+  }
+]

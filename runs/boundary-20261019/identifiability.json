@@ -1,0 +1,5114 @@
+{
+  "assumptions": [
+    "only permitted payloads observed",
+    "no world-dependent side channels or prior information",
+    "worlds equally likely"
+  ],
+  "domain": [
+    {
+      "quantity": 1,
+      "worldACents": 2500,
+      "worldBCents": 2500
+    },
+    {
+      "quantity": 2,
+      "worldACents": 5000,
+      "worldBCents": 5000
+    },
+    {
+      "quantity": 3,
+      "worldACents": 7500,
+      "worldBCents": 7500
+    },
+    {
+      "quantity": 4,
+      "worldACents": 10000,
+      "worldBCents": 10000
+    },
+    {
+      "quantity": 5,
+      "worldACents": 12500,
+      "worldBCents": 12500
+    },
+    {
+      "quantity": 6,
+      "worldACents": 15000,
+      "worldBCents": 15000
+    },
+    {
+      "quantity": 7,
+      "worldACents": 17500,
+      "worldBCents": 17500
+    },
+    {
+      "quantity": 8,
+      "worldACents": 20000,
+      "worldBCents": 20000
+    },
+    {
+      "quantity": 9,
+      "worldACents": 22500,
+      "worldBCents": 22500
+    },
+    {
+      "quantity": 10,
+      "worldACents": 25000,
+      "worldBCents": 25000
+    },
+    {
+      "quantity": 11,
+      "worldACents": 27500,
+      "worldBCents": 27500
+    },
+    {
+      "quantity": 12,
+      "worldACents": 30000,
+      "worldBCents": 30000
+    },
+    {
+      "quantity": 13,
+      "worldACents": 32500,
+      "worldBCents": 32500
+    },
+    {
+      "quantity": 14,
+      "worldACents": 35000,
+      "worldBCents": 35000
+    },
+    {
+      "quantity": 15,
+      "worldACents": 37500,
+      "worldBCents": 37500
+    },
+    {
+      "quantity": 16,
+      "worldACents": 40000,
+      "worldBCents": 40000
+    },
+    {
+      "quantity": 17,
+      "worldACents": 42500,
+      "worldBCents": 42500
+    },
+    {
+      "quantity": 18,
+      "worldACents": 45000,
+      "worldBCents": 45000
+    },
+    {
+      "quantity": 19,
+      "worldACents": 47500,
+      "worldBCents": 47500
+    },
+    {
+      "quantity": 20,
+      "worldACents": 50000,
+      "worldBCents": 50000
+    },
+    {
+      "quantity": 21,
+      "worldACents": 52500,
+      "worldBCents": 52500
+    },
+    {
+      "quantity": 22,
+      "worldACents": 55000,
+      "worldBCents": 55000
+    },
+    {
+      "quantity": 23,
+      "worldACents": 57500,
+      "worldBCents": 57500
+    },
+    {
+      "quantity": 24,
+      "worldACents": 60000,
+      "worldBCents": 60000
+    },
+    {
+      "quantity": 25,
+      "worldACents": 62500,
+      "worldBCents": 62500
+    },
+    {
+      "quantity": 26,
+      "worldACents": 65000,
+      "worldBCents": 65000
+    },
+    {
+      "quantity": 27,
+      "worldACents": 67500,
+      "worldBCents": 67500
+    },
+    {
+      "quantity": 28,
+      "worldACents": 70000,
+      "worldBCents": 70000
+    },
+    {
+      "quantity": 29,
+      "worldACents": 72500,
+      "worldBCents": 72500
+    },
+    {
+      "quantity": 30,
+      "worldACents": 75000,
+      "worldBCents": 75000
+    },
+    {
+      "quantity": 31,
+      "worldACents": 77500,
+      "worldBCents": 77500
+    },
+    {
+      "quantity": 32,
+      "worldACents": 80000,
+      "worldBCents": 80000
+    },
+    {
+      "quantity": 33,
+      "worldACents": 82500,
+      "worldBCents": 82500
+    },
+    {
+      "quantity": 34,
+      "worldACents": 85000,
+      "worldBCents": 85000
+    },
+    {
+      "quantity": 35,
+      "worldACents": 87500,
+      "worldBCents": 87500
+    },
+    {
+      "quantity": 36,
+      "worldACents": 90000,
+      "worldBCents": 90000
+    },
+    {
+      "quantity": 37,
+      "worldACents": 92500,
+      "worldBCents": 92500
+    },
+    {
+      "quantity": 38,
+      "worldACents": 95000,
+      "worldBCents": 95000
+    },
+    {
+      "quantity": 39,
+      "worldACents": 97500,
+      "worldBCents": 97500
+    },
+    {
+      "quantity": 40,
+      "worldACents": 100000,
+      "worldBCents": 100000
+    },
+    {
+      "quantity": 41,
+      "worldACents": 102500,
+      "worldBCents": 102500
+    },
+    {
+      "quantity": 42,
+      "worldACents": 105000,
+      "worldBCents": 105000
+    },
+    {
+      "quantity": 43,
+      "worldACents": 107500,
+      "worldBCents": 107500
+    },
+    {
+      "quantity": 44,
+      "worldACents": 110000,
+      "worldBCents": 110000
+    },
+    {
+      "quantity": 45,
+      "worldACents": 112500,
+      "worldBCents": 112500
+    },
+    {
+      "quantity": 46,
+      "worldACents": 115000,
+      "worldBCents": 115000
+    },
+    {
+      "quantity": 47,
+      "worldACents": 117500,
+      "worldBCents": 117500
+    },
+    {
+      "quantity": 48,
+      "worldACents": 120000,
+      "worldBCents": 120000
+    },
+    {
+      "quantity": 49,
+      "worldACents": 122500,
+      "worldBCents": 122500
+    },
+    {
+      "quantity": 50,
+      "worldACents": 125000,
+      "worldBCents": 125000
+    },
+    {
+      "quantity": 51,
+      "worldACents": 127500,
+      "worldBCents": 127500
+    },
+    {
+      "quantity": 52,
+      "worldACents": 130000,
+      "worldBCents": 130000
+    },
+    {
+      "quantity": 53,
+      "worldACents": 132500,
+      "worldBCents": 132500
+    },
+    {
+      "quantity": 54,
+      "worldACents": 135000,
+      "worldBCents": 135000
+    },
+    {
+      "quantity": 55,
+      "worldACents": 137500,
+      "worldBCents": 137500
+    },
+    {
+      "quantity": 56,
+      "worldACents": 140000,
+      "worldBCents": 140000
+    },
+    {
+      "quantity": 57,
+      "worldACents": 142500,
+      "worldBCents": 142500
+    },
+    {
+      "quantity": 58,
+      "worldACents": 145000,
+      "worldBCents": 145000
+    },
+    {
+      "quantity": 59,
+      "worldACents": 147500,
+      "worldBCents": 147500
+    },
+    {
+      "quantity": 60,
+      "worldACents": 150000,
+      "worldBCents": 150000
+    },
+    {
+      "quantity": 61,
+      "worldACents": 152500,
+      "worldBCents": 152500
+    },
+    {
+      "quantity": 62,
+      "worldACents": 155000,
+      "worldBCents": 155000
+    },
+    {
+      "quantity": 63,
+      "worldACents": 157500,
+      "worldBCents": 157500
+    },
+    {
+      "quantity": 64,
+      "worldACents": 160000,
+      "worldBCents": 160000
+    },
+    {
+      "quantity": 65,
+      "worldACents": 162500,
+      "worldBCents": 162500
+    },
+    {
+      "quantity": 66,
+      "worldACents": 165000,
+      "worldBCents": 165000
+    },
+    {
+      "quantity": 67,
+      "worldACents": 167500,
+      "worldBCents": 167500
+    },
+    {
+      "quantity": 68,
+      "worldACents": 170000,
+      "worldBCents": 170000
+    },
+    {
+      "quantity": 69,
+      "worldACents": 172500,
+      "worldBCents": 172500
+    },
+    {
+      "quantity": 70,
+      "worldACents": 175000,
+      "worldBCents": 175000
+    },
+    {
+      "quantity": 71,
+      "worldACents": 177500,
+      "worldBCents": 177500
+    },
+    {
+      "quantity": 72,
+      "worldACents": 180000,
+      "worldBCents": 180000
+    },
+    {
+      "quantity": 73,
+      "worldACents": 182500,
+      "worldBCents": 182500
+    },
+    {
+      "quantity": 74,
+      "worldACents": 185000,
+      "worldBCents": 185000
+    },
+    {
+      "quantity": 75,
+      "worldACents": 112500,
+      "worldBCents": 187500
+    },
+    {
+      "quantity": 76,
+      "worldACents": 114000,
+      "worldBCents": 190000
+    },
+    {
+      "quantity": 77,
+      "worldACents": 115500,
+      "worldBCents": 192500
+    },
+    {
+      "quantity": 78,
+      "worldACents": 117000,
+      "worldBCents": 195000
+    },
+    {
+      "quantity": 79,
+      "worldACents": 118500,
+      "worldBCents": 197500
+    },
+    {
+      "quantity": 80,
+      "worldACents": 120000,
+      "worldBCents": 200000
+    },
+    {
+      "quantity": 81,
+      "worldACents": 121500,
+      "worldBCents": 202500
+    },
+    {
+      "quantity": 82,
+      "worldACents": 123000,
+      "worldBCents": 205000
+    },
+    {
+      "quantity": 83,
+      "worldACents": 124500,
+      "worldBCents": 207500
+    },
+    {
+      "quantity": 84,
+      "worldACents": 126000,
+      "worldBCents": 210000
+    },
+    {
+      "quantity": 85,
+      "worldACents": 127500,
+      "worldBCents": 212500
+    },
+    {
+      "quantity": 86,
+      "worldACents": 129000,
+      "worldBCents": 215000
+    },
+    {
+      "quantity": 87,
+      "worldACents": 130500,
+      "worldBCents": 217500
+    },
+    {
+      "quantity": 88,
+      "worldACents": 132000,
+      "worldBCents": 220000
+    },
+    {
+      "quantity": 89,
+      "worldACents": 133500,
+      "worldBCents": 222500
+    },
+    {
+      "quantity": 90,
+      "worldACents": 135000,
+      "worldBCents": 225000
+    },
+    {
+      "quantity": 91,
+      "worldACents": 136500,
+      "worldBCents": 227500
+    },
+    {
+      "quantity": 92,
+      "worldACents": 138000,
+      "worldBCents": 230000
+    },
+    {
+      "quantity": 93,
+      "worldACents": 139500,
+      "worldBCents": 232500
+    },
+    {
+      "quantity": 94,
+      "worldACents": 141000,
+      "worldBCents": 235000
+    },
+    {
+      "quantity": 95,
+      "worldACents": 142500,
+      "worldBCents": 237500
+    },
+    {
+      "quantity": 96,
+      "worldACents": 144000,
+      "worldBCents": 240000
+    },
+    {
+      "quantity": 97,
+      "worldACents": 145500,
+      "worldBCents": 242500
+    },
+    {
+      "quantity": 98,
+      "worldACents": 147000,
+      "worldBCents": 245000
+    },
+    {
+      "quantity": 99,
+      "worldACents": 148500,
+      "worldBCents": 247500
+    },
+    {
+      "quantity": 100,
+      "worldACents": 150000,
+      "worldBCents": 250000
+    },
+    {
+      "quantity": 101,
+      "worldACents": 151500,
+      "worldBCents": 252500
+    },
+    {
+      "quantity": 102,
+      "worldACents": 153000,
+      "worldBCents": 255000
+    },
+    {
+      "quantity": 103,
+      "worldACents": 154500,
+      "worldBCents": 257500
+    },
+    {
+      "quantity": 104,
+      "worldACents": 156000,
+      "worldBCents": 260000
+    },
+    {
+      "quantity": 105,
+      "worldACents": 157500,
+      "worldBCents": 262500
+    },
+    {
+      "quantity": 106,
+      "worldACents": 159000,
+      "worldBCents": 265000
+    },
+    {
+      "quantity": 107,
+      "worldACents": 160500,
+      "worldBCents": 267500
+    },
+    {
+      "quantity": 108,
+      "worldACents": 162000,
+      "worldBCents": 270000
+    },
+    {
+      "quantity": 109,
+      "worldACents": 163500,
+      "worldBCents": 272500
+    },
+    {
+      "quantity": 110,
+      "worldACents": 165000,
+      "worldBCents": 275000
+    },
+    {
+      "quantity": 111,
+      "worldACents": 166500,
+      "worldBCents": 277500
+    },
+    {
+      "quantity": 112,
+      "worldACents": 168000,
+      "worldBCents": 280000
+    },
+    {
+      "quantity": 113,
+      "worldACents": 169500,
+      "worldBCents": 282500
+    },
+    {
+      "quantity": 114,
+      "worldACents": 171000,
+      "worldBCents": 285000
+    },
+    {
+      "quantity": 115,
+      "worldACents": 172500,
+      "worldBCents": 287500
+    },
+    {
+      "quantity": 116,
+      "worldACents": 174000,
+      "worldBCents": 290000
+    },
+    {
+      "quantity": 117,
+      "worldACents": 175500,
+      "worldBCents": 292500
+    },
+    {
+      "quantity": 118,
+      "worldACents": 177000,
+      "worldBCents": 295000
+    },
+    {
+      "quantity": 119,
+      "worldACents": 178500,
+      "worldBCents": 297500
+    },
+    {
+      "quantity": 120,
+      "worldACents": 180000,
+      "worldBCents": 300000
+    },
+    {
+      "quantity": 121,
+      "worldACents": 181500,
+      "worldBCents": 302500
+    },
+    {
+      "quantity": 122,
+      "worldACents": 183000,
+      "worldBCents": 305000
+    },
+    {
+      "quantity": 123,
+      "worldACents": 184500,
+      "worldBCents": 307500
+    },
+    {
+      "quantity": 124,
+      "worldACents": 186000,
+      "worldBCents": 310000
+    },
+    {
+      "quantity": 125,
+      "worldACents": 187500,
+      "worldBCents": 312500
+    },
+    {
+      "quantity": 126,
+      "worldACents": 189000,
+      "worldBCents": 315000
+    },
+    {
+      "quantity": 127,
+      "worldACents": 190500,
+      "worldBCents": 317500
+    },
+    {
+      "quantity": 128,
+      "worldACents": 192000,
+      "worldBCents": 320000
+    },
+    {
+      "quantity": 129,
+      "worldACents": 193500,
+      "worldBCents": 322500
+    },
+    {
+      "quantity": 130,
+      "worldACents": 195000,
+      "worldBCents": 325000
+    },
+    {
+      "quantity": 131,
+      "worldACents": 196500,
+      "worldBCents": 327500
+    },
+    {
+      "quantity": 132,
+      "worldACents": 198000,
+      "worldBCents": 330000
+    },
+    {
+      "quantity": 133,
+      "worldACents": 199500,
+      "worldBCents": 332500
+    },
+    {
+      "quantity": 134,
+      "worldACents": 201000,
+      "worldBCents": 335000
+    },
+    {
+      "quantity": 135,
+      "worldACents": 202500,
+      "worldBCents": 337500
+    },
+    {
+      "quantity": 136,
+      "worldACents": 204000,
+      "worldBCents": 340000
+    },
+    {
+      "quantity": 137,
+      "worldACents": 205500,
+      "worldBCents": 342500
+    },
+    {
+      "quantity": 138,
+      "worldACents": 207000,
+      "worldBCents": 345000
+    },
+    {
+      "quantity": 139,
+      "worldACents": 208500,
+      "worldBCents": 347500
+    },
+    {
+      "quantity": 140,
+      "worldACents": 210000,
+      "worldBCents": 350000
+    },
+    {
+      "quantity": 141,
+      "worldACents": 211500,
+      "worldBCents": 352500
+    },
+    {
+      "quantity": 142,
+      "worldACents": 213000,
+      "worldBCents": 355000
+    },
+    {
+      "quantity": 143,
+      "worldACents": 214500,
+      "worldBCents": 357500
+    },
+    {
+      "quantity": 144,
+      "worldACents": 216000,
+      "worldBCents": 360000
+    },
+    {
+      "quantity": 145,
+      "worldACents": 217500,
+      "worldBCents": 362500
+    },
+    {
+      "quantity": 146,
+      "worldACents": 219000,
+      "worldBCents": 365000
+    },
+    {
+      "quantity": 147,
+      "worldACents": 220500,
+      "worldBCents": 367500
+    },
+    {
+      "quantity": 148,
+      "worldACents": 222000,
+      "worldBCents": 370000
+    },
+    {
+      "quantity": 149,
+      "worldACents": 223500,
+      "worldBCents": 372500
+    },
+    {
+      "quantity": 150,
+      "worldACents": 225000,
+      "worldBCents": 375000
+    },
+    {
+      "quantity": 151,
+      "worldACents": 226500,
+      "worldBCents": 377500
+    },
+    {
+      "quantity": 152,
+      "worldACents": 228000,
+      "worldBCents": 380000
+    },
+    {
+      "quantity": 153,
+      "worldACents": 229500,
+      "worldBCents": 382500
+    },
+    {
+      "quantity": 154,
+      "worldACents": 231000,
+      "worldBCents": 385000
+    },
+    {
+      "quantity": 155,
+      "worldACents": 232500,
+      "worldBCents": 387500
+    },
+    {
+      "quantity": 156,
+      "worldACents": 234000,
+      "worldBCents": 390000
+    },
+    {
+      "quantity": 157,
+      "worldACents": 235500,
+      "worldBCents": 392500
+    },
+    {
+      "quantity": 158,
+      "worldACents": 237000,
+      "worldBCents": 395000
+    },
+    {
+      "quantity": 159,
+      "worldACents": 238500,
+      "worldBCents": 397500
+    },
+    {
+      "quantity": 160,
+      "worldACents": 240000,
+      "worldBCents": 400000
+    },
+    {
+      "quantity": 161,
+      "worldACents": 241500,
+      "worldBCents": 402500
+    },
+    {
+      "quantity": 162,
+      "worldACents": 243000,
+      "worldBCents": 405000
+    },
+    {
+      "quantity": 163,
+      "worldACents": 244500,
+      "worldBCents": 407500
+    },
+    {
+      "quantity": 164,
+      "worldACents": 246000,
+      "worldBCents": 410000
+    },
+    {
+      "quantity": 165,
+      "worldACents": 247500,
+      "worldBCents": 412500
+    },
+    {
+      "quantity": 166,
+      "worldACents": 249000,
+      "worldBCents": 415000
+    },
+    {
+      "quantity": 167,
+      "worldACents": 250500,
+      "worldBCents": 417500
+    },
+    {
+      "quantity": 168,
+      "worldACents": 252000,
+      "worldBCents": 420000
+    },
+    {
+      "quantity": 169,
+      "worldACents": 253500,
+      "worldBCents": 422500
+    },
+    {
+      "quantity": 170,
+      "worldACents": 255000,
+      "worldBCents": 425000
+    },
+    {
+      "quantity": 171,
+      "worldACents": 256500,
+      "worldBCents": 427500
+    },
+    {
+      "quantity": 172,
+      "worldACents": 258000,
+      "worldBCents": 430000
+    },
+    {
+      "quantity": 173,
+      "worldACents": 259500,
+      "worldBCents": 432500
+    },
+    {
+      "quantity": 174,
+      "worldACents": 261000,
+      "worldBCents": 435000
+    },
+    {
+      "quantity": 175,
+      "worldACents": 262500,
+      "worldBCents": 262500
+    },
+    {
+      "quantity": 176,
+      "worldACents": 264000,
+      "worldBCents": 264000
+    },
+    {
+      "quantity": 177,
+      "worldACents": 265500,
+      "worldBCents": 265500
+    },
+    {
+      "quantity": 178,
+      "worldACents": 267000,
+      "worldBCents": 267000
+    },
+    {
+      "quantity": 179,
+      "worldACents": 268500,
+      "worldBCents": 268500
+    },
+    {
+      "quantity": 180,
+      "worldACents": 270000,
+      "worldBCents": 270000
+    },
+    {
+      "quantity": 181,
+      "worldACents": 271500,
+      "worldBCents": 271500
+    },
+    {
+      "quantity": 182,
+      "worldACents": 273000,
+      "worldBCents": 273000
+    },
+    {
+      "quantity": 183,
+      "worldACents": 274500,
+      "worldBCents": 274500
+    },
+    {
+      "quantity": 184,
+      "worldACents": 276000,
+      "worldBCents": 276000
+    },
+    {
+      "quantity": 185,
+      "worldACents": 277500,
+      "worldBCents": 277500
+    },
+    {
+      "quantity": 186,
+      "worldACents": 279000,
+      "worldBCents": 279000
+    },
+    {
+      "quantity": 187,
+      "worldACents": 280500,
+      "worldBCents": 280500
+    },
+    {
+      "quantity": 188,
+      "worldACents": 282000,
+      "worldBCents": 282000
+    },
+    {
+      "quantity": 189,
+      "worldACents": 283500,
+      "worldBCents": 283500
+    },
+    {
+      "quantity": 190,
+      "worldACents": 285000,
+      "worldBCents": 285000
+    },
+    {
+      "quantity": 191,
+      "worldACents": 286500,
+      "worldBCents": 286500
+    },
+    {
+      "quantity": 192,
+      "worldACents": 288000,
+      "worldBCents": 288000
+    },
+    {
+      "quantity": 193,
+      "worldACents": 289500,
+      "worldBCents": 289500
+    },
+    {
+      "quantity": 194,
+      "worldACents": 291000,
+      "worldBCents": 291000
+    },
+    {
+      "quantity": 195,
+      "worldACents": 292500,
+      "worldBCents": 292500
+    },
+    {
+      "quantity": 196,
+      "worldACents": 294000,
+      "worldBCents": 294000
+    },
+    {
+      "quantity": 197,
+      "worldACents": 295500,
+      "worldBCents": 295500
+    },
+    {
+      "quantity": 198,
+      "worldACents": 297000,
+      "worldBCents": 297000
+    },
+    {
+      "quantity": 199,
+      "worldACents": 298500,
+      "worldBCents": 298500
+    },
+    {
+      "quantity": 200,
+      "worldACents": 300000,
+      "worldBCents": 300000
+    },
+    {
+      "quantity": 201,
+      "worldACents": 301500,
+      "worldBCents": 301500
+    },
+    {
+      "quantity": 202,
+      "worldACents": 303000,
+      "worldBCents": 303000
+    },
+    {
+      "quantity": 203,
+      "worldACents": 304500,
+      "worldBCents": 304500
+    },
+    {
+      "quantity": 204,
+      "worldACents": 306000,
+      "worldBCents": 306000
+    },
+    {
+      "quantity": 205,
+      "worldACents": 307500,
+      "worldBCents": 307500
+    },
+    {
+      "quantity": 206,
+      "worldACents": 309000,
+      "worldBCents": 309000
+    },
+    {
+      "quantity": 207,
+      "worldACents": 310500,
+      "worldBCents": 310500
+    },
+    {
+      "quantity": 208,
+      "worldACents": 312000,
+      "worldBCents": 312000
+    },
+    {
+      "quantity": 209,
+      "worldACents": 313500,
+      "worldBCents": 313500
+    },
+    {
+      "quantity": 210,
+      "worldACents": 315000,
+      "worldBCents": 315000
+    },
+    {
+      "quantity": 211,
+      "worldACents": 316500,
+      "worldBCents": 316500
+    },
+    {
+      "quantity": 212,
+      "worldACents": 318000,
+      "worldBCents": 318000
+    },
+    {
+      "quantity": 213,
+      "worldACents": 319500,
+      "worldBCents": 319500
+    },
+    {
+      "quantity": 214,
+      "worldACents": 321000,
+      "worldBCents": 321000
+    },
+    {
+      "quantity": 215,
+      "worldACents": 322500,
+      "worldBCents": 322500
+    },
+    {
+      "quantity": 216,
+      "worldACents": 324000,
+      "worldBCents": 324000
+    },
+    {
+      "quantity": 217,
+      "worldACents": 325500,
+      "worldBCents": 325500
+    },
+    {
+      "quantity": 218,
+      "worldACents": 327000,
+      "worldBCents": 327000
+    },
+    {
+      "quantity": 219,
+      "worldACents": 328500,
+      "worldBCents": 328500
+    },
+    {
+      "quantity": 220,
+      "worldACents": 330000,
+      "worldBCents": 330000
+    },
+    {
+      "quantity": 221,
+      "worldACents": 331500,
+      "worldBCents": 331500
+    },
+    {
+      "quantity": 222,
+      "worldACents": 333000,
+      "worldBCents": 333000
+    },
+    {
+      "quantity": 223,
+      "worldACents": 334500,
+      "worldBCents": 334500
+    },
+    {
+      "quantity": 224,
+      "worldACents": 336000,
+      "worldBCents": 336000
+    },
+    {
+      "quantity": 225,
+      "worldACents": 337500,
+      "worldBCents": 337500
+    },
+    {
+      "quantity": 226,
+      "worldACents": 339000,
+      "worldBCents": 339000
+    },
+    {
+      "quantity": 227,
+      "worldACents": 340500,
+      "worldBCents": 340500
+    },
+    {
+      "quantity": 228,
+      "worldACents": 342000,
+      "worldBCents": 342000
+    },
+    {
+      "quantity": 229,
+      "worldACents": 343500,
+      "worldBCents": 343500
+    },
+    {
+      "quantity": 230,
+      "worldACents": 345000,
+      "worldBCents": 345000
+    },
+    {
+      "quantity": 231,
+      "worldACents": 346500,
+      "worldBCents": 346500
+    },
+    {
+      "quantity": 232,
+      "worldACents": 348000,
+      "worldBCents": 348000
+    },
+    {
+      "quantity": 233,
+      "worldACents": 349500,
+      "worldBCents": 349500
+    },
+    {
+      "quantity": 234,
+      "worldACents": 351000,
+      "worldBCents": 351000
+    },
+    {
+      "quantity": 235,
+      "worldACents": 352500,
+      "worldBCents": 352500
+    },
+    {
+      "quantity": 236,
+      "worldACents": 354000,
+      "worldBCents": 354000
+    },
+    {
+      "quantity": 237,
+      "worldACents": 355500,
+      "worldBCents": 355500
+    },
+    {
+      "quantity": 238,
+      "worldACents": 357000,
+      "worldBCents": 357000
+    },
+    {
+      "quantity": 239,
+      "worldACents": 358500,
+      "worldBCents": 358500
+    },
+    {
+      "quantity": 240,
+      "worldACents": 360000,
+      "worldBCents": 360000
+    },
+    {
+      "quantity": 241,
+      "worldACents": 361500,
+      "worldBCents": 361500
+    },
+    {
+      "quantity": 242,
+      "worldACents": 363000,
+      "worldBCents": 363000
+    },
+    {
+      "quantity": 243,
+      "worldACents": 364500,
+      "worldBCents": 364500
+    },
+    {
+      "quantity": 244,
+      "worldACents": 366000,
+      "worldBCents": 366000
+    },
+    {
+      "quantity": 245,
+      "worldACents": 367500,
+      "worldBCents": 367500
+    },
+    {
+      "quantity": 246,
+      "worldACents": 369000,
+      "worldBCents": 369000
+    },
+    {
+      "quantity": 247,
+      "worldACents": 370500,
+      "worldBCents": 370500
+    },
+    {
+      "quantity": 248,
+      "worldACents": 372000,
+      "worldBCents": 372000
+    },
+    {
+      "quantity": 249,
+      "worldACents": 373500,
+      "worldBCents": 373500
+    },
+    {
+      "quantity": 250,
+      "worldACents": 375000,
+      "worldBCents": 375000
+    },
+    {
+      "quantity": 251,
+      "worldACents": 376500,
+      "worldBCents": 376500
+    },
+    {
+      "quantity": 252,
+      "worldACents": 378000,
+      "worldBCents": 378000
+    },
+    {
+      "quantity": 253,
+      "worldACents": 379500,
+      "worldBCents": 379500
+    },
+    {
+      "quantity": 254,
+      "worldACents": 381000,
+      "worldBCents": 381000
+    },
+    {
+      "quantity": 255,
+      "worldACents": 382500,
+      "worldBCents": 382500
+    },
+    {
+      "quantity": 256,
+      "worldACents": 384000,
+      "worldBCents": 384000
+    },
+    {
+      "quantity": 257,
+      "worldACents": 385500,
+      "worldBCents": 385500
+    },
+    {
+      "quantity": 258,
+      "worldACents": 387000,
+      "worldBCents": 387000
+    },
+    {
+      "quantity": 259,
+      "worldACents": 388500,
+      "worldBCents": 388500
+    },
+    {
+      "quantity": 260,
+      "worldACents": 390000,
+      "worldBCents": 390000
+    },
+    {
+      "quantity": 261,
+      "worldACents": 391500,
+      "worldBCents": 391500
+    },
+    {
+      "quantity": 262,
+      "worldACents": 393000,
+      "worldBCents": 393000
+    },
+    {
+      "quantity": 263,
+      "worldACents": 394500,
+      "worldBCents": 394500
+    },
+    {
+      "quantity": 264,
+      "worldACents": 396000,
+      "worldBCents": 396000
+    },
+    {
+      "quantity": 265,
+      "worldACents": 397500,
+      "worldBCents": 397500
+    },
+    {
+      "quantity": 266,
+      "worldACents": 399000,
+      "worldBCents": 399000
+    },
+    {
+      "quantity": 267,
+      "worldACents": 400500,
+      "worldBCents": 400500
+    },
+    {
+      "quantity": 268,
+      "worldACents": 402000,
+      "worldBCents": 402000
+    },
+    {
+      "quantity": 269,
+      "worldACents": 403500,
+      "worldBCents": 403500
+    },
+    {
+      "quantity": 270,
+      "worldACents": 405000,
+      "worldBCents": 405000
+    },
+    {
+      "quantity": 271,
+      "worldACents": 406500,
+      "worldBCents": 406500
+    },
+    {
+      "quantity": 272,
+      "worldACents": 408000,
+      "worldBCents": 408000
+    },
+    {
+      "quantity": 273,
+      "worldACents": 409500,
+      "worldBCents": 409500
+    },
+    {
+      "quantity": 274,
+      "worldACents": 411000,
+      "worldBCents": 411000
+    },
+    {
+      "quantity": 275,
+      "worldACents": 412500,
+      "worldBCents": 412500
+    },
+    {
+      "quantity": 276,
+      "worldACents": 414000,
+      "worldBCents": 414000
+    },
+    {
+      "quantity": 277,
+      "worldACents": 415500,
+      "worldBCents": 415500
+    },
+    {
+      "quantity": 278,
+      "worldACents": 417000,
+      "worldBCents": 417000
+    },
+    {
+      "quantity": 279,
+      "worldACents": 418500,
+      "worldBCents": 418500
+    },
+    {
+      "quantity": 280,
+      "worldACents": 420000,
+      "worldBCents": 420000
+    },
+    {
+      "quantity": 281,
+      "worldACents": 421500,
+      "worldBCents": 421500
+    },
+    {
+      "quantity": 282,
+      "worldACents": 423000,
+      "worldBCents": 423000
+    },
+    {
+      "quantity": 283,
+      "worldACents": 424500,
+      "worldBCents": 424500
+    },
+    {
+      "quantity": 284,
+      "worldACents": 426000,
+      "worldBCents": 426000
+    },
+    {
+      "quantity": 285,
+      "worldACents": 427500,
+      "worldBCents": 427500
+    },
+    {
+      "quantity": 286,
+      "worldACents": 429000,
+      "worldBCents": 429000
+    },
+    {
+      "quantity": 287,
+      "worldACents": 430500,
+      "worldBCents": 430500
+    },
+    {
+      "quantity": 288,
+      "worldACents": 432000,
+      "worldBCents": 432000
+    },
+    {
+      "quantity": 289,
+      "worldACents": 433500,
+      "worldBCents": 433500
+    },
+    {
+      "quantity": 290,
+      "worldACents": 435000,
+      "worldBCents": 435000
+    },
+    {
+      "quantity": 291,
+      "worldACents": 436500,
+      "worldBCents": 436500
+    },
+    {
+      "quantity": 292,
+      "worldACents": 438000,
+      "worldBCents": 438000
+    },
+    {
+      "quantity": 293,
+      "worldACents": 439500,
+      "worldBCents": 439500
+    },
+    {
+      "quantity": 294,
+      "worldACents": 441000,
+      "worldBCents": 441000
+    },
+    {
+      "quantity": 295,
+      "worldACents": 442500,
+      "worldBCents": 442500
+    },
+    {
+      "quantity": 296,
+      "worldACents": 444000,
+      "worldBCents": 444000
+    },
+    {
+      "quantity": 297,
+      "worldACents": 445500,
+      "worldBCents": 445500
+    },
+    {
+      "quantity": 298,
+      "worldACents": 447000,
+      "worldBCents": 447000
+    },
+    {
+      "quantity": 299,
+      "worldACents": 448500,
+      "worldBCents": 448500
+    },
+    {
+      "quantity": 300,
+      "worldACents": 450000,
+      "worldBCents": 450000
+    },
+    {
+      "quantity": 301,
+      "worldACents": 451500,
+      "worldBCents": 451500
+    },
+    {
+      "quantity": 302,
+      "worldACents": 453000,
+      "worldBCents": 453000
+    },
+    {
+      "quantity": 303,
+      "worldACents": 454500,
+      "worldBCents": 454500
+    },
+    {
+      "quantity": 304,
+      "worldACents": 456000,
+      "worldBCents": 456000
+    },
+    {
+      "quantity": 305,
+      "worldACents": 457500,
+      "worldBCents": 457500
+    },
+    {
+      "quantity": 306,
+      "worldACents": 459000,
+      "worldBCents": 459000
+    },
+    {
+      "quantity": 307,
+      "worldACents": 460500,
+      "worldBCents": 460500
+    },
+    {
+      "quantity": 308,
+      "worldACents": 462000,
+      "worldBCents": 462000
+    },
+    {
+      "quantity": 309,
+      "worldACents": 463500,
+      "worldBCents": 463500
+    },
+    {
+      "quantity": 310,
+      "worldACents": 465000,
+      "worldBCents": 465000
+    },
+    {
+      "quantity": 311,
+      "worldACents": 466500,
+      "worldBCents": 466500
+    },
+    {
+      "quantity": 312,
+      "worldACents": 468000,
+      "worldBCents": 468000
+    },
+    {
+      "quantity": 313,
+      "worldACents": 469500,
+      "worldBCents": 469500
+    },
+    {
+      "quantity": 314,
+      "worldACents": 471000,
+      "worldBCents": 471000
+    },
+    {
+      "quantity": 315,
+      "worldACents": 472500,
+      "worldBCents": 472500
+    },
+    {
+      "quantity": 316,
+      "worldACents": 474000,
+      "worldBCents": 474000
+    },
+    {
+      "quantity": 317,
+      "worldACents": 475500,
+      "worldBCents": 475500
+    },
+    {
+      "quantity": 318,
+      "worldACents": 477000,
+      "worldBCents": 477000
+    },
+    {
+      "quantity": 319,
+      "worldACents": 478500,
+      "worldBCents": 478500
+    },
+    {
+      "quantity": 320,
+      "worldACents": 480000,
+      "worldBCents": 480000
+    },
+    {
+      "quantity": 321,
+      "worldACents": 481500,
+      "worldBCents": 481500
+    },
+    {
+      "quantity": 322,
+      "worldACents": 483000,
+      "worldBCents": 483000
+    },
+    {
+      "quantity": 323,
+      "worldACents": 484500,
+      "worldBCents": 484500
+    },
+    {
+      "quantity": 324,
+      "worldACents": 486000,
+      "worldBCents": 486000
+    },
+    {
+      "quantity": 325,
+      "worldACents": 487500,
+      "worldBCents": 487500
+    },
+    {
+      "quantity": 326,
+      "worldACents": 489000,
+      "worldBCents": 489000
+    },
+    {
+      "quantity": 327,
+      "worldACents": 490500,
+      "worldBCents": 490500
+    },
+    {
+      "quantity": 328,
+      "worldACents": 492000,
+      "worldBCents": 492000
+    },
+    {
+      "quantity": 329,
+      "worldACents": 493500,
+      "worldBCents": 493500
+    },
+    {
+      "quantity": 330,
+      "worldACents": 495000,
+      "worldBCents": 495000
+    },
+    {
+      "quantity": 331,
+      "worldACents": 496500,
+      "worldBCents": 496500
+    },
+    {
+      "quantity": 332,
+      "worldACents": 498000,
+      "worldBCents": 498000
+    },
+    {
+      "quantity": 333,
+      "worldACents": 499500,
+      "worldBCents": 499500
+    },
+    {
+      "quantity": 334,
+      "worldACents": 501000,
+      "worldBCents": 501000
+    },
+    {
+      "quantity": 335,
+      "worldACents": 502500,
+      "worldBCents": 502500
+    },
+    {
+      "quantity": 336,
+      "worldACents": 504000,
+      "worldBCents": 504000
+    },
+    {
+      "quantity": 337,
+      "worldACents": 505500,
+      "worldBCents": 505500
+    },
+    {
+      "quantity": 338,
+      "worldACents": 507000,
+      "worldBCents": 507000
+    },
+    {
+      "quantity": 339,
+      "worldACents": 508500,
+      "worldBCents": 508500
+    },
+    {
+      "quantity": 340,
+      "worldACents": 510000,
+      "worldBCents": 510000
+    },
+    {
+      "quantity": 341,
+      "worldACents": 511500,
+      "worldBCents": 511500
+    },
+    {
+      "quantity": 342,
+      "worldACents": 513000,
+      "worldBCents": 513000
+    },
+    {
+      "quantity": 343,
+      "worldACents": 514500,
+      "worldBCents": 514500
+    },
+    {
+      "quantity": 344,
+      "worldACents": 516000,
+      "worldBCents": 516000
+    },
+    {
+      "quantity": 345,
+      "worldACents": 517500,
+      "worldBCents": 517500
+    },
+    {
+      "quantity": 346,
+      "worldACents": 519000,
+      "worldBCents": 519000
+    },
+    {
+      "quantity": 347,
+      "worldACents": 520500,
+      "worldBCents": 520500
+    },
+    {
+      "quantity": 348,
+      "worldACents": 522000,
+      "worldBCents": 522000
+    },
+    {
+      "quantity": 349,
+      "worldACents": 523500,
+      "worldBCents": 523500
+    },
+    {
+      "quantity": 350,
+      "worldACents": 525000,
+      "worldBCents": 525000
+    },
+    {
+      "quantity": 351,
+      "worldACents": 526500,
+      "worldBCents": 526500
+    },
+    {
+      "quantity": 352,
+      "worldACents": 528000,
+      "worldBCents": 528000
+    },
+    {
+      "quantity": 353,
+      "worldACents": 529500,
+      "worldBCents": 529500
+    },
+    {
+      "quantity": 354,
+      "worldACents": 531000,
+      "worldBCents": 531000
+    },
+    {
+      "quantity": 355,
+      "worldACents": 532500,
+      "worldBCents": 532500
+    },
+    {
+      "quantity": 356,
+      "worldACents": 534000,
+      "worldBCents": 534000
+    },
+    {
+      "quantity": 357,
+      "worldACents": 535500,
+      "worldBCents": 535500
+    },
+    {
+      "quantity": 358,
+      "worldACents": 537000,
+      "worldBCents": 537000
+    },
+    {
+      "quantity": 359,
+      "worldACents": 538500,
+      "worldBCents": 538500
+    },
+    {
+      "quantity": 360,
+      "worldACents": 540000,
+      "worldBCents": 540000
+    },
+    {
+      "quantity": 361,
+      "worldACents": 541500,
+      "worldBCents": 541500
+    },
+    {
+      "quantity": 362,
+      "worldACents": 543000,
+      "worldBCents": 543000
+    },
+    {
+      "quantity": 363,
+      "worldACents": 544500,
+      "worldBCents": 544500
+    },
+    {
+      "quantity": 364,
+      "worldACents": 546000,
+      "worldBCents": 546000
+    },
+    {
+      "quantity": 365,
+      "worldACents": 547500,
+      "worldBCents": 547500
+    },
+    {
+      "quantity": 366,
+      "worldACents": 549000,
+      "worldBCents": 549000
+    },
+    {
+      "quantity": 367,
+      "worldACents": 550500,
+      "worldBCents": 550500
+    },
+    {
+      "quantity": 368,
+      "worldACents": 552000,
+      "worldBCents": 552000
+    },
+    {
+      "quantity": 369,
+      "worldACents": 553500,
+      "worldBCents": 553500
+    },
+    {
+      "quantity": 370,
+      "worldACents": 555000,
+      "worldBCents": 555000
+    },
+    {
+      "quantity": 371,
+      "worldACents": 556500,
+      "worldBCents": 556500
+    },
+    {
+      "quantity": 372,
+      "worldACents": 558000,
+      "worldBCents": 558000
+    },
+    {
+      "quantity": 373,
+      "worldACents": 559500,
+      "worldBCents": 559500
+    },
+    {
+      "quantity": 374,
+      "worldACents": 561000,
+      "worldBCents": 561000
+    },
+    {
+      "quantity": 375,
+      "worldACents": 562500,
+      "worldBCents": 562500
+    },
+    {
+      "quantity": 376,
+      "worldACents": 564000,
+      "worldBCents": 564000
+    },
+    {
+      "quantity": 377,
+      "worldACents": 565500,
+      "worldBCents": 565500
+    },
+    {
+      "quantity": 378,
+      "worldACents": 567000,
+      "worldBCents": 567000
+    },
+    {
+      "quantity": 379,
+      "worldACents": 568500,
+      "worldBCents": 568500
+    },
+    {
+      "quantity": 380,
+      "worldACents": 570000,
+      "worldBCents": 570000
+    },
+    {
+      "quantity": 381,
+      "worldACents": 571500,
+      "worldBCents": 571500
+    },
+    {
+      "quantity": 382,
+      "worldACents": 573000,
+      "worldBCents": 573000
+    },
+    {
+      "quantity": 383,
+      "worldACents": 574500,
+      "worldBCents": 574500
+    },
+    {
+      "quantity": 384,
+      "worldACents": 576000,
+      "worldBCents": 576000
+    },
+    {
+      "quantity": 385,
+      "worldACents": 577500,
+      "worldBCents": 577500
+    },
+    {
+      "quantity": 386,
+      "worldACents": 579000,
+      "worldBCents": 579000
+    },
+    {
+      "quantity": 387,
+      "worldACents": 580500,
+      "worldBCents": 580500
+    },
+    {
+      "quantity": 388,
+      "worldACents": 582000,
+      "worldBCents": 582000
+    },
+    {
+      "quantity": 389,
+      "worldACents": 583500,
+      "worldBCents": 583500
+    },
+    {
+      "quantity": 390,
+      "worldACents": 585000,
+      "worldBCents": 585000
+    },
+    {
+      "quantity": 391,
+      "worldACents": 586500,
+      "worldBCents": 586500
+    },
+    {
+      "quantity": 392,
+      "worldACents": 588000,
+      "worldBCents": 588000
+    },
+    {
+      "quantity": 393,
+      "worldACents": 589500,
+      "worldBCents": 589500
+    },
+    {
+      "quantity": 394,
+      "worldACents": 591000,
+      "worldBCents": 591000
+    },
+    {
+      "quantity": 395,
+      "worldACents": 592500,
+      "worldBCents": 592500
+    },
+    {
+      "quantity": 396,
+      "worldACents": 594000,
+      "worldBCents": 594000
+    },
+    {
+      "quantity": 397,
+      "worldACents": 595500,
+      "worldBCents": 595500
+    },
+    {
+      "quantity": 398,
+      "worldACents": 597000,
+      "worldBCents": 597000
+    },
+    {
+      "quantity": 399,
+      "worldACents": 598500,
+      "worldBCents": 598500
+    },
+    {
+      "quantity": 400,
+      "worldACents": 400000,
+      "worldBCents": 400000
+    },
+    {
+      "quantity": 401,
+      "worldACents": 401000,
+      "worldBCents": 401000
+    },
+    {
+      "quantity": 402,
+      "worldACents": 402000,
+      "worldBCents": 402000
+    },
+    {
+      "quantity": 403,
+      "worldACents": 403000,
+      "worldBCents": 403000
+    },
+    {
+      "quantity": 404,
+      "worldACents": 404000,
+      "worldBCents": 404000
+    },
+    {
+      "quantity": 405,
+      "worldACents": 405000,
+      "worldBCents": 405000
+    },
+    {
+      "quantity": 406,
+      "worldACents": 406000,
+      "worldBCents": 406000
+    },
+    {
+      "quantity": 407,
+      "worldACents": 407000,
+      "worldBCents": 407000
+    },
+    {
+      "quantity": 408,
+      "worldACents": 408000,
+      "worldBCents": 408000
+    },
+    {
+      "quantity": 409,
+      "worldACents": 409000,
+      "worldBCents": 409000
+    },
+    {
+      "quantity": 410,
+      "worldACents": 410000,
+      "worldBCents": 410000
+    },
+    {
+      "quantity": 411,
+      "worldACents": 411000,
+      "worldBCents": 411000
+    },
+    {
+      "quantity": 412,
+      "worldACents": 412000,
+      "worldBCents": 412000
+    },
+    {
+      "quantity": 413,
+      "worldACents": 413000,
+      "worldBCents": 413000
+    },
+    {
+      "quantity": 414,
+      "worldACents": 414000,
+      "worldBCents": 414000
+    },
+    {
+      "quantity": 415,
+      "worldACents": 415000,
+      "worldBCents": 415000
+    },
+    {
+      "quantity": 416,
+      "worldACents": 416000,
+      "worldBCents": 416000
+    },
+    {
+      "quantity": 417,
+      "worldACents": 417000,
+      "worldBCents": 417000
+    },
+    {
+      "quantity": 418,
+      "worldACents": 418000,
+      "worldBCents": 418000
+    },
+    {
+      "quantity": 419,
+      "worldACents": 419000,
+      "worldBCents": 419000
+    },
+    {
+      "quantity": 420,
+      "worldACents": 420000,
+      "worldBCents": 420000
+    },
+    {
+      "quantity": 421,
+      "worldACents": 421000,
+      "worldBCents": 421000
+    },
+    {
+      "quantity": 422,
+      "worldACents": 422000,
+      "worldBCents": 422000
+    },
+    {
+      "quantity": 423,
+      "worldACents": 423000,
+      "worldBCents": 423000
+    },
+    {
+      "quantity": 424,
+      "worldACents": 424000,
+      "worldBCents": 424000
+    },
+    {
+      "quantity": 425,
+      "worldACents": 425000,
+      "worldBCents": 425000
+    },
+    {
+      "quantity": 426,
+      "worldACents": 426000,
+      "worldBCents": 426000
+    },
+    {
+      "quantity": 427,
+      "worldACents": 427000,
+      "worldBCents": 427000
+    },
+    {
+      "quantity": 428,
+      "worldACents": 428000,
+      "worldBCents": 428000
+    },
+    {
+      "quantity": 429,
+      "worldACents": 429000,
+      "worldBCents": 429000
+    },
+    {
+      "quantity": 430,
+      "worldACents": 430000,
+      "worldBCents": 430000
+    },
+    {
+      "quantity": 431,
+      "worldACents": 431000,
+      "worldBCents": 431000
+    },
+    {
+      "quantity": 432,
+      "worldACents": 432000,
+      "worldBCents": 432000
+    },
+    {
+      "quantity": 433,
+      "worldACents": 433000,
+      "worldBCents": 433000
+    },
+    {
+      "quantity": 434,
+      "worldACents": 434000,
+      "worldBCents": 434000
+    },
+    {
+      "quantity": 435,
+      "worldACents": 435000,
+      "worldBCents": 435000
+    },
+    {
+      "quantity": 436,
+      "worldACents": 436000,
+      "worldBCents": 436000
+    },
+    {
+      "quantity": 437,
+      "worldACents": 437000,
+      "worldBCents": 437000
+    },
+    {
+      "quantity": 438,
+      "worldACents": 438000,
+      "worldBCents": 438000
+    },
+    {
+      "quantity": 439,
+      "worldACents": 439000,
+      "worldBCents": 439000
+    },
+    {
+      "quantity": 440,
+      "worldACents": 440000,
+      "worldBCents": 440000
+    },
+    {
+      "quantity": 441,
+      "worldACents": 441000,
+      "worldBCents": 441000
+    },
+    {
+      "quantity": 442,
+      "worldACents": 442000,
+      "worldBCents": 442000
+    },
+    {
+      "quantity": 443,
+      "worldACents": 443000,
+      "worldBCents": 443000
+    },
+    {
+      "quantity": 444,
+      "worldACents": 444000,
+      "worldBCents": 444000
+    },
+    {
+      "quantity": 445,
+      "worldACents": 445000,
+      "worldBCents": 445000
+    },
+    {
+      "quantity": 446,
+      "worldACents": 446000,
+      "worldBCents": 446000
+    },
+    {
+      "quantity": 447,
+      "worldACents": 447000,
+      "worldBCents": 447000
+    },
+    {
+      "quantity": 448,
+      "worldACents": 448000,
+      "worldBCents": 448000
+    },
+    {
+      "quantity": 449,
+      "worldACents": 449000,
+      "worldBCents": 449000
+    },
+    {
+      "quantity": 450,
+      "worldACents": 450000,
+      "worldBCents": 450000
+    },
+    {
+      "quantity": 451,
+      "worldACents": 451000,
+      "worldBCents": 451000
+    },
+    {
+      "quantity": 452,
+      "worldACents": 452000,
+      "worldBCents": 452000
+    },
+    {
+      "quantity": 453,
+      "worldACents": 453000,
+      "worldBCents": 453000
+    },
+    {
+      "quantity": 454,
+      "worldACents": 454000,
+      "worldBCents": 454000
+    },
+    {
+      "quantity": 455,
+      "worldACents": 455000,
+      "worldBCents": 455000
+    },
+    {
+      "quantity": 456,
+      "worldACents": 456000,
+      "worldBCents": 456000
+    },
+    {
+      "quantity": 457,
+      "worldACents": 457000,
+      "worldBCents": 457000
+    },
+    {
+      "quantity": 458,
+      "worldACents": 458000,
+      "worldBCents": 458000
+    },
+    {
+      "quantity": 459,
+      "worldACents": 459000,
+      "worldBCents": 459000
+    },
+    {
+      "quantity": 460,
+      "worldACents": 460000,
+      "worldBCents": 460000
+    },
+    {
+      "quantity": 461,
+      "worldACents": 461000,
+      "worldBCents": 461000
+    },
+    {
+      "quantity": 462,
+      "worldACents": 462000,
+      "worldBCents": 462000
+    },
+    {
+      "quantity": 463,
+      "worldACents": 463000,
+      "worldBCents": 463000
+    },
+    {
+      "quantity": 464,
+      "worldACents": 464000,
+      "worldBCents": 464000
+    },
+    {
+      "quantity": 465,
+      "worldACents": 465000,
+      "worldBCents": 465000
+    },
+    {
+      "quantity": 466,
+      "worldACents": 466000,
+      "worldBCents": 466000
+    },
+    {
+      "quantity": 467,
+      "worldACents": 467000,
+      "worldBCents": 467000
+    },
+    {
+      "quantity": 468,
+      "worldACents": 468000,
+      "worldBCents": 468000
+    },
+    {
+      "quantity": 469,
+      "worldACents": 469000,
+      "worldBCents": 469000
+    },
+    {
+      "quantity": 470,
+      "worldACents": 470000,
+      "worldBCents": 470000
+    },
+    {
+      "quantity": 471,
+      "worldACents": 471000,
+      "worldBCents": 471000
+    },
+    {
+      "quantity": 472,
+      "worldACents": 472000,
+      "worldBCents": 472000
+    },
+    {
+      "quantity": 473,
+      "worldACents": 473000,
+      "worldBCents": 473000
+    },
+    {
+      "quantity": 474,
+      "worldACents": 474000,
+      "worldBCents": 474000
+    },
+    {
+      "quantity": 475,
+      "worldACents": 475000,
+      "worldBCents": 475000
+    },
+    {
+      "quantity": 476,
+      "worldACents": 476000,
+      "worldBCents": 476000
+    },
+    {
+      "quantity": 477,
+      "worldACents": 477000,
+      "worldBCents": 477000
+    },
+    {
+      "quantity": 478,
+      "worldACents": 478000,
+      "worldBCents": 478000
+    },
+    {
+      "quantity": 479,
+      "worldACents": 479000,
+      "worldBCents": 479000
+    },
+    {
+      "quantity": 480,
+      "worldACents": 480000,
+      "worldBCents": 480000
+    },
+    {
+      "quantity": 481,
+      "worldACents": 481000,
+      "worldBCents": 481000
+    },
+    {
+      "quantity": 482,
+      "worldACents": 482000,
+      "worldBCents": 482000
+    },
+    {
+      "quantity": 483,
+      "worldACents": 483000,
+      "worldBCents": 483000
+    },
+    {
+      "quantity": 484,
+      "worldACents": 484000,
+      "worldBCents": 484000
+    },
+    {
+      "quantity": 485,
+      "worldACents": 485000,
+      "worldBCents": 485000
+    },
+    {
+      "quantity": 486,
+      "worldACents": 486000,
+      "worldBCents": 486000
+    },
+    {
+      "quantity": 487,
+      "worldACents": 487000,
+      "worldBCents": 487000
+    },
+    {
+      "quantity": 488,
+      "worldACents": 488000,
+      "worldBCents": 488000
+    },
+    {
+      "quantity": 489,
+      "worldACents": 489000,
+      "worldBCents": 489000
+    },
+    {
+      "quantity": 490,
+      "worldACents": 490000,
+      "worldBCents": 490000
+    },
+    {
+      "quantity": 491,
+      "worldACents": 491000,
+      "worldBCents": 491000
+    },
+    {
+      "quantity": 492,
+      "worldACents": 492000,
+      "worldBCents": 492000
+    },
+    {
+      "quantity": 493,
+      "worldACents": 493000,
+      "worldBCents": 493000
+    },
+    {
+      "quantity": 494,
+      "worldACents": 494000,
+      "worldBCents": 494000
+    },
+    {
+      "quantity": 495,
+      "worldACents": 495000,
+      "worldBCents": 495000
+    },
+    {
+      "quantity": 496,
+      "worldACents": 496000,
+      "worldBCents": 496000
+    },
+    {
+      "quantity": 497,
+      "worldACents": 497000,
+      "worldBCents": 497000
+    },
+    {
+      "quantity": 498,
+      "worldACents": 498000,
+      "worldBCents": 498000
+    },
+    {
+      "quantity": 499,
+      "worldACents": 499000,
+      "worldBCents": 499000
+    },
+    {
+      "quantity": 500,
+      "worldACents": 500000,
+      "worldBCents": 500000
+    },
+    {
+      "quantity": 501,
+      "worldACents": 501000,
+      "worldBCents": 501000
+    },
+    {
+      "quantity": 502,
+      "worldACents": 502000,
+      "worldBCents": 502000
+    },
+    {
+      "quantity": 503,
+      "worldACents": 503000,
+      "worldBCents": 503000
+    },
+    {
+      "quantity": 504,
+      "worldACents": 504000,
+      "worldBCents": 504000
+    },
+    {
+      "quantity": 505,
+      "worldACents": 505000,
+      "worldBCents": 505000
+    },
+    {
+      "quantity": 506,
+      "worldACents": 506000,
+      "worldBCents": 506000
+    },
+    {
+      "quantity": 507,
+      "worldACents": 507000,
+      "worldBCents": 507000
+    },
+    {
+      "quantity": 508,
+      "worldACents": 508000,
+      "worldBCents": 508000
+    },
+    {
+      "quantity": 509,
+      "worldACents": 509000,
+      "worldBCents": 509000
+    },
+    {
+      "quantity": 510,
+      "worldACents": 510000,
+      "worldBCents": 510000
+    },
+    {
+      "quantity": 511,
+      "worldACents": 511000,
+      "worldBCents": 511000
+    },
+    {
+      "quantity": 512,
+      "worldACents": 512000,
+      "worldBCents": 512000
+    },
+    {
+      "quantity": 513,
+      "worldACents": 513000,
+      "worldBCents": 513000
+    },
+    {
+      "quantity": 514,
+      "worldACents": 514000,
+      "worldBCents": 514000
+    },
+    {
+      "quantity": 515,
+      "worldACents": 515000,
+      "worldBCents": 515000
+    },
+    {
+      "quantity": 516,
+      "worldACents": 516000,
+      "worldBCents": 516000
+    },
+    {
+      "quantity": 517,
+      "worldACents": 517000,
+      "worldBCents": 517000
+    },
+    {
+      "quantity": 518,
+      "worldACents": 518000,
+      "worldBCents": 518000
+    },
+    {
+      "quantity": 519,
+      "worldACents": 519000,
+      "worldBCents": 519000
+    },
+    {
+      "quantity": 520,
+      "worldACents": 520000,
+      "worldBCents": 520000
+    },
+    {
+      "quantity": 521,
+      "worldACents": 521000,
+      "worldBCents": 521000
+    },
+    {
+      "quantity": 522,
+      "worldACents": 522000,
+      "worldBCents": 522000
+    },
+    {
+      "quantity": 523,
+      "worldACents": 523000,
+      "worldBCents": 523000
+    },
+    {
+      "quantity": 524,
+      "worldACents": 524000,
+      "worldBCents": 524000
+    },
+    {
+      "quantity": 525,
+      "worldACents": 525000,
+      "worldBCents": 525000
+    },
+    {
+      "quantity": 526,
+      "worldACents": 526000,
+      "worldBCents": 526000
+    },
+    {
+      "quantity": 527,
+      "worldACents": 527000,
+      "worldBCents": 527000
+    },
+    {
+      "quantity": 528,
+      "worldACents": 528000,
+      "worldBCents": 528000
+    },
+    {
+      "quantity": 529,
+      "worldACents": 529000,
+      "worldBCents": 529000
+    },
+    {
+      "quantity": 530,
+      "worldACents": 530000,
+      "worldBCents": 530000
+    },
+    {
+      "quantity": 531,
+      "worldACents": 531000,
+      "worldBCents": 531000
+    },
+    {
+      "quantity": 532,
+      "worldACents": 532000,
+      "worldBCents": 532000
+    },
+    {
+      "quantity": 533,
+      "worldACents": 533000,
+      "worldBCents": 533000
+    },
+    {
+      "quantity": 534,
+      "worldACents": 534000,
+      "worldBCents": 534000
+    },
+    {
+      "quantity": 535,
+      "worldACents": 535000,
+      "worldBCents": 535000
+    },
+    {
+      "quantity": 536,
+      "worldACents": 536000,
+      "worldBCents": 536000
+    },
+    {
+      "quantity": 537,
+      "worldACents": 537000,
+      "worldBCents": 537000
+    },
+    {
+      "quantity": 538,
+      "worldACents": 538000,
+      "worldBCents": 538000
+    },
+    {
+      "quantity": 539,
+      "worldACents": 539000,
+      "worldBCents": 539000
+    },
+    {
+      "quantity": 540,
+      "worldACents": 540000,
+      "worldBCents": 540000
+    },
+    {
+      "quantity": 541,
+      "worldACents": 541000,
+      "worldBCents": 541000
+    },
+    {
+      "quantity": 542,
+      "worldACents": 542000,
+      "worldBCents": 542000
+    },
+    {
+      "quantity": 543,
+      "worldACents": 543000,
+      "worldBCents": 543000
+    },
+    {
+      "quantity": 544,
+      "worldACents": 544000,
+      "worldBCents": 544000
+    },
+    {
+      "quantity": 545,
+      "worldACents": 545000,
+      "worldBCents": 545000
+    },
+    {
+      "quantity": 546,
+      "worldACents": 546000,
+      "worldBCents": 546000
+    },
+    {
+      "quantity": 547,
+      "worldACents": 547000,
+      "worldBCents": 547000
+    },
+    {
+      "quantity": 548,
+      "worldACents": 548000,
+      "worldBCents": 548000
+    },
+    {
+      "quantity": 549,
+      "worldACents": 549000,
+      "worldBCents": 549000
+    },
+    {
+      "quantity": 550,
+      "worldACents": 550000,
+      "worldBCents": 550000
+    },
+    {
+      "quantity": 551,
+      "worldACents": 551000,
+      "worldBCents": 551000
+    },
+    {
+      "quantity": 552,
+      "worldACents": 552000,
+      "worldBCents": 552000
+    },
+    {
+      "quantity": 553,
+      "worldACents": 553000,
+      "worldBCents": 553000
+    },
+    {
+      "quantity": 554,
+      "worldACents": 554000,
+      "worldBCents": 554000
+    },
+    {
+      "quantity": 555,
+      "worldACents": 555000,
+      "worldBCents": 555000
+    },
+    {
+      "quantity": 556,
+      "worldACents": 556000,
+      "worldBCents": 556000
+    },
+    {
+      "quantity": 557,
+      "worldACents": 557000,
+      "worldBCents": 557000
+    },
+    {
+      "quantity": 558,
+      "worldACents": 558000,
+      "worldBCents": 558000
+    },
+    {
+      "quantity": 559,
+      "worldACents": 559000,
+      "worldBCents": 559000
+    },
+    {
+      "quantity": 560,
+      "worldACents": 560000,
+      "worldBCents": 560000
+    },
+    {
+      "quantity": 561,
+      "worldACents": 561000,
+      "worldBCents": 561000
+    },
+    {
+      "quantity": 562,
+      "worldACents": 562000,
+      "worldBCents": 562000
+    },
+    {
+      "quantity": 563,
+      "worldACents": 563000,
+      "worldBCents": 563000
+    },
+    {
+      "quantity": 564,
+      "worldACents": 564000,
+      "worldBCents": 564000
+    },
+    {
+      "quantity": 565,
+      "worldACents": 565000,
+      "worldBCents": 565000
+    },
+    {
+      "quantity": 566,
+      "worldACents": 566000,
+      "worldBCents": 566000
+    },
+    {
+      "quantity": 567,
+      "worldACents": 567000,
+      "worldBCents": 567000
+    },
+    {
+      "quantity": 568,
+      "worldACents": 568000,
+      "worldBCents": 568000
+    },
+    {
+      "quantity": 569,
+      "worldACents": 569000,
+      "worldBCents": 569000
+    },
+    {
+      "quantity": 570,
+      "worldACents": 570000,
+      "worldBCents": 570000
+    },
+    {
+      "quantity": 571,
+      "worldACents": 571000,
+      "worldBCents": 571000
+    },
+    {
+      "quantity": 572,
+      "worldACents": 572000,
+      "worldBCents": 572000
+    },
+    {
+      "quantity": 573,
+      "worldACents": 573000,
+      "worldBCents": 573000
+    },
+    {
+      "quantity": 574,
+      "worldACents": 574000,
+      "worldBCents": 574000
+    },
+    {
+      "quantity": 575,
+      "worldACents": 575000,
+      "worldBCents": 575000
+    },
+    {
+      "quantity": 576,
+      "worldACents": 576000,
+      "worldBCents": 576000
+    },
+    {
+      "quantity": 577,
+      "worldACents": 577000,
+      "worldBCents": 577000
+    },
+    {
+      "quantity": 578,
+      "worldACents": 578000,
+      "worldBCents": 578000
+    },
+    {
+      "quantity": 579,
+      "worldACents": 579000,
+      "worldBCents": 579000
+    },
+    {
+      "quantity": 580,
+      "worldACents": 580000,
+      "worldBCents": 580000
+    },
+    {
+      "quantity": 581,
+      "worldACents": 581000,
+      "worldBCents": 581000
+    },
+    {
+      "quantity": 582,
+      "worldACents": 582000,
+      "worldBCents": 582000
+    },
+    {
+      "quantity": 583,
+      "worldACents": 583000,
+      "worldBCents": 583000
+    },
+    {
+      "quantity": 584,
+      "worldACents": 584000,
+      "worldBCents": 584000
+    },
+    {
+      "quantity": 585,
+      "worldACents": 585000,
+      "worldBCents": 585000
+    },
+    {
+      "quantity": 586,
+      "worldACents": 586000,
+      "worldBCents": 586000
+    },
+    {
+      "quantity": 587,
+      "worldACents": 587000,
+      "worldBCents": 587000
+    },
+    {
+      "quantity": 588,
+      "worldACents": 588000,
+      "worldBCents": 588000
+    },
+    {
+      "quantity": 589,
+      "worldACents": 589000,
+      "worldBCents": 589000
+    },
+    {
+      "quantity": 590,
+      "worldACents": 590000,
+      "worldBCents": 590000
+    },
+    {
+      "quantity": 591,
+      "worldACents": 591000,
+      "worldBCents": 591000
+    },
+    {
+      "quantity": 592,
+      "worldACents": 592000,
+      "worldBCents": 592000
+    },
+    {
+      "quantity": 593,
+      "worldACents": 593000,
+      "worldBCents": 593000
+    },
+    {
+      "quantity": 594,
+      "worldACents": 594000,
+      "worldBCents": 594000
+    },
+    {
+      "quantity": 595,
+      "worldACents": 595000,
+      "worldBCents": 595000
+    },
+    {
+      "quantity": 596,
+      "worldACents": 596000,
+      "worldBCents": 596000
+    },
+    {
+      "quantity": 597,
+      "worldACents": 597000,
+      "worldBCents": 597000
+    },
+    {
+      "quantity": 598,
+      "worldACents": 598000,
+      "worldBCents": 598000
+    },
+    {
+      "quantity": 599,
+      "worldACents": 599000,
+      "worldBCents": 599000
+    },
+    {
+      "quantity": 600,
+      "worldACents": 600000,
+      "worldBCents": 600000
+    },
+    {
+      "quantity": 601,
+      "worldACents": 601000,
+      "worldBCents": 601000
+    },
+    {
+      "quantity": 602,
+      "worldACents": 602000,
+      "worldBCents": 602000
+    },
+    {
+      "quantity": 603,
+      "worldACents": 603000,
+      "worldBCents": 603000
+    },
+    {
+      "quantity": 604,
+      "worldACents": 604000,
+      "worldBCents": 604000
+    },
+    {
+      "quantity": 605,
+      "worldACents": 605000,
+      "worldBCents": 605000
+    },
+    {
+      "quantity": 606,
+      "worldACents": 606000,
+      "worldBCents": 606000
+    },
+    {
+      "quantity": 607,
+      "worldACents": 607000,
+      "worldBCents": 607000
+    },
+    {
+      "quantity": 608,
+      "worldACents": 608000,
+      "worldBCents": 608000
+    },
+    {
+      "quantity": 609,
+      "worldACents": 609000,
+      "worldBCents": 609000
+    },
+    {
+      "quantity": 610,
+      "worldACents": 610000,
+      "worldBCents": 610000
+    },
+    {
+      "quantity": 611,
+      "worldACents": 611000,
+      "worldBCents": 611000
+    },
+    {
+      "quantity": 612,
+      "worldACents": 612000,
+      "worldBCents": 612000
+    },
+    {
+      "quantity": 613,
+      "worldACents": 613000,
+      "worldBCents": 613000
+    },
+    {
+      "quantity": 614,
+      "worldACents": 614000,
+      "worldBCents": 614000
+    },
+    {
+      "quantity": 615,
+      "worldACents": 615000,
+      "worldBCents": 615000
+    },
+    {
+      "quantity": 616,
+      "worldACents": 616000,
+      "worldBCents": 616000
+    },
+    {
+      "quantity": 617,
+      "worldACents": 617000,
+      "worldBCents": 617000
+    },
+    {
+      "quantity": 618,
+      "worldACents": 618000,
+      "worldBCents": 618000
+    },
+    {
+      "quantity": 619,
+      "worldACents": 619000,
+      "worldBCents": 619000
+    },
+    {
+      "quantity": 620,
+      "worldACents": 620000,
+      "worldBCents": 620000
+    },
+    {
+      "quantity": 621,
+      "worldACents": 621000,
+      "worldBCents": 621000
+    },
+    {
+      "quantity": 622,
+      "worldACents": 622000,
+      "worldBCents": 622000
+    },
+    {
+      "quantity": 623,
+      "worldACents": 623000,
+      "worldBCents": 623000
+    },
+    {
+      "quantity": 624,
+      "worldACents": 624000,
+      "worldBCents": 624000
+    },
+    {
+      "quantity": 625,
+      "worldACents": 625000,
+      "worldBCents": 625000
+    },
+    {
+      "quantity": 626,
+      "worldACents": 626000,
+      "worldBCents": 626000
+    },
+    {
+      "quantity": 627,
+      "worldACents": 627000,
+      "worldBCents": 627000
+    },
+    {
+      "quantity": 628,
+      "worldACents": 628000,
+      "worldBCents": 628000
+    },
+    {
+      "quantity": 629,
+      "worldACents": 629000,
+      "worldBCents": 629000
+    },
+    {
+      "quantity": 630,
+      "worldACents": 630000,
+      "worldBCents": 630000
+    },
+    {
+      "quantity": 631,
+      "worldACents": 631000,
+      "worldBCents": 631000
+    },
+    {
+      "quantity": 632,
+      "worldACents": 632000,
+      "worldBCents": 632000
+    },
+    {
+      "quantity": 633,
+      "worldACents": 633000,
+      "worldBCents": 633000
+    },
+    {
+      "quantity": 634,
+      "worldACents": 634000,
+      "worldBCents": 634000
+    },
+    {
+      "quantity": 635,
+      "worldACents": 635000,
+      "worldBCents": 635000
+    },
+    {
+      "quantity": 636,
+      "worldACents": 636000,
+      "worldBCents": 636000
+    },
+    {
+      "quantity": 637,
+      "worldACents": 637000,
+      "worldBCents": 637000
+    },
+    {
+      "quantity": 638,
+      "worldACents": 638000,
+      "worldBCents": 638000
+    },
+    {
+      "quantity": 639,
+      "worldACents": 639000,
+      "worldBCents": 639000
+    },
+    {
+      "quantity": 640,
+      "worldACents": 640000,
+      "worldBCents": 640000
+    },
+    {
+      "quantity": 641,
+      "worldACents": 641000,
+      "worldBCents": 641000
+    },
+    {
+      "quantity": 642,
+      "worldACents": 642000,
+      "worldBCents": 642000
+    },
+    {
+      "quantity": 643,
+      "worldACents": 643000,
+      "worldBCents": 643000
+    },
+    {
+      "quantity": 644,
+      "worldACents": 644000,
+      "worldBCents": 644000
+    },
+    {
+      "quantity": 645,
+      "worldACents": 645000,
+      "worldBCents": 645000
+    },
+    {
+      "quantity": 646,
+      "worldACents": 646000,
+      "worldBCents": 646000
+    },
+    {
+      "quantity": 647,
+      "worldACents": 647000,
+      "worldBCents": 647000
+    },
+    {
+      "quantity": 648,
+      "worldACents": 648000,
+      "worldBCents": 648000
+    },
+    {
+      "quantity": 649,
+      "worldACents": 649000,
+      "worldBCents": 649000
+    },
+    {
+      "quantity": 650,
+      "worldACents": 650000,
+      "worldBCents": 650000
+    },
+    {
+      "quantity": 651,
+      "worldACents": 651000,
+      "worldBCents": 651000
+    },
+    {
+      "quantity": 652,
+      "worldACents": 652000,
+      "worldBCents": 652000
+    },
+    {
+      "quantity": 653,
+      "worldACents": 653000,
+      "worldBCents": 653000
+    },
+    {
+      "quantity": 654,
+      "worldACents": 654000,
+      "worldBCents": 654000
+    },
+    {
+      "quantity": 655,
+      "worldACents": 655000,
+      "worldBCents": 655000
+    },
+    {
+      "quantity": 656,
+      "worldACents": 656000,
+      "worldBCents": 656000
+    },
+    {
+      "quantity": 657,
+      "worldACents": 657000,
+      "worldBCents": 657000
+    },
+    {
+      "quantity": 658,
+      "worldACents": 658000,
+      "worldBCents": 658000
+    },
+    {
+      "quantity": 659,
+      "worldACents": 659000,
+      "worldBCents": 659000
+    },
+    {
+      "quantity": 660,
+      "worldACents": 660000,
+      "worldBCents": 660000
+    },
+    {
+      "quantity": 661,
+      "worldACents": 661000,
+      "worldBCents": 661000
+    },
+    {
+      "quantity": 662,
+      "worldACents": 662000,
+      "worldBCents": 662000
+    },
+    {
+      "quantity": 663,
+      "worldACents": 663000,
+      "worldBCents": 663000
+    },
+    {
+      "quantity": 664,
+      "worldACents": 664000,
+      "worldBCents": 664000
+    },
+    {
+      "quantity": 665,
+      "worldACents": 665000,
+      "worldBCents": 665000
+    },
+    {
+      "quantity": 666,
+      "worldACents": 666000,
+      "worldBCents": 666000
+    },
+    {
+      "quantity": 667,
+      "worldACents": 667000,
+      "worldBCents": 667000
+    },
+    {
+      "quantity": 668,
+      "worldACents": 668000,
+      "worldBCents": 668000
+    },
+    {
+      "quantity": 669,
+      "worldACents": 669000,
+      "worldBCents": 669000
+    },
+    {
+      "quantity": 670,
+      "worldACents": 670000,
+      "worldBCents": 670000
+    },
+    {
+      "quantity": 671,
+      "worldACents": 671000,
+      "worldBCents": 671000
+    },
+    {
+      "quantity": 672,
+      "worldACents": 672000,
+      "worldBCents": 672000
+    },
+    {
+      "quantity": 673,
+      "worldACents": 673000,
+      "worldBCents": 673000
+    },
+    {
+      "quantity": 674,
+      "worldACents": 674000,
+      "worldBCents": 674000
+    },
+    {
+      "quantity": 675,
+      "worldACents": 675000,
+      "worldBCents": 675000
+    },
+    {
+      "quantity": 676,
+      "worldACents": 676000,
+      "worldBCents": 676000
+    },
+    {
+      "quantity": 677,
+      "worldACents": 677000,
+      "worldBCents": 677000
+    },
+    {
+      "quantity": 678,
+      "worldACents": 678000,
+      "worldBCents": 678000
+    },
+    {
+      "quantity": 679,
+      "worldACents": 679000,
+      "worldBCents": 679000
+    },
+    {
+      "quantity": 680,
+      "worldACents": 680000,
+      "worldBCents": 680000
+    },
+    {
+      "quantity": 681,
+      "worldACents": 681000,
+      "worldBCents": 681000
+    },
+    {
+      "quantity": 682,
+      "worldACents": 682000,
+      "worldBCents": 682000
+    },
+    {
+      "quantity": 683,
+      "worldACents": 683000,
+      "worldBCents": 683000
+    },
+    {
+      "quantity": 684,
+      "worldACents": 684000,
+      "worldBCents": 684000
+    },
+    {
+      "quantity": 685,
+      "worldACents": 685000,
+      "worldBCents": 685000
+    },
+    {
+      "quantity": 686,
+      "worldACents": 686000,
+      "worldBCents": 686000
+    },
+    {
+      "quantity": 687,
+      "worldACents": 687000,
+      "worldBCents": 687000
+    },
+    {
+      "quantity": 688,
+      "worldACents": 688000,
+      "worldBCents": 688000
+    },
+    {
+      "quantity": 689,
+      "worldACents": 689000,
+      "worldBCents": 689000
+    },
+    {
+      "quantity": 690,
+      "worldACents": 690000,
+      "worldBCents": 690000
+    },
+    {
+      "quantity": 691,
+      "worldACents": 691000,
+      "worldBCents": 691000
+    },
+    {
+      "quantity": 692,
+      "worldACents": 692000,
+      "worldBCents": 692000
+    },
+    {
+      "quantity": 693,
+      "worldACents": 693000,
+      "worldBCents": 693000
+    },
+    {
+      "quantity": 694,
+      "worldACents": 694000,
+      "worldBCents": 694000
+    },
+    {
+      "quantity": 695,
+      "worldACents": 695000,
+      "worldBCents": 695000
+    },
+    {
+      "quantity": 696,
+      "worldACents": 696000,
+      "worldBCents": 696000
+    },
+    {
+      "quantity": 697,
+      "worldACents": 697000,
+      "worldBCents": 697000
+    },
+    {
+      "quantity": 698,
+      "worldACents": 698000,
+      "worldBCents": 698000
+    },
+    {
+      "quantity": 699,
+      "worldACents": 699000,
+      "worldBCents": 699000
+    },
+    {
+      "quantity": 700,
+      "worldACents": 700000,
+      "worldBCents": 700000
+    },
+    {
+      "quantity": 701,
+      "worldACents": 701000,
+      "worldBCents": 701000
+    },
+    {
+      "quantity": 702,
+      "worldACents": 702000,
+      "worldBCents": 702000
+    },
+    {
+      "quantity": 703,
+      "worldACents": 703000,
+      "worldBCents": 703000
+    },
+    {
+      "quantity": 704,
+      "worldACents": 704000,
+      "worldBCents": 704000
+    },
+    {
+      "quantity": 705,
+      "worldACents": 705000,
+      "worldBCents": 705000
+    },
+    {
+      "quantity": 706,
+      "worldACents": 706000,
+      "worldBCents": 706000
+    },
+    {
+      "quantity": 707,
+      "worldACents": 707000,
+      "worldBCents": 707000
+    },
+    {
+      "quantity": 708,
+      "worldACents": 708000,
+      "worldBCents": 708000
+    },
+    {
+      "quantity": 709,
+      "worldACents": 709000,
+      "worldBCents": 709000
+    },
+    {
+      "quantity": 710,
+      "worldACents": 710000,
+      "worldBCents": 710000
+    },
+    {
+      "quantity": 711,
+      "worldACents": 711000,
+      "worldBCents": 711000
+    },
+    {
+      "quantity": 712,
+      "worldACents": 712000,
+      "worldBCents": 712000
+    },
+    {
+      "quantity": 713,
+      "worldACents": 713000,
+      "worldBCents": 713000
+    },
+    {
+      "quantity": 714,
+      "worldACents": 714000,
+      "worldBCents": 714000
+    },
+    {
+      "quantity": 715,
+      "worldACents": 715000,
+      "worldBCents": 715000
+    },
+    {
+      "quantity": 716,
+      "worldACents": 716000,
+      "worldBCents": 716000
+    },
+    {
+      "quantity": 717,
+      "worldACents": 717000,
+      "worldBCents": 717000
+    },
+    {
+      "quantity": 718,
+      "worldACents": 718000,
+      "worldBCents": 718000
+    },
+    {
+      "quantity": 719,
+      "worldACents": 719000,
+      "worldBCents": 719000
+    },
+    {
+      "quantity": 720,
+      "worldACents": 720000,
+      "worldBCents": 720000
+    },
+    {
+      "quantity": 721,
+      "worldACents": 721000,
+      "worldBCents": 721000
+    },
+    {
+      "quantity": 722,
+      "worldACents": 722000,
+      "worldBCents": 722000
+    },
+    {
+      "quantity": 723,
+      "worldACents": 723000,
+      "worldBCents": 723000
+    },
+    {
+      "quantity": 724,
+      "worldACents": 724000,
+      "worldBCents": 724000
+    },
+    {
+      "quantity": 725,
+      "worldACents": 725000,
+      "worldBCents": 725000
+    },
+    {
+      "quantity": 726,
+      "worldACents": 726000,
+      "worldBCents": 726000
+    },
+    {
+      "quantity": 727,
+      "worldACents": 727000,
+      "worldBCents": 727000
+    },
+    {
+      "quantity": 728,
+      "worldACents": 728000,
+      "worldBCents": 728000
+    },
+    {
+      "quantity": 729,
+      "worldACents": 729000,
+      "worldBCents": 729000
+    },
+    {
+      "quantity": 730,
+      "worldACents": 730000,
+      "worldBCents": 730000
+    },
+    {
+      "quantity": 731,
+      "worldACents": 731000,
+      "worldBCents": 731000
+    },
+    {
+      "quantity": 732,
+      "worldACents": 732000,
+      "worldBCents": 732000
+    },
+    {
+      "quantity": 733,
+      "worldACents": 733000,
+      "worldBCents": 733000
+    },
+    {
+      "quantity": 734,
+      "worldACents": 734000,
+      "worldBCents": 734000
+    },
+    {
+      "quantity": 735,
+      "worldACents": 735000,
+      "worldBCents": 735000
+    },
+    {
+      "quantity": 736,
+      "worldACents": 736000,
+      "worldBCents": 736000
+    },
+    {
+      "quantity": 737,
+      "worldACents": 737000,
+      "worldBCents": 737000
+    },
+    {
+      "quantity": 738,
+      "worldACents": 738000,
+      "worldBCents": 738000
+    },
+    {
+      "quantity": 739,
+      "worldACents": 739000,
+      "worldBCents": 739000
+    },
+    {
+      "quantity": 740,
+      "worldACents": 740000,
+      "worldBCents": 740000
+    },
+    {
+      "quantity": 741,
+      "worldACents": 741000,
+      "worldBCents": 741000
+    },
+    {
+      "quantity": 742,
+      "worldACents": 742000,
+      "worldBCents": 742000
+    },
+    {
+      "quantity": 743,
+      "worldACents": 743000,
+      "worldBCents": 743000
+    },
+    {
+      "quantity": 744,
+      "worldACents": 744000,
+      "worldBCents": 744000
+    },
+    {
+      "quantity": 745,
+      "worldACents": 745000,
+      "worldBCents": 745000
+    },
+    {
+      "quantity": 746,
+      "worldACents": 746000,
+      "worldBCents": 746000
+    },
+    {
+      "quantity": 747,
+      "worldACents": 747000,
+      "worldBCents": 747000
+    },
+    {
+      "quantity": 748,
+      "worldACents": 748000,
+      "worldBCents": 748000
+    },
+    {
+      "quantity": 749,
+      "worldACents": 749000,
+      "worldBCents": 749000
+    },
+    {
+      "quantity": 750,
+      "worldACents": 750000,
+      "worldBCents": 750000
+    },
+    {
+      "quantity": 751,
+      "worldACents": 751000,
+      "worldBCents": 751000
+    },
+    {
+      "quantity": 752,
+      "worldACents": 752000,
+      "worldBCents": 752000
+    },
+    {
+      "quantity": 753,
+      "worldACents": 753000,
+      "worldBCents": 753000
+    },
+    {
+      "quantity": 754,
+      "worldACents": 754000,
+      "worldBCents": 754000
+    },
+    {
+      "quantity": 755,
+      "worldACents": 755000,
+      "worldBCents": 755000
+    },
+    {
+      "quantity": 756,
+      "worldACents": 756000,
+      "worldBCents": 756000
+    },
+    {
+      "quantity": 757,
+      "worldACents": 757000,
+      "worldBCents": 757000
+    },
+    {
+      "quantity": 758,
+      "worldACents": 758000,
+      "worldBCents": 758000
+    },
+    {
+      "quantity": 759,
+      "worldACents": 759000,
+      "worldBCents": 759000
+    },
+    {
+      "quantity": 760,
+      "worldACents": 760000,
+      "worldBCents": 760000
+    },
+    {
+      "quantity": 761,
+      "worldACents": 761000,
+      "worldBCents": 761000
+    },
+    {
+      "quantity": 762,
+      "worldACents": 762000,
+      "worldBCents": 762000
+    },
+    {
+      "quantity": 763,
+      "worldACents": 763000,
+      "worldBCents": 763000
+    },
+    {
+      "quantity": 764,
+      "worldACents": 764000,
+      "worldBCents": 764000
+    },
+    {
+      "quantity": 765,
+      "worldACents": 765000,
+      "worldBCents": 765000
+    },
+    {
+      "quantity": 766,
+      "worldACents": 766000,
+      "worldBCents": 766000
+    },
+    {
+      "quantity": 767,
+      "worldACents": 767000,
+      "worldBCents": 767000
+    },
+    {
+      "quantity": 768,
+      "worldACents": 768000,
+      "worldBCents": 768000
+    },
+    {
+      "quantity": 769,
+      "worldACents": 769000,
+      "worldBCents": 769000
+    },
+    {
+      "quantity": 770,
+      "worldACents": 770000,
+      "worldBCents": 770000
+    },
+    {
+      "quantity": 771,
+      "worldACents": 771000,
+      "worldBCents": 771000
+    },
+    {
+      "quantity": 772,
+      "worldACents": 772000,
+      "worldBCents": 772000
+    },
+    {
+      "quantity": 773,
+      "worldACents": 773000,
+      "worldBCents": 773000
+    },
+    {
+      "quantity": 774,
+      "worldACents": 774000,
+      "worldBCents": 774000
+    },
+    {
+      "quantity": 775,
+      "worldACents": 775000,
+      "worldBCents": 775000
+    },
+    {
+      "quantity": 776,
+      "worldACents": 776000,
+      "worldBCents": 776000
+    },
+    {
+      "quantity": 777,
+      "worldACents": 777000,
+      "worldBCents": 777000
+    },
+    {
+      "quantity": 778,
+      "worldACents": 778000,
+      "worldBCents": 778000
+    },
+    {
+      "quantity": 779,
+      "worldACents": 779000,
+      "worldBCents": 779000
+    },
+    {
+      "quantity": 780,
+      "worldACents": 780000,
+      "worldBCents": 780000
+    },
+    {
+      "quantity": 781,
+      "worldACents": 781000,
+      "worldBCents": 781000
+    },
+    {
+      "quantity": 782,
+      "worldACents": 782000,
+      "worldBCents": 782000
+    },
+    {
+      "quantity": 783,
+      "worldACents": 783000,
+      "worldBCents": 783000
+    },
+    {
+      "quantity": 784,
+      "worldACents": 784000,
+      "worldBCents": 784000
+    },
+    {
+      "quantity": 785,
+      "worldACents": 785000,
+      "worldBCents": 785000
+    },
+    {
+      "quantity": 786,
+      "worldACents": 786000,
+      "worldBCents": 786000
+    },
+    {
+      "quantity": 787,
+      "worldACents": 787000,
+      "worldBCents": 787000
+    },
+    {
+      "quantity": 788,
+      "worldACents": 788000,
+      "worldBCents": 788000
+    },
+    {
+      "quantity": 789,
+      "worldACents": 789000,
+      "worldBCents": 789000
+    },
+    {
+      "quantity": 790,
+      "worldACents": 790000,
+      "worldBCents": 790000
+    },
+    {
+      "quantity": 791,
+      "worldACents": 791000,
+      "worldBCents": 791000
+    },
+    {
+      "quantity": 792,
+      "worldACents": 792000,
+      "worldBCents": 792000
+    },
+    {
+      "quantity": 793,
+      "worldACents": 793000,
+      "worldBCents": 793000
+    },
+    {
+      "quantity": 794,
+      "worldACents": 794000,
+      "worldBCents": 794000
+    },
+    {
+      "quantity": 795,
+      "worldACents": 795000,
+      "worldBCents": 795000
+    },
+    {
+      "quantity": 796,
+      "worldACents": 796000,
+      "worldBCents": 796000
+    },
+    {
+      "quantity": 797,
+      "worldACents": 797000,
+      "worldBCents": 797000
+    },
+    {
+      "quantity": 798,
+      "worldACents": 798000,
+      "worldBCents": 798000
+    },
+    {
+      "quantity": 799,
+      "worldACents": 799000,
+      "worldBCents": 799000
+    },
+    {
+      "quantity": 800,
+      "worldACents": 800000,
+      "worldBCents": 800000
+    },
+    {
+      "quantity": 801,
+      "worldACents": 801000,
+      "worldBCents": 801000
+    },
+    {
+      "quantity": 802,
+      "worldACents": 802000,
+      "worldBCents": 802000
+    },
+    {
+      "quantity": 803,
+      "worldACents": 803000,
+      "worldBCents": 803000
+    },
+    {
+      "quantity": 804,
+      "worldACents": 804000,
+      "worldBCents": 804000
+    },
+    {
+      "quantity": 805,
+      "worldACents": 805000,
+      "worldBCents": 805000
+    },
+    {
+      "quantity": 806,
+      "worldACents": 806000,
+      "worldBCents": 806000
+    },
+    {
+      "quantity": 807,
+      "worldACents": 807000,
+      "worldBCents": 807000
+    },
+    {
+      "quantity": 808,
+      "worldACents": 808000,
+      "worldBCents": 808000
+    },
+    {
+      "quantity": 809,
+      "worldACents": 809000,
+      "worldBCents": 809000
+    },
+    {
+      "quantity": 810,
+      "worldACents": 810000,
+      "worldBCents": 810000
+    },
+    {
+      "quantity": 811,
+      "worldACents": 811000,
+      "worldBCents": 811000
+    },
+    {
+      "quantity": 812,
+      "worldACents": 812000,
+      "worldBCents": 812000
+    },
+    {
+      "quantity": 813,
+      "worldACents": 813000,
+      "worldBCents": 813000
+    },
+    {
+      "quantity": 814,
+      "worldACents": 814000,
+      "worldBCents": 814000
+    },
+    {
+      "quantity": 815,
+      "worldACents": 815000,
+      "worldBCents": 815000
+    },
+    {
+      "quantity": 816,
+      "worldACents": 816000,
+      "worldBCents": 816000
+    },
+    {
+      "quantity": 817,
+      "worldACents": 817000,
+      "worldBCents": 817000
+    },
+    {
+      "quantity": 818,
+      "worldACents": 818000,
+      "worldBCents": 818000
+    },
+    {
+      "quantity": 819,
+      "worldACents": 819000,
+      "worldBCents": 819000
+    },
+    {
+      "quantity": 820,
+      "worldACents": 820000,
+      "worldBCents": 820000
+    },
+    {
+      "quantity": 821,
+      "worldACents": 821000,
+      "worldBCents": 821000
+    },
+    {
+      "quantity": 822,
+      "worldACents": 822000,
+      "worldBCents": 822000
+    },
+    {
+      "quantity": 823,
+      "worldACents": 823000,
+      "worldBCents": 823000
+    },
+    {
+      "quantity": 824,
+      "worldACents": 824000,
+      "worldBCents": 824000
+    },
+    {
+      "quantity": 825,
+      "worldACents": 825000,
+      "worldBCents": 825000
+    },
+    {
+      "quantity": 826,
+      "worldACents": 826000,
+      "worldBCents": 826000
+    },
+    {
+      "quantity": 827,
+      "worldACents": 827000,
+      "worldBCents": 827000
+    },
+    {
+      "quantity": 828,
+      "worldACents": 828000,
+      "worldBCents": 828000
+    },
+    {
+      "quantity": 829,
+      "worldACents": 829000,
+      "worldBCents": 829000
+    },
+    {
+      "quantity": 830,
+      "worldACents": 830000,
+      "worldBCents": 830000
+    },
+    {
+      "quantity": 831,
+      "worldACents": 831000,
+      "worldBCents": 831000
+    },
+    {
+      "quantity": 832,
+      "worldACents": 832000,
+      "worldBCents": 832000
+    },
+    {
+      "quantity": 833,
+      "worldACents": 833000,
+      "worldBCents": 833000
+    },
+    {
+      "quantity": 834,
+      "worldACents": 834000,
+      "worldBCents": 834000
+    },
+    {
+      "quantity": 835,
+      "worldACents": 835000,
+      "worldBCents": 835000
+    },
+    {
+      "quantity": 836,
+      "worldACents": 836000,
+      "worldBCents": 836000
+    },
+    {
+      "quantity": 837,
+      "worldACents": 837000,
+      "worldBCents": 837000
+    },
+    {
+      "quantity": 838,
+      "worldACents": 838000,
+      "worldBCents": 838000
+    },
+    {
+      "quantity": 839,
+      "worldACents": 839000,
+      "worldBCents": 839000
+    },
+    {
+      "quantity": 840,
+      "worldACents": 840000,
+      "worldBCents": 840000
+    },
+    {
+      "quantity": 841,
+      "worldACents": 841000,
+      "worldBCents": 841000
+    },
+    {
+      "quantity": 842,
+      "worldACents": 842000,
+      "worldBCents": 842000
+    },
+    {
+      "quantity": 843,
+      "worldACents": 843000,
+      "worldBCents": 843000
+    },
+    {
+      "quantity": 844,
+      "worldACents": 844000,
+      "worldBCents": 844000
+    },
+    {
+      "quantity": 845,
+      "worldACents": 845000,
+      "worldBCents": 845000
+    },
+    {
+      "quantity": 846,
+      "worldACents": 846000,
+      "worldBCents": 846000
+    },
+    {
+      "quantity": 847,
+      "worldACents": 847000,
+      "worldBCents": 847000
+    },
+    {
+      "quantity": 848,
+      "worldACents": 848000,
+      "worldBCents": 848000
+    },
+    {
+      "quantity": 849,
+      "worldACents": 849000,
+      "worldBCents": 849000
+    },
+    {
+      "quantity": 850,
+      "worldACents": 850000,
+      "worldBCents": 850000
+    },
+    {
+      "quantity": 851,
+      "worldACents": 851000,
+      "worldBCents": 851000
+    },
+    {
+      "quantity": 852,
+      "worldACents": 852000,
+      "worldBCents": 852000
+    },
+    {
+      "quantity": 853,
+      "worldACents": 853000,
+      "worldBCents": 853000
+    },
+    {
+      "quantity": 854,
+      "worldACents": 854000,
+      "worldBCents": 854000
+    },
+    {
+      "quantity": 855,
+      "worldACents": 855000,
+      "worldBCents": 855000
+    },
+    {
+      "quantity": 856,
+      "worldACents": 856000,
+      "worldBCents": 856000
+    },
+    {
+      "quantity": 857,
+      "worldACents": 857000,
+      "worldBCents": 857000
+    },
+    {
+      "quantity": 858,
+      "worldACents": 858000,
+      "worldBCents": 858000
+    },
+    {
+      "quantity": 859,
+      "worldACents": 859000,
+      "worldBCents": 859000
+    },
+    {
+      "quantity": 860,
+      "worldACents": 860000,
+      "worldBCents": 860000
+    },
+    {
+      "quantity": 861,
+      "worldACents": 861000,
+      "worldBCents": 861000
+    },
+    {
+      "quantity": 862,
+      "worldACents": 862000,
+      "worldBCents": 862000
+    },
+    {
+      "quantity": 863,
+      "worldACents": 863000,
+      "worldBCents": 863000
+    },
+    {
+      "quantity": 864,
+      "worldACents": 864000,
+      "worldBCents": 864000
+    },
+    {
+      "quantity": 865,
+      "worldACents": 865000,
+      "worldBCents": 865000
+    },
+    {
+      "quantity": 866,
+      "worldACents": 866000,
+      "worldBCents": 866000
+    },
+    {
+      "quantity": 867,
+      "worldACents": 867000,
+      "worldBCents": 867000
+    },
+    {
+      "quantity": 868,
+      "worldACents": 868000,
+      "worldBCents": 868000
+    },
+    {
+      "quantity": 869,
+      "worldACents": 869000,
+      "worldBCents": 869000
+    },
+    {
+      "quantity": 870,
+      "worldACents": 870000,
+      "worldBCents": 870000
+    },
+    {
+      "quantity": 871,
+      "worldACents": 871000,
+      "worldBCents": 871000
+    },
+    {
+      "quantity": 872,
+      "worldACents": 872000,
+      "worldBCents": 872000
+    },
+    {
+      "quantity": 873,
+      "worldACents": 873000,
+      "worldBCents": 873000
+    },
+    {
+      "quantity": 874,
+      "worldACents": 874000,
+      "worldBCents": 874000
+    },
+    {
+      "quantity": 875,
+      "worldACents": 875000,
+      "worldBCents": 875000
+    },
+    {
+      "quantity": 876,
+      "worldACents": 876000,
+      "worldBCents": 876000
+    },
+    {
+      "quantity": 877,
+      "worldACents": 877000,
+      "worldBCents": 877000
+    },
+    {
+      "quantity": 878,
+      "worldACents": 878000,
+      "worldBCents": 878000
+    },
+    {
+      "quantity": 879,
+      "worldACents": 879000,
+      "worldBCents": 879000
+    },
+    {
+      "quantity": 880,
+      "worldACents": 880000,
+      "worldBCents": 880000
+    },
+    {
+      "quantity": 881,
+      "worldACents": 881000,
+      "worldBCents": 881000
+    },
+    {
+      "quantity": 882,
+      "worldACents": 882000,
+      "worldBCents": 882000
+    },
+    {
+      "quantity": 883,
+      "worldACents": 883000,
+      "worldBCents": 883000
+    },
+    {
+      "quantity": 884,
+      "worldACents": 884000,
+      "worldBCents": 884000
+    },
+    {
+      "quantity": 885,
+      "worldACents": 885000,
+      "worldBCents": 885000
+    },
+    {
+      "quantity": 886,
+      "worldACents": 886000,
+      "worldBCents": 886000
+    },
+    {
+      "quantity": 887,
+      "worldACents": 887000,
+      "worldBCents": 887000
+    },
+    {
+      "quantity": 888,
+      "worldACents": 888000,
+      "worldBCents": 888000
+    },
+    {
+      "quantity": 889,
+      "worldACents": 889000,
+      "worldBCents": 889000
+    },
+    {
+      "quantity": 890,
+      "worldACents": 890000,
+      "worldBCents": 890000
+    },
+    {
+      "quantity": 891,
+      "worldACents": 891000,
+      "worldBCents": 891000
+    },
+    {
+      "quantity": 892,
+      "worldACents": 892000,
+      "worldBCents": 892000
+    },
+    {
+      "quantity": 893,
+      "worldACents": 893000,
+      "worldBCents": 893000
+    },
+    {
+      "quantity": 894,
+      "worldACents": 894000,
+      "worldBCents": 894000
+    },
+    {
+      "quantity": 895,
+      "worldACents": 895000,
+      "worldBCents": 895000
+    },
+    {
+      "quantity": 896,
+      "worldACents": 896000,
+      "worldBCents": 896000
+    },
+    {
+      "quantity": 897,
+      "worldACents": 897000,
+      "worldBCents": 897000
+    },
+    {
+      "quantity": 898,
+      "worldACents": 898000,
+      "worldBCents": 898000
+    },
+    {
+      "quantity": 899,
+      "worldACents": 899000,
+      "worldBCents": 899000
+    },
+    {
+      "quantity": 900,
+      "worldACents": 900000,
+      "worldBCents": 900000
+    },
+    {
+      "quantity": 901,
+      "worldACents": 901000,
+      "worldBCents": 901000
+    },
+    {
+      "quantity": 902,
+      "worldACents": 902000,
+      "worldBCents": 902000
+    },
+    {
+      "quantity": 903,
+      "worldACents": 903000,
+      "worldBCents": 903000
+    },
+    {
+      "quantity": 904,
+      "worldACents": 904000,
+      "worldBCents": 904000
+    },
+    {
+      "quantity": 905,
+      "worldACents": 905000,
+      "worldBCents": 905000
+    },
+    {
+      "quantity": 906,
+      "worldACents": 906000,
+      "worldBCents": 906000
+    },
+    {
+      "quantity": 907,
+      "worldACents": 907000,
+      "worldBCents": 907000
+    },
+    {
+      "quantity": 908,
+      "worldACents": 908000,
+      "worldBCents": 908000
+    },
+    {
+      "quantity": 909,
+      "worldACents": 909000,
+      "worldBCents": 909000
+    },
+    {
+      "quantity": 910,
+      "worldACents": 910000,
+      "worldBCents": 910000
+    },
+    {
+      "quantity": 911,
+      "worldACents": 911000,
+      "worldBCents": 911000
+    },
+    {
+      "quantity": 912,
+      "worldACents": 912000,
+      "worldBCents": 912000
+    },
+    {
+      "quantity": 913,
+      "worldACents": 913000,
+      "worldBCents": 913000
+    },
+    {
+      "quantity": 914,
+      "worldACents": 914000,
+      "worldBCents": 914000
+    },
+    {
+      "quantity": 915,
+      "worldACents": 915000,
+      "worldBCents": 915000
+    },
+    {
+      "quantity": 916,
+      "worldACents": 916000,
+      "worldBCents": 916000
+    },
+    {
+      "quantity": 917,
+      "worldACents": 917000,
+      "worldBCents": 917000
+    },
+    {
+      "quantity": 918,
+      "worldACents": 918000,
+      "worldBCents": 918000
+    },
+    {
+      "quantity": 919,
+      "worldACents": 919000,
+      "worldBCents": 919000
+    },
+    {
+      "quantity": 920,
+      "worldACents": 920000,
+      "worldBCents": 920000
+    },
+    {
+      "quantity": 921,
+      "worldACents": 921000,
+      "worldBCents": 921000
+    },
+    {
+      "quantity": 922,
+      "worldACents": 922000,
+      "worldBCents": 922000
+    },
+    {
+      "quantity": 923,
+      "worldACents": 923000,
+      "worldBCents": 923000
+    },
+    {
+      "quantity": 924,
+      "worldACents": 924000,
+      "worldBCents": 924000
+    },
+    {
+      "quantity": 925,
+      "worldACents": 925000,
+      "worldBCents": 925000
+    },
+    {
+      "quantity": 926,
+      "worldACents": 926000,
+      "worldBCents": 926000
+    },
+    {
+      "quantity": 927,
+      "worldACents": 927000,
+      "worldBCents": 927000
+    },
+    {
+      "quantity": 928,
+      "worldACents": 928000,
+      "worldBCents": 928000
+    },
+    {
+      "quantity": 929,
+      "worldACents": 929000,
+      "worldBCents": 929000
+    },
+    {
+      "quantity": 930,
+      "worldACents": 930000,
+      "worldBCents": 930000
+    },
+    {
+      "quantity": 931,
+      "worldACents": 931000,
+      "worldBCents": 931000
+    },
+    {
+      "quantity": 932,
+      "worldACents": 932000,
+      "worldBCents": 932000
+    },
+    {
+      "quantity": 933,
+      "worldACents": 933000,
+      "worldBCents": 933000
+    },
+    {
+      "quantity": 934,
+      "worldACents": 934000,
+      "worldBCents": 934000
+    },
+    {
+      "quantity": 935,
+      "worldACents": 935000,
+      "worldBCents": 935000
+    },
+    {
+      "quantity": 936,
+      "worldACents": 936000,
+      "worldBCents": 936000
+    },
+    {
+      "quantity": 937,
+      "worldACents": 937000,
+      "worldBCents": 937000
+    },
+    {
+      "quantity": 938,
+      "worldACents": 938000,
+      "worldBCents": 938000
+    },
+    {
+      "quantity": 939,
+      "worldACents": 939000,
+      "worldBCents": 939000
+    },
+    {
+      "quantity": 940,
+      "worldACents": 940000,
+      "worldBCents": 940000
+    },
+    {
+      "quantity": 941,
+      "worldACents": 941000,
+      "worldBCents": 941000
+    },
+    {
+      "quantity": 942,
+      "worldACents": 942000,
+      "worldBCents": 942000
+    },
+    {
+      "quantity": 943,
+      "worldACents": 943000,
+      "worldBCents": 943000
+    },
+    {
+      "quantity": 944,
+      "worldACents": 944000,
+      "worldBCents": 944000
+    },
+    {
+      "quantity": 945,
+      "worldACents": 945000,
+      "worldBCents": 945000
+    },
+    {
+      "quantity": 946,
+      "worldACents": 946000,
+      "worldBCents": 946000
+    },
+    {
+      "quantity": 947,
+      "worldACents": 947000,
+      "worldBCents": 947000
+    },
+    {
+      "quantity": 948,
+      "worldACents": 948000,
+      "worldBCents": 948000
+    },
+    {
+      "quantity": 949,
+      "worldACents": 949000,
+      "worldBCents": 949000
+    },
+    {
+      "quantity": 950,
+      "worldACents": 950000,
+      "worldBCents": 950000
+    },
+    {
+      "quantity": 951,
+      "worldACents": 951000,
+      "worldBCents": 951000
+    },
+    {
+      "quantity": 952,
+      "worldACents": 952000,
+      "worldBCents": 952000
+    },
+    {
+      "quantity": 953,
+      "worldACents": 953000,
+      "worldBCents": 953000
+    },
+    {
+      "quantity": 954,
+      "worldACents": 954000,
+      "worldBCents": 954000
+    },
+    {
+      "quantity": 955,
+      "worldACents": 955000,
+      "worldBCents": 955000
+    },
+    {
+      "quantity": 956,
+      "worldACents": 956000,
+      "worldBCents": 956000
+    },
+    {
+      "quantity": 957,
+      "worldACents": 957000,
+      "worldBCents": 957000
+    },
+    {
+      "quantity": 958,
+      "worldACents": 958000,
+      "worldBCents": 958000
+    },
+    {
+      "quantity": 959,
+      "worldACents": 959000,
+      "worldBCents": 959000
+    },
+    {
+      "quantity": 960,
+      "worldACents": 960000,
+      "worldBCents": 960000
+    },
+    {
+      "quantity": 961,
+      "worldACents": 961000,
+      "worldBCents": 961000
+    },
+    {
+      "quantity": 962,
+      "worldACents": 962000,
+      "worldBCents": 962000
+    },
+    {
+      "quantity": 963,
+      "worldACents": 963000,
+      "worldBCents": 963000
+    },
+    {
+      "quantity": 964,
+      "worldACents": 964000,
+      "worldBCents": 964000
+    },
+    {
+      "quantity": 965,
+      "worldACents": 965000,
+      "worldBCents": 965000
+    },
+    {
+      "quantity": 966,
+      "worldACents": 966000,
+      "worldBCents": 966000
+    },
+    {
+      "quantity": 967,
+      "worldACents": 967000,
+      "worldBCents": 967000
+    },
+    {
+      "quantity": 968,
+      "worldACents": 968000,
+      "worldBCents": 968000
+    },
+    {
+      "quantity": 969,
+      "worldACents": 969000,
+      "worldBCents": 969000
+    },
+    {
+      "quantity": 970,
+      "worldACents": 970000,
+      "worldBCents": 970000
+    },
+    {
+      "quantity": 971,
+      "worldACents": 971000,
+      "worldBCents": 971000
+    },
+    {
+      "quantity": 972,
+      "worldACents": 972000,
+      "worldBCents": 972000
+    },
+    {
+      "quantity": 973,
+      "worldACents": 973000,
+      "worldBCents": 973000
+    },
+    {
+      "quantity": 974,
+      "worldACents": 974000,
+      "worldBCents": 974000
+    },
+    {
+      "quantity": 975,
+      "worldACents": 975000,
+      "worldBCents": 975000
+    },
+    {
+      "quantity": 976,
+      "worldACents": 976000,
+      "worldBCents": 976000
+    },
+    {
+      "quantity": 977,
+      "worldACents": 977000,
+      "worldBCents": 977000
+    },
+    {
+      "quantity": 978,
+      "worldACents": 978000,
+      "worldBCents": 978000
+    },
+    {
+      "quantity": 979,
+      "worldACents": 979000,
+      "worldBCents": 979000
+    },
+    {
+      "quantity": 980,
+      "worldACents": 980000,
+      "worldBCents": 980000
+    },
+    {
+      "quantity": 981,
+      "worldACents": 981000,
+      "worldBCents": 981000
+    },
+    {
+      "quantity": 982,
+      "worldACents": 982000,
+      "worldBCents": 982000
+    },
+    {
+      "quantity": 983,
+      "worldACents": 983000,
+      "worldBCents": 983000
+    },
+    {
+      "quantity": 984,
+      "worldACents": 984000,
+      "worldBCents": 984000
+    },
+    {
+      "quantity": 985,
+      "worldACents": 985000,
+      "worldBCents": 985000
+    },
+    {
+      "quantity": 986,
+      "worldACents": 986000,
+      "worldBCents": 986000
+    },
+    {
+      "quantity": 987,
+      "worldACents": 987000,
+      "worldBCents": 987000
+    },
+    {
+      "quantity": 988,
+      "worldACents": 988000,
+      "worldBCents": 988000
+    },
+    {
+      "quantity": 989,
+      "worldACents": 989000,
+      "worldBCents": 989000
+    },
+    {
+      "quantity": 990,
+      "worldACents": 990000,
+      "worldBCents": 990000
+    },
+    {
+      "quantity": 991,
+      "worldACents": 991000,
+      "worldBCents": 991000
+    },
+    {
+      "quantity": 992,
+      "worldACents": 992000,
+      "worldBCents": 992000
+    },
+    {
+      "quantity": 993,
+      "worldACents": 993000,
+      "worldBCents": 993000
+    },
+    {
+      "quantity": 994,
+      "worldACents": 994000,
+      "worldBCents": 994000
+    },
+    {
+      "quantity": 995,
+      "worldACents": 995000,
+      "worldBCents": 995000
+    },
+    {
+      "quantity": 996,
+      "worldACents": 996000,
+      "worldBCents": 996000
+    },
+    {
+      "quantity": 997,
+      "worldACents": 997000,
+      "worldBCents": 997000
+    },
+    {
+      "quantity": 998,
+      "worldACents": 998000,
+      "worldBCents": 998000
+    },
+    {
+      "quantity": 999,
+      "worldACents": 999000,
+      "worldBCents": 999000
+    },
+    {
+      "quantity": 1000,
+      "worldACents": 1000000,
+      "worldBCents": 1000000
+    }
+  ],
+  "disputedInputs": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174
+  ],
+  "conditionalExactCeilingOnDisputed": 0.5,
+  "conditionalExactCeilingAllDomain": 0.95,
+  "attackerScore": false
+}

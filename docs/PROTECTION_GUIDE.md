@@ -2,6 +2,8 @@
 
 ## The short answer
 
+**Latest evidence:** the [workflow boundary study](BOUNDARY_FINDINGS.md) tests consistent approvals across quotes, exports and jobs, including two controls that deliberately fail. Read [what REA actually does](HOW_REA_WORKS.md) to understand its observation channels and which parts of our research use a custom learner.
+
 **New measured evidence:** the [19 October reconstruction supplement](RECONSTRUCTION_FINDINGS.md) shows why rate limits and rounding can still permit useful imitations. An approved-quote-only workflow reduced measured reconstruction more strongly, with a substantial product restriction. Use those results alongside the access-boundary guidance below.
 
 **You can stop an unauthorised action by refusing it on the server. You cannot promise to hide information that your product deliberately gives an authorised customer.**

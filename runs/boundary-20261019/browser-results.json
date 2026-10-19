@@ -1,0 +1,1312 @@
+[
+  {
+    "key": "closed-A",
+    "world": "A",
+    "mode": "closed",
+    "completeness": {
+      "status": "incomplete",
+      "equality_eligible": false,
+      "missing_sections": [
+        "events"
+      ],
+      "truncated_sections": []
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "step_id": "run",
+        "status": "completed"
+      },
+      {
+        "step_id": "done",
+        "status": "completed"
+      }
+    ],
+    "rows": [
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-50",
+              "quantity": 50,
+              "totalCents": 125000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "e919611ab5ff8206f31750e4"
+        }
+      },
+      {
+        "route": "/api/jobs/e919611ab5ff8206f31750e4",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-200",
+              "quantity": 200,
+              "totalCents": 300000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "0d932b2def948f4729697277"
+        }
+      },
+      {
+        "route": "/api/jobs/0d932b2def948f4729697277",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/approvals",
+        "request": {
+          "quantity": 100
+        },
+        "status": 403,
+        "body": {
+          "error": "operator approval required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "closed-B",
+    "world": "B",
+    "mode": "closed",
+    "completeness": {
+      "status": "incomplete",
+      "equality_eligible": false,
+      "missing_sections": [
+        "events"
+      ],
+      "truncated_sections": []
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "step_id": "run",
+        "status": "completed"
+      },
+      {
+        "step_id": "done",
+        "status": "completed"
+      }
+    ],
+    "rows": [
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-50",
+              "quantity": 50,
+              "totalCents": 125000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "669d3649db4f0286fc5a386c"
+        }
+      },
+      {
+        "route": "/api/jobs/669d3649db4f0286fc5a386c",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-200",
+              "quantity": 200,
+              "totalCents": 300000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "6f55dbf8a093ba5dc1053898"
+        }
+      },
+      {
+        "route": "/api/jobs/6f55dbf8a093ba5dc1053898",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/approvals",
+        "request": {
+          "quantity": 100
+        },
+        "status": 403,
+        "body": {
+          "error": "operator approval required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "leaky-export-A",
+    "world": "A",
+    "mode": "leaky-export",
+    "completeness": {
+      "status": "incomplete",
+      "equality_eligible": false,
+      "missing_sections": [
+        "events"
+      ],
+      "truncated_sections": []
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "step_id": "run",
+        "status": "completed"
+      },
+      {
+        "step_id": "done",
+        "status": "completed"
+      }
+    ],
+    "rows": [
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-50",
+              "quantity": 50,
+              "totalCents": 125000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "bf027c46b5ecf70821b935f9"
+        }
+      },
+      {
+        "route": "/api/jobs/bf027c46b5ecf70821b935f9",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-200",
+              "quantity": 200,
+              "totalCents": 300000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "28151d163b754c855f3ff143"
+        }
+      },
+      {
+        "route": "/api/jobs/28151d163b754c855f3ff143",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "quantity": 100
+        },
+        "status": 200,
+        "body": {
+          "quantity": 100,
+          "totalCents": 150000
+        }
+      },
+      {
+        "route": "/api/approvals",
+        "request": {
+          "quantity": 100
+        },
+        "status": 403,
+        "body": {
+          "error": "operator approval required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "leaky-export-B",
+    "world": "B",
+    "mode": "leaky-export",
+    "completeness": {
+      "status": "incomplete",
+      "equality_eligible": false,
+      "missing_sections": [
+        "events"
+      ],
+      "truncated_sections": []
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "step_id": "run",
+        "status": "completed"
+      },
+      {
+        "step_id": "done",
+        "status": "completed"
+      }
+    ],
+    "rows": [
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-50",
+              "quantity": 50,
+              "totalCents": 125000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "5b7e586a6eaf5927bab7db5d"
+        }
+      },
+      {
+        "route": "/api/jobs/5b7e586a6eaf5927bab7db5d",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-200",
+              "quantity": 200,
+              "totalCents": 300000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "d80d07e13682acde4fd3ca9e"
+        }
+      },
+      {
+        "route": "/api/jobs/d80d07e13682acde4fd3ca9e",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "quantity": 100
+        },
+        "status": 200,
+        "body": {
+          "quantity": 100,
+          "totalCents": 250000
+        }
+      },
+      {
+        "route": "/api/approvals",
+        "request": {
+          "quantity": 100
+        },
+        "status": 403,
+        "body": {
+          "error": "operator approval required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "leaky-approval-A",
+    "world": "A",
+    "mode": "leaky-approval",
+    "completeness": {
+      "status": "incomplete",
+      "equality_eligible": false,
+      "missing_sections": [
+        "events"
+      ],
+      "truncated_sections": []
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "step_id": "run",
+        "status": "completed"
+      },
+      {
+        "step_id": "done",
+        "status": "completed"
+      }
+    ],
+    "rows": [
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-50",
+              "quantity": 50,
+              "totalCents": 125000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "9e10c57f4a42bc34404b112e"
+        }
+      },
+      {
+        "route": "/api/jobs/9e10c57f4a42bc34404b112e",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-200",
+              "quantity": 200,
+              "totalCents": 300000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "df096182b45d75a448d24d45"
+        }
+      },
+      {
+        "route": "/api/jobs/df096182b45d75a448d24d45",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/approvals",
+        "request": {
+          "quantity": 100
+        },
+        "status": 201,
+        "body": {
+          "requestId": "self-100"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "self-100"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "self-100",
+          "quantity": 100,
+          "totalCents": 150000
+        }
+      }
+    ]
+  },
+  {
+    "key": "leaky-approval-B",
+    "world": "B",
+    "mode": "leaky-approval",
+    "completeness": {
+      "status": "incomplete",
+      "equality_eligible": false,
+      "missing_sections": [
+        "events"
+      ],
+      "truncated_sections": []
+    },
+    "steps": [
+      {
+        "step_id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "step_id": "run",
+        "status": "completed"
+      },
+      {
+        "step_id": "done",
+        "status": "completed"
+      }
+    ],
+    "rows": [
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-50",
+          "quantity": 50,
+          "totalCents": 125000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-50",
+              "quantity": 50,
+              "totalCents": 125000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "d3a485eeb468a58939fa1ea4"
+        }
+      },
+      {
+        "route": "/api/jobs/d3a485eeb468a58939fa1ea4",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-50",
+            "quantity": 50,
+            "totalCents": 125000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "approved-200",
+          "quantity": 200,
+          "totalCents": 300000
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 200,
+        "body": {
+          "rows": [
+            {
+              "requestId": "approved-200",
+              "quantity": 200,
+              "totalCents": 300000
+            }
+          ]
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-200"
+        },
+        "status": 202,
+        "body": {
+          "jobId": "a3f795c62e0737ae015c86d4"
+        }
+      },
+      {
+        "route": "/api/jobs/a3f795c62e0737ae015c86d4",
+        "request": null,
+        "status": 200,
+        "body": {
+          "state": "complete",
+          "quote": {
+            "requestId": "approved-200",
+            "quantity": 200,
+            "totalCents": 300000
+          }
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "invented-100"
+        },
+        "status": 403,
+        "body": {
+          "error": "approval required"
+        }
+      },
+      {
+        "route": "/api/jobs",
+        "request": {
+          "requestId": "approved-50",
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/export",
+        "request": {
+          "quantity": 100
+        },
+        "status": 422,
+        "body": {
+          "error": "invalid fields"
+        }
+      },
+      {
+        "route": "/api/approvals",
+        "request": {
+          "quantity": 100
+        },
+        "status": 201,
+        "body": {
+          "requestId": "self-100"
+        }
+      },
+      {
+        "route": "/api/quote",
+        "request": {
+          "requestId": "self-100"
+        },
+        "status": 200,
+        "body": {
+          "requestId": "self-100",
+          "quantity": 100,
+          "totalCents": 250000
+        }
+      }
+    ]
+  }
+]

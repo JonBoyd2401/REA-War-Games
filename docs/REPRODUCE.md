@@ -6,17 +6,18 @@ Use Node supported by pinned REA 6.7.0: `^22.19.0 || ^24.11.0 || >=26.0.0`. The 
 
 ```sh
 npm install --ignore-scripts --save-exact rea-agents@6.7.0
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
+node boundary-study/verify.mjs
 ```
 
 The original laptop did not have npm on PATH, so pnpm 11.25.0 installed the exact package locally with lifecycle scripts disabled. The pinned package metadata and that lockfile are in `provenance`. REA's web/static commands ran successfully; native decompilers and MCP registration were unnecessary. A broad `rea doctor` report may still list missing optional native providers.
 
 ## Repeat all 18 baseline capture operations
 
-For the newer pricing reconstruction experiments, follow [the dedicated reproduction guide](../reconstruction/README.md). The original capture workflow below remains available.
+For pricing reconstruction, follow [its dedicated reproduction guide](../reconstruction/README.md). For the latest export/job/approval boundaries and six additional REA captures, use [the boundary study guide](../boundary-study/README.md). The original capture workflow below remains available.
 
 ```powershell
 node reproduce.mjs 'C:/Program Files/Google/Chrome/Application/chrome.exe' my-fresh-run

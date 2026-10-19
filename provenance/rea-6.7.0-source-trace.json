@@ -1,0 +1,260 @@
+{
+  "package": "rea-agents",
+  "version": "6.7.0",
+  "scope": "Inspection of installed npm distribution, not a claim about every upstream release",
+  "files": [
+    {
+      "path": "dist/browser/PlaywrightScenarioActions.js",
+      "sha256": "3ff020a031caa4cbf2d99cfe61aadfc0fd70040a2a7b11896a148aee9c5661d2",
+      "lineCount": 59,
+      "locations": [
+        {
+          "symbol": "performPlaywrightScenarioAction",
+          "lines": [
+            16
+          ]
+        },
+        {
+          "symbol": "case \"click\"",
+          "lines": [
+            27
+          ]
+        },
+        {
+          "symbol": "case \"fill\"",
+          "lines": [
+            34
+          ]
+        },
+        {
+          "symbol": "case \"wait_for\"",
+          "lines": [
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/PlaywrightScenarioBrowser.js",
+      "sha256": "1c5a622e5ec16dd08a3ccfe3c8d6ac82e8f9879f4c4ef47fa00499f8f43b2e06",
+      "lineCount": 562,
+      "locations": [
+        {
+          "symbol": "connectOverCDP",
+          "lines": [
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/CdpPageCapture.js",
+      "sha256": "c2075ba70fd5727e552e26779fc1d10a95058e852978eaaf186a2d773e70cae1",
+      "lineCount": 322,
+      "locations": [
+        {
+          "symbol": "Network.getResponseBody",
+          "lines": [
+            130,
+            134
+          ]
+        },
+        {
+          "symbol": "DOMSnapshot.captureSnapshot",
+          "lines": [
+            175
+          ]
+        },
+        {
+          "symbol": "Accessibility.getFullAXTree",
+          "lines": [
+            274
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/CdpPageCaptureScripts.js",
+      "sha256": "df0b5c301189bf70e9e610ab40c6da56774f014c5d444aa1561db8008c910d68",
+      "lineCount": 84,
+      "locations": [
+        {
+          "symbol": "include_script_sources",
+          "lines": [
+            17,
+            23
+          ]
+        },
+        {
+          "symbol": "Debugger.getScriptSource",
+          "lines": [
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/WebSourceMapFetcher.js",
+      "sha256": "401df1ede631086dd8d0c33b0cad523f18ef82ecdf3acfe8307cc0fb5f985216",
+      "lineCount": 753,
+      "locations": [
+        {
+          "symbol": "input.allowed_origins",
+          "lines": [
+            147,
+            151
+          ]
+        },
+        {
+          "symbol": "credentials: \"omit\"",
+          "lines": [
+            235
+          ]
+        },
+        {
+          "symbol": "fetchFollowingApprovedRedirects",
+          "lines": [
+            151,
+            218
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/network/PlaywrightScenarioNetwork.js",
+      "sha256": "c0047478388d9280d09ff5ba2fa3aeb7f6734d2f4332cb2c9d0902a7e2ebb7b2",
+      "lineCount": 404,
+      "locations": [
+        {
+          "symbol": "response.source.body()",
+          "lines": [
+            346
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/BrowserScenarioPartialObservation.js",
+      "sha256": "34b2511f67e14ef9b4e0c8982a079011a3305d085a8b0e122022b8e7bd639066",
+      "lineCount": 95,
+      "locations": [
+        {
+          "symbol": "Playwright response-body bytes",
+          "lines": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/assets/PublishWebScripts.js",
+      "sha256": "9846f87946905259fada8ff561ffb5d4c8c65a7c18a677accd0d923d0c29bb58",
+      "lineCount": 141,
+      "locations": [
+        {
+          "symbol": "planWebScriptExport",
+          "lines": [
+            11,
+            22
+          ]
+        },
+        {
+          "symbol": "Source-map",
+          "lines": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/execution/CdpEventListeners.js",
+      "sha256": "b03439719aa770cfc8fa0e5c8c5ee7c9fc683bf1fdbe36e68bb99373f057b9c7",
+      "lineCount": 80,
+      "locations": [
+        {
+          "symbol": "DOMDebugger.getEventListeners",
+          "lines": [
+            35
+          ]
+        },
+        {
+          "symbol": "execution: \"unknown\"",
+          "lines": [
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/browser/execution/CdpExecutionCapture.js",
+      "sha256": "e6293da498f1ca130a4595bf82c277f9069dcdb5e2a0725de0e4d6629ad3116c",
+      "lineCount": 136,
+      "locations": [
+        {
+          "symbol": "Profiler.startPreciseCoverage",
+          "lines": [
+            18
+          ]
+        },
+        {
+          "symbol": "Profiler.takePreciseCoverage",
+          "lines": [
+            47
+          ]
+        },
+        {
+          "symbol": "Profiler.stopPreciseCoverage",
+          "lines": [
+            50
+          ]
+        },
+        {
+          "symbol": "do not establish UI causality",
+          "lines": [
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/domain/webBundleAnalyzerInspection.js",
+      "sha256": "d56bbf1dab41a6171334dec2e6b846da50a53e72d90342da061ad375ae78a992",
+      "lineCount": 372,
+      "locations": [
+        {
+          "symbol": "parseJavaScriptSource",
+          "lines": [
+            12,
+            14
+          ]
+        },
+        {
+          "symbol": "traverseJavaScriptAst",
+          "lines": [
+            4,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "path": "dist/javascript/sourceMaps/TraceSourceMap.js",
+      "sha256": "ce8eff8c40d78615819d041a3193f264cfb07042b3a3030b8b0295e1d54f3f4f",
+      "lineCount": 153,
+      "locations": [
+        {
+          "symbol": "sourcesContent-not-retained",
+          "lines": [
+            131
+          ]
+        },
+        {
+          "symbol": "sourcesContent text",
+          "lines": [
+            139
+          ]
+        }
+      ]
+    }
+  ]
+}

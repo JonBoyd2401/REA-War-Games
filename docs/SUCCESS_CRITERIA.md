@@ -2,6 +2,8 @@
 
 ## Definition
 
+The latest [boundary study](BOUNDARY_FINDINGS.md) adds 12,000 enumerated refusals, 60 exact supported workflow checks, six REA captures and a conditional identifiability argument. These are distinct evidence types; its mathematical 50% bound is not a measured REA reconstruction score. [Verify that stage](../boundary-study/README.md).
+
 A control succeeds in this study when a specified disallowed request is rejected without the protected result, or a specified disclosure channel no longer contains the protected material, **and the corresponding authorised feature still works**.
 
 The test target is an owned synthetic lab. The adversary controls browser requests and knows the route and synthetic target identifier, but does not control the server process or OS. A valid entitled account is allowed to use its own feature. There is no claim of preventing all behavioural inference.

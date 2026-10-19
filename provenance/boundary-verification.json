@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "exhaustiveRefusals": 12000,
+  "exactNormalWorkflowChecks": 60,
+  "additionalBoundaryChecks": 88,
+  "reaOperations": 6,
+  "reaResponseRowsVerified": 98,
+  "capturedBodiesVerified": 196,
+  "negativeControlDisclosures": 4,
+  "closedBrowserPayloadsEquivalent": true,
+  "excludedFromEquivalence": [
+    "random job IDs",
+    "headers",
+    "timing",
+    "transport",
+    "unobserved surfaces"
+  ],
+  "conditionalProofDisputedInputs": 100,
+  "postHocArithmetic": {
+    "disjointFivePercentIntervals": 100,
+    "conditionalWithin5PercentCeilingOnDisputed": 0.5,
+    "attackerScore": false
+  },
+  "coverage": [
+    {
+      "key": "closed-A",
+      "status": "incomplete"
+    },
+    {
+      "key": "closed-B",
+      "status": "incomplete"
+    },
+    {
+      "key": "leaky-export-A",
+      "status": "incomplete"
+    },
+    {
+      "key": "leaky-export-B",
+      "status": "incomplete"
+    },
+    {
+      "key": "leaky-approval-A",
+      "status": "incomplete"
+    },
+    {
+      "key": "leaky-approval-B",
+      "status": "incomplete"
+    }
+  ]
+}

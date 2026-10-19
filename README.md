@@ -4,7 +4,13 @@
 
 This repository contains real localhost experiments with **REA 6.7.0**, a deliberately unsafe SaaS pricing lab, a separate session-protected lab, a readable white paper, and the evidence needed to check the conclusions.
 
-## New: measured reconstruction risk — 19 October 2026
+## Latest: consistent workflow restrictions and what REA actually does
+
+The new [boundary findings](docs/BOUNDARY_FINDINGS.md) add **six real REA captures**, **12,000 enumerated request refusals**, and **60 exact normal workflow checks**. Quotes, exports and jobs share server-owned approvals. Deliberately weakened exports and self-service approval both disclose a protected price. A constructed pair of private rules demonstrates a conditional limit on what equal permitted answers can reveal; it is not a measured whole-product cloning score.
+
+Read [how REA works](docs/HOW_REA_WORKS.md) for the browser observation mechanisms, version-pinned implementation references, and the distinction between REA's evidence collection and our custom pricing learner. The [new shareable report](docs/REA_Workflow_Boundary_Report.pdf) and both downloadable packs include this stage. Total evidence: **74 measured REA operations and 41 application tests**. [Repeat or verify it](boundary-study/README.md).
+
+## Earlier: measured reconstruction risk — 19 October 2026
 
 The follow-up asks how accurately a permitted client can reproduce pricing from allowed outputs. It adds **496 HTTP model runs and 12 actual REA browser captures**, across 16 synthetic pricing rules. The learners know the three-band rule family, but receive no target parameters. This is a programmatic black-box experiment, not an independent AI red team or whole-SaaS cloning benchmark.
 
@@ -13,7 +19,7 @@ The follow-up asks how accurately a permitted client can reproduce pricing from 
 - Rounding strongly reduced exact matches, but with 64 queries the tested methods still put **98.4% of held-out predictions within 5%** on average.
 - An exploratory approved-quote-only follow-up reduced mean held-out exact match to **37.5%**, while preserving the two approved exact quotes. It removes arbitrary price estimation, so it changes the product's supported input space; it is not a free or universal fix.
 
-Read the **[new results and trade-offs](docs/RECONSTRUCTION_FINDINGS.md)**, **[research supplement PDF](docs/REA_Reconstruction_Risk_Supplement.pdf)**, or [run the new study](reconstruction/README.md). Earlier results below and the original white paper describe the 18 October baseline. The repository now contains **68 measured REA operations in total and 33 application tests**.
+Read the **[results and trade-offs](docs/RECONSTRUCTION_FINDINGS.md)**, **[research supplement PDF](docs/REA_Reconstruction_Risk_Supplement.pdf)**, or [run that study](reconstruction/README.md). At that stage the repository contained 68 measured REA operations and 33 tests; the boundary study above adds six operations and eight tests. Earlier results below and the original white paper describe the 18 October baseline.
 
 ## Start here
 
@@ -66,10 +72,11 @@ This is a synthetic engineering study, not a production security certification. 
 Use a supported Node version. The original run used Node 24.19.0 and Chrome 155.0.8059.82.
 
 ```sh
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
+node boundary-study/verify.mjs
 ```
 
 Run only the owned localhost fixtures. The code binds to loopback. For a real SaaS deployment, use maintained identity infrastructure, TLS, distributed enforcement and a security review; the session lab remains an educational implementation.
@@ -81,6 +88,7 @@ Run only the owned localhost fixtures. The code binds to loopback. For a real Sa
 | `lab/` | Original unchanged unsafe/hardened fixture and tests |
 | `lab-v2/` | Opaque sessions, revocation, permissions, CSRF and tenant checks |
 | `reconstruction/` | Output-learning experiments, frozen learners, policy controls and scoring verifiers |
+| `boundary-study/` | Cross-workflow approval checks, negative controls, six REA scenarios and a conditional identifiability calculation |
 | `runs/` | Path-redacted evidence and measured outcomes |
 | `docs/` | Human-readable guides, white paper and continuation notes |
 | `provenance/` | Package pinning, hashes, original-run scripts and redaction record |

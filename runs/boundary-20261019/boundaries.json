@@ -1,0 +1,786 @@
+[
+  {
+    "world": "A",
+    "name": "foreign-job",
+    "status": 404,
+    "body": {
+      "error": "job unavailable"
+    }
+  },
+  {
+    "world": "A",
+    "name": "forged-session",
+    "status": 401,
+    "body": {
+      "error": "session required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "revoked-approval-job",
+    "status": 403,
+    "body": {
+      "error": "approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "revoked-session",
+    "status": 401,
+    "body": {
+      "error": "session required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 0,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 1,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 2,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 3,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 4,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 5,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 6,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 7,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 8,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 9,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 10,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 11,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 12,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 13,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 14,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 15,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 16,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 17,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 18,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 19,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 20,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 21,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 22,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 23,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 24,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 25,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 26,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 27,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 28,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 29,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 30,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 31,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 32,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 33,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 34,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 35,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 36,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 37,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 38,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "A",
+    "name": "concurrent-approval",
+    "index": 39,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "foreign-job",
+    "status": 404,
+    "body": {
+      "error": "job unavailable"
+    }
+  },
+  {
+    "world": "B",
+    "name": "forged-session",
+    "status": 401,
+    "body": {
+      "error": "session required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "revoked-approval-job",
+    "status": 403,
+    "body": {
+      "error": "approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "revoked-session",
+    "status": 401,
+    "body": {
+      "error": "session required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 0,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 1,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 2,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 3,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 4,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 5,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 6,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 7,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 8,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 9,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 10,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 11,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 12,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 13,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 14,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 15,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 16,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 17,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 18,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 19,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 20,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 21,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 22,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 23,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 24,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 25,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 26,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 27,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 28,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 29,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 30,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 31,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 32,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 33,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 34,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 35,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 36,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 37,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 38,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  },
+  {
+    "world": "B",
+    "name": "concurrent-approval",
+    "index": 39,
+    "status": 403,
+    "body": {
+      "error": "operator approval required"
+    }
+  }
+]
