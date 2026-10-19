@@ -1,0 +1,105 @@
+{
+  "rows": [
+    {
+      "quantity": 1,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 2800,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 1000,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 2243000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 500,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1121500,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 250,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 700000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 375,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1050000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 437,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1101240,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 468,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1179360,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 406,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1023120,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 484,
+      "route": "/api/estimate",
+      "status": 429,
+      "body": {
+        "error": "distinct quantity budget exhausted"
+      }
+    }
+  ],
+  "model": {
+    "kind": "three-band",
+    "cuts": [
+      391,
+      485
+    ],
+    "rates": [
+      2800,
+      2520,
+      2243
+    ],
+    "observations": 8
+  }
+}

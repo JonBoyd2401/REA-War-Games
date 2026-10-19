@@ -1,0 +1,48 @@
+{
+  "rows": [
+    {
+      "quantity": 50,
+      "route": "/api/approved-quote",
+      "status": 200,
+      "body": {
+        "totalCents": 160250,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 200,
+      "route": "/api/approved-quote",
+      "status": 200,
+      "body": {
+        "totalCents": 641000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 1,
+      "route": "/api/estimate",
+      "status": 403,
+      "body": {
+        "error": "approved quote request required"
+      }
+    },
+    {
+      "quantity": 1000,
+      "route": "/api/quote-alias",
+      "status": 403,
+      "body": {
+        "error": "approved quote request required"
+      }
+    }
+  ],
+  "model": {
+    "kind": "three-band",
+    "cuts": [],
+    "rates": [
+      3205
+    ],
+    "observations": 2
+  }
+}

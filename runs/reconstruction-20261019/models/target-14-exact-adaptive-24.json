@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "quantity": 1,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 2572,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 1000,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1961000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 500,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 980500,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 250,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 598000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 375,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 897000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 125,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 321500,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 187,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 447304,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 437,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1045304,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 468,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 917748,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 156,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 373152,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 140,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 360080,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 452,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1081184,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 148,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 354016,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 460,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 902060,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 144,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 344448,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 456,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1090752,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 142,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 365224,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 458,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1095536,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 143,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 342056,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 459,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1097928,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 750,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1470750,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 625,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1225625,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 875,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1715875,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 312,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 746304,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    }
+  ],
+  "model": {
+    "kind": "three-band",
+    "cuts": [
+      143,
+      460
+    ],
+    "rates": [
+      2572,
+      2392,
+      1961
+    ],
+    "observations": 24
+  }
+}

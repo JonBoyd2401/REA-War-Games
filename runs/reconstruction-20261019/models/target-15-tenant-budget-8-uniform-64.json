@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "quantity": 1,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 2765,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 17,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 47005,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 33,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 91245,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 49,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 135485,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 64,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 176960,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 80,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 221200,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 96,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 265440,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 112,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 309680,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 128,
+      "route": "/api/estimate",
+      "status": 429,
+      "body": {
+        "error": "distinct quantity budget exhausted"
+      }
+    }
+  ],
+  "model": {
+    "kind": "three-band",
+    "cuts": [],
+    "rates": [
+      2765
+    ],
+    "observations": 8
+  }
+}

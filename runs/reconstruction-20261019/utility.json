@@ -1,0 +1,2402 @@
+[
+  {
+    "target": "target-01",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 162000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 162000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 648000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 648000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-01",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 162000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 162000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 648000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 648000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-01",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 162000,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 648000,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-01",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 162000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 162000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 648000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 648000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-01",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 162000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 162000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 648000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 648000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-02",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 158550,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 158550,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 634200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 634200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-02",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 158550,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 158550,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 634200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 634200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-02",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 158550,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 634200,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-02",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 158550,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 158550,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 634200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 634200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-02",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 158550,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 158550,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 634200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 634200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-03",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 121100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 121100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 426200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 426200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-03",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 121100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 121100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 426200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 426200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-03",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 121100,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 400000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 426200,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-03",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 121100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 121100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 426200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 426200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-03",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 121100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 121100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 426200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 426200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-04",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 157800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 157800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 631200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 631200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-04",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 157800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 157800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 631200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 631200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-04",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 157800,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 631200,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-04",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 157800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 157800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 631200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 631200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-04",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 157800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 157800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 631200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 631200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-05",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 195450,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 195450,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 781800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 781800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-05",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 195450,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 195450,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 781800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 781800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-05",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 195450,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 800000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 781800,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-05",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 195450,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 195450,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 781800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 781800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-05",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 195450,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 195450,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 781800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 781800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-06",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 188200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 188200,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 670000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 670000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-06",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 188200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 188200,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 670000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 670000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-06",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 188200,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 700000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 670000,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-06",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 188200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 188200,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 670000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 670000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-06",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 188200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 188200,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 670000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 670000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-07",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 137350,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 137350,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 549400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 549400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-07",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 137350,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 137350,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 549400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 549400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-07",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 137350,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 500000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 549400,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-07",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 137350,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 137350,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 549400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 549400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-07",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 137350,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 137350,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 549400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 549400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-08",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 123500,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 123500,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 494000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 494000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-08",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 123500,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 123500,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 494000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 494000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-08",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 123500,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 500000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 494000,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-08",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 123500,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 123500,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 494000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 494000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-08",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 123500,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 123500,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 494000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 494000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-09",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 139950,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 139950,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 559800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 559800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-09",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 139950,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 139950,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 559800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 559800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-09",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 139950,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 559800,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-09",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 139950,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 139950,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 559800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 559800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-09",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 139950,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 139950,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 559800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 559800,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-10",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 160250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 160250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 641000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 641000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-10",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 160250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 160250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 641000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 641000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-10",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 160250,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 641000,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-10",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 160250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 160250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 641000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 641000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-10",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 160250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 160250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 641000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 641000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-11",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 189100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 189100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 756400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 756400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-11",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 189100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 189100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 756400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 756400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-11",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 189100,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 800000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 756400,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-11",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 189100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 189100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 756400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 756400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-11",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 189100,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 189100,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 756400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 756400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-12",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 186900,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 186900,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 605600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 605600,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-12",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 186900,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 186900,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 605600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 605600,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-12",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 200000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 186900,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 605600,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-12",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 186900,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 186900,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 605600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 605600,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-12",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 186900,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 186900,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 605600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 605600,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-13",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 142800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 142800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 571200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 571200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-13",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 142800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 142800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 571200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 571200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-13",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 142800,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 571200,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-13",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 142800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 142800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 571200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 571200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-13",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 142800,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 142800,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 571200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 571200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-14",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 128600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 128600,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 478400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 478400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-14",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 128600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 128600,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 478400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 478400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-14",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 128600,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 500000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 478400,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-14",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 128600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 128600,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 478400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 478400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-14",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 128600,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 128600,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 478400,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 478400,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-15",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 138250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 138250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 514200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 514200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-15",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 138250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 138250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 514200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 514200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-15",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 138250,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 500000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 514200,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-15",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 138250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 138250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 514200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 514200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-15",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 138250,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 138250,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 514200,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 514200,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-16",
+    "policy": "exact",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 140000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 140000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 560000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 560000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-16",
+    "policy": "tenant-budget-8",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 140000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 140000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 560000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 560000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-16",
+    "policy": "rounded-1000",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 100000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 140000,
+        "exact": false
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 600000,
+          "currency": "GBP",
+          "roundingCents": 100000
+        },
+        "expectedCents": 560000,
+        "exact": false
+      }
+    ]
+  },
+  {
+    "target": "target-16",
+    "policy": "catalogue-only",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 140000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 140000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/estimate",
+        "status": 200,
+        "body": {
+          "totalCents": 560000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 560000,
+        "exact": true
+      }
+    ]
+  },
+  {
+    "target": "target-16",
+    "policy": "estimate-plus-approved-quote",
+    "rows": [
+      {
+        "quantity": 50,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 140000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 140000,
+        "exact": true
+      },
+      {
+        "quantity": 200,
+        "route": "/api/approved-quote",
+        "status": 200,
+        "body": {
+          "totalCents": 560000,
+          "currency": "GBP",
+          "roundingCents": 0
+        },
+        "expectedCents": 560000,
+        "exact": true
+      }
+    ]
+  }
+]

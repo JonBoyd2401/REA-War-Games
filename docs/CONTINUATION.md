@@ -1,6 +1,6 @@
 # Continue the research without overstating it
 
-The local hard-block and disclosure experiments are complete for the named cases. The next useful work is to challenge the boundaries and establish how much behaviour can still be inferred by an entitled user.
+The local hard-block and disclosure experiments are complete for the named cases. The [19 October reconstruction study](RECONSTRUCTION_FINDINGS.md) now measures programmatic inference across 16 synthetic targets, including a deliberately labelled exploratory workflow restriction. It does not complete the independent blind-agent stage below. The next useful work is to challenge broader boundaries, unknown rule families and realistic product workflows.
 
 1. **Independent reconstruction:** a separate white operator prepares a changed private rule and hidden holdout inputs. Give a fresh red session only an entitled browser and a fixed query/time budget. Do not give it this repository, source, paper, previous answers or pricing bands. Freeze its predictor before white-team scoring. Report exact match, absolute error, query count, elapsed time and failures on unseen inputs. Repeat across independent sessions and variants. The current study has no such score.
 2. **Boundary expansion:** test exports, jobs, caches, service identities, support tools, role changes and revocation during an active subscription. The current event fixture is a finite response, not a long-lived subscription.

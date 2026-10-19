@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-19T07:12:11.694Z",
+  "sourceSha256": {
+    "PLAN.md": "3877042796fd87c7f7a5c8de7d0a0d04a22698264444fa7ac13630b6dadd8c3d",
+    "learner.mjs": "14368edfe1b773929feea3c568376ed6228d6c98dcadf761f29ffc386d3f1e12",
+    "server.mjs": "43fffa17d9c479887551c5b0361029e29866674507ffc8c0483101e2db886f08",
+    "probe.mjs": "10a1f45c07706fc773cce34eccb1c047bd3cabb510ccd0f3d007e53364e70819",
+    "run-study.mjs": "c68688d1e8bfff5bb6f5db29c12c0928b70babbff86d14178d73d8016e4c3637"
+  },
+  "targets": 16,
+  "budgets": [
+    8,
+    24,
+    64
+  ],
+  "methods": [
+    "uniform",
+    "adaptive"
+  ],
+  "policies": [
+    "exact",
+    "tenant-budget-8",
+    "rounded-1000",
+    "catalogue-only",
+    "estimate-plus-approved-quote"
+  ],
+  "holdoutsPerTarget": 128
+}

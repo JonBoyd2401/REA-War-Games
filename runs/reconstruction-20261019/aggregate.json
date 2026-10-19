@@ -1,0 +1,2837 @@
+{
+  "run": "reconstruction-20261019",
+  "summary": [
+    {
+      "policy": "exact",
+      "budget": 8,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.97314453125,
+        "median": 0.9765625,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 0.97314453125,
+        "median": 0.9765625,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.97314453125,
+        "median": 0.9765625,
+        "min": 0.921875,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 45.80505859375,
+        "median": 34.074335937499995,
+        "min": 0,
+        "max": 207.013515625
+      },
+      "medianErrorPercent": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "requests": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "successfulDistinct": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 40.060312499999995,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 57.389062499999994,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 7.86609375,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.9921875,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 24.78625,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 57.91484375,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 11.870156249999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.9921875,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 3.6,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 31.810078124999997,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 68.68124999999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 36.33859375,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 59.777578125,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 91.44546875,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.921875,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 207.013515625,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 8.479687499999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 25.848046875,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "exact",
+      "budget": 24,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 1,
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 1,
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 1,
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "medianErrorPercent": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "requests": {
+        "mean": 24,
+        "median": 24,
+        "min": 24,
+        "max": 24
+      },
+      "successfulDistinct": {
+        "mean": 24,
+        "median": 24,
+        "min": 24,
+        "max": 24
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "exact",
+      "budget": 64,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 1,
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 1,
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 1,
+        "median": 1,
+        "min": 1,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "medianErrorPercent": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "requests": {
+        "mean": 64,
+        "median": 64,
+        "min": 64,
+        "max": 64
+      },
+      "successfulDistinct": {
+        "mean": 64,
+        "median": 64,
+        "min": 64,
+        "max": 64
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "tenant-budget-8",
+      "budget": 8,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.97314453125,
+        "median": 0.9765625,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 0.97314453125,
+        "median": 0.9765625,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.97314453125,
+        "median": 0.9765625,
+        "min": 0.921875,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 45.80505859375,
+        "median": 34.074335937499995,
+        "min": 0,
+        "max": 207.013515625
+      },
+      "medianErrorPercent": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "requests": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "successfulDistinct": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 40.060312499999995,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 57.389062499999994,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 7.86609375,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.9921875,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 24.78625,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 57.91484375,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 11.870156249999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.9921875,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 3.6,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 31.810078124999997,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 68.68124999999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 36.33859375,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 59.777578125,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 91.44546875,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.921875,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 207.013515625,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 8.479687499999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 25.848046875,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "tenant-budget-8",
+      "budget": 24,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.96435546875,
+        "median": 0.96875,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 0.96435546875,
+        "median": 0.96875,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.96435546875,
+        "median": 0.96875,
+        "min": 0.921875,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 68.77545410156249,
+        "median": 49.9189453125,
+        "min": 0,
+        "max": 207.013515625
+      },
+      "medianErrorPercent": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "requests": {
+        "mean": 9,
+        "median": 9,
+        "min": 9,
+        "max": 9
+      },
+      "successfulDistinct": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 40.060312499999995,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.9375,
+          "within1": 0.9375,
+          "within5": 0.9375,
+          "mae": 174.79375000000002,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 7.86609375,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.921875,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 190.82,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 60.119140625,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 11.870156249999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 85.48359375,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 31.810078124999997,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 68.68124999999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 36.33859375,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 59.777578125,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 91.44546875,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.921875,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 207.013515625,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 8.479687499999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 25.848046875,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "tenant-budget-8",
+      "budget": 64,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.96435546875,
+        "median": 0.96875,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 0.96435546875,
+        "median": 0.96875,
+        "min": 0.921875,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.96435546875,
+        "median": 0.96875,
+        "min": 0.921875,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 68.77545410156249,
+        "median": 49.9189453125,
+        "min": 0,
+        "max": 207.013515625
+      },
+      "medianErrorPercent": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "requests": {
+        "mean": 9,
+        "median": 9,
+        "min": 9,
+        "max": 9
+      },
+      "successfulDistinct": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 40.060312499999995,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.9375,
+          "within1": 0.9375,
+          "within5": 0.9375,
+          "mae": 174.79375000000002,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 7.86609375,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.921875,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 190.82,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 60.119140625,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 11.870156249999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 85.48359375,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 31.810078124999997,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 68.68124999999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 36.33859375,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.9765625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 59.777578125,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.953125,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 91.44546875,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.921875,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 207.013515625,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.96875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 8.479687499999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.984375,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 25.848046875,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "rounded-1000",
+      "budget": 8,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.03173828125,
+        "median": 0,
+        "min": 0,
+        "max": 0.5078125
+      },
+      "within1Percent": {
+        "mean": 0.71044921875,
+        "median": 0.7109375,
+        "min": 0.4296875,
+        "max": 0.9453125
+      },
+      "within5Percent": {
+        "mean": 0.89306640625,
+        "median": 0.90625,
+        "min": 0.7421875,
+        "max": 0.9921875
+      },
+      "meanAbsoluteGBP": {
+        "mean": 150.43775878906249,
+        "median": 152.7130078125,
+        "min": 52.123359375000014,
+        "max": 239.10984375
+      },
+      "medianErrorPercent": {
+        "mean": 0.5692661176074684,
+        "median": 0.44992692153780167,
+        "min": 0,
+        "max": 1.806083650190114
+      },
+      "requests": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "successfulDistinct": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0,
+          "within1": 0.9453125,
+          "within5": 0.9453125,
+          "mae": 186.07195312499996,
+          "medianError": 0.7299270072992701
+        },
+        {
+          "target": "target-02",
+          "exact": 0,
+          "within1": 0.6640625,
+          "within5": 0.796875,
+          "mae": 239.10984375,
+          "medianError": 0.5827905382242029
+        },
+        {
+          "target": "target-03",
+          "exact": 0,
+          "within1": 0.8203125,
+          "within5": 0.8984375,
+          "mae": 75.73968750000003,
+          "medianError": 0.4223369310183013
+        },
+        {
+          "target": "target-04",
+          "exact": 0,
+          "within1": 0.4765625,
+          "within5": 0.9921875,
+          "mae": 182.1025,
+          "medianError": 1.806083650190114
+        },
+        {
+          "target": "target-05",
+          "exact": 0,
+          "within1": 0.75,
+          "within5": 0.75,
+          "mae": 172.31328125000002,
+          "medianError": 0.2600297176820208
+        },
+        {
+          "target": "target-06",
+          "exact": 0,
+          "within1": 0.4296875,
+          "within5": 0.921875,
+          "mae": 209.48140625000005,
+          "medianError": 1.153324287652646
+        },
+        {
+          "target": "target-07",
+          "exact": 0.5078125,
+          "within1": 0.78125,
+          "within5": 0.78125,
+          "mae": 52.123359375000014,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0,
+          "within1": 0.6328125,
+          "within5": 0.7421875,
+          "mae": 148.58554687499998,
+          "medianError": 0.12507817385866166
+        },
+        {
+          "target": "target-09",
+          "exact": 0,
+          "within1": 0.578125,
+          "within5": 0.9921875,
+          "mae": 139.70546875000002,
+          "medianError": 0.41809198023565186
+        },
+        {
+          "target": "target-10",
+          "exact": 0,
+          "within1": 0.859375,
+          "within5": 0.9921875,
+          "mae": 114.43023437500003,
+          "medianError": 0.6881948120698782
+        },
+        {
+          "target": "target-11",
+          "exact": 0,
+          "within1": 0.78125,
+          "within5": 0.9453125,
+          "mae": 156.84046874999999,
+          "medianError": 0.03840245775729647
+        },
+        {
+          "target": "target-12",
+          "exact": 0,
+          "within1": 0.890625,
+          "within5": 0.890625,
+          "mae": 101.58484375000002,
+          "medianError": 0.33025099075297226
+        },
+        {
+          "target": "target-13",
+          "exact": 0,
+          "within1": 0.65625,
+          "within5": 0.9140625,
+          "mae": 231.83218749999995,
+          "medianError": 0.477516912057302
+        },
+        {
+          "target": "target-14",
+          "exact": 0,
+          "within1": 0.5625,
+          "within5": 0.8671875,
+          "mae": 141.67460937500002,
+          "medianError": 0.815910249872514
+        },
+        {
+          "target": "target-15",
+          "exact": 0,
+          "within1": 0.8671875,
+          "within5": 0.8671875,
+          "mae": 83.59843749999999,
+          "medianError": 0.32407407407407407
+        },
+        {
+          "target": "target-16",
+          "exact": 0,
+          "within1": 0.671875,
+          "within5": 0.9921875,
+          "mae": 171.81031249999992,
+          "medianError": 0.9362460989745877
+        }
+      ]
+    },
+    {
+      "policy": "rounded-1000",
+      "budget": 24,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.10205078125,
+        "median": 0,
+        "min": 0,
+        "max": 0.8203125
+      },
+      "within1Percent": {
+        "mean": 0.857421875,
+        "median": 0.8828125,
+        "min": 0.6328125,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.96630859375,
+        "median": 0.984375,
+        "min": 0.875,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 58.0537646484375,
+        "median": 55.7984765625,
+        "min": 39.85624999999998,
+        "max": 93.57406249999998
+      },
+      "medianErrorPercent": {
+        "mean": 0.23381477872304143,
+        "median": 0.18241999512097756,
+        "min": 0,
+        "max": 0.9401114206128134
+      },
+      "requests": {
+        "mean": 24,
+        "median": 24,
+        "min": 24,
+        "max": 24
+      },
+      "successfulDistinct": {
+        "mean": 24,
+        "median": 24,
+        "min": 24,
+        "max": 24
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0,
+          "within1": 0.9609375,
+          "within5": 0.9921875,
+          "mae": 51.046093749999976,
+          "medianError": 0.2281021897810219
+        },
+        {
+          "target": "target-02",
+          "exact": 0.4453125,
+          "within1": 0.671875,
+          "within5": 0.984375,
+          "mae": 52.39953125,
+          "medianError": 0.6170723345903325
+        },
+        {
+          "target": "target-03",
+          "exact": 0.8203125,
+          "within1": 0.875,
+          "within5": 0.8984375,
+          "mae": 66.48648437500003,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0,
+          "within1": 0.65625,
+          "within5": 0.9765625,
+          "mae": 93.57406249999998,
+          "medianError": 0.9401114206128134
+        },
+        {
+          "target": "target-05",
+          "exact": 0.1484375,
+          "within1": 0.9609375,
+          "within5": 1,
+          "mae": 44.992890625,
+          "medianError": 0.18573551263001487
+        },
+        {
+          "target": "target-06",
+          "exact": 0,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 39.85624999999998,
+          "medianError": 0.1791044776119403
+        },
+        {
+          "target": "target-07",
+          "exact": 0,
+          "within1": 0.78125,
+          "within5": 0.984375,
+          "mae": 64.8215625,
+          "medianError": 0.23483365949119372
+        },
+        {
+          "target": "target-08",
+          "exact": 0,
+          "within1": 0.6328125,
+          "within5": 0.984375,
+          "mae": 63.795859375000035,
+          "medianError": 0.12507817385866166
+        },
+        {
+          "target": "target-09",
+          "exact": 0,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 65.34328124999998,
+          "medianError": 0.03800836183960471
+        },
+        {
+          "target": "target-10",
+          "exact": 0,
+          "within1": 0.859375,
+          "within5": 1,
+          "mae": 75.72632812499997,
+          "medianError": 0.05293806246691371
+        },
+        {
+          "target": "target-11",
+          "exact": 0,
+          "within1": 1,
+          "within5": 1,
+          "mae": 46.673203125,
+          "medianError": 0.3456221198156682
+        },
+        {
+          "target": "target-12",
+          "exact": 0,
+          "within1": 0.890625,
+          "within5": 0.890625,
+          "mae": 40.049218749999994,
+          "medianError": 0.13210039630118892
+        },
+        {
+          "target": "target-13",
+          "exact": 0,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 48.113359374999995,
+          "medianError": 0.23969319271332695
+        },
+        {
+          "target": "target-14",
+          "exact": 0,
+          "within1": 0.875,
+          "within5": 0.875,
+          "mae": 46.09093749999998,
+          "medianError": 0.10198878123406425
+        },
+        {
+          "target": "target-15",
+          "exact": 0.21875,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 70.69375,
+          "medianError": 0.23148148148148148
+        },
+        {
+          "target": "target-16",
+          "exact": 0,
+          "within1": 0.6796875,
+          "within5": 1,
+          "mae": 59.197421874999996,
+          "medianError": 0.08916629514043692
+        }
+      ]
+    },
+    {
+      "policy": "rounded-1000",
+      "budget": 64,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.2353515625,
+        "median": 0,
+        "min": 0,
+        "max": 0.8203125
+      },
+      "within1Percent": {
+        "mean": 0.9072265625,
+        "median": 0.953125,
+        "min": 0.6328125,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.984375,
+        "median": 1,
+        "min": 0.8984375,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 29.783242187499997,
+        "median": 29.353749999999998,
+        "min": 5.733203125000001,
+        "max": 60.46210937499998
+      },
+      "medianErrorPercent": {
+        "mean": 0.08366621357687094,
+        "median": 0.03877070050291438,
+        "min": 0,
+        "max": 0.4377736085053158
+      },
+      "requests": {
+        "mean": 64,
+        "median": 64,
+        "min": 64,
+        "max": 64
+      },
+      "successfulDistinct": {
+        "mean": 64,
+        "median": 64,
+        "min": 64,
+        "max": 64
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0,
+          "within1": 0.9453125,
+          "within5": 1,
+          "mae": 22.643046875000007,
+          "medianError": 0.04562043795620438
+        },
+        {
+          "target": "target-02",
+          "exact": 0,
+          "within1": 0.671875,
+          "within5": 1,
+          "mae": 34.44875,
+          "medianError": 0.06856359273225918
+        },
+        {
+          "target": "target-03",
+          "exact": 0.8203125,
+          "within1": 0.8984375,
+          "within5": 0.8984375,
+          "mae": 29.247968750000002,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.171875,
+          "within1": 1,
+          "within5": 1,
+          "mae": 48.83367187499998,
+          "medianError": 0.08928571428571429
+        },
+        {
+          "target": "target-05",
+          "exact": 0,
+          "within1": 0.96875,
+          "within5": 1,
+          "mae": 31.441953125000005,
+          "medianError": 0.03714710252600297
+        },
+        {
+          "target": "target-06",
+          "exact": 0,
+          "within1": 0.921875,
+          "within5": 0.921875,
+          "mae": 30.808437499999997,
+          "medianError": 0.208955223880597
+        },
+        {
+          "target": "target-07",
+          "exact": 0,
+          "within1": 0.78125,
+          "within5": 1,
+          "mae": 43.41960937499999,
+          "medianError": 0.03913894324853229
+        },
+        {
+          "target": "target-08",
+          "exact": 0,
+          "within1": 0.6328125,
+          "within5": 1,
+          "mae": 60.46210937499998,
+          "medianError": 0.4377736085053158
+        },
+        {
+          "target": "target-09",
+          "exact": 0.578125,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 26.291015624999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 0.59375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 45.968984375,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0,
+          "within1": 1,
+          "within5": 1,
+          "mae": 5.874140625000001,
+          "medianError": 0.03840245775729647
+        },
+        {
+          "target": "target-12",
+          "exact": 0,
+          "within1": 1,
+          "within5": 1,
+          "mae": 5.733203125000001,
+          "medianError": 0.03302509907529723
+        },
+        {
+          "target": "target-13",
+          "exact": 0.3671875,
+          "within1": 1,
+          "within5": 1,
+          "mae": 27.23312500000001,
+          "medianError": 0.238758456028651
+        },
+        {
+          "target": "target-14",
+          "exact": 0,
+          "within1": 0.8671875,
+          "within5": 0.9921875,
+          "mae": 16.341796875000004,
+          "medianError": 0.10198878123406425
+        },
+        {
+          "target": "target-15",
+          "exact": 0.6171875,
+          "within1": 0.8671875,
+          "within5": 0.9765625,
+          "mae": 29.459531249999998,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 0.6171875,
+          "within1": 1,
+          "within5": 1,
+          "mae": 18.324531249999996,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "catalogue-only",
+      "budget": 8,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "within1Percent": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "within5Percent": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "meanAbsoluteGBP": {
+        "mean": 832.068125,
+        "median": 770.9795703125001,
+        "min": 47.4646875,
+        "max": 1669.1934375000005
+      },
+      "medianErrorPercent": {
+        "mean": 0.8687551182982369,
+        "median": 0,
+        "min": 0,
+        "max": 7.514677103718199
+      },
+      "requests": {
+        "mean": 4,
+        "median": 4,
+        "min": 4,
+        "max": 4
+      },
+      "successfulDistinct": {
+        "mean": 4,
+        "median": 4,
+        "min": 4,
+        "max": 4
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.7578125,
+          "within1": 0.7578125,
+          "within5": 0.7578125,
+          "mae": 1033.993125,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.7734375,
+          "within1": 0.7734375,
+          "within5": 0.7734375,
+          "mae": 301.46140625000004,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.65625,
+          "within1": 0.65625,
+          "within5": 0.65625,
+          "mae": 1469.7592968749998,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.7421875,
+          "within1": 0.7421875,
+          "within5": 0.7421875,
+          "mae": 620.394375,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 1599.2922656250007,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 47.4646875,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.4921875,
+          "within1": 0.4921875,
+          "within5": 0.4921875,
+          "mae": 788.8373437500001,
+          "medianError": 7.514677103718199
+        },
+        {
+          "target": "target-08",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 1253.2457031250003,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "mae": 1669.1934375000005,
+          "medianError": 6.385404789053592
+        },
+        {
+          "target": "target-10",
+          "exact": 0.71875,
+          "within1": 0.71875,
+          "within5": 0.71875,
+          "mae": 1203.3179687499999,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.6953125,
+          "within1": 0.6953125,
+          "within5": 0.6953125,
+          "mae": 1124.569375,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.8671875,
+          "within1": 0.8671875,
+          "within5": 0.8671875,
+          "mae": 303.83265624999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 753.121796875,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.890625,
+          "within1": 0.890625,
+          "within5": 0.890625,
+          "mae": 254.82874999999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.8046875,
+          "within1": 0.8046875,
+          "within5": 0.8046875,
+          "mae": 338.26320312499996,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 0.78125,
+          "within1": 0.78125,
+          "within5": 0.78125,
+          "mae": 551.5146093749998,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "catalogue-only",
+      "budget": 24,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "within1Percent": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "within5Percent": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "meanAbsoluteGBP": {
+        "mean": 832.068125,
+        "median": 770.9795703125001,
+        "min": 47.4646875,
+        "max": 1669.1934375000005
+      },
+      "medianErrorPercent": {
+        "mean": 0.8687551182982369,
+        "median": 0,
+        "min": 0,
+        "max": 7.514677103718199
+      },
+      "requests": {
+        "mean": 4,
+        "median": 4,
+        "min": 4,
+        "max": 4
+      },
+      "successfulDistinct": {
+        "mean": 4,
+        "median": 4,
+        "min": 4,
+        "max": 4
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.7578125,
+          "within1": 0.7578125,
+          "within5": 0.7578125,
+          "mae": 1033.993125,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.7734375,
+          "within1": 0.7734375,
+          "within5": 0.7734375,
+          "mae": 301.46140625000004,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.65625,
+          "within1": 0.65625,
+          "within5": 0.65625,
+          "mae": 1469.7592968749998,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.7421875,
+          "within1": 0.7421875,
+          "within5": 0.7421875,
+          "mae": 620.394375,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 1599.2922656250007,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 47.4646875,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.4921875,
+          "within1": 0.4921875,
+          "within5": 0.4921875,
+          "mae": 788.8373437500001,
+          "medianError": 7.514677103718199
+        },
+        {
+          "target": "target-08",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 1253.2457031250003,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "mae": 1669.1934375000005,
+          "medianError": 6.385404789053592
+        },
+        {
+          "target": "target-10",
+          "exact": 0.71875,
+          "within1": 0.71875,
+          "within5": 0.71875,
+          "mae": 1203.3179687499999,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.6953125,
+          "within1": 0.6953125,
+          "within5": 0.6953125,
+          "mae": 1124.569375,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.8671875,
+          "within1": 0.8671875,
+          "within5": 0.8671875,
+          "mae": 303.83265624999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 753.121796875,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.890625,
+          "within1": 0.890625,
+          "within5": 0.890625,
+          "mae": 254.82874999999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.8046875,
+          "within1": 0.8046875,
+          "within5": 0.8046875,
+          "mae": 338.26320312499996,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 0.78125,
+          "within1": 0.78125,
+          "within5": 0.78125,
+          "mae": 551.5146093749998,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "catalogue-only",
+      "budget": 64,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "within1Percent": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "within5Percent": {
+        "mean": 0.71630859375,
+        "median": 0.73046875,
+        "min": 0.421875,
+        "max": 0.9609375
+      },
+      "meanAbsoluteGBP": {
+        "mean": 832.068125,
+        "median": 770.9795703125001,
+        "min": 47.4646875,
+        "max": 1669.1934375000005
+      },
+      "medianErrorPercent": {
+        "mean": 0.8687551182982369,
+        "median": 0,
+        "min": 0,
+        "max": 7.514677103718199
+      },
+      "requests": {
+        "mean": 4,
+        "median": 4,
+        "min": 4,
+        "max": 4
+      },
+      "successfulDistinct": {
+        "mean": 4,
+        "median": 4,
+        "min": 4,
+        "max": 4
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.7578125,
+          "within1": 0.7578125,
+          "within5": 0.7578125,
+          "mae": 1033.993125,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.7734375,
+          "within1": 0.7734375,
+          "within5": 0.7734375,
+          "mae": 301.46140625000004,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.65625,
+          "within1": 0.65625,
+          "within5": 0.65625,
+          "mae": 1469.7592968749998,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.7421875,
+          "within1": 0.7421875,
+          "within5": 0.7421875,
+          "mae": 620.394375,
+          "medianError": 0
+        },
+        {
+          "target": "target-05",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 1599.2922656250007,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.9609375,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 47.4646875,
+          "medianError": 0
+        },
+        {
+          "target": "target-07",
+          "exact": 0.4921875,
+          "within1": 0.4921875,
+          "within5": 0.4921875,
+          "mae": 788.8373437500001,
+          "medianError": 7.514677103718199
+        },
+        {
+          "target": "target-08",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 1253.2457031250003,
+          "medianError": 0
+        },
+        {
+          "target": "target-09",
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "mae": 1669.1934375000005,
+          "medianError": 6.385404789053592
+        },
+        {
+          "target": "target-10",
+          "exact": 0.71875,
+          "within1": 0.71875,
+          "within5": 0.71875,
+          "mae": 1203.3179687499999,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.6953125,
+          "within1": 0.6953125,
+          "within5": 0.6953125,
+          "mae": 1124.569375,
+          "medianError": 0
+        },
+        {
+          "target": "target-12",
+          "exact": 0.8671875,
+          "within1": 0.8671875,
+          "within5": 0.8671875,
+          "mae": 303.83265624999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.6328125,
+          "within1": 0.6328125,
+          "within5": 0.6328125,
+          "mae": 753.121796875,
+          "medianError": 0
+        },
+        {
+          "target": "target-14",
+          "exact": 0.890625,
+          "within1": 0.890625,
+          "within5": 0.890625,
+          "mae": 254.82874999999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-15",
+          "exact": 0.8046875,
+          "within1": 0.8046875,
+          "within5": 0.8046875,
+          "mae": 338.26320312499996,
+          "medianError": 0
+        },
+        {
+          "target": "target-16",
+          "exact": 0.78125,
+          "within1": 0.78125,
+          "within5": 0.78125,
+          "mae": 551.5146093749998,
+          "medianError": 0
+        }
+      ]
+    },
+    {
+      "policy": "estimate-plus-approved-quote",
+      "budget": 8,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.3974609375,
+        "median": 0.31640625,
+        "min": 0.21875,
+        "max": 0.90625
+      },
+      "within1Percent": {
+        "mean": 0.71728515625,
+        "median": 0.8046875,
+        "min": 0.21875,
+        "max": 0.96875
+      },
+      "within5Percent": {
+        "mean": 0.9482421875,
+        "median": 0.95703125,
+        "min": 0.84375,
+        "max": 0.9921875
+      },
+      "meanAbsoluteGBP": {
+        "mean": 196.19279296875,
+        "median": 176.5771875,
+        "min": 33.7646875,
+        "max": 597.1744531249998
+      },
+      "medianErrorPercent": {
+        "mean": 0.6050359130742311,
+        "median": 0.4462722548190311,
+        "min": 0,
+        "max": 1.988781234064253
+      },
+      "requests": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "successfulDistinct": {
+        "mean": 8,
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.3125,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 59.96007812499999,
+          "medianError": 0.2281021897810219
+        },
+        {
+          "target": "target-02",
+          "exact": 0.3203125,
+          "within1": 0.65625,
+          "within5": 0.8828125,
+          "mae": 597.1744531249998,
+          "medianError": 0.21422450728363324
+        },
+        {
+          "target": "target-03",
+          "exact": 0.90625,
+          "within1": 0.90625,
+          "within5": 0.9765625,
+          "mae": 33.7646875,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.21875,
+          "within1": 0.21875,
+          "within5": 0.84375,
+          "mae": 301.0385156250001,
+          "medianError": 1.3392857142857142
+        },
+        {
+          "target": "target-05",
+          "exact": 0.2421875,
+          "within1": 0.8515625,
+          "within5": 0.9453125,
+          "mae": 136.63554687499993,
+          "medianError": 0.18573551263001487
+        },
+        {
+          "target": "target-06",
+          "exact": 0.4765625,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 159.96531249999998,
+          "medianError": 0.033921302578018994
+        },
+        {
+          "target": "target-07",
+          "exact": 0.21875,
+          "within1": 0.4921875,
+          "within5": 0.9375,
+          "mae": 297.00679687499996,
+          "medianError": 1.1741682974559686
+        },
+        {
+          "target": "target-08",
+          "exact": 0.2421875,
+          "within1": 0.875,
+          "within5": 0.984375,
+          "mae": 68.43882812499997,
+          "medianError": 0.37523452157598497
+        },
+        {
+          "target": "target-09",
+          "exact": 0.3359375,
+          "within1": 0.90625,
+          "within5": 0.984375,
+          "mae": 169.01546875,
+          "medianError": 0.8741923223109084
+        },
+        {
+          "target": "target-10",
+          "exact": 0.859375,
+          "within1": 0.953125,
+          "within5": 0.953125,
+          "mae": 151.50859374999996,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.21875,
+          "within1": 0.7578125,
+          "within5": 0.984375,
+          "mae": 166.55835937500004,
+          "medianError": 0.5376344086021505
+        },
+        {
+          "target": "target-12",
+          "exact": 0.6875,
+          "within1": 0.6875,
+          "within5": 0.9609375,
+          "mae": 184.13890625000002,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.3359375,
+          "within1": 0.65625,
+          "within5": 0.953125,
+          "mae": 209.73054687500002,
+          "medianError": 0.5173099880620772
+        },
+        {
+          "target": "target-14",
+          "exact": 0.4296875,
+          "within1": 0.4296875,
+          "within5": 0.9921875,
+          "mae": 184.27039062500003,
+          "medianError": 1.988781234064253
+        },
+        {
+          "target": "target-15",
+          "exact": 0.28125,
+          "within1": 0.875,
+          "within5": 0.8984375,
+          "mae": 200.14539062500003,
+          "medianError": 0.7407407407407407
+        },
+        {
+          "target": "target-16",
+          "exact": 0.2734375,
+          "within1": 0.2734375,
+          "within5": 0.9375,
+          "mae": 219.73281250000002,
+          "medianError": 1.471243869817209
+        }
+      ]
+    },
+    {
+      "policy": "estimate-plus-approved-quote",
+      "budget": 24,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.4306640625,
+        "median": 0.33203125,
+        "min": 0.21875,
+        "max": 0.90625
+      },
+      "within1Percent": {
+        "mean": 0.974609375,
+        "median": 0.98828125,
+        "min": 0.875,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.986328125,
+        "median": 1,
+        "min": 0.9375,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 43.2451904296875,
+        "median": 49.090703125000005,
+        "min": 8.7721875,
+        "max": 77.87437499999999
+      },
+      "medianErrorPercent": {
+        "mean": 0.16283146072973764,
+        "median": 0.08043937946038265,
+        "min": 0,
+        "max": 0.57958091841284
+      },
+      "requests": {
+        "mean": 24,
+        "median": 24,
+        "min": 24,
+        "max": 24
+      },
+      "successfulDistinct": {
+        "mean": 24,
+        "median": 24,
+        "min": 24,
+        "max": 24
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.3125,
+          "within1": 1,
+          "within5": 1,
+          "mae": 47.846093749999994,
+          "medianError": 0.09124087591240876
+        },
+        {
+          "target": "target-02",
+          "exact": 0.7734375,
+          "within1": 0.984375,
+          "within5": 1,
+          "mae": 51.79312500000001,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.90625,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 8.7721875,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.34375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 34.58015625000001,
+          "medianError": 0.06963788300835655
+        },
+        {
+          "target": "target-05",
+          "exact": 0.2421875,
+          "within1": 1,
+          "within5": 1,
+          "mae": 39.32156249999999,
+          "medianError": 0.2600297176820208
+        },
+        {
+          "target": "target-06",
+          "exact": 0.484375,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "mae": 13.629375,
+          "medianError": 0.033921302578018994
+        },
+        {
+          "target": "target-07",
+          "exact": 0.71875,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 20.748359375000007,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0.2421875,
+          "within1": 0.875,
+          "within5": 1,
+          "mae": 53.59851562500001,
+          "medianError": 0.5003126954346466
+        },
+        {
+          "target": "target-09",
+          "exact": 0.2890625,
+          "within1": 0.9375,
+          "within5": 0.9375,
+          "mae": 77.87437499999999,
+          "medianError": 0.15203344735841884
+        },
+        {
+          "target": "target-10",
+          "exact": 0.265625,
+          "within1": 1,
+          "within5": 1,
+          "mae": 68.12328125000002,
+          "medianError": 0.21175224986765484
+        },
+        {
+          "target": "target-11",
+          "exact": 0.21875,
+          "within1": 0.984375,
+          "within5": 1,
+          "mae": 50.33531250000001,
+          "medianError": 0.15360983102918588
+        },
+        {
+          "target": "target-12",
+          "exact": 0.71875,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 27.928437499999994,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.3359375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 14.512343750000001,
+          "medianError": 0.04793863854266539
+        },
+        {
+          "target": "target-14",
+          "exact": 0.390625,
+          "within1": 0.9296875,
+          "within5": 0.9609375,
+          "mae": 64.92476562499999,
+          "medianError": 0.4589495155532891
+        },
+        {
+          "target": "target-15",
+          "exact": 0.328125,
+          "within1": 0.9453125,
+          "within5": 0.9453125,
+          "mae": 59.025781249999994,
+          "medianError": 0.046296296296296294
+        },
+        {
+          "target": "target-16",
+          "exact": 0.3203125,
+          "within1": 1,
+          "within5": 1,
+          "mae": 58.909375,
+          "medianError": 0.57958091841284
+        }
+      ]
+    },
+    {
+      "policy": "estimate-plus-approved-quote",
+      "budget": 64,
+      "targets": 16,
+      "selection": "Per-metric best of two learners; an evaluation upper bound, not one selected deployed predictor",
+      "exactFraction": {
+        "mean": 0.658203125,
+        "median": 0.75,
+        "min": 0.2421875,
+        "max": 1
+      },
+      "within1Percent": {
+        "mean": 0.9931640625,
+        "median": 1,
+        "min": 0.9609375,
+        "max": 1
+      },
+      "within5Percent": {
+        "mean": 0.9931640625,
+        "median": 1,
+        "min": 0.9609375,
+        "max": 1
+      },
+      "meanAbsoluteGBP": {
+        "mean": 10.881074218749998,
+        "median": 9.031406250000002,
+        "min": 0,
+        "max": 30.911406250000006
+      },
+      "medianErrorPercent": {
+        "mean": 0.027254447001809907,
+        "median": 0,
+        "min": 0,
+        "max": 0.09587727708533078
+      },
+      "requests": {
+        "mean": 64,
+        "median": 64,
+        "min": 64,
+        "max": 64
+      },
+      "successfulDistinct": {
+        "mean": 63.5,
+        "median": 63.5,
+        "min": 63,
+        "max": 64
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "exact": 0.9453125,
+          "within1": 1,
+          "within5": 1,
+          "mae": 11.951875,
+          "medianError": 0
+        },
+        {
+          "target": "target-02",
+          "exact": 0.7734375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 5.629687500000001,
+          "medianError": 0
+        },
+        {
+          "target": "target-03",
+          "exact": 0.8984375,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 9.182500000000001,
+          "medianError": 0
+        },
+        {
+          "target": "target-04",
+          "exact": 0.34375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 30.911406250000006,
+          "medianError": 0.06963788300835655
+        },
+        {
+          "target": "target-05",
+          "exact": 0.8515625,
+          "within1": 1,
+          "within5": 1,
+          "mae": 7.401640625000001,
+          "medianError": 0
+        },
+        {
+          "target": "target-06",
+          "exact": 0.5,
+          "within1": 0.9921875,
+          "within5": 0.9921875,
+          "mae": 8.93953125,
+          "medianError": 0.033921302578018994
+        },
+        {
+          "target": "target-07",
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0,
+          "medianError": 0
+        },
+        {
+          "target": "target-08",
+          "exact": 0.2421875,
+          "within1": 1,
+          "within5": 1,
+          "mae": 9.977265625000001,
+          "medianError": 0.06253908692933083
+        },
+        {
+          "target": "target-09",
+          "exact": 0.8828125,
+          "within1": 0.9609375,
+          "within5": 0.9609375,
+          "mae": 20.1675,
+          "medianError": 0
+        },
+        {
+          "target": "target-10",
+          "exact": 0.859375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 0.9353124999999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-11",
+          "exact": 0.4609375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 8.51828125,
+          "medianError": 0.07680491551459294
+        },
+        {
+          "target": "target-12",
+          "exact": 0.7265625,
+          "within1": 1,
+          "within5": 1,
+          "mae": 4.572187499999999,
+          "medianError": 0
+        },
+        {
+          "target": "target-13",
+          "exact": 0.3359375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 19.085234374999995,
+          "medianError": 0.09587727708533078
+        },
+        {
+          "target": "target-14",
+          "exact": 0.40625,
+          "within1": 0.9765625,
+          "within5": 0.9765625,
+          "mae": 22.769765624999994,
+          "medianError": 0.05099439061703213
+        },
+        {
+          "target": "target-15",
+          "exact": 0.3671875,
+          "within1": 0.984375,
+          "within5": 0.984375,
+          "mae": 9.123281250000003,
+          "medianError": 0.046296296296296294
+        },
+        {
+          "target": "target-16",
+          "exact": 0.9375,
+          "within1": 1,
+          "within5": 1,
+          "mae": 4.93171875,
+          "medianError": 0
+        }
+      ]
+    }
+  ],
+  "rea": [
+    {
+      "key": "target-01-exact-REA-adaptive-24",
+      "target": "target-01",
+      "policy": "exact",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 24,
+      "successfulDistinct": 24,
+      "denials": 0,
+      "exactFraction": 1,
+      "within1Percent": 1,
+      "within5Percent": 1,
+      "meanAbsoluteGBP": 0,
+      "medianErrorPercent": 0
+    },
+    {
+      "key": "target-01-tenant-budget-8-REA-adaptive-24",
+      "target": "target-01",
+      "policy": "tenant-budget-8",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 9,
+      "successfulDistinct": 8,
+      "denials": 1,
+      "exactFraction": 0.984375,
+      "within1Percent": 0.984375,
+      "within5Percent": 0.984375,
+      "meanAbsoluteGBP": 40.060312499999995,
+      "medianErrorPercent": 0
+    },
+    {
+      "key": "target-01-rounded-1000-REA-adaptive-24",
+      "target": "target-01",
+      "policy": "rounded-1000",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 24,
+      "successfulDistinct": 24,
+      "denials": 0,
+      "exactFraction": 0,
+      "within1Percent": 0.6328125,
+      "within5Percent": 0.9921875,
+      "meanAbsoluteGBP": 51.046093749999976,
+      "medianErrorPercent": 0.2281021897810219
+    },
+    {
+      "key": "target-01-catalogue-only-REA-adaptive-24",
+      "target": "target-01",
+      "policy": "catalogue-only",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 4,
+      "successfulDistinct": 4,
+      "denials": 0,
+      "exactFraction": 0.7578125,
+      "within1Percent": 0.7578125,
+      "within5Percent": 0.7578125,
+      "meanAbsoluteGBP": 1033.993125,
+      "medianErrorPercent": 0
+    },
+    {
+      "key": "target-01-estimate-plus-approved-quote-REA-adaptive-24",
+      "target": "target-01",
+      "policy": "estimate-plus-approved-quote",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 24,
+      "successfulDistinct": 24,
+      "denials": 0,
+      "exactFraction": 0.3125,
+      "within1Percent": 1,
+      "within5Percent": 1,
+      "meanAbsoluteGBP": 47.846093749999994,
+      "medianErrorPercent": 0.4562043795620438
+    },
+    {
+      "key": "target-02-exact-REA-adaptive-24",
+      "target": "target-02",
+      "policy": "exact",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 24,
+      "successfulDistinct": 24,
+      "denials": 0,
+      "exactFraction": 1,
+      "within1Percent": 1,
+      "within5Percent": 1,
+      "meanAbsoluteGBP": 0,
+      "medianErrorPercent": 0
+    },
+    {
+      "key": "target-02-tenant-budget-8-REA-adaptive-24",
+      "target": "target-02",
+      "policy": "tenant-budget-8",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 9,
+      "successfulDistinct": 8,
+      "denials": 1,
+      "exactFraction": 0.9375,
+      "within1Percent": 0.9375,
+      "within5Percent": 0.9375,
+      "meanAbsoluteGBP": 174.79375000000002,
+      "medianErrorPercent": 0
+    },
+    {
+      "key": "target-02-rounded-1000-REA-adaptive-24",
+      "target": "target-02",
+      "policy": "rounded-1000",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 24,
+      "successfulDistinct": 24,
+      "denials": 0,
+      "exactFraction": 0.4453125,
+      "within1Percent": 0.671875,
+      "within5Percent": 0.984375,
+      "meanAbsoluteGBP": 52.39953125,
+      "medianErrorPercent": 0.6170723345903325
+    },
+    {
+      "key": "target-02-catalogue-only-REA-adaptive-24",
+      "target": "target-02",
+      "policy": "catalogue-only",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 4,
+      "successfulDistinct": 4,
+      "denials": 0,
+      "exactFraction": 0.7734375,
+      "within1Percent": 0.7734375,
+      "within5Percent": 0.7734375,
+      "meanAbsoluteGBP": 301.46140625000004,
+      "medianErrorPercent": 0
+    },
+    {
+      "key": "target-02-estimate-plus-approved-quote-REA-adaptive-24",
+      "target": "target-02",
+      "policy": "estimate-plus-approved-quote",
+      "method": "adaptive",
+      "budget": 24,
+      "source": "REA browser capture",
+      "requests": 24,
+      "successfulDistinct": 24,
+      "denials": 0,
+      "exactFraction": 0.7734375,
+      "within1Percent": 0.7734375,
+      "within5Percent": 1,
+      "meanAbsoluteGBP": 51.79312500000001,
+      "medianErrorPercent": 0
+    }
+  ]
+}

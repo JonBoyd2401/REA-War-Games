@@ -1,0 +1,41 @@
+✔ S01 missing session blocks protected API (184.1163ms)
+✔ S02 forged cookie and legacy public bearer cannot authenticate (154.7081ms)
+✔ S03 invalid login rejected and valid login uses protected cookie attributes (353.9852ms)
+✔ S04 normal quote and same-tenant retrieval work with minimal output (253.5554ms)
+✔ S05 another tenant cannot read quote or event (278.7009ms)
+✔ S06 extra price and tenant authority fields rejected (206.1124ms)
+✔ S07 missing CSRF and foreign Origin rejected without poisoning normal flow (224.6772ms)
+✔ S08 read-only principal cannot create quotes (200.7542ms)
+✔ S09 four-success budget persists across login and supplies retry time (293.9446ms)
+✔ S10 session revocation survives replay of the old cookie (159.1276ms)
+✔ S11 expired sessions rejected (156.324ms)
+✔ S12 source maps and private pricing cannot be fetched; client has no demo credential (148.0679ms)
+✔ S13 entitled status works while replay is explicitly unsupported (202.523ms)
+✔ S14 a new login rotates an existing presented session (206.33ms)
+✔ T01: unsafe client ships proprietary rules; hardened does not (103.7547ms)
+✔ T02: unsafe accepts client price; hardened rejects browser-calculated total (31.4342ms)
+✔ T03: quote response over-disclosure is eliminated (18.6999ms)
+✔ T04: one tenant cannot retrieve another tenant’s quote after hardening (25.1258ms)
+✔ T05: SSE streams disclose decision metadata in unsafe mode only (25.3332ms)
+✔ T06: SSE cross-tenant and replay isolation (14.5758ms)
+✔ T07: hardened mode limits automated quote-oracle sampling (60.8518ms)
+✔ T08: debugging rule endpoint not exposed after hardening (14.6878ms)
+✔ T09: hardened mode ignores client tenant assertion by rejecting it (9.805ms)
+✔ G01 general estimate and alias return no pricing result (130.7104ms)
+✔ G02 approved exact quotes preserve their authoritative totals (18.2342ms)
+✔ G03 inventing an ID or attaching a chosen quantity cannot turn a quote into an oracle (19.6844ms)
+✔ R01 adaptive learner reconstructs known three-band target from exact black-box responses (8.9743ms)
+✔ R02 tenant budget survives another principal and endpoint alias; repeats are cached-equivalent (196.7095ms)
+✔ R03 time replenishment is a real remaining extraction path (124.5999ms)
+✔ R04 negative control: per-session budget can be multiplied (111.9541ms)
+✔ R05 catalogue denies off-catalogue quantities but keeps supported exact quotes (32.9047ms)
+✔ R06 estimates differ but approved quotes stay exact; unapproved requests fail (30.3386ms)
+✔ R07 arbitrary price and invalid input are rejected (8.158ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3509.6144

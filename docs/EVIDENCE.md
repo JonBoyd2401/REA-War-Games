@@ -9,3 +9,5 @@ The verifier checks the distributed file hashes and retained body bytes where RE
 Original baseline assertions: `runs/laptop-20261018-01/observations.csv`. Complete measured CLI calls: each run's `commands.jsonl`. Main browser evidence: `rea-evidence/*.json`. Supplemental direct HTTP records and regression outputs are labelled separately.
 
 The study preserves failures and limits: sandbox-denied initial tests, REA overall incomplete scenario coverage, unknown UI causality, the v1 public-token weakness, no blind reconstruction, and deployment limitations of the v2 local fixture.
+
+For the 19 October reconstruction extension, `provenance/reconstruction-redactions.json` records the two command-log path redactions. The new verifiers check frozen models, original source hashes, every scored prediction and matching browser network responses. The initial plan was frozen before execution; the approved-quote-only follow-up was chosen after seeing the initial results and reuses the original holdouts. Neither is claimed to be an independent blind AI red team. See `docs/RECONSTRUCTION_FINDINGS.md` for the measured scope and product trade-offs.

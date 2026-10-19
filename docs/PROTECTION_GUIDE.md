@@ -2,6 +2,8 @@
 
 ## The short answer
 
+**New measured evidence:** the [19 October reconstruction supplement](RECONSTRUCTION_FINDINGS.md) shows why rate limits and rounding can still permit useful imitations. An approved-quote-only workflow reduced measured reconstruction more strongly, with a substantial product restriction. Use those results alongside the access-boundary guidance below.
+
 **You can stop an unauthorised action by refusing it on the server. You cannot promise to hide information that your product deliberately gives an authorised customer.**
 
 REA is a capable inspection and analysis tool. Detecting its name is not a dependable trust boundary. The strongest demonstrated controls in this project act on identity, permission, tenant ownership, accepted input and request budgets. They still work when the caller uses REA.

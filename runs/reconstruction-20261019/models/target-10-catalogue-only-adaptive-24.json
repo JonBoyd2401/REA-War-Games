@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "quantity": 10,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 32050,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 50,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 160250,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 200,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 641000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 1000,
+      "route": "/api/estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 1889000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    }
+  ],
+  "model": {
+    "kind": "three-band",
+    "cuts": [
+      601
+    ],
+    "rates": [
+      3205,
+      1889
+    ],
+    "observations": 4
+  }
+}

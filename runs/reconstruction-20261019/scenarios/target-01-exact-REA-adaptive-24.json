@@ -1,0 +1,69 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:59849"
+  },
+  "actions": [
+    {
+      "step_id": "study",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "#run"
+      },
+      "timeout_ms": 15000
+    },
+    {
+      "step_id": "finished",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "#result:not(:empty)"
+      },
+      "state": "visible",
+      "timeout_ms": 45000
+    }
+  ],
+  "secrets": [
+    {
+      "secret_id": "studySession",
+      "environment_variable": "REA_STUDY_SESSION"
+    }
+  ],
+  "storage": {
+    "cookies": [
+      {
+        "name": "study_session",
+        "value": {
+          "source": "secret",
+          "secret_id": "studySession"
+        },
+        "destination": {
+          "url": "http://127.0.0.1:59849"
+        },
+        "http_only": true,
+        "secure": false,
+        "same_site": "Strict"
+      }
+    ]
+  },
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ],
+    "events": [
+      "network"
+    ],
+    "network": {
+      "request_body": true,
+      "response_body": true,
+      "header_values": false
+    }
+  }
+}

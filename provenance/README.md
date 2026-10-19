@@ -9,3 +9,5 @@ The npm registry metadata records the exact executed REA 6.7.0 distribution and 
 `redaction-map.json` maps private source files to sharing copies and records both SHA-256 values. The source paths are relative to the original workspace. Browser profiles and process IDs are excluded. Root `SHA256SUMS.json` covers distributed files except the manifest itself and distribution archives; `dist/SHA256SUMS.json` covers the archives.
 
 Final publication QA reran all 23 application tests successfully on the assembled files. The evidence verifier independently checks retained DOM results against network responses and their body digests. PDF pages were rendered and visually reviewed. These checks validate this research package, not arbitrary production deployments.
+
+The 19 October extension adds `reconstruction-redactions.json`, a log of all 33 passing application tests, and separate verifier results for the initial reconstruction experiment and its exploratory follow-up. The four-page PDF supplement was rendered and visually reviewed. New commits use the owner's GitHub no-reply address. The original white paper and baseline captures remain unchanged.

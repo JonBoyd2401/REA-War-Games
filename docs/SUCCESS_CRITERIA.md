@@ -51,6 +51,12 @@ All recorded browser scenarios preserve their overall incomplete-coverage flag. 
 
 No independent blind reconstruction score, adaptive autonomous attacker study, production TLS/authentication audit, distributed race test, long-lived subscription test, load test, user-impact study, WAF/obfuscation comparison or decoy evaluation exists. “Safe against every REA-assisted attack” is not a supported conclusion.
 
-## Counts
+## Original counts — 18 October 2026
 
 56 measured REA commands = 18 baseline + 11 supplemental + 18 reproduction-validation + 9 session-boundary scenarios. 23 passing application tests = 9 original + 14 session tests. These are operation/test counts, not 56 independently proven protections.
+
+## Reconstruction extension — 19 October 2026
+
+The [reconstruction findings](RECONSTRUCTION_FINDINGS.md) add 496 HTTP model runs and 12 real REA captures. Its verifiers independently re-score 508 frozen models, confirm the 490 initial models were frozen before holdout selection, and match 178 browser result rows to retained network responses. The 18 follow-up models reuse prior holdouts and are labelled exploratory. All 402 new captured body digests checked successfully. Ten new control tests bring the application test count to 33; total measured REA operations are 68.
+
+The reconstruction success metric is prediction error on specified inputs, not merely request denial. An eight-query budget denied extra observations but still permitted high reconstruction accuracy. Rounded estimates reduced exact-match scores while preserving useful approximations. Approved-quote-only access produced a larger measured reduction outside its supported input space but removes general estimation and does not hide the approved outputs. These findings do not satisfy a universal anti-reconstruction criterion.

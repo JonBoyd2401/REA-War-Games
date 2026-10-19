@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-19T07:18:25.047Z",
+  "exploratory": true,
+  "baseRun": "reconstruction-20261019",
+  "baseTargetsSha256": "1f8ebe1e05ec88505e14a704c8d562fe2bb34647bbf6122e18b01e5e2e2c3934",
+  "baseHoldoutsSha256": "7446a86c9b2587c256af0849b3015196092e8db1692a15af6e1f50d2f94b3a64",
+  "sourceSha256": {
+    "FOLLOWUP_PLAN.md": "50b35418925921494523edee84a681704d60e2801565ab540d04e8bafa0b7010",
+    "learner.mjs": "14368edfe1b773929feea3c568376ed6228d6c98dcadf761f29ffc386d3f1e12",
+    "server.mjs": "43fffa17d9c479887551c5b0361029e29866674507ffc8c0483101e2db886f08",
+    "gated-server.mjs": "6c5bf375f7177428385a1f6b48488c13ff4a5a2e67850a6dfeaec3b357748795",
+    "gated-probe.mjs": "3c8bcf23dc9710e9f6cd8cbbb4ba85c5a47982ea29f659a4f04c0b468e350220",
+    "run-gated-followup.mjs": "6452a7994b527e8bdc451afc1778ae87c0ff251784f11e401ac8e3df5418e7ba"
+  }
+}
