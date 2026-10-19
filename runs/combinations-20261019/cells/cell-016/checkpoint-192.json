@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:15:58.153Z",
+  "endedAt": "2026-10-19T11:16:59.169Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 61010
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 157,
+        "constant": -17172.916666666664,
+        "linear": 1051.51875,
+        "quadratic": -0.27434583333333334
+      }
+    ],
+    "notes": "Retained the saved predictor: continuation supplied no new distinct-quantity prices supporting a revision. A session-2 estimate at quantity 300 was denied because the shared tenant allowance remained exhausted. Cross-checking the other exact workflows confirmed 182157 pence at quantity 200 and 140645 pence at quantity 50. The predictor matches all 13 successful responses cumulatively: four exact responses at those two quantities and nine estimates at their reported 10000-pence rounding precision. A competing plateau-plus-piecewise-linear model also matches every response but predicts 600000 pence at quantity 750 versus this predictor's 617147 pence. That disagreement illustrates non-identifiability, not an error bound. The initial plateau and transition at 157 remain modeling choices, not observed tariff boundaries; 440000 and 760000 at quantities 500 and 1000 are estimate bucket centers, not observed exact prices. Additional bands or curvature cannot be excluded, so exact reconstruction across 1..1000 remains unverified. Cumulative usage: 30 attempted business requests and 5 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 112310,
+    "inputTokens": 105824,
+    "cachedInputTokens": 89728,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6486,
+    "reasoningOutputTokens": 4004
+  },
+  "cumulativeRequests": 30,
+  "cumulativeReaOperations": 5
+}

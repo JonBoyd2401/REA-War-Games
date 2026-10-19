@@ -1,0 +1,52 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:15:45.018Z",
+  "endedAt": "2026-10-19T11:17:32.268Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 107241
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 104,
+        "constant": 24992.223404265562,
+        "linear": 239.845551996257,
+        "quadratic": 0.245566654912
+      },
+      {
+        "from": 301,
+        "constant": 119046.88794522954,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 400,
+        "constant": 31107.162084625343,
+        "linear": 200.505460637108,
+        "quadratic": 0.048359635036
+      }
+    ],
+    "notes": "Retained the saved predictor: further investigation supplied no additional price resolution. Twelve additional alternate-workflow observations matched the existing catalogue estimates; two additional exact-workflow requests and two non-catalogue probes were denied. This predictor reproduces the observed exact prices at quantities 50 (52,491 pence) and 200 (82,784 pence), and matches all 16 catalogue estimates after rounding to 10,000 pence. Structurally different predictors also satisfy every observation, including alternatives differing by 10,000 pence at unobserved quantity 350. Thus breakpoints and flat regions remain modelling choices, not established tariff boundaries. The exact schedule is not identifiable, and unserved quantities have no guaranteed error bound. Cumulative usage: 49 business requests and 5 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 178856,
+    "inputTokens": 166341,
+    "cachedInputTokens": 137984,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 12515,
+    "reasoningOutputTokens": 8399
+  },
+  "cumulativeRequests": 49,
+  "cumulativeReaOperations": 5
+}

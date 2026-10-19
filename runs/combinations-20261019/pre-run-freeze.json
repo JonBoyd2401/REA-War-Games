@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-19T10:41:48.694Z",
+  "sourceSha256": {
+    "PLAN.md": "13b1bd22efc7ba083fc73d5a6c80993602dd46a1b48d725e295caf5227e09634",
+    "PROMPT.md": "9cc495a6c08c10b8f9abe0281ec665a638972ab3441a5cf9b318b4d613522e65",
+    "CONTINUE.md": "cbd7298868dba4a68dbb9bbaa2cf048c94bd8166dfbfa54f483621e51b9ac094",
+    "server.mjs": "9ca2c8b9ceffe97a53eab94b7c4421b5e1f1fa98c0b47b9773ab662920d650b7",
+    "predictor.mjs": "e074934db42fd13b16559ed2cafed1fa7db2ad249ef469ac94fe5d728fcc8231",
+    "rea-tools.mjs": "8273a004dcfc9ec721bdf9dfd7a37efb9edcfaf210bbdae69292471823b1a005",
+    "agent.mjs": "4706b5be1db153a03776fc93a99b404efc4b6e03b8bb3fcc9c69a0f5eed46f54",
+    "utility.mjs": "e3766fa081af8466f8a1b133d80dc59f0a692dde6894fb04db6843fdcec3209d",
+    "assessment.mjs": "f29a7c713e098291dd14d4fa01ebd4b70e52d97da439212c24efc2e1fe3db010",
+    "test.mjs": "194751a4d7244ee0e7a3a2b9af4a61b6f65f0e9a53112219e15c3ad2e8ff8780",
+    "run.mjs": "ae9d01a0f68cfbd7bd2435978c6e55172c044a17e3eee8d50359ebc621d0a07a",
+    "../agent-benchmark/server.mjs": "97c182c69cb9abfdea6d15cba77454467d46fe3fc11a1d77f405ecbc01240c3b"
+  },
+  "agentSettings": {
+    "model": "gpt-6-astra",
+    "effort": "max",
+    "environments": [],
+    "sandbox": "read-only",
+    "approvalPolicy": "never",
+    "budgets": [
+      96,
+      192
+    ],
+    "operationCeilings": [
+      24,
+      48
+    ],
+    "stageMinutes": 30,
+    "disabledFeatures": [
+      "shell_tool",
+      "apps",
+      "plugins",
+      "browser_use",
+      "computer_use",
+      "image_generation",
+      "view_image",
+      "multi_agent",
+      "goals",
+      "memories",
+      "hooks",
+      "workspace_dependencies",
+      "in_app_browser"
+    ],
+    "disabledInheritedMcp": [
+      "node_repl"
+    ]
+  },
+  "node": "v24.19.0",
+  "codex": "codex-cli 0.163.0-alpha.10.2",
+  "rea": "6.7.0"
+}

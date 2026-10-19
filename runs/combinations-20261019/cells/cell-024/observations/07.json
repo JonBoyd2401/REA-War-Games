@@ -1,0 +1,177 @@
+{
+  "evidenceId": "07",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "quantity": 763,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 213508,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 516,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 148893,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 831,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 231297,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 970,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 267659,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 596,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 169821,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 703,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 197812,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 920,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 254579,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 218,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 88670,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 781,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 218217,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 881,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 244377,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 745,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 208799,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 533,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 153340,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 316,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 120716,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 499,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 144446,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 847,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 235482,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 815,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 227111,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    }
+  ],
+  "businessRequestsUsed": 80,
+  "businessRequestsRemaining": 16,
+  "reaOperationsRemaining": 17
+}

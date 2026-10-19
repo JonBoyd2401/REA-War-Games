@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:26:47.665Z",
+  "endedAt": "2026-10-19T11:32:22.464Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 334774
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 164,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 506,
+        "constant": 0,
+        "linear": 980,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported parsimonious predictor for integer quantities 1..1000, in pence. It matches both exact approved prices (159900 at quantity 50; 373000 at quantity 200) and all 94 estimates after their 100000-pence rounding. Price drops were checked at adjacent quantities 163/164 and 505/506; additional interior probes found no contradictions. Used 96 business requests and 10 REA operations, including inspection. Prices outside quantities 50 and 200 are inferred, not observed exactly. Alternative coefficients also fit the rounded observations, so the available evidence does not uniquely establish every underlying price to the penny."
+  },
+  "tokenUsage": {
+    "totalTokens": 194865,
+    "inputTokens": 186342,
+    "cachedInputTokens": 170112,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8523,
+    "reasoningOutputTokens": 6083
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 10
+}

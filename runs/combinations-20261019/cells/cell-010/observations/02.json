@@ -1,0 +1,149 @@
+{
+  "evidenceId": "02",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "quantity": 50,
+      "surface": "approved",
+      "status": 200,
+      "body": {
+        "totalCents": 121250,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 200,
+      "surface": "approved",
+      "status": 200,
+      "body": {
+        "totalCents": 320000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 1,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 2425,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 10,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 24250,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 25,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 60625,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 75,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 181875,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 100,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 242500,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 150,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 240000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 250,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 400000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 350,
+      "surface": "estimate",
+      "status": 200,
+      "body": {
+        "totalCents": 560000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 500,
+      "surface": "estimate",
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "quantity": 650,
+      "surface": "estimate",
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "quantity": 800,
+      "surface": "estimate",
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "quantity": 1000,
+      "surface": "estimate",
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    }
+  ],
+  "businessRequestsUsed": 14,
+  "businessRequestsRemaining": 82,
+  "reaOperationsRemaining": 22
+}

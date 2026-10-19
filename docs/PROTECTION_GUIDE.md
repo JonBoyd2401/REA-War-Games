@@ -72,3 +72,7 @@ The controlled variants show why one partial fix is insufficient. No maps still 
 For a deployed product, combine the controls with maintained authentication, secure configuration, patching, secret management, monitoring, incident response, backups and independent testing. The research fixture does not certify those capabilities. It uses localhost HTTP and in-memory stores; it is intentionally much smaller than a real SaaS system.
 
 Obfuscation, anti-debugging, WAF fingerprints, remote rendering and canaries were not evaluated. They must not be advertised as successful REA blockers on the basis of this project. Even if a measure increases effort, an authorised user can still learn from allowed outputs.
+
+## Combine controls only with measured customer costs
+
+Use the [new effectiveness and usefulness scorecard](COMBINATION_BENCHMARK.md) to compare rounding, shared quotas, catalogues and exact approval channels under stronger agent effort and larger allowances. Check both approximate reconstruction and normal customer success. A shared cap can also deny a second legitimate user; a catalogue can prevent free-form planning; coarse rounding can make estimates unsuitable. Low exact-match accuracy alone is not evidence that a competitor cannot produce a useful approximation. The [current white paper](REA_SaaS_Protection_White_Paper_Combinations.pdf) explains the measured trade-offs.

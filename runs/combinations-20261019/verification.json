@@ -1,0 +1,279 @@
+{
+  "status": "PASS",
+  "cells": 42,
+  "checkpoints": 84,
+  "targets": 6,
+  "heldoutPredictions": 21504,
+  "fullDomainDiagnosticPredictions": 84000,
+  "validPredictors": 84,
+  "failedPredictors": 0,
+  "reaOperations": 340,
+  "reaResponseRowsVerified": 3200,
+  "capturedBodiesVerified": 7080,
+  "statusCounts": {
+    "200": 2767,
+    "403": 268,
+    "429": 165
+  },
+  "coverage": {
+    "incomplete": 340
+  },
+  "utilityJourneys": 168,
+  "utilityActions": 2520,
+  "supplementaryLookupReplay": true,
+  "recordedTokensAtFinalCheckpoint": 8409317,
+  "perCell": [
+    {
+      "cell": "cell-001",
+      "operations": 5,
+      "requests": 39,
+      "rowsVerified": 39
+    },
+    {
+      "cell": "cell-002",
+      "operations": 16,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-003",
+      "operations": 16,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-004",
+      "operations": 4,
+      "requests": 30,
+      "rowsVerified": 30
+    },
+    {
+      "cell": "cell-005",
+      "operations": 5,
+      "requests": 50,
+      "rowsVerified": 50
+    },
+    {
+      "cell": "cell-006",
+      "operations": 16,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-007",
+      "operations": 3,
+      "requests": 20,
+      "rowsVerified": 20
+    },
+    {
+      "cell": "cell-008",
+      "operations": 4,
+      "requests": 20,
+      "rowsVerified": 20
+    },
+    {
+      "cell": "cell-009",
+      "operations": 5,
+      "requests": 46,
+      "rowsVerified": 46
+    },
+    {
+      "cell": "cell-010",
+      "operations": 5,
+      "requests": 23,
+      "rowsVerified": 23
+    },
+    {
+      "cell": "cell-011",
+      "operations": 5,
+      "requests": 57,
+      "rowsVerified": 57
+    },
+    {
+      "cell": "cell-012",
+      "operations": 3,
+      "requests": 16,
+      "rowsVerified": 16
+    },
+    {
+      "cell": "cell-013",
+      "operations": 5,
+      "requests": 23,
+      "rowsVerified": 23
+    },
+    {
+      "cell": "cell-014",
+      "operations": 5,
+      "requests": 23,
+      "rowsVerified": 23
+    },
+    {
+      "cell": "cell-015",
+      "operations": 5,
+      "requests": 49,
+      "rowsVerified": 49
+    },
+    {
+      "cell": "cell-016",
+      "operations": 5,
+      "requests": 30,
+      "rowsVerified": 30
+    },
+    {
+      "cell": "cell-017",
+      "operations": 5,
+      "requests": 18,
+      "rowsVerified": 18
+    },
+    {
+      "cell": "cell-018",
+      "operations": 5,
+      "requests": 26,
+      "rowsVerified": 26
+    },
+    {
+      "cell": "cell-019",
+      "operations": 4,
+      "requests": 30,
+      "rowsVerified": 30
+    },
+    {
+      "cell": "cell-020",
+      "operations": 4,
+      "requests": 21,
+      "rowsVerified": 21
+    },
+    {
+      "cell": "cell-021",
+      "operations": 18,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-022",
+      "operations": 14,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-023",
+      "operations": 17,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-024",
+      "operations": 15,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-025",
+      "operations": 4,
+      "requests": 24,
+      "rowsVerified": 24
+    },
+    {
+      "cell": "cell-026",
+      "operations": 4,
+      "requests": 28,
+      "rowsVerified": 28
+    },
+    {
+      "cell": "cell-027",
+      "operations": 18,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-028",
+      "operations": 15,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-029",
+      "operations": 5,
+      "requests": 32,
+      "rowsVerified": 32
+    },
+    {
+      "cell": "cell-030",
+      "operations": 6,
+      "requests": 46,
+      "rowsVerified": 46
+    },
+    {
+      "cell": "cell-031",
+      "operations": 17,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-032",
+      "operations": 5,
+      "requests": 21,
+      "rowsVerified": 21
+    },
+    {
+      "cell": "cell-033",
+      "operations": 5,
+      "requests": 22,
+      "rowsVerified": 22
+    },
+    {
+      "cell": "cell-034",
+      "operations": 4,
+      "requests": 32,
+      "rowsVerified": 32
+    },
+    {
+      "cell": "cell-035",
+      "operations": 4,
+      "requests": 34,
+      "rowsVerified": 34
+    },
+    {
+      "cell": "cell-036",
+      "operations": 4,
+      "requests": 34,
+      "rowsVerified": 34
+    },
+    {
+      "cell": "cell-037",
+      "operations": 4,
+      "requests": 20,
+      "rowsVerified": 20
+    },
+    {
+      "cell": "cell-038",
+      "operations": 25,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-039",
+      "operations": 6,
+      "requests": 29,
+      "rowsVerified": 29
+    },
+    {
+      "cell": "cell-040",
+      "operations": 17,
+      "requests": 192,
+      "rowsVerified": 192
+    },
+    {
+      "cell": "cell-041",
+      "operations": 4,
+      "requests": 32,
+      "rowsVerified": 32
+    },
+    {
+      "cell": "cell-042",
+      "operations": 4,
+      "requests": 21,
+      "rowsVerified": 21
+    }
+  ]
+}

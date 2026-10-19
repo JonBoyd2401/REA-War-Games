@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:58:32.341Z",
+  "endedAt": "2026-10-19T12:08:36.894Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 604523
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10693.103006,
+        "linear": 857.319485,
+        "quadratic": 0
+      },
+      {
+        "from": 544,
+        "constant": 9880.678845,
+        "linear": 754.146097,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best validated parsimonious approximation, not a uniquely recovered exact tariff. Used 96 business requests and 17 REA operations, observing 91 distinct quantities. This predictor reproduces both exact approved results—140645 cents at quantity 50 and 182157 cents at quantity 200—and all 94 rounded responses when rounded to the application's 100000-cent increments. Adaptive probes confirmed a rounded increase at 512/513 followed by a decrease at 543/544, so a globally monotone model was rejected. The affine sections were fitted to localized rounding transitions, with the middle section constrained by the exact quantity-200 result. The initial flat section and its join at 152 are simplifying assumptions, not observed tariff parameters. Likewise, the exact size and shape of the decrease near 544 remain uncertain. Exact prices throughout 1..1000 are not identifiable from these observations: low-quantity behavior, within-bin curvature, additional concealed bands, and unqueried excursions remain unresolved."
+  },
+  "tokenUsage": {
+    "totalTokens": 356567,
+    "inputTokens": 341572,
+    "cachedInputTokens": 311040,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 14995,
+    "reasoningOutputTokens": 11532
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 17
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T10:57:38.935Z",
+  "endedAt": "2026-10-19T10:58:49.318Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 70376
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 108,
+        "constant": 17384,
+        "linear": 327,
+        "quadratic": 0
+      },
+      {
+        "from": 310,
+        "constant": 118547,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the capped-affine predictor, which exactly matches all observed prices at quantities 1, 25, 50, 100, 150, 200, 300 and 400, including approved results at 50 and 200. The additional estimate request at 1000 was denied because the shared tenant allowance remains exhausted; no new price was obtained. Alternative-model testing confirmed that a reduced-slope upper band can also fit every observation, so the constant tail is not uniquely established. Transitions at 108 and 310 remain inferred rather than directly validated, and predictions through 1000 assume no further bands. Cumulative usage: 20 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 92752,
+    "inputTokens": 88200,
+    "cachedInputTokens": 73984,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4552,
+    "reasoningOutputTokens": 2739
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 4
+}

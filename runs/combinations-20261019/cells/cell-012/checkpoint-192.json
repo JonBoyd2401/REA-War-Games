@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:09:39.398Z",
+  "endedAt": "2026-10-19T11:10:45.865Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 66459
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 51,
+        "constant": 42393.333333333336,
+        "linear": 201.95333333333335,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the previous predictor; no evidence-supported improvement was found. It matches the exact observations at quantities 50 and 200 and all eight successful estimates assuming nearest-100,000-pence rounding. In-memory tests confirmed that alternative monotone piecewise curves also match these observations while producing substantially different unobserved prices. Thus the exact tariff remains unidentified. The flat initial portion and boundary at 51 are modeling assumptions, and predictions above 650 are extrapolations. The unchanged shared estimate allowance remains exhausted; the larger study budget does not reopen it. No additional business requests or REA operations were used; cumulative usage remains 16 attempts and 3 operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 89627,
+    "inputTokens": 81216,
+    "cachedInputTokens": 64384,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8411,
+    "reasoningOutputTokens": 6569
+  },
+  "cumulativeRequests": 16,
+  "cumulativeReaOperations": 3
+}

@@ -1,0 +1,385 @@
+{
+  "target": "target-01",
+  "policy": "limit8",
+  "cell": "cell-029",
+  "startedAt": "2026-10-19T11:41:31.616Z",
+  "endedAt": "2026-10-19T11:44:33.913Z",
+  "businessRequests": 32,
+  "reaOperations": 5,
+  "serverAudit": [
+    {
+      "surface": "estimate",
+      "quantity": 1,
+      "request": {
+        "quantity": 1
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 3198,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 50,
+      "request": {
+        "quantity": 50
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 159900,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 200,
+      "request": {
+        "quantity": 200
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 373000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 500,
+      "request": {
+        "quantity": 500
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 932500,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 750,
+      "request": {
+        "quantity": 750
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 735000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 1000,
+      "request": {
+        "quantity": 1000
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 980000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 50,
+      "request": {
+        "requestId": "approved-50"
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 159900,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 200,
+      "request": {
+        "requestId": "approved-200"
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 373000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 25,
+      "request": {
+        "quantity": 25
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 79950,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 75,
+      "request": {
+        "quantity": 75
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 239850,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 100,
+      "request": {
+        "quantity": 100
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 125,
+      "request": {
+        "quantity": 125
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 150,
+      "request": {
+        "quantity": 150
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 175,
+      "request": {
+        "quantity": 175
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 250,
+      "request": {
+        "quantity": 250
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 350,
+      "request": {
+        "quantity": 350
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 450,
+      "request": {
+        "quantity": 450
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 550,
+      "request": {
+        "quantity": 550
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 600,
+      "request": {
+        "quantity": 600
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 650,
+      "request": {
+        "quantity": 650
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 700,
+      "request": {
+        "quantity": 700
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 800,
+      "request": {
+        "quantity": 800
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 900,
+      "request": {
+        "quantity": 900
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 950,
+      "request": {
+        "quantity": 950
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 138,
+      "request": {
+        "quantity": 138
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 626,
+      "request": {
+        "quantity": 626
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "export",
+      "quantity": 50,
+      "request": {
+        "requestId": "approved-50"
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 159900,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "export",
+      "quantity": 200,
+      "request": {
+        "requestId": "approved-200"
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 373000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 138,
+      "request": {
+        "quantity": 138
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 626,
+      "request": {
+        "quantity": 626
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant estimate allowance exhausted"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-138"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "export",
+      "request": {
+        "requestId": "approved-626"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:27:48.010Z",
+  "endedAt": "2026-10-19T11:31:51.562Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 243540
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 108,
+        "constant": 17384,
+        "linear": 327,
+        "quadratic": 0
+      },
+      {
+        "from": 391,
+        "constant": 13907.2,
+        "linear": 261.6,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported model: a 52,491-cent minimum through quantity 107, an affine price through 390, then a 20% reduction of that affine price from 391 onward, rounded to cents. Matches all 96 successful responses across 94 distinct quantities, including approved quotes at 50 and 200 and 32 additional validation probes. Every response reported roundingCents=0. Both transitions were checked at adjacent quantities, and consecutive upper-band probes validated the cent-rounding pattern. Used 96 business requests and 9 REA operations. Predictions for unqueried quantities are inferred; finite sampling cannot exclude additional narrow bands or other unobserved deviations."
+  },
+  "tokenUsage": {
+    "totalTokens": 151917,
+    "inputTokens": 145889,
+    "cachedInputTokens": 126976,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6028,
+    "reasoningOutputTokens": 3832
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 9
+}

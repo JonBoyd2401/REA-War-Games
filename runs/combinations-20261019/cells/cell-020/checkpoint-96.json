@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:17:39.608Z",
+  "endedAt": "2026-10-19T11:18:54.429Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 74784
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10557,
+        "linear": 858,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best supported predictor: max(140645, 10557 + 858*q) cents. It exactly matches all eight distinct observed quantities: 1, 25, 50, 100 and 150 returned 140645 cents; 200, 300 and 400 returned 182157, 267957 and 353757 cents. Approved quote/export results also confirmed quantities 50 and 200. The line fitted at 200 and 300 correctly predicts the observation at 400. The transition at 152 is inferred from the floor/line intersection, not directly observed. After eight successful estimates, the application denied further estimates, including an alternate-workflow request and a request in the second session; an attempted approval at 151 was also denied. Consequently, additional bands or nonlinear behavior at unobserved quantities, especially above 400, cannot be excluded. This is a validated fit to available observations, not a verified exact reconstruction of all 1000 quantities. Used 21 attempted business requests and 3 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 36728,
+    "inputTokens": 34880,
+    "cachedInputTokens": 25728,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1848,
+    "reasoningOutputTokens": 1037
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 3
+}

@@ -6,12 +6,13 @@ Use Node supported by pinned REA 6.7.0: `^22.19.0 || ^24.11.0 || >=26.0.0`. The 
 
 ```sh
 npm install --ignore-scripts --save-exact rea-agents@6.7.0
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs combination-study/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
 node boundary-study/verify.mjs
 node agent-benchmark/verify.mjs
+node combination-study/verify.mjs
 ```
 
 The original laptop did not have npm on PATH, so pnpm 11.25.0 installed the exact package locally with lifecycle scripts disabled. The pinned package metadata and that lockfile are in `provenance`. REA's web/static commands ran successfully; native decompilers and MCP registration were unnecessary. A broad `rea doctor` report may still list missing optional native providers.
@@ -73,3 +74,7 @@ python agent-benchmark/build-reports.py
 ```
 
 The builder uses ReportLab. Render and inspect every resulting PDF page before publishing. The original baseline builder above remains historical.
+
+## Repeat the combined-defence study
+
+Use [the combination guide](../combination-study/README.md) for fresh max-effort agents and 96/192 checkpoints. Offline verification needs no model access. To rebuild the latest two reports after verification, run `node combination-study/write-reports.mjs` then `python combination-study/build-reports.py`. The earlier builders reproduce their historical editions.

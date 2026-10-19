@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:48:35.680Z",
+  "endedAt": "2026-10-19T11:52:16.849Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 221136
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 124,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      },
+      {
+        "from": 477,
+        "constant": 0,
+        "linear": 1053,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor for quantities 1..1000 is three all-units linear price bands. It matches all 96 successful responses across 94 distinct quantities, including both approved exact anchors; every response reported roundingCents=0. Transitions were directly checked at adjacent quantities 123/124 and 476/477. Broader adaptive validation found no deviations or evidence of additional bands or curvature. Used 96 business requests and 11 REA operations, including inspection. Confidence is high, but unqueried quantities remain inferred: narrow exceptions between tested quantities cannot be conclusively excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 139682,
+    "inputTokens": 134923,
+    "cachedInputTokens": 123136,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4759,
+    "reasoningOutputTokens": 2372
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 11
+}

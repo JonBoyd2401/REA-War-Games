@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T12:04:10.704Z",
+  "endedAt": "2026-10-19T12:06:49.643Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 158931
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 164,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 506,
+        "constant": 0,
+        "linear": 980,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Predictor retained after 96 additional probes, including denser checks near both transitions and throughout 1..1000. Cumulatively, all 192 successful responses across 189 distinct quantities match exactly, and every response reported roundingCents=0. The approved results at 50 and 200 agree. Transitions are directly supported by observations at adjacent quantities 163/164 and 505/506. The maximum gap between sampled quantities is now 7; no sampled value supports curvature or additional bands. Used 17 REA operations cumulatively. Prices at the remaining 811 quantities are inferred rather than observed; isolated exceptions or narrow additional bands between samples cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 293645,
+    "inputTokens": 285923,
+    "cachedInputTokens": 265344,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7722,
+    "reasoningOutputTokens": 3991
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 17
+}

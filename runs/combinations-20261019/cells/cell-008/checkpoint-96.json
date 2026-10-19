@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:56:11.184Z",
+  "endedAt": "2026-10-19T10:57:38.934Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 87728
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 108,
+        "constant": 17384,
+        "linear": 327,
+        "quadratic": 0
+      },
+      {
+        "from": 310,
+        "constant": 118547,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported simple predictor: an affine price bounded below by 52491 pence and above by 118547 pence. It exactly matches every successful response at the eight distinct observed quantities: 1, 25, 50, 100, 150, 200, 300 and 400, including exact approved results at 50 and 200. The application exhausted its tenant estimate allowance after eight estimates; subsequent probes, including alternate estimates in session 2, were denied. The transitions at 108 and 310 are inferred, not directly validated. The upper plateau is supported by only the observation at 400, so its onset and continuation through 1000 remain uncertain; additional bands or curvature cannot be excluded. Used 19 attempted business requests and 3 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 56051,
+    "inputTokens": 53660,
+    "cachedInputTokens": 42624,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2391,
+    "reasoningOutputTokens": 1186
+  },
+  "cumulativeRequests": 19,
+  "cumulativeReaOperations": 3
+}

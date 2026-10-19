@@ -1,0 +1,34 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:57:01.626Z",
+  "endedAt": "2026-10-19T11:58:41.346Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 99695
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This is an affine baseline, not an established exact reconstruction. The only distinct observed prices were 50148 pence at quantity 50 and 124248 pence at quantity 200, confirmed by approved quotes, exports, and both sessions. The predictor matches both exactly. All sampled estimate/alias requests and unapproved quote/export requests were denied, consistent with the application's stated restrictions. Nonlinear and piecewise alternatives remain indistinguishable from this predictor on the available evidence. Every other quantity is unvalidated, and no finite off-anchor error bound is supported. Used 22 of 96 business requests and 3 of 24 REA operations; stopped after confirming the information-access restriction."
+  },
+  "tokenUsage": {
+    "totalTokens": 47708,
+    "inputTokens": 44907,
+    "cachedInputTokens": 34688,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2801,
+    "reasoningOutputTokens": 1679
+  },
+  "cumulativeRequests": 22,
+  "cumulativeReaOperations": 3
+}

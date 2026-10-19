@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:58:14.535Z",
+  "endedAt": "2026-10-19T11:59:57.312Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 102766
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 210,
+        "constant": 95862,
+        "linear": 166,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported simple predictor, not a verified exact reconstruction across 1..1000. It exactly reproduces all eight successful estimates at quantities 1, 25, 50, 100, 150, 200, 250 and 300, plus the approved results at 50 and 200; all reported zero rounding. The two fitted lines meet at quantity 209, suggesting the second segment starts at 210, but this transition was not directly validated: approved/export requests at 209 and 210 were denied. The tenant estimate allowance was exhausted after eight successful estimates; subsequent estimate and alias requests, including in session 2, were denied. Only quantities 250 and 300 constrain the second line. Predictions above 300 are extrapolations, and additional bands, curvature or alternative transitions cannot be excluded. Used 20 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 46236,
+    "inputTokens": 43845,
+    "cachedInputTokens": 39424,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2391,
+    "reasoningOutputTokens": 1390
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 4
+}

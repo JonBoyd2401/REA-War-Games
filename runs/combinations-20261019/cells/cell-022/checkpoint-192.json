@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:23:26.629Z",
+  "endedAt": "2026-10-19T11:26:42.032Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 195396
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 270,
+        "constant": 130089,
+        "linear": 105,
+        "quadratic": 0
+      },
+      {
+        "from": 628,
+        "constant": 163320,
+        "linear": 52,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original three-band predictor: all 96 additional probes matched exactly. Cumulatively, 192 successful responses cover 189 distinct quantities, with zero prediction error; every response reported roundingCents=0. Validation includes both endpoints, approved results at 50 and 200, and consecutive quantities around both transitions. Adaptive gap-filling reduced the maximum spacing between observed quantities to 7. No additional bands, curvature or periodic adjustments were detected. Used 192 business requests and 14 REA operations cumulatively. Prices at the remaining 811 quantities are inferred, not observed; localized deviations between probes cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 199922,
+    "inputTokens": 188963,
+    "cachedInputTokens": 151040,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 10959,
+    "reasoningOutputTokens": 6380
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 14
+}

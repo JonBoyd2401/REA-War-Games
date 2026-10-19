@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:08:07.963Z",
+  "endedAt": "2026-10-19T11:11:20.399Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 192427
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 149,
+        "constant": 22157,
+        "linear": 800,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Provisional flat-then-linear predictor in pence, not an exact reconstruction. It reproduces the exact approvals at q=50 (140645) and q=200 (182157), and matches all eight successful estimates after their reported 100000-pence rounding. A single affine or quadratic polynomial cannot satisfy all these observations. The flat segment, breakpoint at 149, and subsequent slope are modeling choices, not discovered application rules. Further estimates were denied after eight successes; the alternate workflow and second session were also blocked, while exports repeated the two exact approvals. Every other quantity remains uncertain, especially 351–1000, where no successful price observations were obtained. Additional bands or curvature cannot be excluded, and extrapolation error cannot be bounded from the available evidence. Used 22 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 50833,
+    "inputTokens": 45744,
+    "cachedInputTokens": 38528,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5089,
+    "reasoningOutputTokens": 3914
+  },
+  "cumulativeRequests": 22,
+  "cumulativeReaOperations": 4
+}

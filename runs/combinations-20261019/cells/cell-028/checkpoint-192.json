@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:44:31.502Z",
+  "endedAt": "2026-10-19T11:48:29.781Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 238270
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10557,
+        "linear": 858,
+        "quadratic": 0
+      },
+      {
+        "from": 544,
+        "constant": 9290.16,
+        "linear": 755.04,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Predictor retained after 96 additional observations. It matches all 192 successful responses across 190 distinct quantities; every response reported roundingCents=0. Both transitions were checked at adjacent quantities (151/152 and 543/544). Additional probes reduced the longest unqueried run to eight integers and tested rounding-sensitive quadratic alternatives in the final segment without supporting a change. Unqueried quantities remain inferred: narrow additional bands or other unsampled deviations cannot be excluded. Cumulative usage: 192 business requests and 15 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 374620,
+    "inputTokens": 359466,
+    "cachedInputTokens": 314880,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 15154,
+    "reasoningOutputTokens": 9761
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 15
+}

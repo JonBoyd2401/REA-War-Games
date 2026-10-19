@@ -1,0 +1,34 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T12:06:54.445Z",
+  "endedAt": "2026-10-19T12:08:37.218Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 102753
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 42393.33333333333,
+        "linear": 201.95333333333335,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Affine baseline for quantities 1..1000, not an exact reconstruction of the hidden rule. Observed exact prices were 52,491 cents at quantity 50 and 82,784 cents at quantity 200; approved quotes and exports agreed across the two sessions. This predictor reproduces both anchors exactly after rounding. Estimate/alias probes and probes for additional approvals were denied, consistent with the application's stated restrictions. Used 24 attempted business requests and 3 REA operations. Prices at the other 998 quantities remain unobserved. Curvature and band transitions are not identifiable: adding ±0.1*(q-50)*(q-200) preserves both anchors but changes the prediction at 1000 by ±76,000 cents. Thus interpolation and extrapolation are unvalidated, with no defensible global error bound."
+  },
+  "tokenUsage": {
+    "totalTokens": 38009,
+    "inputTokens": 35463,
+    "cachedInputTokens": 27264,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2546,
+    "reasoningOutputTokens": 1551
+  },
+  "cumulativeRequests": 24,
+  "cumulativeReaOperations": 3
+}

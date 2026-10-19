@@ -1,0 +1,52 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:10:51.101Z",
+  "endedAt": "2026-10-19T11:15:45.017Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 293887
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 104,
+        "constant": 24992.223404265562,
+        "linear": 239.845551996257,
+        "quadratic": 0.245566654912
+      },
+      {
+        "from": 301,
+        "constant": 119046.88794522954,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 400,
+        "constant": 31107.162084625343,
+        "linear": 200.505460637108,
+        "quadratic": 0.048359635036
+      }
+    ],
+    "notes": "Best-effort predictor for integer quantities 1..1000, not a uniquely recovered exact schedule. It reproduces both observed exact prices—52,491 pence at quantity 50 and 82,784 pence at quantity 200—and matches all 16 catalogue estimates when rounded to 10,000 pence. Alternate-workflow and second-session checks supplied no finer prices; non-catalogue and unavailable-approval probes were denied. Breakpoints and flat regions are modelling choices, not observed tariff boundaries. Except for the two exact anchors, catalogue observations identify only 10,000-pence rounding bins. Unserved quantities have no guaranteed error bound without additional structural assumptions. Used 33 business requests and 4 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 109469,
+    "inputTokens": 100190,
+    "cachedInputTokens": 76672,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 9279,
+    "reasoningOutputTokens": 6095
+  },
+  "cumulativeRequests": 33,
+  "cumulativeReaOperations": 4
+}

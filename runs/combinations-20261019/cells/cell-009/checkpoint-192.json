@@ -1,0 +1,52 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:04:12.300Z",
+  "endedAt": "2026-10-19T11:05:42.594Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 90284
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10049.5,
+        "linear": 860.5375,
+        "quadratic": 0
+      },
+      {
+        "from": 501,
+        "constant": -6709.802721088752,
+        "linear": 1448.4442857142867,
+        "quadratic": -1.1087763605442182
+      },
+      {
+        "from": 600,
+        "constant": 13401.36054421775,
+        "linear": 749.6598639455782,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the first predictor: additional observations supplied no new numeric constraints supporting a change. Probes at 152, 501 and 599 were denied; additional approved/export requests were unavailable. Alternate estimates at 175, 500 and 900 repeated previous rounded totals. The predictor matches all 31 successful responses, including exact totals of 140645 cents at quantity 50 and 182157 cents at quantity 200, and all 16 catalogue estimates under nearest-10000-cent rounding. Competing quadratic and abrupt-transition models also satisfy every observation, so exact reconstruction remains unidentified. The plateau and breakpoints are modeling assumptions; the 501–599 quadratic bridge smooths an unobserved transition. Observation-consistent alternatives differ by tens of thousands of cents within that gap, and no rigorous error bound is available for unserved quantities. Cumulative usage: 46 business requests and 5 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 183713,
+    "inputTokens": 171020,
+    "cachedInputTokens": 135424,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 12693,
+    "reasoningOutputTokens": 8833
+  },
+  "cumulativeRequests": 46,
+  "cumulativeReaOperations": 5
+}

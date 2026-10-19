@@ -1,0 +1,34 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:58:41.348Z",
+  "endedAt": "2026-10-19T11:59:46.455Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 65097
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original affine baseline; no new price evidence supports changing it. Twelve additional requests tested quantities 25, 100, and 750 across all four workflows, and all were denied. The only observed exact prices remain 50148 pence at quantity 50 and 124248 pence at quantity 200; this predictor matches both. Increasing convex and concave quadratic alternatives also match both observations, demonstrating that even monotonicity would not identify the true rule. Exact reconstruction over 1..1000 remains unidentifiable: all quantities other than 50 and 200 are unvalidated, with no supported off-anchor error bound. Cumulative usage: 34 of 192 business requests and 4 of 48 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 83468,
+    "inputTokens": 78606,
+    "cachedInputTokens": 64896,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4862,
+    "reasoningOutputTokens": 3135
+  },
+  "cumulativeRequests": 34,
+  "cumulativeReaOperations": 4
+}

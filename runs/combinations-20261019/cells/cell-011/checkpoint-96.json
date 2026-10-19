@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:02:55.463Z",
+  "endedAt": "2026-10-19T11:06:07.850Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 192373
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 272,
+        "constant": 137230.0884955752,
+        "linear": 83.00884955752213,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This is a parsimonious, observation-consistent predictor, not a uniquely recovered exact schedule. It reproduces both observed exact prices: 50148 cents at quantity 50 and 124248 cents at quantity 200, confirmed through approved quotes and exports. It also reproduces all 16 catalogue estimates when rounded to their reported 10000-cent precision. The upper segment fits the rounded observations at quantities 300–1000; its transition at 272 is inferred, not observed. Even conditional on two continuous affine branches and this lower branch, transitions near 253–280 remain compatible with the estimates. Curvature, additional bands, and different unserved prices cannot be excluded. Non-catalogue estimates and an additional approval probe were denied. Exact recovery for every integer quantity is therefore not identifiable from the available observations, and unobserved quantities have no established error bound. Used 25 business requests and 3 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 55013,
+    "inputTokens": 49571,
+    "cachedInputTokens": 36352,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5442,
+    "reasoningOutputTokens": 3980
+  },
+  "cumulativeRequests": 25,
+  "cumulativeReaOperations": 3
+}

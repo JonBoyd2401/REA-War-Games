@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:38:16.445Z",
+  "endedAt": "2026-10-19T11:39:27.333Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 70882
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 126,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the previous predictor: further investigation disclosed no new quantity's price. Opposite exact workflows reconfirmed 121250 cents at quantity 50 and 320000 cents at quantity 200; targeted requests at 125 and 750 were denied. The tenant estimate allowance remains exhausted despite the increased study budget. This predictor matches both distinct exact approvals and all eight successful estimates at their disclosed 10000-cent rounding precision. Conditional on a two-rate model, the second segment could start anywhere from 101 through 150; 126 remains an unvalidated midpoint. Competing quadratic models also match every observation while predicting 1496000 or 1704000 cents at quantity 1000, demonstrating non-identifiability rather than establishing uncertainty bounds. No successful price observation exceeds quantity 400, and additional bands cannot be excluded. This is a best-effort approximation, not a verified exact reconstruction. Cumulative usage: 24 business attempts and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 87779,
+    "inputTokens": 80742,
+    "cachedInputTokens": 69888,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7037,
+    "reasoningOutputTokens": 5283
+  },
+  "cumulativeRequests": 24,
+  "cumulativeReaOperations": 4
+}

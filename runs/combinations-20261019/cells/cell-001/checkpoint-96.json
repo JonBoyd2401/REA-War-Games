@@ -1,0 +1,88 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:42:09.636Z",
+  "endedAt": "2026-10-19T10:49:42.842Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 453168
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": -56277.7190024863,
+        "linear": 1430.3152808499,
+        "quadratic": -2.5687084292
+      },
+      {
+        "from": 223,
+        "constant": -76496.2731422442,
+        "linear": 1620.0569375333,
+        "quadratic": -3.0131547737
+      },
+      {
+        "from": 245,
+        "constant": 102337.5949146289,
+        "linear": 151.9214839879,
+        "quadratic": 0
+      },
+      {
+        "from": 456,
+        "constant": 79999.0154015825,
+        "linear": 248.4976663596,
+        "quadratic": -0.1043525346
+      },
+      {
+        "from": 491,
+        "constant": -32386.0074609953,
+        "linear": 708.409446563,
+        "quadratic": -0.5748721074
+      },
+      {
+        "from": 526,
+        "constant": -24577.1726600694,
+        "linear": 680.3924154175,
+        "quadratic": -0.5498377072
+      },
+      {
+        "from": 561,
+        "constant": 92117.8552422911,
+        "linear": 264.4396714411,
+        "quadratic": -0.1791791972
+      },
+      {
+        "from": 596,
+        "constant": 151835.4117488291,
+        "linear": 62.0455994731,
+        "quadratic": -0.007702843
+      },
+      {
+        "from": 625,
+        "constant": 154768.9327990316,
+        "linear": 52.5378699197,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort regularized predictor, not an identified exact tariff. It reproduces the observed exact approvals: 68,387 pence at quantity 50 and 127,037 pence at quantity 200. All 16 catalogue estimates are reproduced under nearest-10,000-pence rounding. Predictions are positive and nondecreasing throughout 1..1000. The curve approximates an average of compatible decreasing-marginal-rate piecewise-linear models; segment starts are approximation knots, not verified tariff boundaries. Noncatalogue probes were denied, and alternate workflows and the second session supplied no additional precision. Only quantities 50 and 200 were observed exactly. All other prices, including the initial linear portion, remain model-dependent; the observations cannot establish exact reconstruction or a worst-case error bound without structural assumptions. Used 34 attempted business requests and 4 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 179325,
+    "inputTokens": 164643,
+    "cachedInputTokens": 106752,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 14682,
+    "reasoningOutputTokens": 10941
+  },
+  "cumulativeRequests": 34,
+  "cumulativeReaOperations": 4
+}

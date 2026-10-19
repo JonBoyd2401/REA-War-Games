@@ -1,0 +1,34 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:17:05.017Z",
+  "endedAt": "2026-10-19T11:18:19.330Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 74283
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This affine predictor exactly matches the observed approved prices: 68,387 pence at quantity 50 and 127,037 pence at quantity 200. Both were independently confirmed through exports in session 2. All tested estimate/alias requests and unapproved-quantity requests were denied, consistent with the application's stated restrictions. Only the two approved quantities are validated; predictions elsewhere are unverified interpolation or extrapolation. The true family and any transitions are not identifiable: for example, adding (q-50)*(q-200) to this predictor preserves both observed prices while changing every other quantity. The affine model is a parsimonious choice, not a demonstrated exact reconstruction, and the observations provide no error bound elsewhere. Used 16 business requests and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 28216,
+    "inputTokens": 26452,
+    "cachedInputTokens": 18048,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1764,
+    "reasoningOutputTokens": 1080
+  },
+  "cumulativeRequests": 16,
+  "cumulativeReaOperations": 3
+}

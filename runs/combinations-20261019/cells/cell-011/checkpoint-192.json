@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:06:07.853Z",
+  "endedAt": "2026-10-19T11:08:02.909Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 115047
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 272,
+        "constant": 137230.0884955752,
+        "linear": 83.00884955752213,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original predictor: additional observations provide no basis for changing its coefficients. Session 2's alternate estimates matched all 16 original catalogue estimates at the same 10000-cent precision. Exports for the other 14 catalogue quantities were denied, as were both estimate workflows at the inferred transition quantity 272. The predictor still reproduces the exact observed prices of 50148 cents at quantity 50 and 124248 cents at quantity 200, and all 16 rounded catalogue estimates. A constructed curved alternative also matches every price observation while differing from this predictor by up to 3328 cents, demonstrating non-uniqueness rather than establishing an error bound. The transition and unserved prices remain inferred; additional curvature or bands cannot be excluded. Cumulative usage: 57 business requests and 5 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 121096,
+    "inputTokens": 112355,
+    "cachedInputTokens": 93056,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8741,
+    "reasoningOutputTokens": 6438
+  },
+  "cumulativeRequests": 57,
+  "cumulativeReaOperations": 5
+}

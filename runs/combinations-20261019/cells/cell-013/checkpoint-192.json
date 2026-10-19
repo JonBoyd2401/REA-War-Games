@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:12:24.132Z",
+  "endedAt": "2026-10-19T11:13:19.723Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 55580
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 21198,
+        "linear": 600.25,
+        "quadratic": -0.425
+      },
+      {
+        "from": 601,
+        "constant": 174198,
+        "linear": 90.25,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the previous predictor: additional investigation supplied no evidence supporting a coefficient change. An alternate-workflow request at quantity 1000 was denied because the shared tenant estimate allowance remains exhausted; the approved result at 200 again returned 124248 cents. This predictor matches both observed exact totals (50148 at 50 and 124248 at 200) and all eight distinct rounded estimates. Competing nondecreasing piecewise-linear models also match every successful response yet predict 200000 or 364248 cents at 1000, versus this predictor's 264448; these examples illustrate ambiguity, not uncertainty bounds. Exact reconstruction remains unidentified. The curvature and transition at 601 are modeling choices, with tangent-line extrapolation beyond 600, not observed tariff structure. Cumulative usage: 23 business requests and 5 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 167478,
+    "inputTokens": 154905,
+    "cachedInputTokens": 132736,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 12573,
+    "reasoningOutputTokens": 10344
+  },
+  "cumulativeRequests": 23,
+  "cumulativeReaOperations": 5
+}

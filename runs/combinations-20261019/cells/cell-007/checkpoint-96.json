@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:54:23.516Z",
+  "endedAt": "2026-10-19T10:58:21.390Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 237847
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": -100,
+        "linear": 3200,
+        "quadratic": 0
+      },
+      {
+        "from": 151,
+        "constant": -11400,
+        "linear": 7335.333333333333,
+        "quadratic": -27.066666666666666
+      },
+      {
+        "from": 200,
+        "constant": 3666.6666666666665,
+        "linear": 1846.6666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Observation-consistent approximation, not an identified exact reconstruction. This predictor reproduces both observed exact totals—159900 at quantity 50 and 373000 at quantity 200—and all eight successful estimates when rounded to their reported 100000-pence resolution. The tenant-wide estimate allowance then blocked further estimates, including the alternate workflow and second session. Single global affine and quadratic models cannot fit the observations. The outer affine pieces balance rounded-estimate residuals while preserving the exact anchors. The middle quadratic blends those pieces across the unresolved price decrease between quantities 150 and 200; its boundaries are modeling choices, not observed tariff thresholds. No successful price observations were obtained above 400, so the upper segment is an unverified extrapolation. Competing curved models fitting every observation predict 1533000 and 2093000 at quantity 1000, versus this predictor's 1850333; those alternatives illustrate uncertainty, not bounds. Additional bands or other nonlinear behavior remain possible."
+  },
+  "tokenUsage": {
+    "totalTokens": 48413,
+    "inputTokens": 40733,
+    "cachedInputTokens": 18816,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7680,
+    "reasoningOutputTokens": 6221
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 3
+}

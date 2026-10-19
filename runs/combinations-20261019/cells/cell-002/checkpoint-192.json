@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T10:50:46.840Z",
+  "endedAt": "2026-10-19T10:54:17.334Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 210479
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 82687.32303233273,
+        "linear": 246.3870942648181,
+        "quadratic": -0.12319354713240906
+      }
+    ],
+    "notes": "Retained unchanged: all 96 additional probes were consistent, providing no evidence-supported coefficient improvement. Across both rounds, this predictor reproduces all 188 rounded responses at their 100000-pence precision and the exact approved/export prices of 68387 pence at quantity 50 and 127037 pence at quantity 200. Sampling now covers 187 distinct quantities, with at most seven between consecutive sampled quantities; no additional rounded-price transitions were found. The boundary at 201 and subsequent curvature remain modeling choices, not identified tariff parameters. Exact reconstruction is still underdetermined: alternative monotone piecewise models matching every response predict 150091 versus 249695 pence at quantity 1000. Unobserved quantities and within-rounding-bin structure remain uncertain. Cumulative usage: 192 business requests and 16 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 372844,
+    "inputTokens": 353123,
+    "cachedInputTokens": 307968,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 19721,
+    "reasoningOutputTokens": 15471
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 16
+}

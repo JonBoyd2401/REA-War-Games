@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:57:22.873Z",
+  "endedAt": "2026-10-19T11:58:27.174Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 64293
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 13750,
+        "linear": 2150,
+        "quadratic": 0
+      },
+      {
+        "from": 75,
+        "constant": 120000,
+        "linear": 733.3333333333334,
+        "quadratic": 0
+      },
+      {
+        "from": 150,
+        "constant": -40000,
+        "linear": 1800,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the first predictor: no new numeric evidence supports a revision. The additional estimate request at quantity 1000 returned HTTP 429, confirming that the tenant estimate allowance remains exhausted despite the larger study budget. This continuous, nondecreasing piecewise-linear approximation reproduces the exact observed prices at quantities 50 (121250 cents) and 200 (320000 cents), and all eight successful estimates under nearest-100000-cent rounding. Breakpoints 75 and 150 remain modeling choices, not identified tariff transitions. Additional continuous, nondecreasing alternatives also match every successful observation while giving substantially different prices above 300. Thus exact reconstruction is underdetermined; the prediction of 1760000 cents at quantity 1000 is extrapolation, not an observed value, and no finite upper error bound is supported. Cumulative usage: 21 attempted business requests and 5 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 149328,
+    "inputTokens": 131932,
+    "cachedInputTokens": 116096,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 17396,
+    "reasoningOutputTokens": 15321
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 5
+}

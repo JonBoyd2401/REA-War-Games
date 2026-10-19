@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:05:53.644Z",
+  "endedAt": "2026-10-19T11:09:39.397Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 225719
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 51,
+        "constant": 42393.333333333336,
+        "linear": 201.95333333333335,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort surrogate, not an identified exact tariff. It matches the observed exact prices of 52,491 pence at quantity 50 and 82,784 pence at quantity 200; export independently confirmed the latter. It also reproduces all eight successful estimates assuming nearest-100,000-pence rounding. The flat portion and boundary at 51 are modeling choices, not observed tariff bands. The tenant estimate allowance was exhausted; the alternate workflow and second session were also denied. An approved quote at 1000 was unavailable. Other quantities remain unverified, and predictions above 650 are extrapolations. Nonlinear or additional piecewise rules cannot be excluded, so exact reconstruction over 1..1000 is not supported by the available evidence. Used 16 business attempts and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 58258,
+    "inputTokens": 51991,
+    "cachedInputTokens": 37888,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 6267,
+    "reasoningOutputTokens": 5106
+  },
+  "cumulativeRequests": 16,
+  "cumulativeReaOperations": 3
+}

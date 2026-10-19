@@ -1,0 +1,52 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:45:18.163Z",
+  "endedAt": "2026-10-19T11:49:07.315Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 229142
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 50000,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 38,
+        "constant": 42393.33333333333,
+        "linear": 201.95333333333335,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 40839.53822152886,
+        "linear": 209.7223088923557,
+        "quadratic": 0
+      },
+      {
+        "from": 521,
+        "constant": 13743.455497382209,
+        "linear": 261.78010471204186,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the first predictor: the additional observations did not support a numerical correction. The 96 additional requests filled sampling gaps, checked transition neighborhoods, and confirmed both transition pairs through the alias workflow. Cumulatively, 180 distinct quantities have rounded observations, with at most nine quantity units between adjacent sampled quantities. Observed rounded transitions remain 520/521 and 902/903; no additional transitions were observed. Exact approved/export prices remain 52491 cents at quantity 50 and 82784 cents at quantity 200. Assuming nearest-100000-cent rounding, this predictor reproduces all 191 successful responses. It uses piecewise-linear interpolation, midpoint threshold crossings, final-slope extrapolation, and an assumed 50000-cent lower plateau; its segment starts are modeling choices, not established pricing tiers. A competing piecewise-quadratic predictor also matches every observation but differs by 5723 cents at quantity 1000, demonstrating unresolved model ambiguity, not an error bound. Exact prices outside the two approved quantities remain unidentified; rounding convention, monotonicity, interpolation, and behavior between probes are not established by these observations. Cumulative usage: 192 attempted business requests, including one denial, and 18 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 481156,
+    "inputTokens": 462342,
+    "cachedInputTokens": 423808,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 18814,
+    "reasoningOutputTokens": 12719
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 18
+}

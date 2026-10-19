@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:40:01.338Z",
+  "endedAt": "2026-10-19T11:41:31.607Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 90260
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 91728.33333333333,
+        "linear": 176.54333333333332,
+        "quadratic": 0
+      },
+      {
+        "from": 501,
+        "constant": 150000,
+        "linear": 60,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the saved predictor: no evidence supports replacing it. It reproduces the exact approved/exported prices of 68,387 cents at quantity 50 and 127,037 cents at quantity 200, and matches all eight distinct rounded estimates after 10,000-cent rounding. Additional in-memory tests found both a two-line alternative and a curved piecewise-quadratic alternative consistent with every observation. Their predictions differ materially: at quantity 300, this predictor gives 144,691 cents while the two-line alternative gives 166,137 cents; neither value was observed. Thus the hidden exact tariff remains underdetermined. Segment boundaries are interpolation choices, not established pricing transitions, and the anchors at quantities 500 and 1000 use rounded estimate centers rather than exact prices. Approximately ±5,000-cent resolution at rounded observations does not bound errors between probes. No new price observations were obtained or business requests attempted because the application-level estimate allowance remains exhausted under the unchanged policy. Cumulative usage remains 28 business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 84496,
+    "inputTokens": 76087,
+    "cachedInputTokens": 64640,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8409,
+    "reasoningOutputTokens": 6357
+  },
+  "cumulativeRequests": 28,
+  "cumulativeReaOperations": 4
+}

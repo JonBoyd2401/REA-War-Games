@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T12:01:06.268Z",
+  "endedAt": "2026-10-19T12:04:10.702Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 184412
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 164,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 506,
+        "constant": 0,
+        "linear": 980,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor for integer quantities 1..1000: total price is quantity times 3198 pence for 1..163, 1865 pence for 164..505, and 980 pence for 506..1000. All 96 successful business responses, covering 93 distinct quantities, match exactly; every response reported roundingCents=0. Approved results at 50 and 200 also agree. Both transitions were checked at adjacent integers: 163/164 and 505/506. Broad and off-grid validation found no departures from these three linear bands; the maximum gap between sampled quantities is 16. Used 11 REA operations including inspection. Predictions for unobserved quantities remain inferred: narrow additional bands or isolated exceptions between samples cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 136704,
+    "inputTokens": 133123,
+    "cachedInputTokens": 122368,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3581,
+    "reasoningOutputTokens": 1696
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 11
+}

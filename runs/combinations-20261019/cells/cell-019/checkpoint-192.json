@@ -1,0 +1,34 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:18:19.331Z",
+  "endedAt": "2026-10-19T11:19:21.138Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 61799
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original affine predictor; additional observations do not support a change. Approved quotes in session 2 again returned exactly 68,387 pence at quantity 50 and 127,037 pence at quantity 200, matching earlier quotes and exports. Both approved and export requests at quantities 49, 51, 199 and 201 were denied, as were further estimate/alias probes. No new price points were obtained. Positive, strictly increasing convex and concave alternatives also fit both observed prices, so linearity is not established and nonlinearities or transitions cannot be excluded. Predictions at the other 998 quantities remain unvalidated, with no defensible error bound from the available evidence. Cumulative usage: 30 attempted business requests and 4 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 59414,
+    "inputTokens": 55770,
+    "cachedInputTokens": 44032,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3644,
+    "reasoningOutputTokens": 2251
+  },
+  "cumulativeRequests": 30,
+  "cumulativeReaOperations": 4
+}

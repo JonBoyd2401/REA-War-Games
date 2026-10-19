@@ -1,0 +1,34 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:55:42.149Z",
+  "endedAt": "2026-10-19T11:57:06.647Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 84478
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 126807.66666666667,
+        "linear": 276.74666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Minimal-complexity affine predictor for quantities 1–1000, not an established exact pricing law. Approved quotes returned 140645 cents at quantity 50 and 182157 cents at quantity 200; exports in the second session independently confirmed both values. The predictor reproduces both exactly after rounding. All tested estimate/alias requests were denied, as were additional approval/export probes, including quantities adjacent to the approved points. The application explicitly advertises exact approvals only for 50 and 200. Consequently, the other 998 predictions are unverified: nonlinear or piecewise alternatives can match both observations, and neither transitions nor a finite prediction-error bound can be determined. Exact reconstruction across the full domain is not identifiable from the available observations. Used 18 business requests and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 28675,
+    "inputTokens": 26518,
+    "cachedInputTokens": 18048,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2157,
+    "reasoningOutputTokens": 1443
+  },
+  "cumulativeRequests": 18,
+  "cumulativeReaOperations": 3
+}

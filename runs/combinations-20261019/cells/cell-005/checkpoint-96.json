@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:52:02.700Z",
+  "endedAt": "2026-10-19T10:54:50.345Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 167621
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 163,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 551,
+        "constant": 0,
+        "linear": 982,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor in pence, not a uniquely identified exact reconstruction. It matches all 16 observed catalogue estimates after rounding to 10,000 pence and exactly matches the approved totals: 159900 at quantity 50 and 373000 at quantity 200. Three proportional regimes provide a parsimonious fit. Conditional on that structure, the second regime could begin anywhere from 151 through 175, and the third anywhere from 501 through 600; starts 163 and 551 are midpoint choices, not observed boundaries. The final rate of 982 is also an estimate. Transition probes were denied; alternate workflows and session 2 provided no additional precision. Different transition locations and curved alternatives were explicitly checked and also reproduce every successful observation, so nonlinear behavior or additional hidden bands cannot be excluded. Exact prices elsewhere therefore remain uncertain, especially within the transition gaps. Used 34 business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 55800,
+    "inputTokens": 50139,
+    "cachedInputTokens": 20736,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5661,
+    "reasoningOutputTokens": 4076
+  },
+  "cumulativeRequests": 34,
+  "cumulativeReaOperations": 4
+}

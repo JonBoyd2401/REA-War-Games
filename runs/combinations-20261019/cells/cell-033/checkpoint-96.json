@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:50:33.403Z",
+  "endedAt": "2026-10-19T11:54:47.536Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 254113
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 387,
+        "constant": 200000,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Approximate capped-linear predictor, not a uniquely identified exact reconstruction. It matches the exact approved and exported prices of 68387 cents at quantity 50 and 127037 cents at quantity 200, and reproduces every successful estimate when rounded to 100000-cent increments. Estimate access was exhausted after nine successful responses, including the alias; session 2 was also denied. The investigation used 21 attempted business requests and 4 REA operations, including inspection. The plateau and its start at 387 are modeling choices, not observed pricing rules or a validated transition. A smooth quadratic and other piecewise models also satisfy all observations. Only the two approved quantities are exactly validated; no reliable error bound is established for unobserved quantities."
+  },
+  "tokenUsage": {
+    "totalTokens": 54762,
+    "inputTokens": 47529,
+    "cachedInputTokens": 39296,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7233,
+    "reasoningOutputTokens": 6062
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 4
+}

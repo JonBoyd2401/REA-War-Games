@@ -1,0 +1,105 @@
+{
+  "evidenceId": "02",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "quantity": 50,
+      "surface": "approved",
+      "status": 200,
+      "body": {
+        "totalCents": 159900,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 200,
+      "surface": "approved",
+      "status": 200,
+      "body": {
+        "totalCents": 373000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 50,
+      "surface": "export",
+      "status": 200,
+      "body": {
+        "totalCents": 159900,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 200,
+      "surface": "export",
+      "status": 200,
+      "body": {
+        "totalCents": 373000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "quantity": 1,
+      "surface": "estimate",
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "quantity": 50,
+      "surface": "estimate",
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "quantity": 200,
+      "surface": "alias",
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "quantity": 1000,
+      "surface": "alias",
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "quantity": 1,
+      "surface": "approved",
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "quantity": 1000,
+      "surface": "export",
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ],
+  "businessRequestsUsed": 10,
+  "businessRequestsRemaining": 86,
+  "reaOperationsRemaining": 22
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T12:07:16.704Z",
+  "endedAt": "2026-10-19T12:08:27.483Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 70770
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 114,
+        "constant": 11497.299719887948,
+        "linear": 368.2575350140056,
+        "quadratic": -0.05912016806722689
+      },
+      {
+        "from": 300,
+        "constant": 28912.156862745083,
+        "linear": 310.2080112044818,
+        "quadratic": -0.05912016806722689
+      }
+    ],
+    "notes": "Retained unchanged because follow-up observations supplied no new price information: alias at quantity 650 was denied by the exhausted tenant estimate allowance, export at quantity 150 lacked approval, and the approved quote at quantity 200 remained 82784. Cumulative usage is 29 business attempts and 6 REA operations. This predictor matches both observed exact prices (52491 at quantity 50; 82784 at quantity 200) and all eight distinct observed estimate bins under 10000-unit rounding. It is not a verified exact reconstruction. Segment starts 114 and 300 are modelling choices, not observed tariff boundaries. Substantial ambiguity remains, particularly for quantities 301–999: compatible candidate models differ by 13544 minor units at quantity 650, and larger differences or additional hidden bands cannot be excluded. That comparison is not an error bound."
+  },
+  "tokenUsage": {
+    "totalTokens": 134800,
+    "inputTokens": 120846,
+    "cachedInputTokens": 97792,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13954,
+    "reasoningOutputTokens": 11866
+  },
+  "cumulativeRequests": 29,
+  "cumulativeReaOperations": 6
+}

@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:00:11.970Z",
+  "endedAt": "2026-10-19T11:02:03.333Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 111338
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 101,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported simple predictor, not a uniquely established exact reconstruction. It reproduces all ten distinct observed quantities exactly: 1, 10, 25, 50, 75, 100, 150, 200, 250 and 350. Successful responses reported roundingCents=0; approved quotes and exports agreed at 50 and 200. The breakpoint at 101 is an unverified choice: within this two-rate model, any integer breakpoint from 101 through 150 fits the observations equally well. Predictions above 350 extrapolate the last observed rate; further bands or nonlinear behavior remain possible, including between sampled quantities. The application exhausted its tenant estimate allowance after eight successful estimates, and both the alias workflow and second session were also denied. An attempted approved quote at 125 was unavailable. Used 21 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 44760,
+    "inputTokens": 42596,
+    "cachedInputTokens": 26112,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2164,
+    "reasoningOutputTokens": 1268
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 4
+}

@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T12:08:33.835Z",
+  "endedAt": "2026-10-19T12:11:57.385Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 203519
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 176,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This parsimonious two-band predictor matches all eight successful estimates after rounding to 10,000 cents, and matches the exact approved prices at quantities 50 (159900 cents) and 200 (373000 cents), both confirmed by exports. A single global quadratic is inconsistent with these observations. Conditional on this two-band proportional model, every second-band start from 151 through 200 is equally consistent; 176 is a midpoint choice, not an observed transition. The shared estimate allowance was exhausted, and attempted unapproved exact requests were denied. Quantities above 400 are unvalidated extrapolation. Other intercepts, curvature, or additional bands remain possible: this is an observation-consistent predictor, not a uniquely established exact reconstruction."
+  },
+  "tokenUsage": {
+    "totalTokens": 75376,
+    "inputTokens": 70251,
+    "cachedInputTokens": 56704,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5125,
+    "reasoningOutputTokens": 3924
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 4
+}

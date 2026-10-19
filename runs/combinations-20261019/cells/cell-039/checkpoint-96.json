@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:59:52.592Z",
+  "endedAt": "2026-10-19T12:07:16.702Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 444082
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 114,
+        "constant": 11497.299719887948,
+        "linear": 368.2575350140056,
+        "quadratic": -0.05912016806722689
+      },
+      {
+        "from": 300,
+        "constant": 28912.156862745083,
+        "linear": 310.2080112044818,
+        "quadratic": -0.05912016806722689
+      }
+    ],
+    "notes": "This is an observation-consistent point predictor, not a verified exact reconstruction. It matches both observed exact approvals: 52491 at quantity 50 and 82784 at quantity 200. It also reproduces all eight distinct observed estimates when rounded to 10000 minor units. The tenant allowance subsequently denied new estimate quantities, including through alias and session 2. Investigation used 26 business attempts and 5 REA operations. The predictor blends compatible piecewise-linear and quadratic fits; segment starts 114 and 300 are modelling choices, not confirmed tariff boundaries. Uncertainty is substantial, especially at unobserved quantities 301–999: two compatible candidate models differ by 13544 minor units at quantity 650. That difference is illustrative, not an error bound; larger deviations or additional hidden bands cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 91599,
+    "inputTokens": 79739,
+    "cachedInputTokens": 58752,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 11860,
+    "reasoningOutputTokens": 10220
+  },
+  "cumulativeRequests": 26,
+  "cumulativeReaOperations": 5
+}

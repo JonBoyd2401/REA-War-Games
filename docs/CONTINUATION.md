@@ -10,3 +10,7 @@ The local hard-block and disclosure experiments cover the named cases. The [19 O
 For every contribution, include the exact source revision, REA and browser versions, complete commands, sanitised captures, scope, assumptions, successful normal controls and unsuccessful attack attempts. Keep capture errors and missing coverage visible. Add an acceptance criterion and evidence path for each new protection claim.
 
 Historical baseline `findings.md` and `contributions.md` describe that stage only. The root README, success criteria and expanded paper incorporate the later repetitions, partial-fix experiments and session lab. The original protocol is provenance, not evidence that every proposed hypothesis was tested.
+
+## Combined-defence extension
+
+The [combined-defence study](COMBINATION_BENCHMARK.md) now adds max-effort agents, 96/192 same-thread checkpoints and four customer workloads. Next priorities are repeated fresh agents per target/policy, richer independently prepared applications, complete factorial controls for gentle rounding and catalogue restrictions, realistic approval creation, colluding accounts and durable quota recovery. Measure supported-output imitation separately from hidden-rule inference. Preserve the negative utility results and any non-monotonic checkpoint changes; do not select the better submitted model after scoring.

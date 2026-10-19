@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:59:57.314Z",
+  "endedAt": "2026-10-19T12:01:00.405Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 63082
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 210,
+        "constant": 95862,
+        "linear": 166,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original predictor after challenging it with continuous quadratic and additional-band alternatives. Those alternatives also match every observed price and remain nondecreasing, so the observations do not establish a unique reconstruction or support replacing the simpler model. This predictor exactly matches the eight successful estimates at quantities 1, 25, 50, 100, 150, 200, 250 and 300, plus approved confirmations at 50 and 200. The transition at 210 is inferred from continuity, not directly observed; only 250 and 300 constrain the second line. Quantities above 300 remain unvalidated extrapolations, with no defensible numerical error bound. The increased study budget does not reset the exhausted application estimate allowance or create additional approvals. No new business requests were made; cumulative usage remains 20 attempted requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 70079,
+    "inputTokens": 65619,
+    "cachedInputTokens": 57984,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4460,
+    "reasoningOutputTokens": 2606
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 4
+}

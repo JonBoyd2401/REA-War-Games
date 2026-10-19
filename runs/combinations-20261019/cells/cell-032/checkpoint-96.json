@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:49:12.539Z",
+  "endedAt": "2026-10-19T11:57:22.872Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 490297
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 13750,
+        "linear": 2150,
+        "quadratic": 0
+      },
+      {
+        "from": 75,
+        "constant": 120000,
+        "linear": 733.3333333333334,
+        "quadratic": 0
+      },
+      {
+        "from": 150,
+        "constant": -40000,
+        "linear": 1800,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort continuous, nondecreasing piecewise-linear predictor, not an identified exact reconstruction. It reproduces the exact observed prices of 121250 cents at quantity 50 and 320000 cents at quantity 200, confirmed through both approved workflows. It also matches all eight successful estimates when rounded to the nearest 100000 cents. The breakpoints at 75 and 150 are modeling choices, not observed tariff transitions. The tenant estimate allowance stopped answering after eight estimates; the second-session alias was also denied, and an approved request at 150 was unavailable. No estimate above quantity 300 was returned. Distinct piecewise-linear and quadratic alternatives also match every successful observation, so unobserved exact prices remain underdetermined, especially above 300; no finite error bound is supported. Used 20 attempted business requests and 4 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 74227,
+    "inputTokens": 58953,
+    "cachedInputTokens": 46976,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 15274,
+    "reasoningOutputTokens": 14064
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 4
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:43:38.551Z",
+  "endedAt": "2026-10-19T11:44:33.910Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 55352
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 138,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 626,
+        "constant": 0,
+        "linear": 980,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the first predictor: the continuation obtained no additional prices supporting a revision. Targeted estimate and alias requests at 138 and 626 remained blocked by the exhausted tenant allowance; approved-quote and export requests at those quantities returned 'approved request unavailable'. The predictor matches all eight distinct quantities successfully observed: 1, 25, 50 and 75 returned 3198*q cents; 200 and 500 returned 1865*q; 750 and 1000 returned 980*q. Approved quotes and exports also confirmed 50 and 200. Successful responses reported roundingCents=0. Three constant unit-price bands remain a parsimonious hypothesis, not a proven structure. Conditional on that hypothesis, the second band's start lies in 76..200 and the third's in 501..750. Starts 138 and 626 are midpoint imputations, not measured thresholds. Additional bands or nonlinear behavior cannot be excluded, so exact prices across all 1..1000 remain unidentifiable. Cumulative usage: 32 attempted business requests and 5 REA operations. The larger study budget did not reset the application's restrictive counters."
+  },
+  "tokenUsage": {
+    "totalTokens": 61841,
+    "inputTokens": 56873,
+    "cachedInputTokens": 49664,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4968,
+    "reasoningOutputTokens": 3823
+  },
+  "cumulativeRequests": 32,
+  "cumulativeReaOperations": 5
+}

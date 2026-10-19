@@ -1,0 +1,34 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:49:54.063Z",
+  "endedAt": "2026-10-19T10:51:24.388Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 90317
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 88866.66666666666,
+        "linear": 1420.6666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Exact observed prices were 159900 cents at quantity 50 and 373000 cents at quantity 200, consistent across approved/export workflows and both sessions. Estimates, aliases, and sampled unapproved quantities returned denials, not prices. This single affine segment interpolates the two observed points and extrapolates elsewhere; it reproduces both exact observations after rounding. It is a minimal-complexity predictor, not a validated reconstruction of the hidden rule. The other 998 quantities remain unobserved. Nonlinear and piecewise alternatives can match both observations while differing substantially elsewhere, so neither transitions nor finite error bounds are identifiable from the available evidence. Used 22 business requests and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 37815,
+    "inputTokens": 35514,
+    "cachedInputTokens": 25856,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2301,
+    "reasoningOutputTokens": 1288
+  },
+  "cumulativeRequests": 22,
+  "cumulativeReaOperations": 3
+}

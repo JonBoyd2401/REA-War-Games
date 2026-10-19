@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:52:19.935Z",
+  "endedAt": "2026-10-19T11:00:11.558Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 468183
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 253,
+        "constant": -52118.00352,
+        "linear": 1109.28688,
+        "quadratic": -1.22018
+      },
+      {
+        "from": 455,
+        "constant": 200000,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a uniquely identified exact law. Used 96 business requests and 9 REA operations, sampling 92 distinct quantities. Matches both exact anchors (q=50: 50148 cents; q=200: 124248 cents), their export confirmations, and all 92 rounded estimates at their 100000-cent display precision. Adjacent probes locate rounded-output transitions at 50 and 253. The anchor-based line, quadratic taper, and eventual 200000-cent plateau provide an uncertainty-aware continuation; the taper and plateau are modeling choices, not observed structural breaks. Exact reconstruction is underdetermined: alternative curves capped at 160000 or 240000 cents, and a continuing rising-tail curve, also match every observation. At sampled quantities from 253 upward, rounding alone permits true prices of 150000–249999 cents. Unobserved quantities have no guaranteed error bound without additional regularity assumptions."
+  },
+  "tokenUsage": {
+    "totalTokens": 184266,
+    "inputTokens": 171041,
+    "cachedInputTokens": 142976,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 13225,
+    "reasoningOutputTokens": 10629
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 9
+}

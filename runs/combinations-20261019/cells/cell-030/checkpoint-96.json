@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:44:38.862Z",
+  "endedAt": "2026-10-19T11:48:40.425Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 241540
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 113,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      },
+      {
+        "from": 451,
+        "constant": 0,
+        "linear": 1050,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Parsimonious predictor, not a uniquely identified exact reconstruction. Matches the observed exact totals at quantities 50 (121250 pence) and 200 (320000 pence), and all 16 catalogue estimates after rounding to 10000 pence. Validation covered all 22 successful responses, including repeats. Within this three-band proportional model, transition starts are constrained only to 101–125 and 401–500; 113 and 451 are midpoint choices, not observed breakpoints. The final rate is uncertain: both 1050 and 1054 pence per unit fit its estimates. Tested affine and quadratic alternatives also match every successful observation, so curvature or additional bands cannot be excluded. Off-catalogue estimates and additional exact-approval probes were denied. Used 30 business requests, including 8 denials, and 4 REA operations. Prices at unserved quantities remain unverified."
+  },
+  "tokenUsage": {
+    "totalTokens": 87687,
+    "inputTokens": 80104,
+    "cachedInputTokens": 50816,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7583,
+    "reasoningOutputTokens": 5516
+  },
+  "cumulativeRequests": 30,
+  "cumulativeReaOperations": 4
+}

@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:13:03.247Z",
+  "endedAt": "2026-10-19T11:15:58.152Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 174881
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 157,
+        "constant": -17172.916666666664,
+        "linear": 1051.51875,
+        "quadratic": -0.27434583333333334
+      }
+    ],
+    "notes": "Best validated interpolating predictor, not a uniquely recovered exact tariff. It reproduces both observed exact prices: 140645 pence at quantity 50 and 182157 pence at quantity 200. It also matches all nine successful estimate responses when rounded to their reported 10000-pence precision. The quadratic passes through the estimate bucket centers at quantities 500 and 1000; those centers were not observed exact prices. A single global quadratic is incompatible with the observations, but multiple piecewise models remain possible. The constant initial region and transition at 157 are inferred modeling choices, not verified application boundaries. Further estimates were blocked by a tenant-wide allowance, including an alternate-estimate attempt in session 2; tested unapproved exact requests were denied. Used 27 attempted business requests and 4 REA operations. Exact recovery across 1..1000 is not identifiable from the available observations; unobserved quantities may contain additional transitions or curvature, and no global error bound is established."
+  },
+  "tokenUsage": {
+    "totalTokens": 69996,
+    "inputTokens": 65517,
+    "cachedInputTokens": 52608,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4479,
+    "reasoningOutputTokens": 2965
+  },
+  "cumulativeRequests": 27,
+  "cumulativeReaOperations": 4
+}

@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:02:03.335Z",
+  "endedAt": "2026-10-19T11:02:50.393Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 47049
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 101,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the saved predictor: further investigation supplied no numeric evidence supporting a change. The new estimate request at 1000 was denied because the tenant allowance remains exhausted, and the approved quote at 1000 was unavailable. This predictor exactly matches all ten distinct observed quantities: 1, 10, 25, 50, 75, 100, 150, 200, 250 and 350. The transition at 101 remains an assumption; all 50 integer transition starts from 101 through 150 fit equally well within this two-rate model. Alternative models with additional bands beyond the observed range also fit every observation, so predictions above 350 are unvalidated extrapolation. Unobserved behavior between sampled quantities cannot be excluded either. Exact reconstruction over all 1–1000 is therefore not established. Cumulative usage: 23 attempted business requests and 5 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 76798,
+    "inputTokens": 73263,
+    "cachedInputTokens": 54272,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3535,
+    "reasoningOutputTokens": 1924
+  },
+  "cumulativeRequests": 23,
+  "cumulativeReaOperations": 5
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:48:40.428Z",
+  "endedAt": "2026-10-19T11:50:28.382Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 107944
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 113,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      },
+      {
+        "from": 451,
+        "constant": 0,
+        "linear": 1050,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained: 16 additional responses reproduced existing rounded values and supplied no finer precision. Reinspection confirmed the same catalogue and exact approvals at quantities 50 and 200. This predictor matches all 38 successful responses, including both exact totals and all 16 catalogue estimates after rounding to 10000 pence. Within the three-band proportional hypothesis, transition starts remain constrained only to 101–125 and 401–500; 113 and 451 are midpoint choices, not observed boundaries. The final rate remains uncertain: 1050 and 1054 pence per unit both fit. Quadratic and continuous piecewise-linear alternatives also match every observation, so exact reconstruction is not uniquely supported and unserved quantities remain unverified. Cumulative usage: 46 of 192 business requests, including 8 denials, and 6 of 48 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 162642,
+    "inputTokens": 151886,
+    "cachedInputTokens": 114944,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 10756,
+    "reasoningOutputTokens": 7590
+  },
+  "cumulativeRequests": 46,
+  "cumulativeReaOperations": 6
+}

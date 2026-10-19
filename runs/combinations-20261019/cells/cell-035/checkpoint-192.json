@@ -1,0 +1,34 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:57:06.649Z",
+  "endedAt": "2026-10-19T11:58:09.606Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 62949
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 126807.66666666667,
+        "linear": 276.74666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original affine predictor: further investigation supplied no numeric evidence supporting a change. The observed exact prices remain 140645 cents at quantity 50 and 182157 cents at quantity 200, each confirmed through approved quotes and exports across the two sessions. This predictor reproduces both exactly after rounding. All 16 additional requests were denied, including approval/export probes spanning quantities 25–999 and estimate/alias probes at 100 and 500. Arithmetic checks confirmed that alternative nonnegative, nondecreasing quadratic models also fit both observed prices while differing substantially elsewhere. Thus linearity is a minimal-complexity modeling choice, not a verified property; curvature and undisclosed pricing bands remain unidentified. The other 998 predictions are unverified, with no data-supported error bound. Cumulative usage: 34 of 192 business requests and 4 of 48 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 61049,
+    "inputTokens": 57006,
+    "cachedInputTokens": 44800,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4043,
+    "reasoningOutputTokens": 2593
+  },
+  "cumulativeRequests": 34,
+  "cumulativeReaOperations": 4
+}

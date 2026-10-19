@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T10:58:21.391Z",
+  "endedAt": "2026-10-19T11:00:06.225Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 104827
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": -100,
+        "linear": 3200,
+        "quadratic": 0
+      },
+      {
+        "from": 151,
+        "constant": -11400,
+        "linear": 7335.333333333333,
+        "quadratic": -27.066666666666666
+      },
+      {
+        "from": 200,
+        "constant": 3666.6666666666665,
+        "linear": 1846.6666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the previous predictor: additional in-memory tests of curved bands, different transition locations, and a flat later band provided no evidence favoring a replacement. No new application prices were observed in this continuation; the larger study budget does not reset the exhausted tenant estimate allowance. This predictor matches the observed exact totals of 159900 at quantity 50 and 373000 at quantity 200, and reproduces all eight successful estimates at their reported 100000-pence rounding resolution. The middle quadratic represents uncertainty about the decrease between quantities 150 and 200, not a recovered tariff rule. No successful price observations exist above 400. Alternative models matching every observation, with upper curves nondecreasing throughout 200..1000, predict 1141000 or 2283400 at quantity 1000; an additional flat band can instead give 742333. These are illustrative predictions, not uncertainty bounds. Exact intermediate prices, actual transition locations, and later bands remain unidentified."
+  },
+  "tokenUsage": {
+    "totalTokens": 86573,
+    "inputTokens": 75014,
+    "cachedInputTokens": 48128,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 11559,
+    "reasoningOutputTokens": 9164
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 3
+}

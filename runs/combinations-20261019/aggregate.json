@@ -1,0 +1,2749 @@
+{
+  "at": "2026-10-19T12:14:49.753Z",
+  "aggregate": [
+    {
+      "budget": 96,
+      "policy": "exact",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "within1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "within5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dropWithin5": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 96,
+          "min": 96,
+          "max": 96
+        },
+        "reaOperations": {
+          "mean": 9.5,
+          "min": 8,
+          "max": 11
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 36,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 72,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 72,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 36,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "cell": "cell-003",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 9
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-022",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 8
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-024",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 9
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-028",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 9
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-031",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 11
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-040",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 11
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "policy": "limit8",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.5436197916666666,
+          "min": 0.33203125,
+          "max": 0.83984375
+        },
+        "within1": {
+          "mean": 0.5514322916666666,
+          "min": 0.33984375,
+          "max": 0.83984375
+        },
+        "within5": {
+          "mean": 0.599609375,
+          "min": 0.37890625,
+          "max": 0.83984375
+        },
+        "dropExact": {
+          "mean": 45.638020833333336,
+          "min": 16.015625,
+          "max": 66.796875
+        },
+        "dropWithin5": {
+          "mean": 40.0390625,
+          "min": 16.015625,
+          "max": 62.109375
+        },
+        "deliveredExact": {
+          "mean": 0.5436197916666666,
+          "min": 0.33203125,
+          "max": 0.83984375
+        },
+        "deliveredWithin5": {
+          "mean": 0.599609375,
+          "min": 0.37890625,
+          "max": 0.83984375
+        },
+        "requests": {
+          "mean": 20.833333333333332,
+          "min": 16,
+          "max": 28
+        },
+        "reaOperations": {
+          "mean": 3.6666666666666665,
+          "min": 3,
+          "max": 4
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 36,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 48,
+          "within5Rate": 0.6666666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 48,
+          "within5Rate": 0.6666666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-06",
+          "cell": "cell-008",
+          "validPredictor": true,
+          "exact": 0.33203125,
+          "within1": 0.33984375,
+          "within5": 0.37890625,
+          "dropExact": 66.796875,
+          "dropWithin5": 62.109375,
+          "deliveredExact": 0.33203125,
+          "deliveredWithin5": 0.37890625,
+          "requests": 19,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-010",
+          "validPredictor": true,
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "dropExact": 57.8125,
+          "dropWithin5": 57.8125,
+          "deliveredExact": 0.421875,
+          "deliveredWithin5": 0.421875,
+          "requests": 21,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-017",
+          "validPredictor": true,
+          "exact": 0.6328125,
+          "within1": 0.6640625,
+          "within5": 0.8203125,
+          "dropExact": 36.71875,
+          "dropWithin5": 17.96875,
+          "deliveredExact": 0.6328125,
+          "deliveredWithin5": 0.8203125,
+          "requests": 16,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-020",
+          "validPredictor": true,
+          "exact": 0.53125,
+          "within1": 0.53125,
+          "within5": 0.53125,
+          "dropExact": 46.875,
+          "dropWithin5": 46.875,
+          "deliveredExact": 0.53125,
+          "deliveredWithin5": 0.53125,
+          "requests": 21,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-029",
+          "validPredictor": true,
+          "exact": 0.83984375,
+          "within1": 0.83984375,
+          "within5": 0.83984375,
+          "dropExact": 16.015625,
+          "dropWithin5": 16.015625,
+          "deliveredExact": 0.83984375,
+          "deliveredWithin5": 0.83984375,
+          "requests": 28,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-037",
+          "validPredictor": true,
+          "exact": 0.50390625,
+          "within1": 0.51171875,
+          "within5": 0.60546875,
+          "dropExact": 49.609375,
+          "dropWithin5": 39.453125,
+          "deliveredExact": 0.50390625,
+          "deliveredWithin5": 0.60546875,
+          "requests": 20,
+          "reaOperations": 4
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "policy": "round1000",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.3118489583333333,
+          "min": 0.00390625,
+          "max": 1
+        },
+        "within1": {
+          "mean": 0.7330729166666666,
+          "min": 0.32421875,
+          "max": 1
+        },
+        "within5": {
+          "mean": 0.8821614583333334,
+          "min": 0.59375,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 68.81510416666667,
+          "min": 0,
+          "max": 99.609375
+        },
+        "dropWithin5": {
+          "mean": 11.783854166666666,
+          "min": 0,
+          "max": 40.625
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 96,
+          "min": 96,
+          "max": 96
+        },
+        "reaOperations": {
+          "mean": 11.5,
+          "min": 9,
+          "max": 17
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 2,
+          "within5Rate": 0.05555555555555555,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 312.9627777777778,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 9,
+          "within5Rate": 0.125,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 291.79805555555555,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 22,
+          "within5Rate": 0.3055555555555556,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 261.92833333333334,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 2,
+          "within5Rate": 0.05555555555555555,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 312.9627777777778,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "cell": "cell-002",
+          "validPredictor": true,
+          "exact": 0.19140625,
+          "within1": 0.6171875,
+          "within5": 1,
+          "dropExact": 80.859375,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 10
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-006",
+          "validPredictor": true,
+          "exact": 0.24609375,
+          "within1": 0.32421875,
+          "within5": 0.59375,
+          "dropExact": 75.390625,
+          "dropWithin5": 40.625,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 9
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-021",
+          "validPredictor": true,
+          "exact": 0.30859375,
+          "within1": 0.9765625,
+          "within5": 0.9921875,
+          "dropExact": 69.140625,
+          "dropWithin5": 0.78125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 11
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-023",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 10
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-027",
+          "validPredictor": true,
+          "exact": 0.00390625,
+          "within1": 0.48046875,
+          "within5": 0.70703125,
+          "dropExact": 99.609375,
+          "dropWithin5": 29.296875,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 12
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-038",
+          "validPredictor": true,
+          "exact": 0.12109375,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 87.890625,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 96,
+          "reaOperations": 17
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "policy": "round1000-limit8",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.06575520833333333,
+          "min": 0,
+          "max": 0.20703125
+        },
+        "within1": {
+          "mean": 0.17838541666666666,
+          "min": 0.02734375,
+          "max": 0.39453125
+        },
+        "within5": {
+          "mean": 0.396484375,
+          "min": 0.234375,
+          "max": 0.56640625
+        },
+        "dropExact": {
+          "mean": 93.42447916666667,
+          "min": 79.296875,
+          "max": 100
+        },
+        "dropWithin5": {
+          "mean": 60.3515625,
+          "min": 43.359375,
+          "max": 76.5625
+        },
+        "deliveredExact": {
+          "mean": 0.6953125,
+          "min": 0.33984375,
+          "max": 0.93359375
+        },
+        "deliveredWithin5": {
+          "mean": 0.6953125,
+          "min": 0.33984375,
+          "max": 0.93359375
+        },
+        "requests": {
+          "mean": 20,
+          "min": 16,
+          "max": 22
+        },
+        "reaOperations": {
+          "mean": 3.6666666666666665,
+          "min": 3,
+          "max": 4
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 2,
+          "within5Rate": 0.05555555555555555,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 312.9627777777778,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 5,
+          "within5Rate": 0.06944444444444445,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 284.2939583333333,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 9,
+          "within5Rate": 0.125,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 293.0885416666667,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "cell": "cell-007",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.39453125,
+          "within5": 0.3984375,
+          "dropExact": 100,
+          "dropWithin5": 60.15625,
+          "deliveredExact": 0.41015625,
+          "deliveredWithin5": 0.41015625,
+          "requests": 20,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-012",
+          "validPredictor": true,
+          "exact": 0.0703125,
+          "within1": 0.11328125,
+          "within5": 0.34765625,
+          "dropExact": 92.96875,
+          "dropWithin5": 65.234375,
+          "deliveredExact": 0.9140625,
+          "deliveredWithin5": 0.9140625,
+          "requests": 16,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-013",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.07421875,
+          "within5": 0.30078125,
+          "dropExact": 100,
+          "dropWithin5": 69.921875,
+          "deliveredExact": 0.83984375,
+          "deliveredWithin5": 0.83984375,
+          "requests": 21,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-014",
+          "validPredictor": true,
+          "exact": 0.1171875,
+          "within1": 0.19140625,
+          "within5": 0.53125,
+          "dropExact": 88.28125,
+          "dropWithin5": 46.875,
+          "deliveredExact": 0.734375,
+          "deliveredWithin5": 0.734375,
+          "requests": 22,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-032",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.02734375,
+          "within5": 0.234375,
+          "dropExact": 100,
+          "dropWithin5": 76.5625,
+          "deliveredExact": 0.33984375,
+          "deliveredWithin5": 0.33984375,
+          "requests": 20,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-033",
+          "validPredictor": true,
+          "exact": 0.20703125,
+          "within1": 0.26953125,
+          "within5": 0.56640625,
+          "dropExact": 79.296875,
+          "dropWithin5": 43.359375,
+          "deliveredExact": 0.93359375,
+          "deliveredWithin5": 0.93359375,
+          "requests": 21,
+          "reaOperations": 4
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "policy": "round100-limit8",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.21549479166666666,
+          "min": 0,
+          "max": 0.4375
+        },
+        "within1": {
+          "mean": 0.4700520833333333,
+          "min": 0.296875,
+          "max": 0.9375
+        },
+        "within5": {
+          "mean": 0.6796875,
+          "min": 0.421875,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 78.45052083333333,
+          "min": 56.25,
+          "max": 100
+        },
+        "dropWithin5": {
+          "mean": 32.03125,
+          "min": 0,
+          "max": 57.8125
+        },
+        "deliveredExact": {
+          "mean": 0.5572916666666666,
+          "min": 0.3984375,
+          "max": 0.94921875
+        },
+        "deliveredWithin5": {
+          "mean": 0.6640625,
+          "min": 0.421875,
+          "max": 0.95703125
+        },
+        "requests": {
+          "mean": 24.666666666666668,
+          "min": 20,
+          "max": 28
+        },
+        "reaOperations": {
+          "mean": 4.166666666666667,
+          "min": 3,
+          "max": 5
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 33,
+          "within5Rate": 0.9166666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.255555555555556,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 44,
+          "within5Rate": 0.6111111111111112,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.629791666666666,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 43,
+          "within5Rate": 0.5972222222222222,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 21.270625,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-05",
+          "cell": "cell-016",
+          "validPredictor": true,
+          "exact": 0.1171875,
+          "within1": 0.296875,
+          "within5": 0.7109375,
+          "dropExact": 88.28125,
+          "dropWithin5": 28.90625,
+          "deliveredExact": 0.3984375,
+          "deliveredWithin5": 0.73046875,
+          "requests": 27,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-018",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.4296875,
+          "within5": 0.97265625,
+          "dropExact": 100,
+          "dropWithin5": 2.734375,
+          "deliveredExact": 0.71484375,
+          "deliveredWithin5": 0.87109375,
+          "requests": 26,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-025",
+          "validPredictor": true,
+          "exact": 0.4375,
+          "within1": 0.4375,
+          "within5": 0.4375,
+          "dropExact": 56.25,
+          "dropWithin5": 56.25,
+          "deliveredExact": 0.4375,
+          "deliveredWithin5": 0.4375,
+          "requests": 20,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-026",
+          "validPredictor": true,
+          "exact": 0.19140625,
+          "within1": 0.9375,
+          "within5": 1,
+          "dropExact": 80.859375,
+          "dropWithin5": 0,
+          "deliveredExact": 0.94921875,
+          "deliveredWithin5": 0.95703125,
+          "requests": 28,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-039",
+          "validPredictor": true,
+          "exact": 0.125,
+          "within1": 0.296875,
+          "within5": 0.53515625,
+          "dropExact": 87.5,
+          "dropWithin5": 46.484375,
+          "deliveredExact": 0.421875,
+          "deliveredWithin5": 0.56640625,
+          "requests": 26,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-042",
+          "validPredictor": true,
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "dropExact": 57.8125,
+          "dropWithin5": 57.8125,
+          "deliveredExact": 0.421875,
+          "deliveredWithin5": 0.421875,
+          "requests": 21,
+          "reaOperations": 4
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "policy": "round100-catalogue16",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.2532552083333333,
+          "min": 0.1171875,
+          "max": 0.4296875
+        },
+        "within1": {
+          "mean": 0.8151041666666666,
+          "min": 0.5234375,
+          "max": 0.96875
+        },
+        "within5": {
+          "mean": 0.9680989583333334,
+          "min": 0.91796875,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 74.67447916666667,
+          "min": 57.03125,
+          "max": 88.28125
+        },
+        "dropWithin5": {
+          "mean": 3.1901041666666665,
+          "min": 0,
+          "max": 8.203125
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 31.833333333333332,
+          "min": 25,
+          "max": 35
+        },
+        "reaOperations": {
+          "mean": 3.8333333333333335,
+          "min": 3,
+          "max": 4
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 33,
+          "within5Rate": 0.9166666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.255555555555556,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 68,
+          "within5Rate": 0.9444444444444444,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 18.68,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 33,
+          "within5Rate": 0.9166666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.255555555555556,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "cell": "cell-001",
+          "validPredictor": true,
+          "exact": 0.19140625,
+          "within1": 0.875,
+          "within5": 1,
+          "dropExact": 80.859375,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 34,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-005",
+          "validPredictor": true,
+          "exact": 0.4296875,
+          "within1": 0.94921875,
+          "within5": 0.94921875,
+          "dropExact": 57.03125,
+          "dropWithin5": 5.078125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 34,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-009",
+          "validPredictor": true,
+          "exact": 0.1171875,
+          "within1": 0.94140625,
+          "within5": 0.97265625,
+          "dropExact": 88.28125,
+          "dropWithin5": 2.734375,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 35,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-011",
+          "validPredictor": true,
+          "exact": 0.25,
+          "within1": 0.5234375,
+          "within5": 1,
+          "dropExact": 75,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 25,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-015",
+          "validPredictor": true,
+          "exact": 0.125,
+          "within1": 0.6328125,
+          "within5": 0.91796875,
+          "dropExact": 87.5,
+          "dropWithin5": 8.203125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 33,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-030",
+          "validPredictor": true,
+          "exact": 0.40625,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "dropExact": 59.375,
+          "dropWithin5": 3.125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 30,
+          "reaOperations": 4
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "policy": "approved-only",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.076171875,
+          "min": 0,
+          "max": 0.25
+        },
+        "within1": {
+          "mean": 0.09505208333333333,
+          "min": 0.015625,
+          "max": 0.2578125
+        },
+        "within5": {
+          "mean": 0.18294270833333334,
+          "min": 0.07421875,
+          "max": 0.2890625
+        },
+        "dropExact": {
+          "mean": 92.3828125,
+          "min": 75,
+          "max": 100
+        },
+        "dropWithin5": {
+          "mean": 81.70572916666667,
+          "min": 71.09375,
+          "max": 92.578125
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 20.333333333333332,
+          "min": 16,
+          "max": 24
+        },
+        "reaOperations": {
+          "mean": 3,
+          "min": 3,
+          "max": 3
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "cell": "cell-004",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.02734375,
+          "within5": 0.0859375,
+          "dropExact": 100,
+          "dropWithin5": 91.40625,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 22,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-019",
+          "validPredictor": true,
+          "exact": 0.20703125,
+          "within1": 0.20703125,
+          "within5": 0.2421875,
+          "dropExact": 79.296875,
+          "dropWithin5": 75.78125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 16,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-034",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.015625,
+          "within5": 0.125,
+          "dropExact": 100,
+          "dropWithin5": 87.5,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 20,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-035",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.01953125,
+          "within5": 0.07421875,
+          "dropExact": 100,
+          "dropWithin5": 92.578125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 18,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-036",
+          "validPredictor": true,
+          "exact": 0.25,
+          "within1": 0.2578125,
+          "within5": 0.28125,
+          "dropExact": 75,
+          "dropWithin5": 71.875,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 22,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-041",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.04296875,
+          "within5": 0.2890625,
+          "dropExact": 100,
+          "dropWithin5": 71.09375,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 24,
+          "reaOperations": 3
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "exact",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "within1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "within5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "dropWithin5": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 192,
+          "min": 192,
+          "max": 192
+        },
+        "reaOperations": {
+          "mean": 15.666666666666666,
+          "min": 14,
+          "max": 17
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 36,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 72,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 72,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 36,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "cell": "cell-003",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 16
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-022",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 14
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-024",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 15
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-028",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 15
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-031",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 17
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-040",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 17
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "limit8",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.5436197916666666,
+          "min": 0.33203125,
+          "max": 0.83984375
+        },
+        "within1": {
+          "mean": 0.5514322916666666,
+          "min": 0.33984375,
+          "max": 0.83984375
+        },
+        "within5": {
+          "mean": 0.599609375,
+          "min": 0.37890625,
+          "max": 0.83984375
+        },
+        "dropExact": {
+          "mean": 45.638020833333336,
+          "min": 16.015625,
+          "max": 66.796875
+        },
+        "dropWithin5": {
+          "mean": 40.0390625,
+          "min": 16.015625,
+          "max": 62.109375
+        },
+        "deliveredExact": {
+          "mean": 0.5436197916666666,
+          "min": 0.33203125,
+          "max": 0.83984375
+        },
+        "deliveredWithin5": {
+          "mean": 0.599609375,
+          "min": 0.37890625,
+          "max": 0.83984375
+        },
+        "requests": {
+          "mean": 22.333333333333332,
+          "min": 18,
+          "max": 32
+        },
+        "reaOperations": {
+          "mean": 4.5,
+          "min": 4,
+          "max": 5
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 36,
+          "within5Rate": 1,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": true,
+          "targetPasses": 6,
+          "passesCriterion": true
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 48,
+          "within5Rate": 0.6666666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 48,
+          "within5Rate": 0.6666666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 0,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-06",
+          "cell": "cell-008",
+          "validPredictor": true,
+          "exact": 0.33203125,
+          "within1": 0.33984375,
+          "within5": 0.37890625,
+          "dropExact": 66.796875,
+          "dropWithin5": 62.109375,
+          "deliveredExact": 0.33203125,
+          "deliveredWithin5": 0.37890625,
+          "requests": 20,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-010",
+          "validPredictor": true,
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "dropExact": 57.8125,
+          "dropWithin5": 57.8125,
+          "deliveredExact": 0.421875,
+          "deliveredWithin5": 0.421875,
+          "requests": 23,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-017",
+          "validPredictor": true,
+          "exact": 0.6328125,
+          "within1": 0.6640625,
+          "within5": 0.8203125,
+          "dropExact": 36.71875,
+          "dropWithin5": 17.96875,
+          "deliveredExact": 0.6328125,
+          "deliveredWithin5": 0.8203125,
+          "requests": 18,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-020",
+          "validPredictor": true,
+          "exact": 0.53125,
+          "within1": 0.53125,
+          "within5": 0.53125,
+          "dropExact": 46.875,
+          "dropWithin5": 46.875,
+          "deliveredExact": 0.53125,
+          "deliveredWithin5": 0.53125,
+          "requests": 21,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-029",
+          "validPredictor": true,
+          "exact": 0.83984375,
+          "within1": 0.83984375,
+          "within5": 0.83984375,
+          "dropExact": 16.015625,
+          "dropWithin5": 16.015625,
+          "deliveredExact": 0.83984375,
+          "deliveredWithin5": 0.83984375,
+          "requests": 32,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-037",
+          "validPredictor": true,
+          "exact": 0.50390625,
+          "within1": 0.51171875,
+          "within5": 0.60546875,
+          "dropExact": 49.609375,
+          "dropWithin5": 39.453125,
+          "deliveredExact": 0.50390625,
+          "deliveredWithin5": 0.60546875,
+          "requests": 20,
+          "reaOperations": 4
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "round1000",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.3118489583333333,
+          "min": 0.00390625,
+          "max": 1
+        },
+        "within1": {
+          "mean": 0.7330729166666666,
+          "min": 0.32421875,
+          "max": 1
+        },
+        "within5": {
+          "mean": 0.8821614583333334,
+          "min": 0.59375,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 68.81510416666667,
+          "min": 0,
+          "max": 99.609375
+        },
+        "dropWithin5": {
+          "mean": 11.783854166666666,
+          "min": 0,
+          "max": 40.625
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 192,
+          "min": 192,
+          "max": 192
+        },
+        "reaOperations": {
+          "mean": 18.333333333333332,
+          "min": 16,
+          "max": 25
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 2,
+          "within5Rate": 0.05555555555555555,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 312.9627777777778,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 9,
+          "within5Rate": 0.125,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 291.79805555555555,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 22,
+          "within5Rate": 0.3055555555555556,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 261.92833333333334,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 2,
+          "within5Rate": 0.05555555555555555,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 312.9627777777778,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "cell": "cell-002",
+          "validPredictor": true,
+          "exact": 0.19140625,
+          "within1": 0.6171875,
+          "within5": 1,
+          "dropExact": 80.859375,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 16
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-006",
+          "validPredictor": true,
+          "exact": 0.24609375,
+          "within1": 0.32421875,
+          "within5": 0.59375,
+          "dropExact": 75.390625,
+          "dropWithin5": 40.625,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 16
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-021",
+          "validPredictor": true,
+          "exact": 0.30859375,
+          "within1": 0.9765625,
+          "within5": 0.9921875,
+          "dropExact": 69.140625,
+          "dropWithin5": 0.78125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 18
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-023",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 0,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 17
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-027",
+          "validPredictor": true,
+          "exact": 0.00390625,
+          "within1": 0.48046875,
+          "within5": 0.70703125,
+          "dropExact": 99.609375,
+          "dropWithin5": 29.296875,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 18
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-038",
+          "validPredictor": true,
+          "exact": 0.12109375,
+          "within1": 1,
+          "within5": 1,
+          "dropExact": 87.890625,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 192,
+          "reaOperations": 25
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "round1000-limit8",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.06575520833333333,
+          "min": 0,
+          "max": 0.20703125
+        },
+        "within1": {
+          "mean": 0.17838541666666666,
+          "min": 0.02734375,
+          "max": 0.39453125
+        },
+        "within5": {
+          "mean": 0.396484375,
+          "min": 0.234375,
+          "max": 0.56640625
+        },
+        "dropExact": {
+          "mean": 93.42447916666667,
+          "min": 79.296875,
+          "max": 100
+        },
+        "dropWithin5": {
+          "mean": 60.3515625,
+          "min": 43.359375,
+          "max": 76.5625
+        },
+        "deliveredExact": {
+          "mean": 0.6953125,
+          "min": 0.33984375,
+          "max": 0.93359375
+        },
+        "deliveredWithin5": {
+          "mean": 0.6953125,
+          "min": 0.33984375,
+          "max": 0.93359375
+        },
+        "requests": {
+          "mean": 20.833333333333332,
+          "min": 16,
+          "max": 23
+        },
+        "reaOperations": {
+          "mean": 4.333333333333333,
+          "min": 3,
+          "max": 5
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 2,
+          "within5Rate": 0.05555555555555555,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 312.9627777777778,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 5,
+          "within5Rate": 0.06944444444444445,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 284.2939583333333,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 9,
+          "within5Rate": 0.125,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 293.0885416666667,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "cell": "cell-007",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.39453125,
+          "within5": 0.3984375,
+          "dropExact": 100,
+          "dropWithin5": 60.15625,
+          "deliveredExact": 0.41015625,
+          "deliveredWithin5": 0.41015625,
+          "requests": 20,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-012",
+          "validPredictor": true,
+          "exact": 0.0703125,
+          "within1": 0.11328125,
+          "within5": 0.34765625,
+          "dropExact": 92.96875,
+          "dropWithin5": 65.234375,
+          "deliveredExact": 0.9140625,
+          "deliveredWithin5": 0.9140625,
+          "requests": 16,
+          "reaOperations": 3
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-013",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.07421875,
+          "within5": 0.30078125,
+          "dropExact": 100,
+          "dropWithin5": 69.921875,
+          "deliveredExact": 0.83984375,
+          "deliveredWithin5": 0.83984375,
+          "requests": 23,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-014",
+          "validPredictor": true,
+          "exact": 0.1171875,
+          "within1": 0.19140625,
+          "within5": 0.53125,
+          "dropExact": 88.28125,
+          "dropWithin5": 46.875,
+          "deliveredExact": 0.734375,
+          "deliveredWithin5": 0.734375,
+          "requests": 23,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-032",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.02734375,
+          "within5": 0.234375,
+          "dropExact": 100,
+          "dropWithin5": 76.5625,
+          "deliveredExact": 0.33984375,
+          "deliveredWithin5": 0.33984375,
+          "requests": 21,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-033",
+          "validPredictor": true,
+          "exact": 0.20703125,
+          "within1": 0.26953125,
+          "within5": 0.56640625,
+          "dropExact": 79.296875,
+          "dropWithin5": 43.359375,
+          "deliveredExact": 0.93359375,
+          "deliveredWithin5": 0.93359375,
+          "requests": 22,
+          "reaOperations": 5
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "round100-limit8",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.21549479166666666,
+          "min": 0,
+          "max": 0.4375
+        },
+        "within1": {
+          "mean": 0.4700520833333333,
+          "min": 0.296875,
+          "max": 0.9375
+        },
+        "within5": {
+          "mean": 0.6796875,
+          "min": 0.421875,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 78.45052083333333,
+          "min": 56.25,
+          "max": 100
+        },
+        "dropWithin5": {
+          "mean": 32.03125,
+          "min": 0,
+          "max": 57.8125
+        },
+        "deliveredExact": {
+          "mean": 0.5572916666666666,
+          "min": 0.3984375,
+          "max": 0.94921875
+        },
+        "deliveredWithin5": {
+          "mean": 0.6640625,
+          "min": 0.421875,
+          "max": 0.95703125
+        },
+        "requests": {
+          "mean": 26.333333333333332,
+          "min": 21,
+          "max": 30
+        },
+        "reaOperations": {
+          "mean": 4.666666666666667,
+          "min": 4,
+          "max": 6
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 33,
+          "within5Rate": 0.9166666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.255555555555556,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 44,
+          "within5Rate": 0.6111111111111112,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.629791666666666,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 48,
+          "servedRate": 0.6666666666666666,
+          "within5": 43,
+          "within5Rate": 0.5972222222222222,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 21.270625,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-05",
+          "cell": "cell-016",
+          "validPredictor": true,
+          "exact": 0.1171875,
+          "within1": 0.296875,
+          "within5": 0.7109375,
+          "dropExact": 88.28125,
+          "dropWithin5": 28.90625,
+          "deliveredExact": 0.3984375,
+          "deliveredWithin5": 0.73046875,
+          "requests": 30,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-018",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.4296875,
+          "within5": 0.97265625,
+          "dropExact": 100,
+          "dropWithin5": 2.734375,
+          "deliveredExact": 0.71484375,
+          "deliveredWithin5": 0.87109375,
+          "requests": 26,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-025",
+          "validPredictor": true,
+          "exact": 0.4375,
+          "within1": 0.4375,
+          "within5": 0.4375,
+          "dropExact": 56.25,
+          "dropWithin5": 56.25,
+          "deliveredExact": 0.4375,
+          "deliveredWithin5": 0.4375,
+          "requests": 24,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-026",
+          "validPredictor": true,
+          "exact": 0.19140625,
+          "within1": 0.9375,
+          "within5": 1,
+          "dropExact": 80.859375,
+          "dropWithin5": 0,
+          "deliveredExact": 0.94921875,
+          "deliveredWithin5": 0.95703125,
+          "requests": 28,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-039",
+          "validPredictor": true,
+          "exact": 0.125,
+          "within1": 0.296875,
+          "within5": 0.53515625,
+          "dropExact": 87.5,
+          "dropWithin5": 46.484375,
+          "deliveredExact": 0.421875,
+          "deliveredWithin5": 0.56640625,
+          "requests": 29,
+          "reaOperations": 6
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-042",
+          "validPredictor": true,
+          "exact": 0.421875,
+          "within1": 0.421875,
+          "within5": 0.421875,
+          "dropExact": 57.8125,
+          "dropWithin5": 57.8125,
+          "deliveredExact": 0.421875,
+          "deliveredWithin5": 0.421875,
+          "requests": 21,
+          "reaOperations": 4
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "round100-catalogue16",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.2532552083333333,
+          "min": 0.1171875,
+          "max": 0.4296875
+        },
+        "within1": {
+          "mean": 0.8151041666666666,
+          "min": 0.5234375,
+          "max": 0.96875
+        },
+        "within5": {
+          "mean": 0.9680989583333334,
+          "min": 0.91796875,
+          "max": 1
+        },
+        "dropExact": {
+          "mean": 74.67447916666667,
+          "min": 57.03125,
+          "max": 88.28125
+        },
+        "dropWithin5": {
+          "mean": 3.1901041666666665,
+          "min": 0,
+          "max": 8.203125
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 47.833333333333336,
+          "min": 39,
+          "max": 57
+        },
+        "reaOperations": {
+          "mean": 5.166666666666667,
+          "min": 5,
+          "max": 6
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 33,
+          "within5Rate": 0.9166666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.255555555555556,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 72,
+          "servedRate": 1,
+          "within5": 68,
+          "within5Rate": 0.9444444444444444,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 18.68,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 36,
+          "servedRate": 1,
+          "within5": 33,
+          "within5Rate": 0.9166666666666666,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": 16.255555555555556,
+          "pooledPassesCriterion": false,
+          "targetPasses": 4,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "cell": "cell-001",
+          "validPredictor": true,
+          "exact": 0.19140625,
+          "within1": 0.875,
+          "within5": 1,
+          "dropExact": 80.859375,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 39,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-01",
+          "cell": "cell-005",
+          "validPredictor": true,
+          "exact": 0.4296875,
+          "within1": 0.94921875,
+          "within5": 0.94921875,
+          "dropExact": 57.03125,
+          "dropWithin5": 5.078125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 50,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-009",
+          "validPredictor": true,
+          "exact": 0.1171875,
+          "within1": 0.94140625,
+          "within5": 0.97265625,
+          "dropExact": 88.28125,
+          "dropWithin5": 2.734375,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 46,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-011",
+          "validPredictor": true,
+          "exact": 0.25,
+          "within1": 0.5234375,
+          "within5": 1,
+          "dropExact": 75,
+          "dropWithin5": 0,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 57,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-015",
+          "validPredictor": true,
+          "exact": 0.125,
+          "within1": 0.6328125,
+          "within5": 0.91796875,
+          "dropExact": 87.5,
+          "dropWithin5": 8.203125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 49,
+          "reaOperations": 5
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-030",
+          "validPredictor": true,
+          "exact": 0.40625,
+          "within1": 0.96875,
+          "within5": 0.96875,
+          "dropExact": 59.375,
+          "dropWithin5": 3.125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 46,
+          "reaOperations": 6
+        }
+      ]
+    },
+    {
+      "budget": 192,
+      "policy": "approved-only",
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.076171875,
+          "min": 0,
+          "max": 0.25
+        },
+        "within1": {
+          "mean": 0.09505208333333333,
+          "min": 0.015625,
+          "max": 0.2578125
+        },
+        "within5": {
+          "mean": 0.18294270833333334,
+          "min": 0.07421875,
+          "max": 0.2890625
+        },
+        "dropExact": {
+          "mean": 92.3828125,
+          "min": 75,
+          "max": 100
+        },
+        "dropWithin5": {
+          "mean": 81.70572916666667,
+          "min": 71.09375,
+          "max": 92.578125
+        },
+        "deliveredExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "deliveredWithin5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "requests": {
+          "mean": 32,
+          "min": 30,
+          "max": 34
+        },
+        "reaOperations": {
+          "mean": 4,
+          "min": 4,
+          "max": 4
+        }
+      },
+      "utility": {
+        "short": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "planning": {
+          "estimateActions": 72,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "freeform": {
+          "estimateActions": 72,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        },
+        "afterExhaustion": {
+          "estimateActions": 36,
+          "served": 0,
+          "servedRate": 0,
+          "within5": 0,
+          "within5Rate": 0,
+          "exactActions": 24,
+          "exactCorrect": 24,
+          "exactCorrectRate": 1,
+          "meanErrorGBPAmongServed": null,
+          "pooledPassesCriterion": false,
+          "targetPasses": 0,
+          "passesCriterion": false
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "cell": "cell-004",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.02734375,
+          "within5": 0.0859375,
+          "dropExact": 100,
+          "dropWithin5": 91.40625,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 30,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-04",
+          "cell": "cell-019",
+          "validPredictor": true,
+          "exact": 0.20703125,
+          "within1": 0.20703125,
+          "within5": 0.2421875,
+          "dropExact": 79.296875,
+          "dropWithin5": 75.78125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 30,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-02",
+          "cell": "cell-034",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.015625,
+          "within5": 0.125,
+          "dropExact": 100,
+          "dropWithin5": 87.5,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 32,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-05",
+          "cell": "cell-035",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.01953125,
+          "within5": 0.07421875,
+          "dropExact": 100,
+          "dropWithin5": 92.578125,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 34,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-03",
+          "cell": "cell-036",
+          "validPredictor": true,
+          "exact": 0.25,
+          "within1": 0.2578125,
+          "within5": 0.28125,
+          "dropExact": 75,
+          "dropWithin5": 71.875,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 34,
+          "reaOperations": 4
+        },
+        {
+          "target": "target-06",
+          "cell": "cell-041",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.04296875,
+          "within5": 0.2890625,
+          "dropExact": 100,
+          "dropWithin5": 71.09375,
+          "deliveredExact": 1,
+          "deliveredWithin5": 1,
+          "requests": 32,
+          "reaOperations": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:42:09.976Z",
+  "endedAt": "2026-10-19T10:46:04.046Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 234035
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 210,
+        "constant": 95862,
+        "linear": 166,
+        "quadratic": 0
+      },
+      {
+        "from": 512,
+        "constant": 151050,
+        "linear": 58,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported reconstruction for integer quantities 1..1000, in GBP pence: continuous piecewise-linear pricing with marginal increments of 391, 166, and 58 pence. Matches all 96 successful responses across 94 distinct quantities exactly, including the approved results at 50 and 200. Every response reported roundingCents=0. Transitions were checked directly at 208/209/210 and 510/511/512. Adaptive gap-filling probes found no deviations or evidence requiring quadratic terms or additional bands; the largest spacing between sampled quantities was 18. Used 96 business requests and 9 REA operations, including inspection. Confidence is high, but unqueried quantities remain predictions: narrow exceptions between sampled points cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 120518,
+    "inputTokens": 115077,
+    "cachedInputTokens": 89728,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5441,
+    "reasoningOutputTokens": 2977
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 9
+}

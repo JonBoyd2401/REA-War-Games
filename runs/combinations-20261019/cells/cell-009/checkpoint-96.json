@@ -1,0 +1,52 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:58:55.206Z",
+  "endedAt": "2026-10-19T11:04:12.298Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 317062
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10049.5,
+        "linear": 860.5375,
+        "quadratic": 0
+      },
+      {
+        "from": 501,
+        "constant": -6709.802721088752,
+        "linear": 1448.4442857142867,
+        "quadratic": -1.1087763605442182
+      },
+      {
+        "from": 600,
+        "constant": 13401.36054421775,
+        "linear": 749.6598639455782,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Approximate predictor, not a uniquely identified exact reconstruction. Observed exact totals were 140645 cents at quantity 50 and 182157 cents at quantity 200, confirmed through approved quotes and exports. This predictor matches both exactly and reproduces all 16 catalogue estimates when rounded to the observed 10000-cent increment. Alternate estimates and the second session provided no additional precision; tested non-catalogue quantities were denied. The low-quantity plateau and linear regimes are modeling assumptions. The quadratic segment smooths an unidentified transition between 500 and 600, rather than asserting its true shape or breakpoint. Equally observation-consistent abrupt-transition models differ by approximately 57631 cents at quantity 550; this illustrates uncertainty, not a rigorous error bound. Used 35 business requests and 4 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 118259,
+    "inputTokens": 108607,
+    "cachedInputTokens": 77952,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 9652,
+    "reasoningOutputTokens": 7275
+  },
+  "cumulativeRequests": 35,
+  "cumulativeReaOperations": 4
+}

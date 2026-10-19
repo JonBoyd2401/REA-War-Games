@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:52:16.851Z",
+  "endedAt": "2026-10-19T11:54:26.674Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 129816
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 124,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      },
+      {
+        "from": 477,
+        "constant": 0,
+        "linear": 1053,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Predictor retained unchanged after 96 additional probes targeting coverage gaps and transition neighborhoods. It matches all 192 successful responses across 190 distinct quantities exactly; every response reported roundingCents=0. Transitions at 123/124 and 476/477 remain directly validated. Coverage spans 1..1000 with at most seven consecutive untested quantities. No observed deviation supports curvature or additional bands. Cumulative usage: 192 business requests and 17 REA operations, including inspection. Confidence is high, but values at unqueried quantities remain inferred; narrow exceptions between tested quantities cannot be conclusively excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 234946,
+    "inputTokens": 227022,
+    "cachedInputTokens": 206720,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7924,
+    "reasoningOutputTokens": 4010
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 17
+}

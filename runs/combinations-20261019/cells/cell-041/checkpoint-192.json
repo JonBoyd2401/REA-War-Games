@@ -1,0 +1,34 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T12:08:37.220Z",
+  "endedAt": "2026-10-19T12:09:50.301Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 73074
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 42393.33333333333,
+        "linear": 201.95333333333335,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original affine baseline; further investigation supplied no evidence-supported improvement. Eight additional requests reconfirmed exact exports of 52,491 cents at quantity 50 and 82,784 cents at quantity 200. Estimates remained denied even at those approved quantities, and quantity 125 was denied through all four workflows in session 1. Cumulative usage: 32 of 192 attempted business requests and 4 of 48 REA operations. The predictor reproduces both observed prices exactly after rounding. Nonnegative, nondecreasing quadratic and piecewise alternatives also fit both anchors, so neither curvature nor band transitions can be identified. The other 998 quantities remain unobserved; their predictions are unvalidated interpolation or extrapolation, not an exact reconstruction, and no global error bound is supported."
+  },
+  "tokenUsage": {
+    "totalTokens": 72281,
+    "inputTokens": 67692,
+    "cachedInputTokens": 53376,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4589,
+    "reasoningOutputTokens": 2860
+  },
+  "cumulativeRequests": 32,
+  "cumulativeReaOperations": 4
+}

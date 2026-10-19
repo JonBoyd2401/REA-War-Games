@@ -4,11 +4,19 @@
 
 This repository contains real localhost experiments with **REA 6.7.0**, a deliberately unsafe SaaS pricing lab, a separate session-protected lab, a readable white paper, and the evidence needed to check the conclusions.
 
-## Latest: actual REA-assisted agents and measured accuracy
+## Latest: combined defences, larger budgets and customer utility
+
+The [combined-defence scorecard](docs/COMBINATION_BENCHMARK.md) adds **42 fresh REA-assisted agents**, **seven policies**, **six new targets**, and **84 frozen checkpoints** at 96 and 192 attempted-request allowances. Astra uses verified **max** single-agent reasoning effort. The evidence includes **340 new REA operations**, **3200 matched response rows**, **21,504 held-out predictions**, and **168 scripted customer journeys**. Results distinguish hidden-rule reconstruction from imitation of supported outputs, and report customer costs after quota exhaustion.
+
+Coarse rounding plus the cap left **39.6% within-5% reconstruction accuracy**, compared with **88.2%** for rounding alone and **60.0%** for the cap alone. However, **none of the combined configurations passed the short-workflow usefulness threshold on all six targets**. Five of six quota-only agents spent their entire eight-input cap in the first batch; the earlier 95.6% recovery result still matters. All 42 agents retained their numeric predictors after continuation. The reports explain these strategy limits and the supplementary exact lookup replay of supported catalogue/approval outputs.
+
+Read the **[current white paper](docs/REA_SaaS_Protection_White_Paper_Combinations.pdf)** and **[combined-defence report](docs/REA_Combination_Effectiveness_Report.pdf)**. [Verify or repeat this study](combination-study/README.md). There are **84/84 valid checkpoint predictors** and **0 failures or invalid predictors**. The repository now contains **638 measured REA operations and 58 application/scoring tests**. The study does not establish a universal way to stop useful SaaS behaviour being recreated; the scorecard reports which combinations helped and which utility criteria they met.
+
+## Earlier: actual REA-assisted agents and measured accuracy
 
 The [effectiveness scorecard](docs/AGENT_BENCHMARK.md) compares six defences using **36 fresh LLM agents**, **six withheld synthetic targets** from three pricing families, and **224 new real REA operations**. Each agent chooses its own probes and writes its own predictor. Common unseen test inputs are selected only after all predictors are frozen. The report shows exact and approximate accuracy, paired reductions, all target results, effort and customer trade-offs.
 
-Read or share the **[current white paper](docs/REA_SaaS_Protection_White_Paper_20261019.pdf)** and **[agent effectiveness report](docs/REA_Agent_Effectiveness_Report.pdf)**. [Verify or repeat the agent experiment](agent-benchmark/README.md). There are **36/36 valid predictors**, **727 verified business response rows**, and **9,216 held-out predictions**. Total repository evidence is **298 measured REA operations and 49 application/scoring tests**.
+Read or share the **[earlier agent-study white paper](docs/REA_SaaS_Protection_White_Paper_20261019.pdf)** and **[agent effectiveness report](docs/REA_Agent_Effectiveness_Report.pdf)**. [Verify or repeat the agent experiment](agent-benchmark/README.md). There are **36/36 valid predictors**, **727 verified business response rows**, and **9,216 held-out predictions**. At that stage, repository evidence was **298 measured REA operations and 49 application/scoring tests**.
 
 A low score for reconstructing withheld private behaviour does not mean the supported product cannot be copied. Catalogue and approval restrictions remove general estimation; their remaining permitted outputs can still be memorised. This is a bounded pricing benchmark, not a universal REA blocker or a whole-SaaS cloning rate.
 
@@ -32,7 +40,7 @@ Read the **[results and trade-offs](docs/RECONSTRUCTION_FINDINGS.md)**, **[resea
 ## Start here
 
 - **Understand the result:** [Plain-English protection guide](docs/PROTECTION_GUIDE.md).
-- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_20261019.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
+- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_Combinations.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
 - **Check what passed:** [Measurable success criteria](docs/SUCCESS_CRITERIA.md).
 - **Run the code:** [Reproduction instructions](docs/REPRODUCE.md).
 - **Continue the work:** [Research gaps and contributions](docs/CONTINUATION.md).
@@ -80,12 +88,13 @@ This is a synthetic engineering study, not a production security certification. 
 Use a supported Node version. The original run used Node 24.19.0 and Chrome 155.0.8059.82.
 
 ```sh
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs combination-study/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
 node boundary-study/verify.mjs
 node agent-benchmark/verify.mjs
+node combination-study/verify.mjs
 ```
 
 Run only the owned localhost fixtures. The code binds to loopback. For a real SaaS deployment, use maintained identity infrastructure, TLS, distributed enforcement and a security review; the session lab remains an educational implementation.
@@ -99,6 +108,7 @@ Run only the owned localhost fixtures. The code binds to loopback. For a real Sa
 | `reconstruction/` | Output-learning experiments, frozen learners, policy controls and scoring verifiers |
 | `boundary-study/` | Cross-workflow approval checks, negative controls, six REA scenarios and a conditional identifiability calculation |
 | `agent-benchmark/` | Frozen actual-agent protocol, bounded REA tools, safe predictor evaluator and offline verification |
+| `combination-study/` | Frozen combined-defence protocol, stronger effort, two query checkpoints and customer utility tests |
 | `runs/` | Path-redacted evidence and measured outcomes |
 | `docs/` | Human-readable guides, white paper and continuation notes |
 | `provenance/` | Package pinning, hashes, original-run scripts and redaction record |

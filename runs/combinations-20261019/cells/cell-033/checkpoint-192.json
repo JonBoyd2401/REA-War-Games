@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:54:47.538Z",
+  "endedAt": "2026-10-19T11:55:36.779Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 49236
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 387,
+        "constant": 200000,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the previous approximate predictor; no additional price evidence supports changing it. A targeted probe at quantity 5 through the alias workflow in session 2 returned 429, confirming that this route also remains blocked by the exhausted tenant estimate allowance despite the increased study budget. Cumulative use is 22 attempted business requests and 5 REA operations. This predictor matches the exact approved/exported totals at quantities 50 and 200 and every successful estimate at its 100000-cent rounding precision. The plateau and its start at 387 remain modeling choices, not observed rules. Competing curved and piecewise predictors fit the same observations, so exact reconstruction is not identifiable and no reliable error bound is established for unobserved quantities."
+  },
+  "tokenUsage": {
+    "totalTokens": 87420,
+    "inputTokens": 78784,
+    "cachedInputTokens": 67200,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8636,
+    "reasoningOutputTokens": 7174
+  },
+  "cumulativeRequests": 22,
+  "cumulativeReaOperations": 5
+}

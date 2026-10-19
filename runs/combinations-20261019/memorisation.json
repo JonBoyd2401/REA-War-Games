@@ -1,0 +1,2947 @@
+{
+  "analysis": "Supplementary offline replay added after protocol freeze; not an independent agent or held-out test. Only already observed supported numeric outputs are memorised; unknown inputs abstain. No new requests or fitted coefficients.",
+  "rows": [
+    {
+      "target": "target-04",
+      "policy": "round100-catalogue16",
+      "cell": "cell-001",
+      "budget": 96,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 60000,
+          "operation": "02",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 50,
+          "totalCents": 70000,
+          "operation": "02",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 80000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 100,
+          "totalCents": 90000,
+          "operation": "02",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 125,
+          "totalCents": 100000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 150,
+          "totalCents": 110000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 175,
+          "totalCents": 120000,
+          "operation": "02",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 200,
+          "totalCents": 130000,
+          "operation": "02",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 250,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 300,
+          "totalCents": 150000,
+          "operation": "03",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 400,
+          "totalCents": 160000,
+          "operation": "04",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 500,
+          "totalCents": 180000,
+          "operation": "02",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 600,
+          "totalCents": 190000,
+          "operation": "04",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 750,
+          "totalCents": 190000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 900,
+          "totalCents": 200000,
+          "operation": "02",
+          "rowIndex": 14
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 210000,
+          "operation": "04",
+          "rowIndex": 5
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 80000,
+          "rememberedCents": 80000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 90000,
+          "rememberedCents": 90000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 100000,
+          "rememberedCents": 100000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 110000,
+          "rememberedCents": 110000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 130000,
+          "rememberedCents": 130000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 150000,
+          "rememberedCents": 150000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 190000,
+          "rememberedCents": 190000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 190000,
+          "rememberedCents": 190000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 200000,
+          "rememberedCents": 200000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 210000,
+          "rememberedCents": 210000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-04",
+      "policy": "round100-catalogue16",
+      "cell": "cell-001",
+      "budget": 192,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 60000,
+          "operation": "02",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 50,
+          "totalCents": 70000,
+          "operation": "02",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 80000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 100,
+          "totalCents": 90000,
+          "operation": "02",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 125,
+          "totalCents": 100000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 150,
+          "totalCents": 110000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 175,
+          "totalCents": 120000,
+          "operation": "02",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 200,
+          "totalCents": 130000,
+          "operation": "02",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 250,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 300,
+          "totalCents": 150000,
+          "operation": "03",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 400,
+          "totalCents": 160000,
+          "operation": "04",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 500,
+          "totalCents": 180000,
+          "operation": "05",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 600,
+          "totalCents": 190000,
+          "operation": "04",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 750,
+          "totalCents": 190000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 900,
+          "totalCents": 200000,
+          "operation": "05",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 210000,
+          "operation": "04",
+          "rowIndex": 5
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 80000,
+          "rememberedCents": 80000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 90000,
+          "rememberedCents": 90000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 100000,
+          "rememberedCents": 100000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 110000,
+          "rememberedCents": 110000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 130000,
+          "rememberedCents": 130000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 150000,
+          "rememberedCents": 150000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 190000,
+          "rememberedCents": 190000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 190000,
+          "rememberedCents": 190000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 200000,
+          "rememberedCents": 200000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 210000,
+          "rememberedCents": 210000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-01",
+      "policy": "approved-only",
+      "cell": "cell-004",
+      "budget": 96,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 159900,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 373000,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 159900,
+          "rememberedCents": 159900,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 373000,
+          "rememberedCents": 373000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-01",
+      "policy": "approved-only",
+      "cell": "cell-004",
+      "budget": 192,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 159900,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 373000,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 159900,
+          "rememberedCents": 159900,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 373000,
+          "rememberedCents": 373000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-01",
+      "policy": "round100-catalogue16",
+      "cell": "cell-005",
+      "budget": 96,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 80000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 50,
+          "totalCents": 160000,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 75,
+          "totalCents": 240000,
+          "operation": "03",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 100,
+          "totalCents": 320000,
+          "operation": "03",
+          "rowIndex": 12
+        },
+        {
+          "quantity": 125,
+          "totalCents": 400000,
+          "operation": "03",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 150,
+          "totalCents": 480000,
+          "operation": "03",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 175,
+          "totalCents": 330000,
+          "operation": "03",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 200,
+          "totalCents": 370000,
+          "operation": "03",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 250,
+          "totalCents": 470000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 300,
+          "totalCents": 560000,
+          "operation": "03",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 400,
+          "totalCents": 750000,
+          "operation": "03",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 500,
+          "totalCents": 930000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 600,
+          "totalCents": 590000,
+          "operation": "03",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 750,
+          "totalCents": 740000,
+          "operation": "04",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 900,
+          "totalCents": 880000,
+          "operation": "03",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 980000,
+          "operation": "02",
+          "rowIndex": 6
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 80000,
+          "rememberedCents": 80000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 240000,
+          "rememberedCents": 240000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 320000,
+          "rememberedCents": 320000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 400000,
+          "rememberedCents": 400000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 480000,
+          "rememberedCents": 480000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 330000,
+          "rememberedCents": 330000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 370000,
+          "rememberedCents": 370000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 470000,
+          "rememberedCents": 470000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 560000,
+          "rememberedCents": 560000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 750000,
+          "rememberedCents": 750000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 930000,
+          "rememberedCents": 930000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 590000,
+          "rememberedCents": 590000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 740000,
+          "rememberedCents": 740000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 880000,
+          "rememberedCents": 880000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 980000,
+          "rememberedCents": 980000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-01",
+      "policy": "round100-catalogue16",
+      "cell": "cell-005",
+      "budget": 192,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 80000,
+          "operation": "05",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 50,
+          "totalCents": 160000,
+          "operation": "05",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 240000,
+          "operation": "05",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 100,
+          "totalCents": 320000,
+          "operation": "03",
+          "rowIndex": 12
+        },
+        {
+          "quantity": 125,
+          "totalCents": 400000,
+          "operation": "05",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 150,
+          "totalCents": 480000,
+          "operation": "05",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 175,
+          "totalCents": 330000,
+          "operation": "05",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 200,
+          "totalCents": 370000,
+          "operation": "05",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 250,
+          "totalCents": 470000,
+          "operation": "05",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 300,
+          "totalCents": 560000,
+          "operation": "05",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 400,
+          "totalCents": 750000,
+          "operation": "05",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 500,
+          "totalCents": 930000,
+          "operation": "05",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 600,
+          "totalCents": 590000,
+          "operation": "05",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 750,
+          "totalCents": 740000,
+          "operation": "04",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 900,
+          "totalCents": 880000,
+          "operation": "05",
+          "rowIndex": 12
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 980000,
+          "operation": "05",
+          "rowIndex": 13
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 80000,
+          "rememberedCents": 80000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 240000,
+          "rememberedCents": 240000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 320000,
+          "rememberedCents": 320000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 400000,
+          "rememberedCents": 400000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 480000,
+          "rememberedCents": 480000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 330000,
+          "rememberedCents": 330000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 370000,
+          "rememberedCents": 370000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 470000,
+          "rememberedCents": 470000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 560000,
+          "rememberedCents": 560000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 750000,
+          "rememberedCents": 750000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 930000,
+          "rememberedCents": 930000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 590000,
+          "rememberedCents": 590000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 740000,
+          "rememberedCents": 740000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 880000,
+          "rememberedCents": 880000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 980000,
+          "rememberedCents": 980000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-05",
+      "policy": "round100-catalogue16",
+      "cell": "cell-009",
+      "budget": 96,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 50,
+          "totalCents": 140000,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 75,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 100,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 125,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 150,
+          "totalCents": 140000,
+          "operation": "04",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 175,
+          "totalCents": 160000,
+          "operation": "02",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 200,
+          "totalCents": 180000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 250,
+          "totalCents": 230000,
+          "operation": "04",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 300,
+          "totalCents": 270000,
+          "operation": "02",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 400,
+          "totalCents": 350000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 500,
+          "totalCents": 440000,
+          "operation": "02",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 600,
+          "totalCents": 460000,
+          "operation": "04",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 750,
+          "totalCents": 580000,
+          "operation": "04",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 900,
+          "totalCents": 690000,
+          "operation": "02",
+          "rowIndex": 14
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 760000,
+          "operation": "04",
+          "rowIndex": 7
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 230000,
+          "rememberedCents": 230000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 270000,
+          "rememberedCents": 270000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 350000,
+          "rememberedCents": 350000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 440000,
+          "rememberedCents": 440000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 460000,
+          "rememberedCents": 460000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 580000,
+          "rememberedCents": 580000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 690000,
+          "rememberedCents": 690000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 760000,
+          "rememberedCents": 760000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-05",
+      "policy": "round100-catalogue16",
+      "cell": "cell-009",
+      "budget": 192,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 50,
+          "totalCents": 140000,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 75,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 100,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 125,
+          "totalCents": 140000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 150,
+          "totalCents": 140000,
+          "operation": "04",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 175,
+          "totalCents": 160000,
+          "operation": "05",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 200,
+          "totalCents": 180000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 250,
+          "totalCents": 230000,
+          "operation": "04",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 300,
+          "totalCents": 270000,
+          "operation": "02",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 400,
+          "totalCents": 350000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 500,
+          "totalCents": 440000,
+          "operation": "05",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 600,
+          "totalCents": 460000,
+          "operation": "04",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 750,
+          "totalCents": 580000,
+          "operation": "04",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 900,
+          "totalCents": 690000,
+          "operation": "05",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 760000,
+          "operation": "04",
+          "rowIndex": 7
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 230000,
+          "rememberedCents": 230000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 270000,
+          "rememberedCents": 270000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 350000,
+          "rememberedCents": 350000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 440000,
+          "rememberedCents": 440000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 460000,
+          "rememberedCents": 460000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 580000,
+          "rememberedCents": 580000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 690000,
+          "rememberedCents": 690000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 760000,
+          "rememberedCents": 760000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-03",
+      "policy": "round100-catalogue16",
+      "cell": "cell-011",
+      "budget": 96,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 40000,
+          "operation": "02",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 50,
+          "totalCents": 50000,
+          "operation": "02",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 60000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 100,
+          "totalCents": 70000,
+          "operation": "02",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 125,
+          "totalCents": 90000,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 150,
+          "totalCents": 100000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 175,
+          "totalCents": 110000,
+          "operation": "03",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 200,
+          "totalCents": 120000,
+          "operation": "03",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 250,
+          "totalCents": 150000,
+          "operation": "03",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 300,
+          "totalCents": 160000,
+          "operation": "02",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 400,
+          "totalCents": 170000,
+          "operation": "03",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 500,
+          "totalCents": 180000,
+          "operation": "02",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 600,
+          "totalCents": 190000,
+          "operation": "03",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 750,
+          "totalCents": 200000,
+          "operation": "02",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 900,
+          "totalCents": 210000,
+          "operation": "03",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 220000,
+          "operation": "02",
+          "rowIndex": 9
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 40000,
+          "rememberedCents": 40000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 90000,
+          "rememberedCents": 90000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 100000,
+          "rememberedCents": 100000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 110000,
+          "rememberedCents": 110000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 150000,
+          "rememberedCents": 150000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 170000,
+          "rememberedCents": 170000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 190000,
+          "rememberedCents": 190000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 200000,
+          "rememberedCents": 200000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 210000,
+          "rememberedCents": 210000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 220000,
+          "rememberedCents": 220000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-03",
+      "policy": "round100-catalogue16",
+      "cell": "cell-011",
+      "budget": 192,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 40000,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 50,
+          "totalCents": 50000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 60000,
+          "operation": "04",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 100,
+          "totalCents": 70000,
+          "operation": "04",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 125,
+          "totalCents": 90000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 150,
+          "totalCents": 100000,
+          "operation": "04",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 175,
+          "totalCents": 110000,
+          "operation": "04",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 200,
+          "totalCents": 120000,
+          "operation": "04",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 250,
+          "totalCents": 150000,
+          "operation": "04",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 300,
+          "totalCents": 160000,
+          "operation": "04",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 400,
+          "totalCents": 170000,
+          "operation": "04",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 500,
+          "totalCents": 180000,
+          "operation": "04",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 600,
+          "totalCents": 190000,
+          "operation": "04",
+          "rowIndex": 12
+        },
+        {
+          "quantity": 750,
+          "totalCents": 200000,
+          "operation": "04",
+          "rowIndex": 13
+        },
+        {
+          "quantity": 900,
+          "totalCents": 210000,
+          "operation": "04",
+          "rowIndex": 14
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 220000,
+          "operation": "04",
+          "rowIndex": 15
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 40000,
+          "rememberedCents": 40000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 90000,
+          "rememberedCents": 90000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 100000,
+          "rememberedCents": 100000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 110000,
+          "rememberedCents": 110000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 150000,
+          "rememberedCents": 150000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 160000,
+          "rememberedCents": 160000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 170000,
+          "rememberedCents": 170000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 190000,
+          "rememberedCents": 190000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 200000,
+          "rememberedCents": 200000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 210000,
+          "rememberedCents": 210000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 220000,
+          "rememberedCents": 220000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-06",
+      "policy": "round100-catalogue16",
+      "cell": "cell-015",
+      "budget": 96,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 50000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 50,
+          "totalCents": 50000,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 75,
+          "totalCents": 50000,
+          "operation": "03",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 100,
+          "totalCents": 50000,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 125,
+          "totalCents": 60000,
+          "operation": "03",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 150,
+          "totalCents": 70000,
+          "operation": "03",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 175,
+          "totalCents": 70000,
+          "operation": "03",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 200,
+          "totalCents": 80000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 250,
+          "totalCents": 100000,
+          "operation": "03",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 300,
+          "totalCents": 120000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 400,
+          "totalCents": 120000,
+          "operation": "03",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 500,
+          "totalCents": 140000,
+          "operation": "03",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 600,
+          "totalCents": 170000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 750,
+          "totalCents": 210000,
+          "operation": "03",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 900,
+          "totalCents": 250000,
+          "operation": "03",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 280000,
+          "operation": "04",
+          "rowIndex": 5
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 80000,
+          "rememberedCents": 80000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 100000,
+          "rememberedCents": 100000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 170000,
+          "rememberedCents": 170000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 210000,
+          "rememberedCents": 210000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 250000,
+          "rememberedCents": 250000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 280000,
+          "rememberedCents": 280000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-06",
+      "policy": "round100-catalogue16",
+      "cell": "cell-015",
+      "budget": 192,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 50000,
+          "operation": "05",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 50,
+          "totalCents": 50000,
+          "operation": "05",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 50000,
+          "operation": "03",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 100,
+          "totalCents": 50000,
+          "operation": "05",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 125,
+          "totalCents": 60000,
+          "operation": "05",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 150,
+          "totalCents": 70000,
+          "operation": "05",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 175,
+          "totalCents": 70000,
+          "operation": "05",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 200,
+          "totalCents": 80000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 250,
+          "totalCents": 100000,
+          "operation": "05",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 300,
+          "totalCents": 120000,
+          "operation": "04",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 400,
+          "totalCents": 120000,
+          "operation": "05",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 500,
+          "totalCents": 140000,
+          "operation": "05",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 600,
+          "totalCents": 170000,
+          "operation": "05",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 750,
+          "totalCents": 210000,
+          "operation": "05",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 900,
+          "totalCents": 250000,
+          "operation": "05",
+          "rowIndex": 11
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 280000,
+          "operation": "04",
+          "rowIndex": 5
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 50000,
+          "rememberedCents": 50000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 70000,
+          "rememberedCents": 70000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 80000,
+          "rememberedCents": 80000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 100000,
+          "rememberedCents": 100000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 140000,
+          "rememberedCents": 140000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 170000,
+          "rememberedCents": 170000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 210000,
+          "rememberedCents": 210000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 250000,
+          "rememberedCents": 250000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 280000,
+          "rememberedCents": 280000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-04",
+      "policy": "approved-only",
+      "cell": "cell-019",
+      "budget": 96,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 68387,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 127037,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 68387,
+          "rememberedCents": 68387,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 127037,
+          "rememberedCents": 127037,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-04",
+      "policy": "approved-only",
+      "cell": "cell-019",
+      "budget": 192,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 68387,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 127037,
+          "operation": "04",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 68387,
+          "rememberedCents": 68387,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 127037,
+          "rememberedCents": 127037,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-02",
+      "policy": "round100-catalogue16",
+      "cell": "cell-030",
+      "budget": 96,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 60000,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 50,
+          "totalCents": 120000,
+          "operation": "02",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 75,
+          "totalCents": 180000,
+          "operation": "02",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 100,
+          "totalCents": 240000,
+          "operation": "02",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 125,
+          "totalCents": 200000,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 150,
+          "totalCents": 240000,
+          "operation": "03",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 175,
+          "totalCents": 280000,
+          "operation": "03",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 200,
+          "totalCents": 320000,
+          "operation": "02",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 250,
+          "totalCents": 400000,
+          "operation": "03",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 300,
+          "totalCents": 480000,
+          "operation": "03",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 400,
+          "totalCents": 640000,
+          "operation": "02",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 500,
+          "totalCents": 530000,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 600,
+          "totalCents": 630000,
+          "operation": "02",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 750,
+          "totalCents": 790000,
+          "operation": "03",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 900,
+          "totalCents": 950000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 1050000,
+          "operation": "02",
+          "rowIndex": 8
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 240000,
+          "rememberedCents": 240000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 200000,
+          "rememberedCents": 200000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 240000,
+          "rememberedCents": 240000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 280000,
+          "rememberedCents": 280000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 320000,
+          "rememberedCents": 320000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 400000,
+          "rememberedCents": 400000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 480000,
+          "rememberedCents": 480000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 640000,
+          "rememberedCents": 640000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 530000,
+          "rememberedCents": 530000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 630000,
+          "rememberedCents": 630000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 790000,
+          "rememberedCents": 790000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 950000,
+          "rememberedCents": 950000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 1050000,
+          "rememberedCents": 1050000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-02",
+      "policy": "round100-catalogue16",
+      "cell": "cell-030",
+      "budget": 192,
+      "supportedInputs": 16,
+      "observedInputs": 16,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 25,
+          "totalCents": 60000,
+          "operation": "06",
+          "rowIndex": 13
+        },
+        {
+          "quantity": 50,
+          "totalCents": 120000,
+          "operation": "06",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 75,
+          "totalCents": 180000,
+          "operation": "02",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 100,
+          "totalCents": 240000,
+          "operation": "06",
+          "rowIndex": 14
+        },
+        {
+          "quantity": 125,
+          "totalCents": 200000,
+          "operation": "06",
+          "rowIndex": 3
+        },
+        {
+          "quantity": 150,
+          "totalCents": 240000,
+          "operation": "06",
+          "rowIndex": 4
+        },
+        {
+          "quantity": 175,
+          "totalCents": 280000,
+          "operation": "06",
+          "rowIndex": 5
+        },
+        {
+          "quantity": 200,
+          "totalCents": 320000,
+          "operation": "06",
+          "rowIndex": 6
+        },
+        {
+          "quantity": 250,
+          "totalCents": 400000,
+          "operation": "06",
+          "rowIndex": 7
+        },
+        {
+          "quantity": 300,
+          "totalCents": 480000,
+          "operation": "06",
+          "rowIndex": 8
+        },
+        {
+          "quantity": 400,
+          "totalCents": 640000,
+          "operation": "06",
+          "rowIndex": 9
+        },
+        {
+          "quantity": 500,
+          "totalCents": 530000,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 600,
+          "totalCents": 630000,
+          "operation": "06",
+          "rowIndex": 10
+        },
+        {
+          "quantity": 750,
+          "totalCents": 790000,
+          "operation": "06",
+          "rowIndex": 15
+        },
+        {
+          "quantity": 900,
+          "totalCents": 950000,
+          "operation": "04",
+          "rowIndex": 1
+        },
+        {
+          "quantity": 1000,
+          "totalCents": 1050000,
+          "operation": "06",
+          "rowIndex": 12
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 25,
+          "actualCents": 60000,
+          "rememberedCents": 60000,
+          "exact": true
+        },
+        {
+          "quantity": 50,
+          "actualCents": 120000,
+          "rememberedCents": 120000,
+          "exact": true
+        },
+        {
+          "quantity": 75,
+          "actualCents": 180000,
+          "rememberedCents": 180000,
+          "exact": true
+        },
+        {
+          "quantity": 100,
+          "actualCents": 240000,
+          "rememberedCents": 240000,
+          "exact": true
+        },
+        {
+          "quantity": 125,
+          "actualCents": 200000,
+          "rememberedCents": 200000,
+          "exact": true
+        },
+        {
+          "quantity": 150,
+          "actualCents": 240000,
+          "rememberedCents": 240000,
+          "exact": true
+        },
+        {
+          "quantity": 175,
+          "actualCents": 280000,
+          "rememberedCents": 280000,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 320000,
+          "rememberedCents": 320000,
+          "exact": true
+        },
+        {
+          "quantity": 250,
+          "actualCents": 400000,
+          "rememberedCents": 400000,
+          "exact": true
+        },
+        {
+          "quantity": 300,
+          "actualCents": 480000,
+          "rememberedCents": 480000,
+          "exact": true
+        },
+        {
+          "quantity": 400,
+          "actualCents": 640000,
+          "rememberedCents": 640000,
+          "exact": true
+        },
+        {
+          "quantity": 500,
+          "actualCents": 530000,
+          "rememberedCents": 530000,
+          "exact": true
+        },
+        {
+          "quantity": 600,
+          "actualCents": 630000,
+          "rememberedCents": 630000,
+          "exact": true
+        },
+        {
+          "quantity": 750,
+          "actualCents": 790000,
+          "rememberedCents": 790000,
+          "exact": true
+        },
+        {
+          "quantity": 900,
+          "actualCents": 950000,
+          "rememberedCents": 950000,
+          "exact": true
+        },
+        {
+          "quantity": 1000,
+          "actualCents": 1050000,
+          "rememberedCents": 1050000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-02",
+      "policy": "approved-only",
+      "cell": "cell-034",
+      "budget": 96,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 121250,
+          "operation": "02",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 200,
+          "totalCents": 320000,
+          "operation": "02",
+          "rowIndex": 3
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 121250,
+          "rememberedCents": 121250,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 320000,
+          "rememberedCents": 320000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-02",
+      "policy": "approved-only",
+      "cell": "cell-034",
+      "budget": 192,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 121250,
+          "operation": "04",
+          "rowIndex": 2
+        },
+        {
+          "quantity": 200,
+          "totalCents": 320000,
+          "operation": "04",
+          "rowIndex": 3
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 121250,
+          "rememberedCents": 121250,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 320000,
+          "rememberedCents": 320000,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-05",
+      "policy": "approved-only",
+      "cell": "cell-035",
+      "budget": 96,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 140645,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 182157,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 140645,
+          "rememberedCents": 140645,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 182157,
+          "rememberedCents": 182157,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-05",
+      "policy": "approved-only",
+      "cell": "cell-035",
+      "budget": 192,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 140645,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 182157,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 140645,
+          "rememberedCents": 140645,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 182157,
+          "rememberedCents": 182157,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-03",
+      "policy": "approved-only",
+      "cell": "cell-036",
+      "budget": 96,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 50148,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 124248,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 50148,
+          "rememberedCents": 50148,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 124248,
+          "rememberedCents": 124248,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-03",
+      "policy": "approved-only",
+      "cell": "cell-036",
+      "budget": 192,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 50148,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 124248,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 50148,
+          "rememberedCents": 50148,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 124248,
+          "rememberedCents": 124248,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-06",
+      "policy": "approved-only",
+      "cell": "cell-041",
+      "budget": 96,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 52491,
+          "operation": "03",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 82784,
+          "operation": "03",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 52491,
+          "rememberedCents": 52491,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 82784,
+          "rememberedCents": 82784,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "target": "target-06",
+      "policy": "approved-only",
+      "cell": "cell-041",
+      "budget": 192,
+      "supportedInputs": 2,
+      "observedInputs": 2,
+      "exactReplay": 1,
+      "lookup": [
+        {
+          "quantity": 50,
+          "totalCents": 52491,
+          "operation": "04",
+          "rowIndex": 0
+        },
+        {
+          "quantity": 200,
+          "totalCents": 82784,
+          "operation": "04",
+          "rowIndex": 1
+        }
+      ],
+      "predictions": [
+        {
+          "quantity": 50,
+          "actualCents": 52491,
+          "rememberedCents": 52491,
+          "exact": true
+        },
+        {
+          "quantity": 200,
+          "actualCents": 82784,
+          "rememberedCents": 82784,
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "budget": 96,
+      "policy": "round100-catalogue16",
+      "targets": 6,
+      "observedInputs": 96,
+      "supportedInputs": 96,
+      "meanExactReplay": 1,
+      "targetsWithFullReplay": 6
+    },
+    {
+      "budget": 96,
+      "policy": "approved-only",
+      "targets": 6,
+      "observedInputs": 12,
+      "supportedInputs": 12,
+      "meanExactReplay": 1,
+      "targetsWithFullReplay": 6
+    },
+    {
+      "budget": 192,
+      "policy": "round100-catalogue16",
+      "targets": 6,
+      "observedInputs": 96,
+      "supportedInputs": 96,
+      "meanExactReplay": 1,
+      "targetsWithFullReplay": 6
+    },
+    {
+      "budget": 192,
+      "policy": "approved-only",
+      "targets": 6,
+      "observedInputs": 12,
+      "supportedInputs": 12,
+      "meanExactReplay": 1,
+      "targetsWithFullReplay": 6
+    }
+  ]
+}

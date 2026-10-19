@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:20:06.726Z",
+  "endedAt": "2026-10-19T11:23:26.628Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 199879
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 270,
+        "constant": 130089,
+        "linear": 105,
+        "quadratic": 0
+      },
+      {
+        "from": 628,
+        "constant": 163320,
+        "linear": 52,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported reconstruction: three continuous linear bands, in pence, for integer quantities 1..1000. All 96 responses across 93 distinct quantities matched this predictor exactly and reported roundingCents=0, including the approved quote at 50 and approved export at 200. Validation covered both endpoints, every quantity 267..271 and 625..629, and adaptively selected non-round quantities throughout the range. No observed evidence required curvature or additional bands. Used 96 business requests and 8 REA operations, including inspection. The remaining 907 quantities are predictions, not observations; undetected deviations between sampled quantities cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 96016,
+    "inputTokens": 90718,
+    "cachedInputTokens": 76928,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5298,
+    "reasoningOutputTokens": 2926
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 8
+}

@@ -1,0 +1,82 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:16:37.680Z",
+  "endedAt": "2026-10-19T11:26:36.019Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 598310
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 29742.073010908,
+        "linear": 405.331127055,
+        "quadratic": -0.014939653067
+      },
+      {
+        "from": 20,
+        "constant": 29930.9934966,
+        "linear": 389.750429469,
+        "quadratic": 0.291794011972
+      },
+      {
+        "from": 50,
+        "constant": 31139.448342675,
+        "linear": 341.021043495,
+        "quadratic": 0.782999793037
+      },
+      {
+        "from": 100,
+        "constant": 24971.465951278,
+        "linear": 450.72550325,
+        "quadratic": 0.302753434619
+      },
+      {
+        "from": 150,
+        "constant": -215.72919934,
+        "linear": 789.256673133,
+        "quadratic": -0.834690135681
+      },
+      {
+        "from": 200,
+        "constant": -7460.984961007,
+        "linear": 877.433965874,
+        "quadratic": -1.094445205343
+      },
+      {
+        "from": 300,
+        "constant": 33562.757306093,
+        "linear": 603.94235076,
+        "quadratic": -0.638625846819
+      },
+      {
+        "from": 400,
+        "constant": 106493.854669825,
+        "linear": 239.286863941,
+        "quadratic": -0.182806488296
+      },
+      {
+        "from": 500,
+        "constant": 152155.581336625,
+        "linear": 45.284368718,
+        "quadratic": 0.022551595483
+      }
+    ],
+    "notes": "Best-effort smoothed predictor, not an identified exact tariff. It reproduces the observed exact totals at quantities 50 (50148 cents) and 200 (124248 cents), both confirmed by approved exports, and agrees with every successful estimate when rounded to 10000 cents. The predictor is nonnegative and increasing throughout integer quantities 1..1000; segment starts are interpolation knots, not verified tariff transitions. The tenant estimate allowance became exhausted, with subsequent estimate and alias requests denied across both sessions; tested unapproved exact requests were also denied. Used 26 business requests and 5 REA operations, including inspection. A materially different two-segment linear model also fits all observations, demonstrating non-identifiability. Rounded observations provide approximately ±5000-cent constraints at their sampled quantities, but no error bound is established at unobserved quantities. Coefficient precision does not imply equivalent accuracy."
+  },
+  "tokenUsage": {
+    "totalTokens": 243662,
+    "inputTokens": 224374,
+    "cachedInputTokens": 192256,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 19288,
+    "reasoningOutputTokens": 15066
+  },
+  "cumulativeRequests": 26,
+  "cumulativeReaOperations": 5
+}

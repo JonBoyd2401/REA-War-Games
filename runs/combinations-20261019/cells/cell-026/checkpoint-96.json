@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:36:48.722Z",
+  "endedAt": "2026-10-19T11:40:01.336Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 192593
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 91728.33333333333,
+        "linear": 176.54333333333332,
+        "quadratic": 0
+      },
+      {
+        "from": 501,
+        "constant": 150000,
+        "linear": 60,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Conservative piecewise-linear predictor for quantities 1–1000, not a uniquely recovered exact tariff. Approved quotes and exports confirmed 68,387 cents at quantity 50 and 127,037 cents at quantity 200; both are reproduced exactly. Predictions also round consistently with every estimate observed at eight distinct quantities: 1, 25, 50, 100, 150, 200, 500 and 1000. The values 180,000 at 500 and 210,000 at 1000 are rounded estimate centers, not observed exact prices. A single global linear or quadratic model cannot satisfy all observations. Segment boundaries are interpolation choices, not verified tariff transitions. The tenant estimate allowance was exhausted, with denials also confirmed through the alternate workflow and second session. Rounded observations have 10,000-cent resolution, implying approximately ±5,000-cent uncertainty at those sampled points; errors between probes are not bounded by that resolution. Exact reconstruction everywhere remains underdetermined. Used 28 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 52621,
+    "inputTokens": 47353,
+    "cachedInputTokens": 39808,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 5268,
+    "reasoningOutputTokens": 4093
+  },
+  "cumulativeRequests": 28,
+  "cumulativeReaOperations": 4
+}

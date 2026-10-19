@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:05:53.985Z",
+  "endedAt": "2026-10-19T11:12:24.131Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 390109
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 21198,
+        "linear": 600.25,
+        "quadratic": -0.425
+      },
+      {
+        "from": 601,
+        "constant": 174198,
+        "linear": 90.25,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not an identified exact reconstruction. It reproduces the exact approved totals at quantities 50 (50148 cents) and 200 (124248 cents), and all eight distinct estimates when rounded to their reported 100000-cent precision. New estimate quantities were blocked after the shared tenant allowance was exhausted; the alternate workflow and second session provided no additional precision. The model uses a concave quadratic followed by continuous tangent-line extrapolation after quantity 600. The segment start at 601 is a modeling choice, not an observed tariff boundary. Other materially different curves also satisfy every successful response, so uncertainty is substantial, especially beyond 600; exactness is established only at 50 and 200. Used 21 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 107130,
+    "inputTokens": 96210,
+    "cachedInputTokens": 76800,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 10920,
+    "reasoningOutputTokens": 9363
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 4
+}

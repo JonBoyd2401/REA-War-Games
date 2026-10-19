@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:18:54.431Z",
+  "endedAt": "2026-10-19T11:20:01.721Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 67279
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10557,
+        "linear": 858,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original predictor: max(140645, 10557 + 858*q) cents. It exactly matches all eight distinct observed quantities (1, 25, 50, 100, 150, 200, 300 and 400), including the approved results at 50 and 200. Reinspection confirmed that exact approvals remain limited to 50 and 200. The increased study budget did not reset the exhausted tenant estimate allowance, previously confirmed across both sessions and the alternate estimate workflow; no new price observations were obtained. Alternative models with a different transition between 150 and 200 or added curvature above 400 also fit every observation, so the evidence does not justify replacing the simpler predictor. The start at 152 is inferred, not directly validated, and additional unobserved bands remain possible. Exact reconstruction over all quantities is therefore unverified. Cumulative usage: 21 attempted business requests and 4 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 70088,
+    "inputTokens": 66123,
+    "cachedInputTokens": 43008,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3965,
+    "reasoningOutputTokens": 2549
+  },
+  "cumulativeRequests": 21,
+  "cumulativeReaOperations": 4
+}

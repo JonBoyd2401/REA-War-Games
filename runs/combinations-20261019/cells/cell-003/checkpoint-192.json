@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T10:46:04.047Z",
+  "endedAt": "2026-10-19T10:49:48.804Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 224747
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 210,
+        "constant": 95862,
+        "linear": 166,
+        "quadratic": 0
+      },
+      {
+        "from": 512,
+        "constant": 151050,
+        "linear": 58,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original predictor: all 96 additional probes matched exactly, providing no evidence for a revision. Cumulatively, all 192 successful responses across 190 distinct quantities match this model with zero error; every response reported roundingCents=0. Consecutive triples within each band independently recover these coefficients with zero quadratic terms. Both transitions were checked at every integer in 207–211 and 509–513. Denser sampling reduced the largest spacing between observed quantities from 18 to 8. Used 192 business requests and 16 REA operations cumulatively. This is a strongly validated reconstruction in GBP pence for quantities 1..1000, but unqueried values remain inferred; narrow deviations between probes cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 328332,
+    "inputTokens": 316846,
+    "cachedInputTokens": 278016,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 11486,
+    "reasoningOutputTokens": 6569
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 16
+}

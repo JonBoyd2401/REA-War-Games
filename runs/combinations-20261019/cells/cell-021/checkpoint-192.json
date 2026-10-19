@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:32:19.539Z",
+  "endedAt": "2026-10-19T11:37:09.591Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 290042
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 625,
+        "linear": 2412.5,
+        "quadratic": 0
+      },
+      {
+        "from": 124,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      },
+      {
+        "from": 477,
+        "constant": 0,
+        "linear": 1052.6315789473683,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the saved predictor: the additional observations did not support a revision. Cumulative usage was 192 attempted business requests, including two denials, and 18 REA operations. This predictor matches all 186 rounded responses covering 182 distinct quantities, plus all four exact quote/export responses. Exact prices were observed only at quantity 50 (121250 pence) and quantity 200 (320000 pence). Additional gap-filling probes found no contradiction to the transitions at 124 and 477. Exact reconstruction remains non-unique because estimates are rounded to 100000 pence. A distinct model with a quadratic first band also matches every observation and yields identical rounded predictions throughout 1..1000 despite different underlying prices. Thus these coefficients remain an observation-consistent point estimate, not proven true parameters; exact prices outside the approved anchors and variation concealed by rounding remain uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 624117,
+    "inputTokens": 592294,
+    "cachedInputTokens": 533888,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 31823,
+    "reasoningOutputTokens": 25547
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 18
+}

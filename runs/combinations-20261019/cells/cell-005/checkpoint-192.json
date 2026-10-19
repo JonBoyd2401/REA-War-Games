@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T10:54:50.348Z",
+  "endedAt": "2026-10-19T10:56:05.942Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 75587
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 163,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 551,
+        "constant": 0,
+        "linear": 982,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the saved predictor: additional observations did not support a numerical change. All 16 catalogue quantities have now been checked through both estimate workflows, with identical outputs rounded to 10000 pence. The predictor matches all 37 successful responses at their reported precision, including exact totals of 159900 at quantity 50 and 373000 at quantity 200. Additional approval/export probes were denied. Exact reconstruction remains unidentifiable: 10000 distinct three-regime candidates, plus curved and continuous piecewise-linear alternatives, were validated against the observations. Conditional on the retained proportional structure, transition starts remain anywhere in 151–175 and 501–600; 163 and 551 are midpoint choices, not observed boundaries. The final rate of 982 is estimated, and additional hidden bands cannot be excluded. Cumulative usage: 50 business requests and 5 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 106630,
+    "inputTokens": 97773,
+    "cachedInputTokens": 57856,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8857,
+    "reasoningOutputTokens": 5912
+  },
+  "cumulativeRequests": 50,
+  "cumulativeReaOperations": 5
+}

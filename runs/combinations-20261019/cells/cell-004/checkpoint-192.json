@@ -1,0 +1,34 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T10:51:24.390Z",
+  "endedAt": "2026-10-19T10:52:13.040Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 48635
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 88866.66666666666,
+        "linear": 1420.6666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the saved predictor: no new price evidence supports a change. Additional probes at quantities 100 and 300 were denied on all four workflows. The only observed exact prices remain 159900 cents at quantity 50 and 373000 cents at quantity 200; this predictor matches both. Arithmetic checks confirmed that positive, strictly increasing quadratic alternatives also match both observations while differing substantially elsewhere, so linearity is not established. This is a minimal-complexity interpolation/extrapolation, not an exact full-domain reconstruction. The other 998 quantities remain unobserved; transitions and finite error bounds cannot be inferred. Cumulative usage: 30 business requests and 4 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 69974,
+    "inputTokens": 66250,
+    "cachedInputTokens": 54016,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3724,
+    "reasoningOutputTokens": 2143
+  },
+  "cumulativeRequests": 30,
+  "cumulativeReaOperations": 4
+}

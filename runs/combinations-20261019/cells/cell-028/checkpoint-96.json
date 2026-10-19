@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:39:32.442Z",
+  "endedAt": "2026-10-19T11:44:31.500Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 299035
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10557,
+        "linear": 858,
+        "quadratic": 0
+      },
+      {
+        "from": 544,
+        "constant": 9290.16,
+        "linear": 755.04,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported model: a constant minimum through quantity 151, linear pricing from 152 through 543, then a 12% reduction of that linear formula from 544 onward. Matches all 96 successful responses across 94 distinct quantities, including the approved results at 50 and 200; all responses reported roundingCents=0. Both transitions were checked at adjacent quantities (151/152 and 543/544), with additional rounding-sensitive validation in the final segment. Unobserved quantities are predictions, not measurements; narrow additional bands or other unsampled deviations cannot be excluded. Used 96 business requests and 9 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 170641,
+    "inputTokens": 162778,
+    "cachedInputTokens": 132352,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 7863,
+    "reasoningOutputTokens": 5557
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 9
+}

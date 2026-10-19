@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:11:20.401Z",
+  "endedAt": "2026-10-19T11:12:57.853Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 97437
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 149,
+        "constant": 22157,
+        "linear": 800,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the saved predictor: no new successful price observation supports a revision. A further estimate request at q=1000 was denied because the shared tenant estimate allowance remains exhausted. This predictor matches both exact approvals, q=50:140645 and q=200:182157, and all eight successful estimates after their reported 100000-pence rounding. Alternative slopes and flat or quadratic continuations beyond q=350 also match every observation, demonstrating non-identifiability rather than establishing an error bound. The flat segment, breakpoint at 149, and subsequent slope remain modeling choices, not observed application rules. Exact prices are known only at 50 and 200; there are no successful price observations above 350. The predictor covers 1–1000 but is not a verified exact reconstruction. Cumulative usage: 23 attempted business requests and 5 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 96868,
+    "inputTokens": 88699,
+    "cachedInputTokens": 77056,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 8169,
+    "reasoningOutputTokens": 6132
+  },
+  "cumulativeRequests": 23,
+  "cumulativeReaOperations": 5
+}

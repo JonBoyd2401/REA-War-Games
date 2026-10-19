@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:13:25.400Z",
+  "endedAt": "2026-10-19T11:15:24.836Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 119411
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 270,
+        "constant": 130089,
+        "linear": 105,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported parsimonious predictor, not a verified exact reconstruction of all 1..1000 quantities. It matches every returned price exactly: unrounded estimates at quantities 1, 25, 50, 100, 150, 200, 300 and 500, plus approved exact quotes at 50 and 200. The two fitted lines meet at quantity 269; this transition is inferred, not observed. The second line is supported by only quantities 300 and 500, and its extension above 500 is unvalidated. Additional bands or nonlinear behavior cannot be excluded. Estimates exhausted the tenant allowance after eight successes; alternate estimates in session 2 were also denied. Validation attempts through an approved quote at 269 and an export at 1000 were denied because approved requests were unavailable. Used 16 attempted business requests and 4 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 56067,
+    "inputTokens": 53146,
+    "cachedInputTokens": 42368,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2921,
+    "reasoningOutputTokens": 1765
+  },
+  "cumulativeRequests": 16,
+  "cumulativeReaOperations": 4
+}

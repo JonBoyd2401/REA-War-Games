@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:35:29.556Z",
+  "endedAt": "2026-10-19T11:38:16.444Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 166867
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2425,
+        "quadratic": 0
+      },
+      {
+        "from": 126,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort parsimonious predictor, not a uniquely identified exact reconstruction. It matches both observed exact approvals—121250 cents at quantity 50 and 320000 cents at quantity 200—and all eight successful estimates at their disclosed 10000-cent rounding precision. The tenant estimate allowance then exhausted; alternate estimates and session 2 remained blocked, and tested unapproved requests were denied. Conditional on this two-rate model, every second-segment start from 101 through 150 fits the observations; 126 is an unvalidated midpoint choice. Affine and quadratic alternatives also fit, so the first-segment shape and the number of underlying bands remain uncertain. No successful price observation exceeds quantity 400; predictions for 401–1000 extrapolate the second rate without ruling out further transitions. Used 20 attempted business requests and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 43402,
+    "inputTokens": 38685,
+    "cachedInputTokens": 31232,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4717,
+    "reasoningOutputTokens": 3792
+  },
+  "cumulativeRequests": 20,
+  "cumulativeReaOperations": 3
+}

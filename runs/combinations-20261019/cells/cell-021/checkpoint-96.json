@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:19:26.054Z",
+  "endedAt": "2026-10-19T11:32:19.538Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 773454
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 625,
+        "linear": 2412.5,
+        "quadratic": 0
+      },
+      {
+        "from": 124,
+        "constant": 0,
+        "linear": 1600,
+        "quadratic": 0
+      },
+      {
+        "from": 477,
+        "constant": 0,
+        "linear": 1052.6315789473683,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Three-band affine point estimate for integer quantities 1..1000. Adjacent probes located downward price transitions between 123–124 and 476–477. Used 96 business requests and 11 REA operations, including inspection. After applying the application's estimate rounding, this predictor matches all 94 estimate/alias responses; it also reproduces both exact approved observations: 121250 pence at quantity 50 and 320000 pence at quantity 200. A final held-out rounded estimate at quantity 680 also matched. Exact reconstruction elsewhere is not uniquely identifiable: estimates are rounded to 100000 pence, and competing affine and quadratic models remain consistent with the observations. These coefficients are representative fitted values, not proven underlying parameters; additional variation concealed by rounding cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 289754,
+    "inputTokens": 266382,
+    "cachedInputTokens": 222336,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 23372,
+    "reasoningOutputTokens": 19589
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 11
+}

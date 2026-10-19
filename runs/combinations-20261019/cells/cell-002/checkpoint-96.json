@@ -1,0 +1,40 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T10:42:09.640Z",
+  "endedAt": "2026-10-19T10:50:46.838Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 517171
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 48837,
+        "linear": 391,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 82687.32303233273,
+        "linear": 246.3870942648181,
+        "quadratic": -0.12319354713240906
+      }
+    ],
+    "notes": "Best-effort monotone predictor, not a uniquely identified exact reconstruction. It reproduces the exact approved/export prices of 68387 pence at quantity 50 and 127037 pence at quantity 200, and matches all 92 rounded responses after applying their 100000-pence rounding. Adjacent probes established rounding transitions between quantities 2/3 and 326/327. The segment boundary and tail curvature are modeling choices, not observed tariff boundaries. Exact recovery elsewhere is underdetermined: alternative monotone piecewise models matching every response predict 150091 versus 249695 pence at quantity 1000. Unobserved quantities remain unverified, and additional within-bin structure cannot be excluded. Used 96 business requests and 10 REA operations, observing 91 distinct quantities."
+  },
+  "tokenUsage": {
+    "totalTokens": 190061,
+    "inputTokens": 175698,
+    "cachedInputTokens": 140416,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 14363,
+    "reasoningOutputTokens": 12203
+  },
+  "cumulativeRequests": 96,
+  "cumulativeReaOperations": 10
+}

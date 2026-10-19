@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T12:08:36.896Z",
+  "endedAt": "2026-10-19T12:14:17.700Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 340792
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 140645,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 152,
+        "constant": 10693.103006,
+        "linear": 857.319485,
+        "quadratic": 0
+      },
+      {
+        "from": 544,
+        "constant": 9880.678845,
+        "linear": 754.146097,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the previous predictor: additional observations did not support a numerical change. Cumulative usage was 192 business requests and 25 REA operations, covering 184 distinct quantities. The predictor matches all 187 rounded responses and all four exact responses; the exact responses cover only quantities 50 and 200, whose approved totals were independently repeated by export. One unapproved request was denied. Additional probes densely challenged the low-quantity region and sampled gaps throughout the domain without finding further rounded excursions. Exact reconstruction remains unidentifiable: a different piecewise-linear model also matches every successful response while predicting 96425 cents at quantity 100 instead of 140645. Thus the initial flat section and join at 152 remain simplifying assumptions, not established tariff parameters. The rounded decrease between 543 and 544 is confirmed, but its exact magnitude and shape are not. Treat this as a validated approximation; concealed within-bin variation and unqueried behavior remain uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 813366,
+    "inputTokens": 789538,
+    "cachedInputTokens": 741504,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 23828,
+    "reasoningOutputTokens": 18295
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 25
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:32:22.465Z",
+  "endedAt": "2026-10-19T11:36:43.838Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 261365
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 164,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 506,
+        "constant": 0,
+        "linear": 980,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained unchanged: additional observations do not support different coefficients or bands. Across 192 cumulative business requests and 17 REA operations, this predictor matches all 188 rounded estimates and four exact responses at the two approved quantities: 50 gives 159900 pence and 200 gives 373000 pence. Adjacent probes checked the drops at 163/164 and 505/506; additional gap-filling probes found no contradictions. Only quantities 50 and 200 were observed exactly. Distinct affine and quadratic alternatives remain indistinguishable under the 100000-pence rounding and exact anchors, so penny-level accuracy elsewhere is not uniquely established."
+  },
+  "tokenUsage": {
+    "totalTokens": 434134,
+    "inputTokens": 418720,
+    "cachedInputTokens": 389504,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 15414,
+    "reasoningOutputTokens": 10236
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 17
+}

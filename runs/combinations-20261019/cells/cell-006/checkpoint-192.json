@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:00:11.559Z",
+  "endedAt": "2026-10-19T11:05:47.676Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 331599
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 253,
+        "constant": -52118.00352,
+        "linear": 1109.28688,
+        "quadratic": -1.22018
+      },
+      {
+        "from": 455,
+        "constant": 200000,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained unchanged: 94 additional rounded probes found no contradiction or additional rounded-output transition; two requests for unapproved exact results were denied. Cumulative usage: 192 business requests and 16 REA operations. Successful observations cover 186 distinct quantities, with a maximum gap of 7. The predictor matches all 186 estimates at their 100000-cent display precision and all four exact quote/export responses: q=50 gives 50148 cents and q=200 gives 124248 cents. Adjacent probes confirm rounded-output transitions at 50 and 253. Exact recovery remains underdetermined: capped, rising-tail, and hump-shaped alternatives also satisfy every observed price constraint. The quadratic taper and plateau are modeling choices, not identified true price bands. At sampled quantities from 253 upward, rounding alone permits 150000–249999 cents. Exactness is established only at the two approved quantities; unsampled behavior remains uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 496436,
+    "inputTokens": 474342,
+    "cachedInputTokens": 430848,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 22094,
+    "reasoningOutputTokens": 16884
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 16
+}

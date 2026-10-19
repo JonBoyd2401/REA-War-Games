@@ -1,13 +1,17 @@
 {
   "name": "rea-war-games-research",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "private": true,
   "type": "module",
   "description": "Reproducible localhost measurements of server boundaries and disclosure reduction against REA-assisted inspection",
-  "engines": {"node": "^22.19.0 || ^24.11.0 || >=26.0.0"},
-  "dependencies": {"rea-agents": "6.7.0"},
+  "engines": {
+    "node": "^22.19.0 || ^24.11.0 || >=26.0.0"
+  },
+  "dependencies": {
+    "rea-agents": "6.7.0"
+  },
   "scripts": {
-    "test": "node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs",
-    "verify:evidence": "node verify-evidence.mjs && node reconstruction/verify.mjs && node reconstruction/verify-gated.mjs && node boundary-study/verify.mjs && node agent-benchmark/verify.mjs"
+    "test": "node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs combination-study/test.mjs",
+    "verify:evidence": "node verify-evidence.mjs && node reconstruction/verify.mjs && node reconstruction/verify-gated.mjs && node boundary-study/verify.mjs && node agent-benchmark/verify.mjs && node combination-study/verify.mjs"
   }
 }

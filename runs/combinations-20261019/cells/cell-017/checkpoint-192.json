@@ -1,0 +1,40 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:15:24.837Z",
+  "endedAt": "2026-10-19T11:16:32.360Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 67516
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 25448,
+        "linear": 494,
+        "quadratic": 0
+      },
+      {
+        "from": 270,
+        "constant": 130089,
+        "linear": 105,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Predictor retained unchanged: no new evidence supports a revision. Additional approved exports returned 50148 cents at quantity 50 and 124248 cents at quantity 200, confirming the existing observations without revealing additional pricing detail. The predictor exactly matches all eight distinct observed quantities: 1, 25, 50, 100, 150, 200, 300 and 500. The junction at 269 is inferred from the fitted lines, not directly observed. Additional bands and piecewise-quadratic alternatives can also match every observation, so this is a parsimonious hypothesis rather than a uniquely established reconstruction. In particular, predictions above 500 remain unvalidated extrapolations. The tenant estimate allowance was exhausted and has not reset; known exact approvals cover only 50 and 200. Cumulative usage: 18 attempted business requests and 5 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 90987,
+    "inputTokens": 86036,
+    "cachedInputTokens": 72576,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 4951,
+    "reasoningOutputTokens": 3178
+  },
+  "cumulativeRequests": 18,
+  "cumulativeReaOperations": 5
+}

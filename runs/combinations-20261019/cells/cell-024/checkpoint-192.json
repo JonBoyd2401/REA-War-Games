@@ -1,0 +1,46 @@
+{
+  "budget": 192,
+  "startedAt": "2026-10-19T11:31:51.564Z",
+  "endedAt": "2026-10-19T11:35:24.843Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 213273
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 52491,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 108,
+        "constant": 17384,
+        "linear": 327,
+        "quadratic": 0
+      },
+      {
+        "from": 391,
+        "constant": 13907.2,
+        "linear": 261.6,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Retained the original predictor: all 96 additional probes matched it. Cumulatively, it matches all 192 successful responses across 190 distinct quantities; every response reported roundingCents=0. Additional tests filled sampling gaps and checked upper-band rounding patterns across the domain, with no evidence supporting curvature or additional bands. Both transitions remain validated at adjacent quantities 107/108 and 390/391. The largest remaining unsampled run is eight quantities. Used 192/192 business requests and 15/48 REA operations. Unqueried prices remain inferred rather than observed; narrow unseen exceptions cannot be excluded."
+  },
+  "tokenUsage": {
+    "totalTokens": 337000,
+    "inputTokens": 325101,
+    "cachedInputTokens": 294144,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 11899,
+    "reasoningOutputTokens": 7270
+  },
+  "cumulativeRequests": 192,
+  "cumulativeReaOperations": 15
+}

@@ -1,0 +1,46 @@
+{
+  "budget": 96,
+  "startedAt": "2026-10-19T11:41:38.029Z",
+  "endedAt": "2026-10-19T11:43:38.550Z",
+  "model": "gpt-6-astra",
+  "effort": "max",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 120489
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3198,
+        "quadratic": 0
+      },
+      {
+        "from": 138,
+        "constant": 0,
+        "linear": 1865,
+        "quadratic": 0
+      },
+      {
+        "from": 626,
+        "constant": 0,
+        "linear": 980,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This predictor matches every successful observation: quantities 1, 25, 50 and 75 returned exactly 3198*q cents; quantities 200 and 500 returned 1865*q; quantities 750 and 1000 returned 980*q. Approved quotes and exports independently matched the estimates at 50 and 200. All successful responses reported roundingCents=0. Three constant unit-price bands are a parsimonious hypothesis, not an established target family. Conditional on that hypothesis, the second band could start anywhere from 76 through 200, and the third anywhere from 501 through 750. Starts 138 and 626 are midpoint imputations, not observed thresholds. After eight successful estimates, the tenant allowance was exhausted; alternate-estimate and second-session probes were also denied. Consequently, exact reconstruction over all 1..1000 is not identifiable from the available evidence: different transitions, additional bands or nonlinear behavior remain possible. Used 28 attempted business requests and 4 REA operations; stopped because the remaining allowance did not restore access to new quantities."
+  },
+  "tokenUsage": {
+    "totalTokens": 38082,
+    "inputTokens": 34901,
+    "cachedInputTokens": 31232,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3181,
+    "reasoningOutputTokens": 2495
+  },
+  "cumulativeRequests": 28,
+  "cumulativeReaOperations": 4
+}
