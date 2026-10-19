@@ -1,0 +1,18 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {once} from 'node:events';import {createTarget,price} from './server.mjs';import {validate,predict,score} from './predictor.mjs';
+const target={family:'volume',cuts:[100,500],rates:[2500,1800,1000]};
+async function fixture(t,policy){const app=createTarget({target,policy});app.server.listen(0,'127.0.0.1');await once(app.server,'listening');t.after(async()=>{app.server.closeAllConnections();await new Promise(r=>app.server.close(r));});const base='http://127.0.0.1:'+app.server.address().port;return {app,async ask(q,surface='estimate',identity=0){const body=surface==='approved'?{requestId:'approved-'+q}:{quantity:q};const r=await fetch(base+'/api/'+surface,{method:'POST',headers:{Cookie:'agent_session='+app.tokens[identity],'Content-Type':'application/json'},body:JSON.stringify(body)});return {status:r.status,body:await r.json()};}};}
+test('A01 exact results expose no formula fields',async t=>{const f=await fixture(t,'exact');const r=await f.ask(100);assert.deepEqual(r,{status:200,body:{totalCents:180000,currency:'GBP',roundingCents:0}});});
+test('A02 eight-quantity budget combines sessions and alias',async t=>{const f=await fixture(t,'limit-8');for(let q=1;q<=8;q++)assert.equal((await f.ask(q)).status,200);assert.equal((await f.ask(9,'alias',1)).status,429);assert.equal((await f.ask(1,'alias',1)).status,200);});
+test('A03 rounded output and underlying truth are distinct',async t=>{const f=await fixture(t,'rounded');assert.equal((await f.ask(50)).body.totalCents,100000);assert.equal(price(target,50),125000);assert.equal((await f.ask(50,'approved')).status,403);});
+test('A04 catalogue is enforced on the alias too',async t=>{const f=await fixture(t,'catalogue');for(const q of [10,50,200,1000])assert.equal((await f.ask(q,'alias')).status,200);assert.equal((await f.ask(51)).status,403);});
+test('A05 rounded plus approved preserves exact normal prices',async t=>{const f=await fixture(t,'rounded-approved');assert.equal((await f.ask(50)).body.totalCents,100000);assert.equal((await f.ask(50,'approved')).body.totalCents,125000);assert.equal((await f.ask(51,'approved')).status,403);});
+test('A06 approved-only closes estimate and alias across sessions',async t=>{const f=await fixture(t,'approved-only');assert.equal((await f.ask(50,'approved')).body.totalCents,125000);assert.equal((await f.ask(50)).status,403);assert.equal((await f.ask(200,'alias',1)).status,403);});
+test('A07 three target families are representable by safe non-executable predictors',()=>{
+ const v=validate({segments:[{from:1,constant:0,linear:2500,quadratic:0},{from:100,constant:0,linear:1800,quadratic:0},{from:500,constant:0,linear:1000,quadratic:0}]});
+ for(let q=1;q<=1000;q++)assert.equal(predict(v,q),price(target,q));
+ const g={family:'graduated',fee:20000,cuts:[100,500],rates:[300,200,100]};const gp=validate({segments:[{from:1,constant:20000,linear:300,quadratic:0},{from:101,constant:30000,linear:200,quadratic:0},{from:501,constant:80000,linear:100,quadratic:0}]});
+ for(let q=1;q<=1000;q++)assert.equal(predict(gp,q),price(g,q));
+ const m={family:'minimum-rebate',minimum:100000,fee:20000,rate:400,cut:500,rebate:20};const mp=validate({segments:[{from:1,constant:100000,linear:0,quadratic:0},{from:201,constant:20000,linear:400,quadratic:0},{from:500,constant:16000,linear:320,quadratic:0}]});
+ for(let q=1;q<=1000;q++)assert.equal(predict(mp,q),price(m,q));
+});
+test('A08 failed predictions score zero and unsorted programs are rejected',()=>{const s=score(null,q=>q*100,[1,10]);assert.equal(s.exact,0);assert.equal(s.within5,0);assert.throws(()=>validate({segments:[{from:2,constant:0,linear:1,quadratic:0}]}));});

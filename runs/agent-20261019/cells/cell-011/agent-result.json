@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:40:09.809Z",
+  "endedAt": "2026-10-19T09:41:14.040Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 56556
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 87123.66666666667,
+        "linear": 229.40666666666667,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort affine predictor through the two observed exact prices: 98,594 cents at quantity 50 and 131,005 cents at quantity 200. Inspection stated that only those two quantities have approved requests. Tested estimate and alias requests were denied, as was an approved request for quantity 500; both supplied sessions were exercised. The predictor reproduces both observed prices, but the underlying pricing rule is not uniquely identifiable from these observations. Linearity is a modeling assumption, not a discovered property; prices at other quantities, including any curvature, discontinuities or additional bands, remain unverified. Used 8 business requests and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 25586,
+    "inputTokens": 25046,
+    "cachedInputTokens": 17920,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 540,
+    "reasoningOutputTokens": 207
+  }
+}

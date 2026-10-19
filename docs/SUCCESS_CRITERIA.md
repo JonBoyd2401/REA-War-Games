@@ -51,7 +51,7 @@ The original hardened-v1 public script contains a demo credential. The recorded 
 
 All recorded browser scenarios preserve their overall incomplete-coverage flag. Specific captured responses support the named assertions; zero exit status does not prove complete capture. REA body bytes are Playwright API observations, not verified original wire bytes. Captured listeners and request initiators do not prove complete UI causality.
 
-No independent blind reconstruction score, adaptive autonomous attacker study, production TLS/authentication audit, distributed race test, long-lived subscription test, load test, user-impact study, WAF/obfuscation comparison or decoy evaluation exists. “Safe against every REA-assisted attack” is not a supported conclusion.
+The [new bounded-agent study](AGENT_BENCHMARK.md) adds adaptive agent-authored pricing predictions on withheld inputs. No independent human white-team replication, unconstrained whole-product attacker study, production TLS/authentication audit, distributed race test, long-lived subscription test, load test, user-impact study, WAF/obfuscation comparison or decoy evaluation exists. “Safe against every REA-assisted attack” is not a supported conclusion.
 
 ## Original counts — 18 October 2026
 
@@ -62,3 +62,9 @@ No independent blind reconstruction score, adaptive autonomous attacker study, p
 The [reconstruction findings](RECONSTRUCTION_FINDINGS.md) add 496 HTTP model runs and 12 real REA captures. Its verifiers independently re-score 508 frozen models, confirm the 490 initial models were frozen before holdout selection, and match 178 browser result rows to retained network responses. The 18 follow-up models reuse prior holdouts and are labelled exploratory. All 402 new captured body digests checked successfully. Ten new control tests bring the application test count to 33; total measured REA operations are 68.
 
 The reconstruction success metric is prediction error on specified inputs, not merely request denial. An eight-query budget denied extra observations but still permitted high reconstruction accuracy. Rounded estimates reduced exact-match scores while preserving useful approximations. Approved-quote-only access produced a larger measured reduction outside its supported input space but removes general estimation and does not hide the approved outputs. These findings do not satisfy a universal anti-reconstruction criterion.
+
+## Actual-agent extension - 19 October 2026
+
+The [effectiveness scorecard](AGENT_BENCHMARK.md) adds 36 fresh agent attempts across six paired targets and six policies. All final predictors are frozen before common unobserved holdouts are selected. 36 valid predictors and 0 failed/invalid predictors are retained. Exact match and relative-error tolerances are separate scores; reductions are paired percentage-point differences from exact-output baselines. No pre-declared universal protection threshold was met or assumed.
+
+The evidence verifier checks 224 REA operations, 727 business response rows, 1902 body digests, 9,216 held-out predictions, 36,000 secondary full-domain predictions and 72 supported normal quote checks. Eight new tests bring the total to 49; the complete test log is in the new run. This establishes measured accuracy changes under a bounded tool interface and fixed budgets, not reliable prevention of whole-product reconstruction.

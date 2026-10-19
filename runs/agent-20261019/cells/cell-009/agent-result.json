@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:37:38.068Z",
+  "endedAt": "2026-10-19T09:40:04.571Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 144764
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 99790.35639412998,
+        "linear": 209.64360587002096,
+        "quadratic": 0
+      },
+      {
+        "from": 240,
+        "constant": 27179.487179487187,
+        "linear": 512.8205128205128,
+        "quadratic": 0
+      },
+      {
+        "from": 435,
+        "constant": 141915.42288557213,
+        "linear": 248.75621890547265,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Approximate predictor, not an identified exact pricing rule. Used 24 business requests across 8 REA operations including inspection. All successful responses reported roundingCents=100000; the alias also returned a rounded amount, and all three attempted approved requests were denied. Under nearest-100000 rounding and locally monotone pricing, observations bracket the 150000-cent crossing between quantities 237 and 241, the 250000-cent crossing between 431 and 438, and the 350000-cent crossing between 829 and 844. The model linearly interpolates the midpoints of those brackets, assumes 100000 cents at quantity 1, and extrapolates the last slope through 1000. Its rounded outputs agree with every successful observation. Segment starts are interpolation choices, not verified pricing breakpoints. Exact prices, continuity, monotonicity, and additional bands remain unverified; uncertainty is substantial, especially near the domain endpoints."
+  },
+  "tokenUsage": {
+    "totalTokens": 75869,
+    "inputTokens": 73959,
+    "cachedInputTokens": 56064,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1910,
+    "reasoningOutputTokens": 1003
+  }
+}

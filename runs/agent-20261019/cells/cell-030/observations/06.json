@@ -1,0 +1,37 @@
+{
+  "evidenceId": "06",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "surface": "estimate",
+      "quantity": 162,
+      "status": 200,
+      "body": {
+        "totalCents": 295488,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 562,
+      "status": 200,
+      "body": {
+        "totalCents": 1025088,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    }
+  ],
+  "businessRequestsUsed": 16,
+  "businessRequestsRemaining": 8,
+  "reaOperationsRemaining": 6
+}

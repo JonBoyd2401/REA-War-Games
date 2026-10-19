@@ -2,7 +2,7 @@
 
 ## The short answer
 
-**Latest evidence:** the [workflow boundary study](BOUNDARY_FINDINGS.md) tests consistent approvals across quotes, exports and jobs, including two controls that deliberately fail. Read [what REA actually does](HOW_REA_WORKS.md) to understand its observation channels and which parts of our research use a custom learner.
+**Latest evidence:** the [actual-agent scorecard](AGENT_BENCHMARK.md) measures exact and approximate reconstruction by fresh REA-assisted LLM agents across six policies. Read it alongside the [workflow boundary study](BOUNDARY_FINDINGS.md), which tests consistent approvals across quotes, exports and jobs, including two controls that deliberately fail. [What REA actually does](HOW_REA_WORKS.md) separates observation tools, earlier custom learners and the new adaptive agents.
 
 **New measured evidence:** the [19 October reconstruction supplement](RECONSTRUCTION_FINDINGS.md) shows why rate limits and rounding can still permit useful imitations. An approved-quote-only workflow reduced measured reconstruction more strongly, with a substantial product restriction. Use those results alongside the access-boundary guidance below.
 

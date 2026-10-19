@@ -1,5 +1,7 @@
 # What actually reduced reconstruction risk
 
+**Later actual-agent evidence:** see the [new effectiveness scorecard](AGENT_BENCHMARK.md) and [current white paper](REA_SaaS_Protection_White_Paper_20261019.pdf). This page preserves the scope and findings of its earlier stage.
+
 **Research supplement — 19 October 2026.** This extends the 18 October access-control and disclosure study. Its subject is reconstruction of a small pricing feature from permitted outputs, not cloning an entire SaaS product.
 
 ## The useful finding

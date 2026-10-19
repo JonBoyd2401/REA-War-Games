@@ -2,7 +2,7 @@
 
 **Scope: the installed `rea-agents` 6.7.0 npm distribution and the retained web experiments. Reviewed 19 October 2026.** REA means **Reverse Engineer Anything**. It supplies reverse-engineering tools to an agent through MCP and to an operator through a command-line interface. An agent can use the resulting evidence to explain a feature and write a replacement. REA's own project describes support for websites, JavaScript, Electron and native applications; our measurements here concern the web paths. [Official project](https://github.com/morluto/rea).
 
-The important sequence is: **observe the product -> collect delivered implementation and outputs -> form a hypothesis -> ask more questions -> implement and test an imitation**. The first two steps are directly visible in our REA captures. Our October reconstruction experiment supplied its own small pricing learner for the later steps. We have not measured an independent agent cloning a whole SaaS product.
+The important sequence is: **observe the product -> collect delivered implementation and outputs -> form a hypothesis -> ask more questions -> implement and test an imitation**. The first two steps are directly visible in our REA captures. The earlier reconstruction experiment supplied its own small pricing learner for the later steps. The [new actual-agent benchmark](AGENT_BENCHMARK.md) instead lets fresh LLM agents choose probes and write predictors from real REA observations. It measures hidden pricing behaviour; it does not measure cloning a whole SaaS product.
 
 ## A concrete example
 
@@ -16,7 +16,7 @@ CLI names below use hyphens; corresponding MCP names commonly use underscores. S
 
 | Operation we ran | What the implementation does | What that evidence does not establish |
 |---|---|---|
-| `capture-browser-scenario` | Playwright executes a supplied sequence such as click, fill and wait. Selected DOM, accessibility and network artifacts are retained. Our runs launch fresh headless Chrome and preload an ephemeral study session through a secret reference. | The operation is not an autonomous decision-maker. In the reconstruction runs, the page's study script chooses queries and fits a model. |
+| `capture-browser-scenario` | Playwright executes a supplied sequence such as click, fill and wait. Selected DOM, accessibility and network artifacts are retained. Our runs launch fresh headless Chrome and preload an ephemeral study session through a secret reference. | The operation is not an autonomous decision-maker. Earlier reconstruction runs use a page learner. In the new agent benchmark, the LLM chooses probes and writes the predictor; the wrapper translates its choices into bounded UI actions. |
 | `list-browser-targets` / `inspect-web-page` | Enumerates the browser targets available through the configured debugging connection. CDP inspection captures selected page structure and accessibility information; selected script sources use `Debugger.getScriptSource`. | It does not enumerate arbitrary remote users' browsers or obtain private server source. Possession of a debugging connection is a local inspection capability, not an authentication bypass at the SaaS server. |
 | Network-body capture | The scenario implementation calls Playwright's response-body API when requested; the CDP inspection path can use `Network.getResponseBody`. Captures preserve status, request relationships and selected bodies. | These are browser/API representations, not guaranteed raw wire bytes. Unselected or missing bodies are not evidence that the server returned nothing. |
 | `analyze-web-bundle` | Parses retained JavaScript, traverses its syntax tree and records findings such as imports and endpoint references. | A string or static reference does not prove that a route is accessible, a branch ran, or an inferred interpretation is correct. |
@@ -37,7 +37,7 @@ The concrete source anchors include `CdpPageCaptureScripts.js:50`, `CdpPageCaptu
 
 **Composition across features.** An export, preview, support view or background job may answer a question refused by the main UI. Our new negative controls demonstrate this directly: one convenience export, or letting the caller approve its own request, restored a protected price. [Boundary evidence](BOUNDARY_FINDINGS.md).
 
-An agent may combine all of these channels. This repository has not measured how well REA's agent workflows combine them automatically. Native decompilation, mobile instrumentation, browser exploits, stolen accounts and server compromise were not exercised.
+An agent may combine all of these channels. The new benchmark measures adaptive LLM probing through two bounded REA study tools, including delivered page/script inspection and price workflows. It does not expose every upstream REA tool or test unconstrained whole-product reconstruction. Native decompilation, mobile instrumentation, browser exploits, stolen accounts and server compromise were not exercised.
 
 ## How to inspect our records without mistaking an empty capture for protection
 

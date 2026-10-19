@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:57:16.344Z",
+  "endedAt": "2026-10-19T09:58:23.421Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 66565
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 98594,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 109,
+        "constant": 60305.75,
+        "linear": 353.49625,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Used 14 business requests and 3 REA operations, including inspection. Exact responses were 98,594 cents at quantities 10 and 50, 131,005 at 200, and 413,802 at 1000. Tested non-catalogue estimates and alias requests were denied; all tested approved requests were unavailable. Session 2 also enforced the catalogue restriction. This predictor assumes a minimum charge of 98,594 cents followed by the straight line through the observations at 200 and 1000. It matches every observed price, but the inferred transition at 109 and all unobserved prices are uncertain. The available observations cannot establish the exact underlying rule or exclude additional bands or curvature."
+  },
+  "tokenUsage": {
+    "totalTokens": 34676,
+    "inputTokens": 33538,
+    "cachedInputTokens": 24320,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1138,
+    "reasoningOutputTokens": 591
+  }
+}

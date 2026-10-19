@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:44:52.388Z",
+  "endedAt": "2026-10-19T09:46:22.978Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 86883
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 36963,
+        "linear": 563,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 127707,
+        "linear": 109.28,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. The four successful observations were exact, unrounded prices: q=10 → 42593 cents; q=50 → 65113; q=200 → 149563; q=1000 → 236987. This model matches all four. The first three are collinear, giving 36963 + 563*q; that line is extrapolated down to q=1. Beyond q=200, the model linearly interpolates to the observed price at q=1000. The segment start at 201 is a modeling choice, not an observed pricing threshold. Non-catalogue estimate/alias requests were denied, including an estimate in the second session, and all 17 attempted approved requests were unavailable. Used 24 business requests and 5 REA operations including inspection. Hidden thresholds, discontinuities, or curvature cannot be identified from the available observations; predictions at unobserved quantities remain uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 41407,
+    "inputTokens": 40343,
+    "cachedInputTokens": 31744,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1064,
+    "reasoningOutputTokens": 459
+  }
+}

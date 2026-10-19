@@ -1,0 +1,49 @@
+{
+  "startedAt": "2026-10-19T09:39:21.940Z",
+  "endedAt": "2026-10-19T09:42:18.903Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 170385
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 87123.6666666667,
+        "linear": 216.07333333333332,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 22462.14285714287,
+        "linear": 542.7142857142857,
+        "quadratic": 0
+      },
+      {
+        "from": 235,
+        "constant": 32500,
+        "linear": 500,
+        "quadratic": 0
+      },
+      {
+        "from": 435,
+        "constant": 141250,
+        "linear": 250,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Used 24 business requests and 8 REA operations, including inspection. The approved workflow returned exact prices of 98,594 cents at quantity 50 and 131,005 cents at quantity 200. All other observed responses reported roundingCents=100000, including the alternate workflow in session 2. Assuming nearest-100,000-cent rounding and locally monotone prices, observations bracket the 150,000-cent crossing between quantities 232 and 238, the 250,000-cent crossing between 432 and 438, and the 350,000-cent crossing between 832 and 838. This continuous piecewise-linear predictor interpolates the two exact observations, places those crossings at bracket midpoints, and is consistent with every observed rounded response. Segment starts are modeling choices, not verified pricing-band boundaries. Exact behavior is not uniquely identifiable from these observations; curvature, discontinuities, and unobserved variation remain uncertain, especially below quantity 50 and above quantity 838."
+  },
+  "tokenUsage": {
+    "totalTokens": 68950,
+    "inputTokens": 66582,
+    "cachedInputTokens": 56192,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2368,
+    "reasoningOutputTokens": 1544
+  }
+}

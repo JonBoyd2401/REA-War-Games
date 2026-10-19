@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:33:46.664Z",
+  "endedAt": "2026-10-19T09:35:03.869Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 65076
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 35990,
+        "linear": 476,
+        "quadratic": 0
+      }
+    ],
+    "notes": "The observed approved prices were 59,790 cents at quantity 50 and 131,190 cents at quantity 200. This predictor is the unique affine model through those two observations: 35,990 + 476*q cents. Inspection stated that approved requests were available only for quantities 50 and 200; all six estimate/alias probes were denied, including probes at approved quantities. Eight business requests and three REA operations were used. The underlying exact rule is not identifiable from this evidence. This is a simple interpolation/extrapolation predictor, not a verified reconstruction: nonlinear terms, band boundaries, discontinuities, and prices at every other quantity remain unknown."
+  },
+  "tokenUsage": {
+    "totalTokens": 25827,
+    "inputTokens": 25075,
+    "cachedInputTokens": 17920,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 752,
+    "reasoningOutputTokens": 431
+  }
+}

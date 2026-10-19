@@ -1,0 +1,192 @@
+{
+  "cell": "cell-002",
+  "target": "target-03",
+  "policy": "limit-8",
+  "startedAt": "2026-10-19T09:33:46.667Z",
+  "endedAt": "2026-10-19T09:35:18.336Z",
+  "businessRequests": 15,
+  "reaOperations": 4,
+  "predictorSha256": "cba5de1604056191e53dd72e97f9d70e68f3517970d2fddfdc7a35c3d7d16dd0",
+  "agentResultSha256": "f8ae7269d645bc430835134fca06e16c627741d23c5884451a4f1ae69d25f163",
+  "serverAudit": [
+    {
+      "surface": "estimate",
+      "quantity": 1,
+      "request": {
+        "quantity": 1
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 36466,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 100,
+      "request": {
+        "quantity": 100
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 83590,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 250,
+      "request": {
+        "quantity": 250
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 154990,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 500,
+      "request": {
+        "quantity": 500
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 213310,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 750,
+      "request": {
+        "quantity": 750
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 254187,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 1000,
+      "request": {
+        "quantity": 1000
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 265937,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 350,
+      "request": {
+        "quantity": 350
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 186310,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 400,
+      "request": {
+        "quantity": 400
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 195310,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 501,
+      "request": {
+        "quantity": 501
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 600,
+      "request": {
+        "quantity": 600
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 751,
+      "request": {
+        "quantity": 751
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 900,
+      "request": {
+        "quantity": 900
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 600,
+      "request": {
+        "quantity": 600
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-50"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-295"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ]
+}

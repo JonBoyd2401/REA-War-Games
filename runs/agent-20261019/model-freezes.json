@@ -1,0 +1,257 @@
+{
+  "at": "2026-10-19T09:58:49.336Z",
+  "models": [
+    {
+      "target": "target-03",
+      "policy": "approved-only",
+      "cell": "cell-001",
+      "resultSha256": "1d999129e4446b748a5df5b149c1a55705a5b994a9924896523ddf20c7356434",
+      "endedAt": "2026-10-19T09:35:03.869Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "limit-8",
+      "cell": "cell-002",
+      "resultSha256": "f8ae7269d645bc430835134fca06e16c627741d23c5884451a4f1ae69d25f163",
+      "endedAt": "2026-10-19T09:35:18.334Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "exact",
+      "cell": "cell-003",
+      "resultSha256": "e0a8e37bd7614fd171dd0c553ad636908a9aabc1e919192c0d37ecbe189afd02",
+      "endedAt": "2026-10-19T09:35:25.303Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "rounded-approved",
+      "cell": "cell-004",
+      "resultSha256": "2ce56038aa051a9b9e29678883bffc5cc0b426319693667241b61732cccf2b36",
+      "endedAt": "2026-10-19T09:37:30.459Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "limit-8",
+      "cell": "cell-005",
+      "resultSha256": "40905efe0c76c363bed7c436b9d1e747df819e10de00e6dde30ed14d933012d0",
+      "endedAt": "2026-10-19T09:37:21.162Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "approved-only",
+      "cell": "cell-006",
+      "resultSha256": "95306db105c0b42eaf4bdd10c0d2ec4d521bb1315d0f64d75cdacf1077e42682",
+      "endedAt": "2026-10-19T09:36:32.498Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "exact",
+      "cell": "cell-007",
+      "resultSha256": "466227abcf2a83897c17e7857a24def07a888c6aeabaf5ba13b78b9643661c8f",
+      "endedAt": "2026-10-19T09:39:16.075Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "rounded-approved",
+      "cell": "cell-008",
+      "resultSha256": "5a2f2e5cfeb53c4bd989e16c456af36109cd04191858029eb691a51e387ca096",
+      "endedAt": "2026-10-19T09:40:09.830Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "rounded",
+      "cell": "cell-009",
+      "resultSha256": "32e81c23335b5b7a1d22fb46511342432a3f3e0268649ddb48402d09190960bc",
+      "endedAt": "2026-10-19T09:40:04.571Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "rounded-approved",
+      "cell": "cell-010",
+      "resultSha256": "3dd6d98ebea4bdb09105e1a23a22da10f18f3a12be1a0226f36ed827f94bd0df",
+      "endedAt": "2026-10-19T09:42:18.903Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "approved-only",
+      "cell": "cell-011",
+      "resultSha256": "7343b354dd91d74b201dde553dc73a0887ab0edd7db078ecf2fdc8a3c6548417",
+      "endedAt": "2026-10-19T09:41:14.040Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "limit-8",
+      "cell": "cell-012",
+      "resultSha256": "fe650691970f792fb4bde277e1922a38fd0daf6c70e3c81bb1be3736d167b813",
+      "endedAt": "2026-10-19T09:42:12.003Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "rounded",
+      "cell": "cell-013",
+      "resultSha256": "edd7cba9afd2dd25495371ab96016076a553fd389ed3b8dbc74518a7f390c12d",
+      "endedAt": "2026-10-19T09:44:45.611Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "catalogue",
+      "cell": "cell-014",
+      "resultSha256": "442dec7db1770e7ca3014da5372b2ff62f67d5ab0c31d7a514466f17e0805999",
+      "endedAt": "2026-10-19T09:43:39.842Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "limit-8",
+      "cell": "cell-015",
+      "resultSha256": "662e8a10883303b43eef5304e45afc901fe11e16be643dd2b3f81183537b5816",
+      "endedAt": "2026-10-19T09:43:52.830Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "rounded",
+      "cell": "cell-016",
+      "resultSha256": "fe3b38450de6bb4c095acbaca3d1ea68d11663423c2631616560a2a082966511",
+      "endedAt": "2026-10-19T09:46:14.507Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "catalogue",
+      "cell": "cell-017",
+      "resultSha256": "9f8c77f98b1617c9cae171db32ac9c5ab548cbac17b13a54f092eb52ea721a26",
+      "endedAt": "2026-10-19T09:46:01.032Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "catalogue",
+      "cell": "cell-018",
+      "resultSha256": "34f94d5bab02609b2722fdd62bdc772427c1ca1f20579ec3255f9a4ab3dd8f53",
+      "endedAt": "2026-10-19T09:46:22.978Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "rounded-approved",
+      "cell": "cell-019",
+      "resultSha256": "c647d7b0b85b333674e957ef7975d787f34258e663dbc6f39541d0981e1f2216",
+      "endedAt": "2026-10-19T09:48:57.219Z"
+    },
+    {
+      "target": "target-04",
+      "policy": "approved-only",
+      "cell": "cell-020",
+      "resultSha256": "9f0e3f1e3e04b681ce7ebb653c3de7b6e8bf85d95b1e1a5b1163578f83f781b4",
+      "endedAt": "2026-10-19T09:47:19.973Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "exact",
+      "cell": "cell-021",
+      "resultSha256": "c6698b5475db6505a226d31753b221da6119baa77ec3b2b668985f24d2ead735",
+      "endedAt": "2026-10-19T09:48:46.254Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "limit-8",
+      "cell": "cell-022",
+      "resultSha256": "81609685aff97cb15f5e363a72341a22865fad478f8d573ad76bca6281115ff7",
+      "endedAt": "2026-10-19T09:49:26.308Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "rounded",
+      "cell": "cell-023",
+      "resultSha256": "880544b3019255afddd8f54a2fba65b3db9105b06d5edb85056330708c7a02cd",
+      "endedAt": "2026-10-19T09:52:03.594Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "rounded",
+      "cell": "cell-024",
+      "resultSha256": "25aa20b0d474e9d9712736484f429eef5a7acd19a2aecde61af3d52f184de501",
+      "endedAt": "2026-10-19T09:51:20.593Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "exact",
+      "cell": "cell-025",
+      "resultSha256": "b62e022dfea77dda415d15a220496030c6ec868a35bd2d406b3df183860dd95f",
+      "endedAt": "2026-10-19T09:50:36.637Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "rounded-approved",
+      "cell": "cell-026",
+      "resultSha256": "13a8abe09edf3c8f6bbf6d75beab5b80efcf028a07cb891348c0d4e2d8e1086d",
+      "endedAt": "2026-10-19T09:53:37.805Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "rounded-approved",
+      "cell": "cell-027",
+      "resultSha256": "fd1adec57ab77a9ae1ac628f1587deac2b7ffdb68715fc4d8aa318bf50c05baa",
+      "endedAt": "2026-10-19T09:54:49.086Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "approved-only",
+      "cell": "cell-028",
+      "resultSha256": "6a6a63ab82ea991bee6869a1b75025f7dbcd974bfc723b60f84ec6f925ea9677",
+      "endedAt": "2026-10-19T09:52:54.414Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "exact",
+      "cell": "cell-029",
+      "resultSha256": "51b285de012fb91ccc8006029ad8081fbb5a4a394e02377d86a2f00d7f36837b",
+      "endedAt": "2026-10-19T09:55:25.377Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "exact",
+      "cell": "cell-030",
+      "resultSha256": "fbfb81b0cbb3962f76f427b7f72c958e13ac660a6482eb42ee2d1cb19244f392",
+      "endedAt": "2026-10-19T09:55:53.889Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "rounded",
+      "cell": "cell-031",
+      "resultSha256": "6af82d34daf67578e0a7eef694a8cd5de9ccf86031767b075b9167d50dbfa556",
+      "endedAt": "2026-10-19T09:57:04.491Z"
+    },
+    {
+      "target": "target-02",
+      "policy": "catalogue",
+      "cell": "cell-032",
+      "resultSha256": "e0df8008dfc2219be589622189a651d77f716cc1184e53f04cd6a3614e798d92",
+      "endedAt": "2026-10-19T09:56:58.531Z"
+    },
+    {
+      "target": "target-03",
+      "policy": "catalogue",
+      "cell": "cell-033",
+      "resultSha256": "602df37597a8d4bd17903133591b419fa190fd1b1ffdbd07eb99b2aa273745bd",
+      "endedAt": "2026-10-19T09:57:10.959Z"
+    },
+    {
+      "target": "target-05",
+      "policy": "limit-8",
+      "cell": "cell-034",
+      "resultSha256": "e6045e5dd0bc0a993ec7ca437200b406dc6a020a400d8436e63be9226a3d438c",
+      "endedAt": "2026-10-19T09:58:49.315Z"
+    },
+    {
+      "target": "target-01",
+      "policy": "approved-only",
+      "cell": "cell-035",
+      "resultSha256": "69fcfb3961289edb8076b20ec1a22db809d549d0eb86b93e572dda7119a5e1a6",
+      "endedAt": "2026-10-19T09:58:09.737Z"
+    },
+    {
+      "target": "target-06",
+      "policy": "catalogue",
+      "cell": "cell-036",
+      "resultSha256": "580d9eac6aaab3935ae5df8031909107338228a5e7d87ceb3299a98a46bb5b54",
+      "endedAt": "2026-10-19T09:58:23.421Z"
+    }
+  ]
+}

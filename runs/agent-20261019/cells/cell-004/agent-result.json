@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:35:09.512Z",
+  "endedAt": "2026-10-19T09:37:30.459Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 140469
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2836,
+        "quadratic": 0
+      },
+      {
+        "from": 217,
+        "constant": 0,
+        "linear": 1908.3333333333,
+        "quadratic": 0
+      },
+      {
+        "from": 748,
+        "constant": 0,
+        "linear": 761.5911765499,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-fit predictor, not a uniquely recovered exact rule. Used 24 business requests and 7 REA operations including inspection. Approved prices at quantities 50 and 200 were exactly 141800 and 567200 cents, both consistent with 2836 cents per unit. All other observed responses were rounded to 100000-cent increments. A three-band proportional model is consistent with every observation. Under that model and nearest-increment rounding, the second band starts somewhere from 214 through 219 and the third from 745 through 750; the chosen starts are central estimates. Compatible middle-band rates range from 1900 to just below 1916.6667 cents per unit, and final-band rates from approximately 757.5758 to just below 765.6066; midpoint rates are used. Rounded observations do not establish exact rates or boundaries and cannot exclude additional bands, fixed fees, or nonlinear behaviour."
+  },
+  "tokenUsage": {
+    "totalTokens": 60057,
+    "inputTokens": 58258,
+    "cachedInputTokens": 40192,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1799,
+    "reasoningOutputTokens": 1068
+  }
+}

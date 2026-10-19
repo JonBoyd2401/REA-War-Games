@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:35:25.291Z",
+  "endedAt": "2026-10-19T09:37:21.162Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 108233
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2022,
+        "quadratic": 0
+      },
+      {
+        "from": 176,
+        "constant": 0,
+        "linear": 1824,
+        "quadratic": 0
+      },
+      {
+        "from": 526,
+        "constant": 0,
+        "linear": 782,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. It matches all eight successful, unrounded observations: quantities 1 and 150 cost 2022*q cents; 200, 300, 350 and 400 cost 1824*q; 650 and 1000 cost 782*q. Under this three-band model, the transitions are only localized to 151..200 and 401..650; starts 176 and 526 are midpoint estimates, not observed boundaries. Additional bands or nonlinear behaviour between observations cannot be excluded. The application exhausted its tenant-wide distinct-quantity allowance after eight quantities; the alternate workflow in session 2 was also blocked, and all attempted approved requests were unavailable. Used 24 business requests and 6 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 49925,
+    "inputTokens": 48475,
+    "cachedInputTokens": 32384,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1450,
+    "reasoningOutputTokens": 788
+  }
+}

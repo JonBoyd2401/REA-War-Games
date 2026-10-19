@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:49:33.215Z",
+  "endedAt": "2026-10-19T09:50:36.637Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 62331
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 35990,
+        "linear": 476,
+        "quadratic": 0
+      },
+      {
+        "from": 296,
+        "constant": 123310,
+        "linear": 180,
+        "quadratic": 0
+      },
+      {
+        "from": 720,
+        "constant": 218937,
+        "linear": 47,
+        "quadratic": 0
+      }
+    ],
+    "notes": "The predictor matches all 24 observed prices exactly, using 24 business requests and 4 REA operations including inspection. It represents a 35,990-cent fixed fee plus marginal prices of 476 cents for units 1–295, 180 cents for units 296–719, and 47 cents thereafter. Observations at 294–296 and 718–720 directly support both transitions; additional samples span the domain through 1000. All responses reported roundingCents: 0. Eight alternate-estimate observations in session 2 also matched the model. Confidence is high, but unobserved quantities were not exhaustively verified, so additional localized pricing changes cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 34066,
+    "inputTokens": 33345,
+    "cachedInputTokens": 25088,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 721,
+    "reasoningOutputTokens": 269
+  }
+}

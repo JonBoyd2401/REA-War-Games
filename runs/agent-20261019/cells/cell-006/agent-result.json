@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:35:32.635Z",
+  "endedAt": "2026-10-19T09:36:32.498Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 59109
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 106767,
+        "linear": 36.98,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. Inspection stated that approved requests are available only for quantities 50 and 200; those returned exact prices of 108616 and 114163 cents respectively. Sampled estimate and alias requests across both same-tenant sessions were denied, as was an approved request for quantity 51. This single affine model matches both observed prices exactly and extends across quantities 1..1000. With only two accessible prices and no pricing-family information, curvature, additional bands and discontinuities cannot be identified; predictions at unobserved quantities remain highly uncertain. Used 8 of 24 business requests and 3 of 12 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 25737,
+    "inputTokens": 25061,
+    "cachedInputTokens": 17920,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 676,
+    "reasoningOutputTokens": 328
+  }
+}

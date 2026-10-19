@@ -1,0 +1,74 @@
+[
+  {
+    "id": "target-01",
+    "family": "volume",
+    "cuts": [
+      156,
+      572
+    ],
+    "rates": [
+      2022,
+      1824,
+      782
+    ]
+  },
+  {
+    "id": "target-02",
+    "family": "volume",
+    "cuts": [
+      219,
+      746
+    ],
+    "rates": [
+      2836,
+      1900,
+      762
+    ]
+  },
+  {
+    "id": "target-03",
+    "family": "graduated",
+    "cuts": [
+      295,
+      719
+    ],
+    "rates": [
+      476,
+      180,
+      47
+    ],
+    "fee": 35990
+  },
+  {
+    "id": "target-04",
+    "family": "graduated",
+    "cuts": [
+      208,
+      618
+    ],
+    "rates": [
+      563,
+      151,
+      55
+    ],
+    "fee": 36963
+  },
+  {
+    "id": "target-05",
+    "family": "minimum-rebate",
+    "minimum": 108616,
+    "fee": 27763,
+    "rate": 432,
+    "cut": 460,
+    "rebate": 11
+  },
+  {
+    "id": "target-06",
+    "family": "minimum-rebate",
+    "minimum": 98594,
+    "fee": 29405,
+    "rate": 508,
+    "cut": 501,
+    "rebate": 23
+  }
+]

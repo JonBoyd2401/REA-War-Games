@@ -1,0 +1,804 @@
+{
+  "at": "2026-10-19T09:58:49.844Z",
+  "primary": "Paired six-target means, one agent per cell; failed predictors score zero",
+  "aggregate": [
+    {
+      "policy": "exact",
+      "targets": 6,
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.9928385416666666,
+          "min": 0.95703125,
+          "max": 1
+        },
+        "within1": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "within5": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "reductionExactPoints": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "reductionWithin5Points": {
+          "mean": 0,
+          "min": 0,
+          "max": 0
+        },
+        "requests": {
+          "mean": 24,
+          "min": 24,
+          "max": 24
+        },
+        "reaOperations": {
+          "mean": 8.166666666666666,
+          "min": 4,
+          "max": 10
+        },
+        "durationSeconds": {
+          "mean": 126.19650000000001,
+          "min": 70.324,
+          "max": 163.572
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-04",
+          "family": "graduated",
+          "cell": "cell-003",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 5,
+          "durationSeconds": 92.974
+        },
+        {
+          "target": "target-05",
+          "family": "minimum-rebate",
+          "cell": "cell-007",
+          "validPredictor": true,
+          "exact": 0.95703125,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 10,
+          "durationSeconds": 163.572
+        },
+        {
+          "target": "target-02",
+          "family": "volume",
+          "cell": "cell-021",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 10,
+          "durationSeconds": 143.271
+        },
+        {
+          "target": "target-03",
+          "family": "graduated",
+          "cell": "cell-025",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 4,
+          "durationSeconds": 70.324
+        },
+        {
+          "target": "target-06",
+          "family": "minimum-rebate",
+          "cell": "cell-029",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 10,
+          "durationSeconds": 150.959
+        },
+        {
+          "target": "target-01",
+          "family": "volume",
+          "cell": "cell-030",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 10,
+          "durationSeconds": 136.079
+        }
+      ]
+    },
+    {
+      "policy": "limit-8",
+      "targets": 6,
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.9361979166666666,
+          "min": 0.7109375,
+          "max": 1
+        },
+        "within1": {
+          "mean": 0.9485677083333334,
+          "min": 0.78515625,
+          "max": 1
+        },
+        "within5": {
+          "mean": 0.9563802083333334,
+          "min": 0.83203125,
+          "max": 1
+        },
+        "reductionExactPoints": {
+          "mean": 5.6640625,
+          "min": -3.125,
+          "max": 28.90625
+        },
+        "reductionWithin5Points": {
+          "mean": 4.361979166666667,
+          "min": 0,
+          "max": 16.796875
+        },
+        "requests": {
+          "mean": 22,
+          "min": 15,
+          "max": 24
+        },
+        "reaOperations": {
+          "mean": 5.5,
+          "min": 4,
+          "max": 6
+        },
+        "durationSeconds": {
+          "mean": 111.2815,
+          "min": 91.669,
+          "max": 126.329
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-03",
+          "family": "graduated",
+          "cell": "cell-002",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 15,
+          "reaOperations": 4,
+          "durationSeconds": 91.669
+        },
+        {
+          "target": "target-01",
+          "family": "volume",
+          "cell": "cell-005",
+          "validPredictor": true,
+          "exact": 0.9453125,
+          "within1": 0.9453125,
+          "within5": 0.9453125,
+          "reductionExactPoints": 5.46875,
+          "reductionWithin5Points": 5.46875,
+          "requests": 24,
+          "reaOperations": 6,
+          "durationSeconds": 122.821
+        },
+        {
+          "target": "target-04",
+          "family": "graduated",
+          "cell": "cell-012",
+          "validPredictor": true,
+          "exact": 1,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 0,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 6,
+          "durationSeconds": 122.168
+        },
+        {
+          "target": "target-02",
+          "family": "volume",
+          "cell": "cell-015",
+          "validPredictor": true,
+          "exact": 0.97265625,
+          "within1": 0.97265625,
+          "within5": 0.97265625,
+          "reductionExactPoints": 2.734375,
+          "reductionWithin5Points": 2.734375,
+          "requests": 21,
+          "reaOperations": 5,
+          "durationSeconds": 93.922
+        },
+        {
+          "target": "target-06",
+          "family": "minimum-rebate",
+          "cell": "cell-022",
+          "validPredictor": true,
+          "exact": 0.7109375,
+          "within1": 0.78515625,
+          "within5": 0.83203125,
+          "reductionExactPoints": 28.90625,
+          "reductionWithin5Points": 16.796875,
+          "requests": 24,
+          "reaOperations": 6,
+          "durationSeconds": 126.329
+        },
+        {
+          "target": "target-05",
+          "family": "minimum-rebate",
+          "cell": "cell-034",
+          "validPredictor": true,
+          "exact": 0.98828125,
+          "within1": 0.98828125,
+          "within5": 0.98828125,
+          "reductionExactPoints": -3.125,
+          "reductionWithin5Points": 1.171875,
+          "requests": 24,
+          "reaOperations": 6,
+          "durationSeconds": 110.78
+        }
+      ]
+    },
+    {
+      "policy": "rounded",
+      "targets": 6,
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.08268229166666667,
+          "min": 0,
+          "max": 0.49609375
+        },
+        "within1": {
+          "mean": 0.4153645833333333,
+          "min": 0.20703125,
+          "max": 0.8359375
+        },
+        "within5": {
+          "mean": 0.6497395833333334,
+          "min": 0.359375,
+          "max": 0.8359375
+        },
+        "reductionExactPoints": {
+          "mean": 91.015625,
+          "min": 50.390625,
+          "max": 100
+        },
+        "reductionWithin5Points": {
+          "mean": 35.026041666666664,
+          "min": 16.40625,
+          "max": 64.0625
+        },
+        "requests": {
+          "mean": 24,
+          "min": 24,
+          "max": 24
+        },
+        "reaOperations": {
+          "mean": 8.5,
+          "min": 8,
+          "max": 10
+        },
+        "durationSeconds": {
+          "mean": 166.07199999999997,
+          "min": 135.399,
+          "max": 211.562
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-06",
+          "family": "minimum-rebate",
+          "cell": "cell-009",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.23828125,
+          "within5": 0.53125,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 46.875,
+          "requests": 24,
+          "reaOperations": 8,
+          "durationSeconds": 154.107
+        },
+        {
+          "target": "target-03",
+          "family": "graduated",
+          "cell": "cell-013",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.2734375,
+          "within5": 0.625,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 37.5,
+          "requests": 24,
+          "reaOperations": 8,
+          "durationSeconds": 211.562
+        },
+        {
+          "target": "target-04",
+          "family": "graduated",
+          "cell": "cell-016",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.20703125,
+          "within5": 0.359375,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 64.0625,
+          "requests": 24,
+          "reaOperations": 9,
+          "durationSeconds": 154.66
+        },
+        {
+          "target": "target-01",
+          "family": "volume",
+          "cell": "cell-023",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.8359375,
+          "within5": 0.8359375,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 16.40625,
+          "requests": 24,
+          "reaOperations": 10,
+          "durationSeconds": 197.336
+        },
+        {
+          "target": "target-02",
+          "family": "volume",
+          "cell": "cell-024",
+          "validPredictor": true,
+          "exact": 0.49609375,
+          "within1": 0.49609375,
+          "within5": 0.76953125,
+          "reductionExactPoints": 50.390625,
+          "reductionWithin5Points": 23.046875,
+          "requests": 24,
+          "reaOperations": 8,
+          "durationSeconds": 143.368
+        },
+        {
+          "target": "target-05",
+          "family": "minimum-rebate",
+          "cell": "cell-031",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.44140625,
+          "within5": 0.77734375,
+          "reductionExactPoints": 95.703125,
+          "reductionWithin5Points": 22.265625,
+          "requests": 24,
+          "reaOperations": 8,
+          "durationSeconds": 135.399
+        }
+      ]
+    },
+    {
+      "policy": "catalogue",
+      "targets": 6,
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.15494791666666666,
+          "min": 0.0625,
+          "max": 0.21875
+        },
+        "within1": {
+          "mean": 0.24869791666666666,
+          "min": 0.16796875,
+          "max": 0.421875
+        },
+        "within5": {
+          "mean": 0.494140625,
+          "min": 0.28125,
+          "max": 0.90625
+        },
+        "reductionExactPoints": {
+          "mean": 83.7890625,
+          "min": 78.125,
+          "max": 93.75
+        },
+        "reductionWithin5Points": {
+          "mean": 50.5859375,
+          "min": 9.375,
+          "max": 71.875
+        },
+        "requests": {
+          "mean": 18.166666666666668,
+          "min": 14,
+          "max": 24
+        },
+        "reaOperations": {
+          "mean": 4.5,
+          "min": 3,
+          "max": 6
+        },
+        "durationSeconds": {
+          "mean": 92.67533333333334,
+          "min": 72.455,
+          "max": 128.194
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-01",
+          "family": "volume",
+          "cell": "cell-014",
+          "validPredictor": true,
+          "exact": 0.0625,
+          "within1": 0.16796875,
+          "within5": 0.28125,
+          "reductionExactPoints": 93.75,
+          "reductionWithin5Points": 71.875,
+          "requests": 14,
+          "reaOperations": 4,
+          "durationSeconds": 87.832
+        },
+        {
+          "target": "target-05",
+          "family": "minimum-rebate",
+          "cell": "cell-017",
+          "validPredictor": true,
+          "exact": 0.14453125,
+          "within1": 0.421875,
+          "within5": 0.90625,
+          "reductionExactPoints": 81.25,
+          "reductionWithin5Points": 9.375,
+          "requests": 21,
+          "reaOperations": 6,
+          "durationSeconds": 128.194
+        },
+        {
+          "target": "target-04",
+          "family": "graduated",
+          "cell": "cell-018",
+          "validPredictor": true,
+          "exact": 0.17578125,
+          "within1": 0.22265625,
+          "within5": 0.515625,
+          "reductionExactPoints": 82.421875,
+          "reductionWithin5Points": 48.4375,
+          "requests": 24,
+          "reaOperations": 5,
+          "durationSeconds": 97.36
+        },
+        {
+          "target": "target-02",
+          "family": "volume",
+          "cell": "cell-032",
+          "validPredictor": true,
+          "exact": 0.21875,
+          "within1": 0.23046875,
+          "within5": 0.35546875,
+          "reductionExactPoints": 78.125,
+          "reductionWithin5Points": 64.453125,
+          "requests": 22,
+          "reaOperations": 5,
+          "durationSeconds": 93.148
+        },
+        {
+          "target": "target-03",
+          "family": "graduated",
+          "cell": "cell-033",
+          "validPredictor": true,
+          "exact": 0.20703125,
+          "within1": 0.2265625,
+          "within5": 0.33203125,
+          "reductionExactPoints": 79.296875,
+          "reductionWithin5Points": 66.796875,
+          "requests": 14,
+          "reaOperations": 4,
+          "durationSeconds": 77.063
+        },
+        {
+          "target": "target-06",
+          "family": "minimum-rebate",
+          "cell": "cell-036",
+          "validPredictor": true,
+          "exact": 0.12109375,
+          "within1": 0.22265625,
+          "within5": 0.57421875,
+          "reductionExactPoints": 87.890625,
+          "reductionWithin5Points": 42.578125,
+          "requests": 14,
+          "reaOperations": 3,
+          "durationSeconds": 72.455
+        }
+      ]
+    },
+    {
+      "policy": "rounded-approved",
+      "targets": 6,
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.11848958333333333,
+          "min": 0,
+          "max": 0.296875
+        },
+        "within1": {
+          "mean": 0.5501302083333334,
+          "min": 0.20703125,
+          "max": 1
+        },
+        "within5": {
+          "mean": 0.771484375,
+          "min": 0.359375,
+          "max": 1
+        },
+        "reductionExactPoints": {
+          "mean": 87.43489583333333,
+          "min": 70.3125,
+          "max": 100
+        },
+        "reductionWithin5Points": {
+          "mean": 22.8515625,
+          "min": 0,
+          "max": 64.0625
+        },
+        "requests": {
+          "mean": 24,
+          "min": 24,
+          "max": 24
+        },
+        "reaOperations": {
+          "mean": 7.5,
+          "min": 6,
+          "max": 9
+        },
+        "durationSeconds": {
+          "mean": 177.31633333333335,
+          "min": 146.585,
+          "max": 208.488
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-02",
+          "family": "volume",
+          "cell": "cell-004",
+          "validPredictor": true,
+          "exact": 0.23046875,
+          "within1": 1,
+          "within5": 1,
+          "reductionExactPoints": 76.953125,
+          "reductionWithin5Points": 0,
+          "requests": 24,
+          "reaOperations": 7,
+          "durationSeconds": 146.585
+        },
+        {
+          "target": "target-04",
+          "family": "graduated",
+          "cell": "cell-008",
+          "validPredictor": true,
+          "exact": 0.18359375,
+          "within1": 0.20703125,
+          "within5": 0.359375,
+          "reductionExactPoints": 81.640625,
+          "reductionWithin5Points": 64.0625,
+          "requests": 24,
+          "reaOperations": 6,
+          "durationSeconds": 168.662
+        },
+        {
+          "target": "target-06",
+          "family": "minimum-rebate",
+          "cell": "cell-010",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.27734375,
+          "within5": 0.6171875,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 38.28125,
+          "requests": 24,
+          "reaOperations": 8,
+          "durationSeconds": 182.821
+        },
+        {
+          "target": "target-03",
+          "family": "graduated",
+          "cell": "cell-019",
+          "validPredictor": true,
+          "exact": 0.296875,
+          "within1": 0.75390625,
+          "within5": 0.83203125,
+          "reductionExactPoints": 70.3125,
+          "reductionWithin5Points": 16.796875,
+          "requests": 24,
+          "reaOperations": 7,
+          "durationSeconds": 176.181
+        },
+        {
+          "target": "target-05",
+          "family": "minimum-rebate",
+          "cell": "cell-026",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.67578125,
+          "within5": 0.94921875,
+          "reductionExactPoints": 95.703125,
+          "reductionWithin5Points": 5.078125,
+          "requests": 24,
+          "reaOperations": 8,
+          "durationSeconds": 181.161
+        },
+        {
+          "target": "target-01",
+          "family": "volume",
+          "cell": "cell-027",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.38671875,
+          "within5": 0.87109375,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 12.890625,
+          "requests": 24,
+          "reaOperations": 9,
+          "durationSeconds": 208.488
+        }
+      ]
+    },
+    {
+      "policy": "approved-only",
+      "targets": 6,
+      "validPredictors": 6,
+      "metrics": {
+        "exact": {
+          "mean": 0.11848958333333333,
+          "min": 0,
+          "max": 0.296875
+        },
+        "within1": {
+          "mean": 0.15169270833333334,
+          "min": 0.015625,
+          "max": 0.30078125
+        },
+        "within5": {
+          "mean": 0.244140625,
+          "min": 0.09375,
+          "max": 0.421875
+        },
+        "reductionExactPoints": {
+          "mean": 87.43489583333333,
+          "min": 70.3125,
+          "max": 100
+        },
+        "reductionWithin5Points": {
+          "mean": 75.5859375,
+          "min": 57.8125,
+          "max": 90.625
+        },
+        "requests": {
+          "mean": 9,
+          "min": 8,
+          "max": 12
+        },
+        "reaOperations": {
+          "mean": 3.1666666666666665,
+          "min": 3,
+          "max": 4
+        },
+        "durationSeconds": {
+          "mean": 66.736,
+          "min": 50.813,
+          "max": 82.251
+        }
+      },
+      "perTarget": [
+        {
+          "target": "target-03",
+          "family": "graduated",
+          "cell": "cell-001",
+          "validPredictor": true,
+          "exact": 0.296875,
+          "within1": 0.30078125,
+          "within5": 0.33984375,
+          "reductionExactPoints": 70.3125,
+          "reductionWithin5Points": 66.015625,
+          "requests": 8,
+          "reaOperations": 3,
+          "durationSeconds": 82.251
+        },
+        {
+          "target": "target-05",
+          "family": "minimum-rebate",
+          "cell": "cell-006",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.046875,
+          "within5": 0.171875,
+          "reductionExactPoints": 95.703125,
+          "reductionWithin5Points": 82.8125,
+          "requests": 8,
+          "reaOperations": 3,
+          "durationSeconds": 67.188
+        },
+        {
+          "target": "target-06",
+          "family": "minimum-rebate",
+          "cell": "cell-011",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.015625,
+          "within5": 0.09375,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 90.625,
+          "requests": 8,
+          "reaOperations": 3,
+          "durationSeconds": 69.463
+        },
+        {
+          "target": "target-04",
+          "family": "graduated",
+          "cell": "cell-020",
+          "validPredictor": true,
+          "exact": 0.18359375,
+          "within1": 0.1875,
+          "within5": 0.20703125,
+          "reductionExactPoints": 81.640625,
+          "reductionWithin5Points": 79.296875,
+          "requests": 9,
+          "reaOperations": 3,
+          "durationSeconds": 65.46
+        },
+        {
+          "target": "target-02",
+          "family": "volume",
+          "cell": "cell-028",
+          "validPredictor": true,
+          "exact": 0.23046875,
+          "within1": 0.23046875,
+          "within5": 0.23046875,
+          "reductionExactPoints": 76.953125,
+          "reductionWithin5Points": 76.953125,
+          "requests": 9,
+          "reaOperations": 3,
+          "durationSeconds": 50.813
+        },
+        {
+          "target": "target-01",
+          "family": "volume",
+          "cell": "cell-035",
+          "validPredictor": true,
+          "exact": 0,
+          "within1": 0.12890625,
+          "within5": 0.421875,
+          "reductionExactPoints": 100,
+          "reductionWithin5Points": 57.8125,
+          "requests": 12,
+          "reaOperations": 4,
+          "durationSeconds": 65.241
+        }
+      ]
+    }
+  ]
+}

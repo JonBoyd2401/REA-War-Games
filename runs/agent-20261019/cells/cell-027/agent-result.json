@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:51:25.711Z",
+  "endedAt": "2026-10-19T09:54:49.086Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 202213
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 14400,
+        "linear": 1728,
+        "quadratic": 0.12
+      },
+      {
+        "from": 572,
+        "constant": 0,
+        "linear": 767,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a uniquely recovered exact rule. Used 24 business requests and 9 REA operations, including inspection. Approved responses supplied exact prices of 101100 cents at quantity 50 and 364800 cents at quantity 200; the first segment matches both exactly. All other observed responses were rounded to 100000 cents. The predictor is consistent with every observed response under nearest-100000-cent rounding. Adjacent observations at 571 and 572 establish a sharp price drop there, represented by the segment boundary. The lower-quantity quadratic and higher-quantity linear coefficients are estimates: the coarse responses do not identify exact coefficients or exclude additional pricing bands. Unobserved prices remain uncertain, particularly in the second segment."
+  },
+  "tokenUsage": {
+    "totalTokens": 81454,
+    "inputTokens": 78431,
+    "cachedInputTokens": 58240,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 3023,
+    "reasoningOutputTokens": 2313
+  }
+}

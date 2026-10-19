@@ -1,0 +1,938 @@
+[
+  {
+    "target": "target-01",
+    "policy": "exact",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 101100,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 101100,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "exact",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 364800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 364800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "limit-8",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 101100,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 101100,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "limit-8",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 364800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 364800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "rounded",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 101100,
+    "errorCents": 1100
+  },
+  {
+    "target": "target-01",
+    "policy": "rounded",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 400000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 364800,
+    "errorCents": 35200
+  },
+  {
+    "target": "target-01",
+    "policy": "catalogue",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 101100,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 101100,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "catalogue",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 364800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 364800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "rounded-approved",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 101100,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 101100,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "rounded-approved",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 364800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 364800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "approved-only",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 101100,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 101100,
+    "errorCents": 0
+  },
+  {
+    "target": "target-01",
+    "policy": "approved-only",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 364800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 364800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "exact",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 141800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 141800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "exact",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 567200,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 567200,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "limit-8",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 141800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 141800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "limit-8",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 567200,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 567200,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "rounded",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 141800,
+    "errorCents": 41800
+  },
+  {
+    "target": "target-02",
+    "policy": "rounded",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 600000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 567200,
+    "errorCents": 32800
+  },
+  {
+    "target": "target-02",
+    "policy": "catalogue",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 141800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 141800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "catalogue",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 567200,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 567200,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "rounded-approved",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 141800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 141800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "rounded-approved",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 567200,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 567200,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "approved-only",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 141800,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 141800,
+    "errorCents": 0
+  },
+  {
+    "target": "target-02",
+    "policy": "approved-only",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 567200,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 567200,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "exact",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 59790,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 59790,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "exact",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131190,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131190,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "limit-8",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 59790,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 59790,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "limit-8",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131190,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131190,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "rounded",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 59790,
+    "errorCents": 40210
+  },
+  {
+    "target": "target-03",
+    "policy": "rounded",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 131190,
+    "errorCents": 31190
+  },
+  {
+    "target": "target-03",
+    "policy": "catalogue",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 59790,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 59790,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "catalogue",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131190,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131190,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "rounded-approved",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 59790,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 59790,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "rounded-approved",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131190,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131190,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "approved-only",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 59790,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 59790,
+    "errorCents": 0
+  },
+  {
+    "target": "target-03",
+    "policy": "approved-only",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131190,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131190,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "exact",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 65113,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 65113,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "exact",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 149563,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 149563,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "limit-8",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 65113,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 65113,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "limit-8",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 149563,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 149563,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "rounded",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 65113,
+    "errorCents": 34887
+  },
+  {
+    "target": "target-04",
+    "policy": "rounded",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 149563,
+    "errorCents": 49563
+  },
+  {
+    "target": "target-04",
+    "policy": "catalogue",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 65113,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 65113,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "catalogue",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 149563,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 149563,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "rounded-approved",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 65113,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 65113,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "rounded-approved",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 149563,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 149563,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "approved-only",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 65113,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 65113,
+    "errorCents": 0
+  },
+  {
+    "target": "target-04",
+    "policy": "approved-only",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 149563,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 149563,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "exact",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 108616,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 108616,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "exact",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 114163,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 114163,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "limit-8",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 108616,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 108616,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "limit-8",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 114163,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 114163,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "rounded",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 108616,
+    "errorCents": 8616
+  },
+  {
+    "target": "target-05",
+    "policy": "rounded",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 114163,
+    "errorCents": 14163
+  },
+  {
+    "target": "target-05",
+    "policy": "catalogue",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 108616,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 108616,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "catalogue",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 114163,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 114163,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "rounded-approved",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 108616,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 108616,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "rounded-approved",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 114163,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 114163,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "approved-only",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 108616,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 108616,
+    "errorCents": 0
+  },
+  {
+    "target": "target-05",
+    "policy": "approved-only",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 114163,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 114163,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "exact",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 98594,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 98594,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "exact",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131005,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131005,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "limit-8",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 98594,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 98594,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "limit-8",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131005,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131005,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "rounded",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 98594,
+    "errorCents": 1406
+  },
+  {
+    "target": "target-06",
+    "policy": "rounded",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 100000,
+      "currency": "GBP",
+      "roundingCents": 100000
+    },
+    "truthCents": 131005,
+    "errorCents": 31005
+  },
+  {
+    "target": "target-06",
+    "policy": "catalogue",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 98594,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 98594,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "catalogue",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131005,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131005,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "rounded-approved",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 98594,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 98594,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "rounded-approved",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131005,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131005,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "approved-only",
+    "quantity": 50,
+    "status": 200,
+    "body": {
+      "totalCents": 98594,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 98594,
+    "errorCents": 0
+  },
+  {
+    "target": "target-06",
+    "policy": "approved-only",
+    "quantity": 200,
+    "status": 200,
+    "body": {
+      "totalCents": 131005,
+      "currency": "GBP",
+      "roundingCents": 0
+    },
+    "truthCents": 131005,
+    "errorCents": 0
+  }
+]

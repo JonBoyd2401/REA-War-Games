@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:57:04.412Z",
+  "endedAt": "2026-10-19T09:58:49.315Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 92960
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 108616,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 188,
+        "constant": 27763,
+        "linear": 432,
+        "quadratic": 0
+      },
+      {
+        "from": 476,
+        "constant": 24709.07,
+        "linear": 384.48,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This predictor reproduces all eight successful observations exactly after rounding. It models a minimum charge of 108616 cents, followed by 27763 + 432*q, with an inferred 11% whole-total discount for larger quantities. The minimum-charge crossover at 188 is inferred rather than directly observed. Under this model, the discount starts somewhere from 401 through 550; 476 is a midpoint estimate, not an established boundary. Additional unobserved pricing bands cannot be excluded. After eight successful observations, a tenant-wide distinct-quantity limit blocked further estimate queries, including the alternate workflow and second session. All attempted approved requests were unavailable. Used 24 business requests and 6 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 50554,
+    "inputTokens": 49128,
+    "cachedInputTokens": 45568,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1426,
+    "reasoningOutputTokens": 769
+  }
+}

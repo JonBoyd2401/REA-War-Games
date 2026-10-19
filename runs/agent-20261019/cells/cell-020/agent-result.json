@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:46:22.894Z",
+  "endedAt": "2026-10-19T09:47:19.973Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 50595
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 36963,
+        "linear": 563,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort affine predictor, not a verified reconstruction of the hidden rule. The approved workflow returned exact totals of 65,113 cents at quantity 50 and 149,563 cents at quantity 200; this model matches both. Inspection stated that only those two quantities have approved requests. Tested estimate and alias requests were denied across the two same-tenant sessions, and an approved request for quantity 100 was also denied. With only two observable prices, curvature, additional bands and discontinuities cannot be determined. The model uses linear interpolation between the observed quantities and linear extrapolation elsewhere; unobserved prices remain uncertain. Used 9 business requests and 3 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 25697,
+    "inputTokens": 25110,
+    "cachedInputTokens": 17920,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 587,
+    "reasoningOutputTokens": 229
+  }
+}

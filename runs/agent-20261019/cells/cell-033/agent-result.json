@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:55:59.228Z",
+  "endedAt": "2026-10-19T09:57:10.959Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 71115
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 35990,
+        "linear": 476,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 97503.25,
+        "linear": 168.43375,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Conservative interpolation predictor, not a uniquely recovered pricing rule. Exact observed totals were 40750 cents at quantity 10, 59790 at 50, 131190 at 200, and 265937 at 1000. The first three are collinear; their line is used through quantity 200 and extrapolated below 10. Above 200, a straight line connects the observed totals at 200 and 1000. All four observed totals are reproduced exactly. Tested non-catalogue estimate/alias requests were denied, as were all tested approved requests; session 2 did not provide additional quantity access. Used 14 business requests and 4 REA operations, including inspection. Unobserved prices remain unidentified: hidden curvature, additional bands, or discontinuities could differ substantially from this predictor, particularly between 200 and 1000."
+  },
+  "tokenUsage": {
+    "totalTokens": 33479,
+    "inputTokens": 32460,
+    "cachedInputTokens": 29952,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1019,
+    "reasoningOutputTokens": 513
+  }
+}

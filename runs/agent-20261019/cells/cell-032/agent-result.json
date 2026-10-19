@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:55:32.663Z",
+  "endedAt": "2026-10-19T09:56:58.531Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 85213
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2836,
+        "quadratic": 0
+      },
+      {
+        "from": 201,
+        "constant": 518500,
+        "linear": 243.5,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not an identified exact pricing rule. Observed exact totals were 28,360 cents at quantity 10; 141,800 at 50; 567,200 at 200; and 762,000 at 1000. Estimate and alias agreed at all four catalogue quantities and reported no rounding. Tested non-catalogue estimates and aliases were denied, including in session 2; all tested approved requests were unavailable. The model matches every observed price, extends the observed 2,836-cents-per-unit relationship through quantity 200, and linearly interpolates from 200 to 1000. The breakpoint at 201 is a modelling choice, not an observed pricing boundary. Unobserved quantities remain uncertain: hidden curves, discounts or discontinuities cannot be determined from these observations. Used 22 business requests and 5 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 41162,
+    "inputTokens": 40090,
+    "cachedInputTokens": 25728,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1072,
+    "reasoningOutputTokens": 456
+  }
+}

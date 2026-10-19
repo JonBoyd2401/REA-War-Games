@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:52:10.202Z",
+  "endedAt": "2026-10-19T09:52:54.414Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 43495
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2836,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor: 2,836 GBP cents per unit for quantities 1–1000. The two available approved quotes were exact, with roundingCents=0: 141,800 cents at quantity 50 and 567,200 cents at quantity 200. This model matches both observations. The inspected application states that only quantities 50 and 200 have approved requests. Tested estimate and alias requests were denied across both same-tenant sessions; an approved request at quantity 100 was also denied. Consequently, the hidden pricing rule is not uniquely identifiable: nonlinear behaviour, additional bands, or discontinuities at unobserved quantities cannot be ruled out. The single linear segment is a parsimonious extrapolation, not a verified exact reconstruction outside the two observed quantities. Used 9 of 24 business requests and 3 of 12 REA operations; stopped because the available workflows exposed no further pricing information."
+  },
+  "tokenUsage": {
+    "totalTokens": 25682,
+    "inputTokens": 25123,
+    "cachedInputTokens": 16896,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 559,
+    "reasoningOutputTokens": 151
+  }
+}

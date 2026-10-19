@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:53:00.774Z",
+  "endedAt": "2026-10-19T09:55:25.377Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 143579
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 98594,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 137,
+        "constant": 29405,
+        "linear": 508,
+        "quadratic": 0
+      },
+      {
+        "from": 501,
+        "constant": 22641.85,
+        "linear": 391.16,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This predictor matches all 24 observed prices, using 10 REA operations including inspection. Observations support a minimum charge of 98,594 cents through quantity 136, a price of 29,405 + 508*q through quantity 500, and a 23% reduction of that linear price starting at 501, rounded to whole cents. Both sides of each inferred boundary were queried: 136/137 and 500/501. All requests succeeded and reported roundingCents=0. The model is strongly supported by the sampled quantities but is not proven for every unqueried integer; additional unsampled changes cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 82706,
+    "inputTokens": 81455,
+    "cachedInputTokens": 76800,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1251,
+    "reasoningOutputTokens": 499
+  }
+}

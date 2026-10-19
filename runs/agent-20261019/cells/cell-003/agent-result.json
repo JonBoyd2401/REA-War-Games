@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:33:58.541Z",
+  "endedAt": "2026-10-19T09:35:25.303Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 79910
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 36963,
+        "linear": 563,
+        "quadratic": 0
+      },
+      {
+        "from": 209,
+        "constant": 122659,
+        "linear": 151,
+        "quadratic": 0
+      },
+      {
+        "from": 619,
+        "constant": 181987,
+        "linear": 55,
+        "quadratic": 0
+      }
+    ],
+    "notes": "This continuous piecewise-linear predictor matches all 24 observed prices exactly, with amounts in GBP cents and no response rounding reported. The inferred marginal prices are 563 cents through quantity 208, 151 cents for quantities 209–618, and 55 cents thereafter. Observations at 207, 208, 209 and 617, 618, 619 directly support both transitions; other samples span quantities 1–1000 across both sessions. Used 24 business requests and 5 REA operations, including inspection. Unqueried quantities remain predictions: additional changes between sampled quantities cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 41687,
+    "inputTokens": 40794,
+    "cachedInputTokens": 32128,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 893,
+    "reasoningOutputTokens": 292
+  }
+}

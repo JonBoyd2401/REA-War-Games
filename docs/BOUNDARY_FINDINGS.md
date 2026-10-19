@@ -1,5 +1,7 @@
 # Protecting private SaaS behaviour from reconstruction
 
+**Later actual-agent evidence:** see the [new effectiveness scorecard](AGENT_BENCHMARK.md) and [current white paper](REA_SaaS_Protection_White_Paper_20261019.pdf). This page preserves the scope and findings of its earlier stage.
+
 **Evidence supplement, 19 October 2026.** Six new real REA captures, an exhaustive finite-input boundary check, and a conditional demonstration of what an observer cannot determine from restricted outputs.
 
 ## The practical answer

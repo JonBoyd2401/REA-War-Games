@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:46:29.146Z",
+  "endedAt": "2026-10-19T09:48:46.254Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 136490
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 2836,
+        "quadratic": 0
+      },
+      {
+        "from": 219,
+        "constant": 0,
+        "linear": 1900,
+        "quadratic": 0
+      },
+      {
+        "from": 746,
+        "constant": 0,
+        "linear": 762,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-supported predictor: all-units pricing at 2836 cents per unit for quantities 1–218, 1900 for 219–745, and 762 for 746–1000. It matches all 24 observed estimates exactly; every response reported roundingCents=0. Both inferred transitions were checked at adjacent quantities: 218/219 and 745/746. Used 24 business requests and 10 REA operations, including inspection. Unqueried quantities are predictions; additional narrow bands or other departures between observations cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 81229,
+    "inputTokens": 80236,
+    "cachedInputTokens": 63104,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 993,
+    "reasoningOutputTokens": 269
+  }
+}

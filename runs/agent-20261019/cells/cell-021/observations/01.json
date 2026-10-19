@@ -1,0 +1,20 @@
+{
+  "evidenceId": "01",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [],
+  "businessRequestsUsed": 0,
+  "businessRequestsRemaining": 24,
+  "reaOperationsRemaining": 11,
+  "pageHtml": "<!DOCTYPE html><html><head><title>Subscription quotation</title></head><body><h1>Subscription quotation</h1><p>Quantities are integers 1 to 1000. Amounts are GBP cents.</p><p>Estimates available.</p><label>Quantity <input id=\"quantity\" type=\"number\" value=\"50\"></label><label>Workflow <select id=\"surface\"><option value=\"estimate\">Estimate</option><option value=\"alias\">Alternate estimate</option><option value=\"approved\">Approved request</option></select></label><button id=\"calculate\">Calculate</button><div id=\"history\"></div><script src=\"/app.js\"></script></body></html>",
+  "deliveredScripts": [
+    "document.querySelector('#calculate').addEventListener('click',async()=>{\n const quantity=Number(document.querySelector('#quantity').value),surface=document.querySelector('#surface').value;\n const body=surface==='approved'?{requestId:'approved-'+quantity}:{quantity};\n const r=await fetch('/api/'+surface,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});\n const record={surface,quantity,status:r.status,body:await r.json()};\n const history=document.querySelector('#history'),row=document.createElement('pre');row.dataset.index=String(history.children.length);row.textContent=JSON.stringify(record);history.appendChild(row);\n});"
+  ]
+}

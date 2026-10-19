@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:49:05.842Z",
+  "endedAt": "2026-10-19T09:51:20.593Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 134058
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 3000,
+        "quadratic": 0
+      },
+      {
+        "from": 215,
+        "constant": 0,
+        "linear": 1900,
+        "quadratic": 0
+      },
+      {
+        "from": 748,
+        "constant": 0,
+        "linear": 800,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not an exact identification. Used 24 business requests and 8 REA operations, including inspection. Every successful response reported rounding to 100,000 cents; the tested alias was also rounded, and both tested approved requests were denied. The observations are consistent with three quantity bands charging approximately 3,000, 1,900 and 800 cents per unit, with downward price discontinuities. Assuming that structure, the first transition is somewhere from quantity 211 through 219 and the second from 746 through 750; the predictor uses midpoint estimates of 215 and 748. The selected rates reproduce every successful observation after the application's reported rounding, but exact rates, fixed fees, curvature and additional unobserved bands cannot be determined from these observations."
+  },
+  "tokenUsage": {
+    "totalTokens": 66622,
+    "inputTokens": 65058,
+    "cachedInputTokens": 55296,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1564,
+    "reasoningOutputTokens": 843
+  }
+}

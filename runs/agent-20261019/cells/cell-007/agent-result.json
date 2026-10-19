@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:36:38.350Z",
+  "endedAt": "2026-10-19T09:39:16.075Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 157010
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 108616,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 188,
+        "constant": 27763,
+        "linear": 432,
+        "quadratic": 0
+      },
+      {
+        "from": 460,
+        "constant": 24709,
+        "linear": 384.48,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best inferred predictor for integer quantities 1..1000, in GBP cents, using the specified rounding rule. It matches all 24 observed prices exactly. Observations support a minimum price through quantity 187, a linear region beginning at 188, and a downward price discontinuity at 460 followed by another linear region. Both transition boundaries were checked at adjacent integer quantities: 187/188 and 459/460. Additional non-round quantities support the final region's cent rounding. Used 24 business requests and 10 REA operations, including inspection; all requests returned unrounded estimates. This is an inferred model, not a verified reconstruction of source logic: unobserved quantities could contain additional changes that the available observations do not reveal."
+  },
+  "tokenUsage": {
+    "totalTokens": 84974,
+    "inputTokens": 83375,
+    "cachedInputTokens": 72576,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1599,
+    "reasoningOutputTokens": 904
+  }
+}

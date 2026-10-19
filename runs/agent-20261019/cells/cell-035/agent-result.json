@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:57:10.741Z",
+  "endedAt": "2026-10-19T09:58:09.737Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 53214
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 13200,
+        "linear": 1758,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort affine predictor, not a verified reconstruction of the hidden pricing rule. The two successful approved observations were 101100 cents at quantity 50 and 364800 cents at quantity 200; both were reported without rounding. This predictor matches both exactly. Tested estimate and alias requests were denied across both sessions, and approved requests at quantities 100 and 1000 were unavailable, consistent with the application's stated restriction to approved quantities 50 and 200. Two prices cannot identify curvature, breakpoints or discontinuities, so predictions at all other quantities remain uncertain, especially outside 50–200. Used 12 business requests and 4 REA operations including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 25919,
+    "inputTokens": 25332,
+    "cachedInputTokens": 17920,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 587,
+    "reasoningOutputTokens": 188
+  }
+}

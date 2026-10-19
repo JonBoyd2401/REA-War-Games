@@ -1,0 +1,250 @@
+{
+  "cell": "cell-015",
+  "target": "target-02",
+  "policy": "limit-8",
+  "startedAt": "2026-10-19T09:42:18.911Z",
+  "endedAt": "2026-10-19T09:43:52.833Z",
+  "businessRequests": 21,
+  "reaOperations": 5,
+  "predictorSha256": "8193e7d3012658f544e5a6741f2dcab909c7eab1527ef136945f452ae364d62b",
+  "agentResultSha256": "662e8a10883303b43eef5304e45afc901fe11e16be643dd2b3f81183537b5816",
+  "serverAudit": [
+    {
+      "surface": "estimate",
+      "quantity": 1,
+      "request": {
+        "quantity": 1
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 2836,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 50,
+      "request": {
+        "quantity": 50
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 141800,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 150,
+      "request": {
+        "quantity": 150
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 425400,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 300,
+      "request": {
+        "quantity": 300
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 570000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 500,
+      "request": {
+        "quantity": 500
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 950000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 700,
+      "request": {
+        "quantity": 700
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 1330000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 850,
+      "request": {
+        "quantity": 850
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 647700,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 1000,
+      "request": {
+        "quantity": 1000
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 762000,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 225,
+      "request": {
+        "quantity": 225
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 775,
+      "request": {
+        "quantity": 775
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 225,
+      "request": {
+        "quantity": 225
+      },
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-225"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-775"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-200"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-250"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-750"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-800"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-100"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-400"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-600"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-900"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "evidenceId": "03",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "surface": "estimate",
+      "quantity": 100,
+      "status": 403,
+      "body": {
+        "error": "quantity outside catalogue",
+        "allowed": [
+          10,
+          50,
+          200,
+          1000
+        ]
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 200,
+      "status": 200,
+      "body": {
+        "totalCents": 131005,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 10,
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 200,
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 1000,
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 100,
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ],
+  "businessRequestsUsed": 14,
+  "businessRequestsRemaining": 10,
+  "reaOperationsRemaining": 9
+}

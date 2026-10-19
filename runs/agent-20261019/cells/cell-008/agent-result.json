@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:37:27.429Z",
+  "endedAt": "2026-10-19T09:40:09.830Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 157577
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 36963,
+        "linear": 563,
+        "quadratic": 0
+      },
+      {
+        "from": 290,
+        "constant": 200000,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Conservative predictor, not a uniquely recovered exact rule. Used 24 business requests and 6 REA operations, including inspection. Approved requests disclosed exact prices of 65113 cents at quantity 50 and 149563 cents at quantity 200; the initial affine segment fits both exactly. Observed estimates and aliases across both sessions rounded to increments of 100000 cents. The lower rounding transition was bracketed between quantities 23 and 24, and another between 200 and 201, consistent with the affine fit. All sampled quantities from 201 through 1000 returned 200000 cents. The predictor continues the fitted line until it reaches that rounded band's midpoint, then caps it there. This cap and its start are modeling choices, not observed pricing rules. Every observed response is consistent with this predictor after the reported rounding, but exact prices—especially above quantity 200—and additional breakpoints remain substantially uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 53751,
+    "inputTokens": 51090,
+    "cachedInputTokens": 32640,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2661,
+    "reasoningOutputTokens": 1998
+  }
+}

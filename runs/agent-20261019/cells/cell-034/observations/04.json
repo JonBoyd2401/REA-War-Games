@@ -1,0 +1,41 @@
+{
+  "evidenceId": "04",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "surface": "alias",
+      "quantity": 200,
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 475,
+      "status": 429,
+      "body": {
+        "error": "tenant distinct-quantity allowance exhausted"
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 425,
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ],
+  "businessRequestsUsed": 16,
+  "businessRequestsRemaining": 8,
+  "reaOperationsRemaining": 8
+}

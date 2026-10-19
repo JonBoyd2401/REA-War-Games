@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:43:45.771Z",
+  "endedAt": "2026-10-19T09:46:14.507Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 148317
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 36834.73389355742,
+        "linear": 560.2240896358544,
+        "quadratic": 0
+      },
+      {
+        "from": 292,
+        "constant": 200000,
+        "linear": 0,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not an exact identification. Used all 24 business requests and 9 REA operations, including inspection. Successful estimate and alias responses declared 100000-cent rounding; approved requests at quantities 50 and 100 were denied. Observations bracketed the first rounding transition between quantities 23 and 24 and the next between 200 and 204. All sampled quantities from 250 through 1000 returned 200000 cents. The predictor uses an affine interpolation through the midpoint locations of those transitions, then caps at 200000 cents. The affine shape, exact cap, and cap onset are modeling assumptions, not observed underlying prices. Coarse rounding leaves substantial uncertainty: nonlinear curves, additional bands, and different exact plateau values remain consistent with the evidence."
+  },
+  "tokenUsage": {
+    "totalTokens": 74370,
+    "inputTokens": 72725,
+    "cachedInputTokens": 64000,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1645,
+    "reasoningOutputTokens": 916
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:46:07.957Z",
+  "endedAt": "2026-10-19T09:48:57.219Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 168777
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 35990,
+        "linear": 476,
+        "quadratic": 0
+      },
+      {
+        "from": 301,
+        "constant": 125382.5,
+        "linear": 178.025,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a uniquely recovered exact tariff. Used 24 business requests and 7 REA operations, including inspection. Approved responses gave exact prices of 59,790 cents at quantity 50 and 131,190 cents at quantity 200; this model matches both exactly. Estimate and alias responses reported rounding to 100,000 cents, including the alias tested in the second session. Observed rounding transitions were bracketed between quantities 29 and 30, 238 and 240, and 696 and 704. The predictor is consistent with every observed rounded response under nearest-100,000-cent rounding. The breakpoint after quantity 300 is an interpolation assumption, not an observed pricing boundary; the upper slope places the final bracketed transition at quantity 700. Unobserved exact prices, additional bands, and nonlinear behaviour remain substantially uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 60584,
+    "inputTokens": 58230,
+    "cachedInputTokens": 51200,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2354,
+    "reasoningOutputTokens": 1673
+  }
+}

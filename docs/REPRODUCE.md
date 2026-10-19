@@ -6,18 +6,19 @@ Use Node supported by pinned REA 6.7.0: `^22.19.0 || ^24.11.0 || >=26.0.0`. The 
 
 ```sh
 npm install --ignore-scripts --save-exact rea-agents@6.7.0
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
 node boundary-study/verify.mjs
+node agent-benchmark/verify.mjs
 ```
 
 The original laptop did not have npm on PATH, so pnpm 11.25.0 installed the exact package locally with lifecycle scripts disabled. The pinned package metadata and that lockfile are in `provenance`. REA's web/static commands ran successfully; native decompilers and MCP registration were unnecessary. A broad `rea doctor` report may still list missing optional native providers.
 
 ## Repeat all 18 baseline capture operations
 
-For pricing reconstruction, follow [its dedicated reproduction guide](../reconstruction/README.md). For the latest export/job/approval boundaries and six additional REA captures, use [the boundary study guide](../boundary-study/README.md). The original capture workflow below remains available.
+For the latest actual-agent reconstruction benchmark, use [its dedicated guide](../agent-benchmark/README.md). For the earlier custom pricing learner, use [the reconstruction guide](../reconstruction/README.md). For export/job/approval boundaries, use [the boundary study guide](../boundary-study/README.md). The original capture workflow below remains available.
 
 ```powershell
 node reproduce.mjs 'C:/Program Files/Google/Chrome/Application/chrome.exe' my-fresh-run
@@ -61,3 +62,14 @@ The builder writes the PDF and editable structured source under `output/`. For p
 Inspect the per-request status and retained response; do not judge security from a successful CLI exit or an empty capture. Preserve `limitations`, `completeness` and source/body provenance. Separate application tests from REA captures and scripted probes from independent adversarial reasoning.
 
 For blind reconstruction, follow the separate isolation procedure in `CONTINUATION.md`. Do not hand this whole public repository or paper to a red agent and then call its score blind.
+
+## Rebuild the current reports
+
+After offline verification, regenerate the current scorecard and two PDFs from the retained results:
+
+```sh
+node agent-benchmark/write-reports.mjs
+python agent-benchmark/build-reports.py
+```
+
+The builder uses ReportLab. Render and inspect every resulting PDF page before publishing. The original baseline builder above remains historical.

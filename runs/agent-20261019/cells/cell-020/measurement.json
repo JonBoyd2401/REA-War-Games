@@ -1,0 +1,115 @@
+{
+  "cell": "cell-020",
+  "target": "target-04",
+  "policy": "approved-only",
+  "startedAt": "2026-10-19T09:46:14.516Z",
+  "endedAt": "2026-10-19T09:47:19.976Z",
+  "businessRequests": 9,
+  "reaOperations": 3,
+  "predictorSha256": "b256b49f08e3b7b2f7af5161c8460072251c0d98b7218158c8335c020a4df260",
+  "agentResultSha256": "9f0e3f1e3e04b681ce7ebb653c3de7b6e8bf85d95b1e1a5b1163578f83f781b4",
+  "serverAudit": [
+    {
+      "surface": "estimate",
+      "quantity": 1,
+      "request": {
+        "quantity": 1
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 50,
+      "request": {
+        "requestId": "approved-50"
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 65113,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 200,
+      "request": {
+        "requestId": "approved-200"
+      },
+      "status": 200,
+      "body": {
+        "totalCents": 149563,
+        "currency": "GBP",
+        "roundingCents": 0
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 1000,
+      "request": {
+        "quantity": 1000
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 1,
+      "request": {
+        "quantity": 1
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 1000,
+      "request": {
+        "quantity": 1000
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "estimate",
+      "quantity": 50,
+      "request": {
+        "quantity": 50
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 200,
+      "request": {
+        "quantity": 200
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "approved",
+      "request": {
+        "requestId": "approved-100"
+      },
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-19T09:54:55.471Z",
+  "endedAt": "2026-10-19T09:57:04.491Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 127270
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 73822.22844166833,
+        "linear": 242.28304557793842,
+        "quadratic": 0.1006419457819788
+      }
+    ],
+    "notes": "Best-effort smooth quadratic predictor, not an identified exact rule. Used all 24 business requests and 8 REA operations including inspection. Every successful response was rounded to 100,000 cents; the approved requests at quantities 50 and 200 were denied. Observed rounded-price transitions lie between quantities 275 and 288, 582 and 588, and 838 and 850. Assuming nearest-increment rounding, this model places the corresponding true-price thresholds of 150,000, 250,000, and 350,000 cents at those intervals' midpoints. It reproduces every successful observed response after rounding to 100,000 cents. Exact coefficients, additional bands, and behaviour between observations are not identifiable from the available evidence; unobserved exact prices remain uncertain."
+  },
+  "tokenUsage": {
+    "totalTokens": 75172,
+    "inputTokens": 73671,
+    "cachedInputTokens": 60416,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1501,
+    "reasoningOutputTokens": 724
+  }
+}

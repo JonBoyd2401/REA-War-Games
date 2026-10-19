@@ -4,11 +4,19 @@
 
 This repository contains real localhost experiments with **REA 6.7.0**, a deliberately unsafe SaaS pricing lab, a separate session-protected lab, a readable white paper, and the evidence needed to check the conclusions.
 
-## Latest: consistent workflow restrictions and what REA actually does
+## Latest: actual REA-assisted agents and measured accuracy
+
+The [effectiveness scorecard](docs/AGENT_BENCHMARK.md) compares six defences using **36 fresh LLM agents**, **six withheld synthetic targets** from three pricing families, and **224 new real REA operations**. Each agent chooses its own probes and writes its own predictor. Common unseen test inputs are selected only after all predictors are frozen. The report shows exact and approximate accuracy, paired reductions, all target results, effort and customer trade-offs.
+
+Read or share the **[current white paper](docs/REA_SaaS_Protection_White_Paper_20261019.pdf)** and **[agent effectiveness report](docs/REA_Agent_Effectiveness_Report.pdf)**. [Verify or repeat the agent experiment](agent-benchmark/README.md). There are **36/36 valid predictors**, **727 verified business response rows**, and **9,216 held-out predictions**. Total repository evidence is **298 measured REA operations and 49 application/scoring tests**.
+
+A low score for reconstructing withheld private behaviour does not mean the supported product cannot be copied. Catalogue and approval restrictions remove general estimation; their remaining permitted outputs can still be memorised. This is a bounded pricing benchmark, not a universal REA blocker or a whole-SaaS cloning rate.
+
+## Earlier: consistent workflow restrictions and what REA actually does
 
 The new [boundary findings](docs/BOUNDARY_FINDINGS.md) add **six real REA captures**, **12,000 enumerated request refusals**, and **60 exact normal workflow checks**. Quotes, exports and jobs share server-owned approvals. Deliberately weakened exports and self-service approval both disclose a protected price. A constructed pair of private rules demonstrates a conditional limit on what equal permitted answers can reveal; it is not a measured whole-product cloning score.
 
-Read [how REA works](docs/HOW_REA_WORKS.md) for the browser observation mechanisms, version-pinned implementation references, and the distinction between REA's evidence collection and our custom pricing learner. The [new shareable report](docs/REA_Workflow_Boundary_Report.pdf) and both downloadable packs include this stage. Total evidence: **74 measured REA operations and 41 application tests**. [Repeat or verify it](boundary-study/README.md).
+Read [how REA works](docs/HOW_REA_WORKS.md) for the browser observation mechanisms, version-pinned implementation references, and the distinction between REA's evidence collection and our custom pricing learner. The [new shareable report](docs/REA_Workflow_Boundary_Report.pdf) and both downloadable packs include this stage. At that stage: **74 measured REA operations and 41 application tests**. [Repeat or verify it](boundary-study/README.md).
 
 ## Earlier: measured reconstruction risk — 19 October 2026
 
@@ -24,7 +32,7 @@ Read the **[results and trade-offs](docs/RECONSTRUCTION_FINDINGS.md)**, **[resea
 ## Start here
 
 - **Understand the result:** [Plain-English protection guide](docs/PROTECTION_GUIDE.md).
-- **Read or share the research:** [White paper PDF](docs/REA_SaaS_Protection_White_Paper.pdf).
+- **Read or share the research:** [Current white paper PDF](docs/REA_SaaS_Protection_White_Paper_20261019.pdf); [original baseline paper](docs/REA_SaaS_Protection_White_Paper.pdf).
 - **Check what passed:** [Measurable success criteria](docs/SUCCESS_CRITERIA.md).
 - **Run the code:** [Reproduction instructions](docs/REPRODUCE.md).
 - **Continue the work:** [Research gaps and contributions](docs/CONTINUATION.md).
@@ -65,18 +73,19 @@ The original v1 fixture's published demo token is a real weakness: replaying the
 - The original browser-driven tenant and mutation probes were repeated **three times per condition** on fresh fixtures, with the same outcomes.
 - Original commands, captures, coverage flags, evidence paths, source hashes and a [verification script](verify-evidence.mjs) are included.
 
-This is a synthetic engineering study, not a production security certification. REA scenarios report incomplete overall capture coverage; the specific retained responses support the stated claims. There was no independent blind reconstruction or adaptive autonomous red-team study. [Full scope and limitations](docs/SUCCESS_CRITERIA.md).
+This is a synthetic engineering study, not a production security certification. REA scenarios report incomplete overall capture coverage; the specific retained responses support the stated claims. The original baseline had no blind reconstruction or adaptive agent study. The later bounded-agent benchmark adds withheld-target prediction scores, but remains short of independent replication or a whole-product assessment. [Full scope and limitations](docs/SUCCESS_CRITERIA.md).
 
 ## Quick checks
 
 Use a supported Node version. The original run used Node 24.19.0 and Chrome 155.0.8059.82.
 
 ```sh
-node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs
+node --test lab/test/wargame.test.mjs lab-v2/test/session-boundaries.test.mjs reconstruction/test.mjs reconstruction/gated-test.mjs boundary-study/test.mjs agent-benchmark/test.mjs
 node verify-evidence.mjs
 node reconstruction/verify.mjs
 node reconstruction/verify-gated.mjs
 node boundary-study/verify.mjs
+node agent-benchmark/verify.mjs
 ```
 
 Run only the owned localhost fixtures. The code binds to loopback. For a real SaaS deployment, use maintained identity infrastructure, TLS, distributed enforcement and a security review; the session lab remains an educational implementation.
@@ -89,6 +98,7 @@ Run only the owned localhost fixtures. The code binds to loopback. For a real Sa
 | `lab-v2/` | Opaque sessions, revocation, permissions, CSRF and tenant checks |
 | `reconstruction/` | Output-learning experiments, frozen learners, policy controls and scoring verifiers |
 | `boundary-study/` | Cross-workflow approval checks, negative controls, six REA scenarios and a conditional identifiability calculation |
+| `agent-benchmark/` | Frozen actual-agent protocol, bounded REA tools, safe predictor evaluator and offline verification |
 | `runs/` | Path-redacted evidence and measured outcomes |
 | `docs/` | Human-readable guides, white paper and continuation notes |
 | `provenance/` | Package pinning, hashes, original-run scripts and redaction record |

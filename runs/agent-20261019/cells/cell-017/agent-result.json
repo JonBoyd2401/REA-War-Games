@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:44:00.351Z",
+  "endedAt": "2026-10-19T09:46:01.032Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 120082
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 108616,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 185,
+        "constant": 40406.5,
+        "linear": 368.7825,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. Inspection advertised catalogue quantities 10, 50, 200 and 1000. Their observed prices were respectively 108616, 108616, 114163 and 409189 cents, with roundingCents=0; the alternate workflow in session 2 returned identical values. All tested non-catalogue estimate/alias requests and all tested approved requests were denied. The predictor assumes a minimum charge of 108616 cents and an affine price fitted to quantities 200 and 1000. It reproduces all observed prices exactly. The transition at 185 is inferred, not observed; nonlinear behaviour, other bands and different prices at unobserved quantities remain possible. Used 21 business requests and 6 REA operations."
+  },
+  "tokenUsage": {
+    "totalTokens": 58743,
+    "inputTokens": 57104,
+    "cachedInputTokens": 39680,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1639,
+    "reasoningOutputTokens": 963
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-19T09:33:36.120Z",
+  "sourceSha256": {
+    "PLAN.md": "9f13a6fda3684996ee3d93c06c36e115aac97dd32e6a9bbc9ff8308f8b933ef2",
+    "PROMPT.md": "da21e2dc4cb17c994a244718f77c4ea00425b5040d357d608e6d634ef4237211",
+    "server.mjs": "97c182c69cb9abfdea6d15cba77454467d46fe3fc11a1d77f405ecbc01240c3b",
+    "predictor.mjs": "6c8bf22b0d1488da0f0d901ba5e415b973487e3d1f25bcd76b71f91018e1c4f0",
+    "rea-tools.mjs": "d61102b39e42a0e6e4258ba74fe78c98a737f281372af130830579f1b3578c0f",
+    "agent.mjs": "0ecebcba9338b04523108977869b30459f055d444dd26f9e6a04a5727ee6b180",
+    "test.mjs": "b6159e72505984b49cf75f50e0c222e2b8f25f6398deb55664e6fc6d5f684a6f",
+    "run.mjs": "c1b194509ef5ef904d99504c389c36bce52ffa58df772f0270b6a3495c39cf5d"
+  },
+  "agentSettings": {
+    "model": "gpt-6-astra",
+    "effort": "high",
+    "environments": [],
+    "sandbox": "read-only",
+    "approvalPolicy": "never",
+    "disabledFeatures": [
+      "shell_tool",
+      "apps",
+      "plugins",
+      "browser_use",
+      "computer_use",
+      "image_generation",
+      "view_image",
+      "multi_agent",
+      "goals",
+      "memories",
+      "hooks",
+      "workspace_dependencies",
+      "in_app_browser"
+    ],
+    "disabledInheritedMcp": [
+      "node_repl"
+    ],
+    "projectDocMaxBytes": 0
+  },
+  "node": "v24.19.0",
+  "codex": "codex-cli 0.163.0-alpha.10.2",
+  "rea": "6.7.0"
+}

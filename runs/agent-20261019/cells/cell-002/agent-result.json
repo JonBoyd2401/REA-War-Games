@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:33:52.329Z",
+  "endedAt": "2026-10-19T09:35:18.334Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 79547
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 35990,
+        "linear": 476,
+        "quadratic": 0
+      },
+      {
+        "from": 296,
+        "constant": 123310,
+        "linear": 180,
+        "quadratic": 0
+      },
+      {
+        "from": 720,
+        "constant": 218937,
+        "linear": 47,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-fit predictor: a continuous three-band piecewise-linear price with a 35,990-cent fixed component and marginal rates of 476, 180 and 47 cents. It exactly matches all eight observed, unrounded prices at quantities 1, 100, 250, 350, 400, 500, 750 and 1000. The fitted lines intersect at quantities 295 and 719; these transition locations are inferred, not directly observed. Further new-quantity estimates were denied by the tenant distinct-quantity allowance, including an alternate-workflow request in the second session. Approved requests tested at 50 and 295 were unavailable. Used 15 business requests and 4 REA operations, including inspection. Unobserved quantities remain unverified; additional pricing features cannot be ruled out."
+  },
+  "tokenUsage": {
+    "totalTokens": 34017,
+    "inputTokens": 32852,
+    "cachedInputTokens": 18432,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1165,
+    "reasoningOutputTokens": 633
+  }
+}

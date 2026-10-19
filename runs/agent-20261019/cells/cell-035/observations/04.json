@@ -1,0 +1,41 @@
+{
+  "evidenceId": "04",
+  "reaVersion": "6.7.0",
+  "coverage": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "rows": [
+    {
+      "surface": "estimate",
+      "quantity": 100,
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "alias",
+      "quantity": 1000,
+      "status": 403,
+      "body": {
+        "error": "approved request required"
+      }
+    },
+    {
+      "surface": "approved",
+      "quantity": 100,
+      "status": 403,
+      "body": {
+        "error": "approved request unavailable"
+      }
+    }
+  ],
+  "businessRequestsUsed": 12,
+  "businessRequestsRemaining": 12,
+  "reaOperationsRemaining": 8
+}

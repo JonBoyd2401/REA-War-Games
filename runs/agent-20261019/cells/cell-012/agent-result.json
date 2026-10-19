@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:40:16.709Z",
+  "endedAt": "2026-10-19T09:42:12.003Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 114508
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 36963,
+        "linear": 563,
+        "quadratic": 0
+      },
+      {
+        "from": 209,
+        "constant": 122659,
+        "linear": 151,
+        "quadratic": 0
+      },
+      {
+        "from": 619,
+        "constant": 181987,
+        "linear": 55,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-fit predictor: a fixed fee of 36,963 cents plus marginal rates of 563 cents for units 1–208, 151 cents for units 209–618, and 55 cents thereafter. It exactly matches all eight successful observations, at quantities 1, 2, 50, 100, 200, 300, 600, and 1000. Further distinct estimate quantities were blocked by a tenant-wide allowance, including through the alias workflow; all attempted approved requests were unavailable. Used 24 business requests and 6 REA operations, including inspection. The unobserved prices and inferred breakpoints are not verified. In particular, the upper bands assume continuous piecewise-linear pricing with integer marginal rates; other nonlinear or additional-band models could fit the same observations."
+  },
+  "tokenUsage": {
+    "totalTokens": 50433,
+    "inputTokens": 48904,
+    "cachedInputTokens": 31744,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1529,
+    "reasoningOutputTokens": 864
+  }
+}

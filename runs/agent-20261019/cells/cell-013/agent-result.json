@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-19T09:41:20.774Z",
+  "endedAt": "2026-10-19T09:44:45.611Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 204276
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 1694.915254237288,
+        "quadratic": 0
+      },
+      {
+        "from": 30,
+        "constant": 35714.28571428571,
+        "linear": 484.26150121065376,
+        "quadratic": 0
+      },
+      {
+        "from": 236,
+        "constant": 99893.84288747347,
+        "linear": 212.31422505307856,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Used 24 business requests and 8 REA operations, including inspection. All 21 successful responses disclosed totals rounded to 100000 cents; approved requests at quantities 100, 500 and 1000 were denied. Assuming monotone prices and nearest-increment rounding, observations bracket the 50000-cent crossing between quantities 28 and 31, the 150000-cent crossing between 231 and 241, and the 250000-cent crossing between 703 and 711. This predictor linearly interpolates the midpoint crossing estimates, assumes a zero-price origin, and extrapolates the final slope to quantity 1000. It is consistent with every observed rounded total. Its segment starts are interpolation choices, not discovered pricing-band boundaries. Exact prices, curvature, fixed fees and additional bands remain unidentifiable from these observations; this is an approximate predictor, not a verified exact reconstruction."
+  },
+  "tokenUsage": {
+    "totalTokens": 78481,
+    "inputTokens": 75513,
+    "cachedInputTokens": 57600,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2968,
+    "reasoningOutputTokens": 2166
+  }
+}

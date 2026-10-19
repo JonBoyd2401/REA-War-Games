@@ -1,0 +1,49 @@
+{
+  "startedAt": "2026-10-19T09:47:26.474Z",
+  "endedAt": "2026-10-19T09:49:26.308Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 119082
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 98594,
+        "linear": 0,
+        "quadratic": 0
+      },
+      {
+        "from": 137,
+        "constant": 29405,
+        "linear": 508,
+        "quadratic": 0
+      },
+      {
+        "from": 501,
+        "constant": 218191,
+        "linear": 130.428,
+        "quadratic": 0
+      },
+      {
+        "from": 751,
+        "constant": 22642,
+        "linear": 391.16,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. It matches all eight successful observations: quantities 1, 50, 100, 150, 300, 500, 750 and 1000. Responses reported no rounding. The first two segments hypothesize a minimum price of 98594 cents followed by the line 29405 + 508*q, which exactly fits the observations at 150, 300 and 500; their transition at 137 is inferred, not observed. Above 500, the predictor uses linear interpolation through the observed prices at 500, 750 and 1000. Those interpolation boundaries are not established application thresholds; hidden curves, jumps or additional bands remain possible. A tenant-wide eight-distinct-quantity limit blocked further estimates, including an alias request in the second session. All attempted approved requests were unavailable. Used 24 business requests and 6 REA operations, including inspection."
+  },
+  "tokenUsage": {
+    "totalTokens": 50792,
+    "inputTokens": 48891,
+    "cachedInputTokens": 39424,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 1901,
+    "reasoningOutputTokens": 1272
+  }
+}

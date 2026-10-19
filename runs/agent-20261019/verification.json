@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "cells": 36,
+  "targets": 6,
+  "heldoutPredictions": 9216,
+  "fullDomainDiagnosticPredictions": 36000,
+  "validPredictors": 36,
+  "failedPredictors": 0,
+  "reaOperations": 224,
+  "reaResponseRowsVerified": 727,
+  "capturedBodiesVerified": 1902,
+  "statusCounts": {
+    "200": 511,
+    "403": 187,
+    "429": 29
+  },
+  "coverage": {
+    "incomplete": 224
+  },
+  "normalWorkflowChecks": 72,
+  "recordedTokens": 1938323,
+  "perCell": [
+    {
+      "cell": "cell-001",
+      "operations": 3,
+      "requests": 8,
+      "rowsVerified": 8,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-002",
+      "operations": 4,
+      "requests": 15,
+      "rowsVerified": 15,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-003",
+      "operations": 5,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-004",
+      "operations": 7,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-005",
+      "operations": 6,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-006",
+      "operations": 3,
+      "requests": 8,
+      "rowsVerified": 8,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-007",
+      "operations": 10,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-008",
+      "operations": 6,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-009",
+      "operations": 8,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-010",
+      "operations": 8,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-011",
+      "operations": 3,
+      "requests": 8,
+      "rowsVerified": 8,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-012",
+      "operations": 6,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-013",
+      "operations": 8,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-014",
+      "operations": 4,
+      "requests": 14,
+      "rowsVerified": 14,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-015",
+      "operations": 5,
+      "requests": 21,
+      "rowsVerified": 21,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-016",
+      "operations": 9,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-017",
+      "operations": 6,
+      "requests": 21,
+      "rowsVerified": 21,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-018",
+      "operations": 5,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-019",
+      "operations": 7,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-020",
+      "operations": 3,
+      "requests": 9,
+      "rowsVerified": 9,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-021",
+      "operations": 10,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-022",
+      "operations": 6,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-023",
+      "operations": 10,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-024",
+      "operations": 8,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-025",
+      "operations": 4,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-026",
+      "operations": 8,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-027",
+      "operations": 9,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-028",
+      "operations": 3,
+      "requests": 9,
+      "rowsVerified": 9,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-029",
+      "operations": 10,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-030",
+      "operations": 10,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-031",
+      "operations": 8,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-032",
+      "operations": 5,
+      "requests": 22,
+      "rowsVerified": 22,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-033",
+      "operations": 4,
+      "requests": 14,
+      "rowsVerified": 14,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-034",
+      "operations": 6,
+      "requests": 24,
+      "rowsVerified": 24,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-035",
+      "operations": 4,
+      "requests": 12,
+      "rowsVerified": 12,
+      "validPredictor": true
+    },
+    {
+      "cell": "cell-036",
+      "operations": 3,
+      "requests": 14,
+      "rowsVerified": 14,
+      "validPredictor": true
+    }
+  ]
+}

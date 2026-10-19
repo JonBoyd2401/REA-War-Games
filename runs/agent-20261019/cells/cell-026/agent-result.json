@@ -1,0 +1,49 @@
+{
+  "startedAt": "2026-10-19T09:50:45.952Z",
+  "endedAt": "2026-10-19T09:53:37.805Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 171050
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 106767,
+        "linear": 36.98,
+        "quadratic": 0
+      },
+      {
+        "from": 200,
+        "constant": 28836.809523809512,
+        "linear": 426.6309523809524,
+        "quadratic": 0
+      },
+      {
+        "from": 284,
+        "constant": 56885.24590163934,
+        "linear": 327.8688524590164,
+        "quadratic": 0
+      },
+      {
+        "from": 589,
+        "constant": 21705.42635658916,
+        "linear": 387.5968992248062,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. Used 24 business requests and 8 REA operations including inspection. Approved responses supplied exact prices of 108616 cents at quantity 50 and 114163 cents at quantity 200. All observed estimate and alias responses reported roundingCents=100000. Assuming nearest-step rounding and locally increasing prices, observations bracket the 150000-, 250000-, and 350000-cent crossings within quantities (281,287], (584,594], and (844,850], respectively. The predictor linearly interpolates the two exact anchors and crossing midpoints 284, 589, and 847, extrapolating at the ends. It matches both exact observations and is consistent with every rounded observation. Segment starts are interpolation choices, not discovered pricing breakpoints. Coarse rounding leaves substantial uncertainty: additional bands, discontinuities, or nonlinear behaviour cannot be excluded, and unobserved exact prices are not established."
+  },
+  "tokenUsage": {
+    "totalTokens": 78626,
+    "inputTokens": 76322,
+    "cachedInputTokens": 64000,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2304,
+    "reasoningOutputTokens": 1335
+  }
+}

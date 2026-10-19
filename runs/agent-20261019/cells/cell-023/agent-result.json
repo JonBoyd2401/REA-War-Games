@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-19T09:48:51.699Z",
+  "endedAt": "2026-10-19T09:52:03.594Z",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "outcome": {
+    "status": "completed",
+    "error": null,
+    "durationMs": 191412
+  },
+  "invalidReason": null,
+  "predictor": {
+    "segments": [
+      {
+        "from": 1,
+        "constant": 0,
+        "linear": 1823.054037516089,
+        "quadratic": 0
+      },
+      {
+        "from": 572,
+        "constant": 0,
+        "linear": 774.348270195852,
+        "quadratic": 0
+      }
+    ],
+    "notes": "Best-effort predictor, not a verified exact reconstruction. Used 24 business requests and 10 REA operations, including inspection. Successful estimate and alias responses reported roundingCents=100000; all three attempted approved requests were denied. Observations at adjacent quantities 571 and 572 locate an observed downward pricing transition. The predictor uses a parsimonious proportional-price model on either side. Its slopes are the midpoints of the feasible slope intervals under nearest-100000-cent rounding and zero fixed fees: approximately [1807.229, 1838.879) before the transition and [766.088, 782.609) afterward. Every successful observed quotation is consistent with this model after that coarse rounding. The exact slopes, possible fixed fees or curvature, and additional unobserved transitions remain unidentified; the coefficient precision does not imply exact-price certainty."
+  },
+  "tokenUsage": {
+    "totalTokens": 85358,
+    "inputTokens": 83151,
+    "cachedInputTokens": 63744,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 2207,
+    "reasoningOutputTokens": 1439
+  }
+}
