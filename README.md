@@ -4,6 +4,18 @@
 
 This repository contains real localhost experiments with **REA 6.7.0**, a deliberately unsafe SaaS pricing lab, a separate session-protected lab, a readable white paper, and the evidence needed to check the conclusions.
 
+## Independently reproduce, challenge and improve this research
+
+**Calling security engineers, SaaS architects and agent developers:** treat these findings as testable hypotheses, not as proof that REA—or SaaS reverse engineering in general—has been defeated. Independent failures and counterexamples are as valuable as confirmations. The objective is evidence of *both* protected information and usable customer functionality.
+
+1. **Reproduce the baseline.** Start with the [reproduction guide](docs/REPRODUCE.md) and [measurable success criteria](docs/SUCCESS_CRITERIA.md). For the latest exact-quote/private-context study, run `node context-study/verify.mjs` and `node --test context-study/test.mjs` to check the *published* evidence, then follow the [context-study guide](context-study/README.md) for an independent run with fresh targets. **An offline verifier passing is not independent replication.** Full agent runs have additional runtime, access and usage requirements.
+2. **Apply or challenge a mitigation.** Compare the same owned synthetic target before and after a specific control (for example, tenant-scoped authorisation, server-owned approval, export restrictions, rate limits or response minimisation). Include an intentionally weakened or bypassed control where useful. Change one variable at a time, preserve the original behaviour of permitted workflows and do not assume an HTTP denial prevents inference from permitted outputs.
+3. **Measure security *and* product usefulness.** Predeclare an acceptance criterion and use [like-for-like evidence](docs/CONTINUATION.md): baseline versus defence, request budgets, source revision, REA/browser/agent versions and repeat counts. For reconstruction tests, score frozen predictors on unseen inputs (exact and approximate accuracy), separately from copying *permitted* outputs. For boundary tests, report denial statuses and disclosure channels. In both cases, report successful authorised customer tasks, broken journeys, cost/latency where measured, and failed or incomplete captures.
+4. **Publish what happened—even if it disproves us.** [Open an independent replication or challenge report](https://github.com/JonBoyd2401/REA-War-Games/issues/new?template=independent-replication.md) with reproducible commands, a commit SHA, comparable results, sanitised evidence and limitations. Report failed reproductions, negative controls and unexpected product trade-offs. Pull requests extending the experiments or evidence are welcome.
+
+**Scope and safety:** use only the supplied loopback fixtures or systems you have explicit permission to test. Do not publish credentials, customer data, raw private agent/account events or identifying local paths. For genuinely blind agent trials, keep the public research, protected parameters and scored holdouts out of the attacking agent's context; see [research gaps and contribution protocol](docs/CONTINUATION.md).
+
+
 ## Latest: exact quotes and private customer rules
 
 The [new scorecard](docs/CONTEXT_BENCHMARK.md) tests **24 fresh Astra/max agents**, six paired targets and four policies, with numerical fitting and 192 attempted requests each. There is **no application rounding or query cap**. Customers can create, revise, accept and export arbitrary exact quotes.
